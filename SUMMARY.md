@@ -16,6 +16,7 @@
 * [GF Tile](gf-tile.md)
 * [GF Tab](gf-tab.md)
 * [GF Typography](gf-typography.md)
+* [Changelog](changelog.md)
 
 ## Coming Soon
 

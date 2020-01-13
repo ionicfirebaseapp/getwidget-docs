@@ -1,7 +1,7 @@
 ---
 description: >-
-  Get Flutter is a Free and open-source UI library for flutter mobile or web
-  apps. It has more than 1000+ pre-built reusable widgets.
+  Get Flutter is the largest Flutter free open-source UI library for mobile or
+  web apps. It has more than 1000+ pre-built reusable widgets.
 ---
 
 # Introduction

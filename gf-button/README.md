@@ -10,7 +10,7 @@ GF Button provides a clickable element, which can be used in forms, or anywhere 
 
 ## Usage
 
-We can get simple standard button using below code.
+We can get simple standard button using below code. 
 
 ```dart
 GFButton(
@@ -29,12 +29,12 @@ GF Buttons can be styled with several attributes to look a specific way. Each an
 
 GFColor is used to change the background
 
-| \*\*\*\* |  |
+| **Value** | Details |
 | :--- | :--- |
-| **Description** | The color to use from application's color palette  |
+| **Description** | The color to use from application's color pallete |
 | **Attribute** | color |
 | **Type** | GFColor |
-| **Default** | GFColor.primary  \(`primary`\) |
+| **Default** | GFColor.primary |
 
 ### Size
 

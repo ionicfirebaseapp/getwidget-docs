@@ -1,11 +1,12 @@
 ---
 description: >-
-  GF Button provide a clickable element, which can be used in forms, or anywhere
-  that needs simple, standard button functionality. They may display text,
-  icons, or both.
+  GF Flutter button comes with a 100+ pre-built button with endless color
+  combinations that you can use straightway in your project.
 ---
 
 # GF Button
+
+GF Button provides a clickable element, which can be used in forms, or anywhere that needs simple, standard button functionality. They may display text, icons, or both.
 
 ## Usage
 
@@ -33,9 +34,7 @@ GF Buttons can be styled with several attributes to look a specific way. Each an
 | **Type** | GFColor |
 | **Default** | GFColor.primary |
 
-
-
-### Disabled Button:
+## Disabled Button:
 
 Default GFButton onPressed will be null, that gives Disabled button.
 

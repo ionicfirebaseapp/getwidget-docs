@@ -7,7 +7,7 @@
   * [Pills Button](gf-button/pills-button.md)
   * [Square Button](gf-button/square-button.md)
   * [Icon Button](gf-button/icon-button.md)
-  * [Shadow Button](gf-button/shadow-button.md)
+  * [Shadow Button](coming-soon/shadow-button.md)
   * [Social Button](gf-button/social-button.md)
 * [GF Badge](gf-badge.md)
 * [GF Avatar](gf-avatar.md)

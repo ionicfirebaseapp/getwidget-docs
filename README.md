@@ -10,19 +10,19 @@ description: >-
 
 ## How Get Flutter Started 
 
-We are a huge fan of flutter and using them from very early stage even it was in alpha. We used it in various app including the some enterprise app. 
+We are a huge fan of Flutter and using it from very early stage even since it was released in alpha stage at 2017. We used it in various Flutter apps including the some of enterprise saas applications. 
 
-Flutter almost has all the widget available that developer can use in project but again, we used to develop lots project with flutter so decide why not we develop all the possible Widget that can reuse in any project. 
+Flutter almost has all the widget available that developer can use in project but again, we used to develop lots project with flutter so decide why not we develop all the possible Widget that can reuse in any project and speed up your app development. 
 
-We Releasing our Beta Release this week for Develop to check and give us their feedback to improve and add more widget to our library. 
+We are releasing our Beta Release this week for Develop to test our library component and give us your feedback to improve and add more widgets to our library. 
 
 ## Get Flutter Roadmap 
 
-We are commit to  continue this library development to make flutter app design less time consuming and small learning curve too.
+We are commit to continue this library development to make flutter app design & Development less time consuming and with small learning curve too.
 
-You can check our Roadmap and Vote and give your Feedback on upcoming widget and New feature :   [https://roadmap.getflutter.dev/](https://roadmap.getflutter.dev/)
+We relay appreciate if you could check our Roadmap and do Vote & share your Feedback on upcoming widgets and New features:   [https://roadmap.getflutter.dev/](https://roadmap.getflutter.dev/)
 
-Your support and feedback make us build better product. 
+Your support and feedback helps us to build the best Flutter Open-Source product. 
 
 
 

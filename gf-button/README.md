@@ -29,12 +29,12 @@ GF Buttons can be styled with several attributes to look a specific way. Each an
 
 | \*\*\*\* |  |
 | :--- | :--- |
-| **Description** | The color to use from application's color pallete |
+| **Description** | The color to use from application's color palette  |
 | **Attribute** | color |
 | **Type** | GFColor |
-| **Default** | GFColor.primary |
+| **Default** | GFColor.primary  \(`primary`\) |
 
-## Disabled Button:
+### Disabled Button:
 
 Default GFButton onPressed will be null, that gives Disabled button.
 

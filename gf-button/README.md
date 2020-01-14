@@ -19,8 +19,6 @@ GFButton(
 ),
 ```
 
-GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
-
 ### Disabled Button:
 
 Default GFButton onPressed will be null, that gives Disabled button.

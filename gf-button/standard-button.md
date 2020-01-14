@@ -1,5 +1,8 @@
 ---
-description: Standard Button looks like a solid button with slightly rounded corners.
+description: >-
+  Flutter Standard Button looks like a solid button with slightly rounded
+  corners. GF Button has all the variants like an outline, Transparent, Disable,
+  and Block button.
 ---
 
 # Standard Button

@@ -4,9 +4,13 @@ description: Standard Button looks like a solid button with slightly rounded cor
 
 # Standard Button
 
-### Solid Button
+Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-The callback that is called when the button is tapped or otherwise activated. By adding callback to **onPressed** activates the button, that enables the button.
+## Solid Button
+
+By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+
+The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
 ```dart
   GFButton(
@@ -32,7 +36,7 @@ In GFButton by adding **type** **`GFType.transparent`**, we able to get transpar
 
 ```dart
 GFButton(
-    onPressed: null,
+    onPressed: (){},
     text: "primary",
     type: GFType.transparent,
  ),
@@ -44,9 +48,8 @@ Block button specify how wide the button should be. By setting **blockButton** s
 
 ```dart
 GFButton(
-    onPressed: null,
+    onPressed: (){},
     text: "primary",
-    type: GFType.solid,
     blockButton: true,
  ),
 ```
@@ -57,9 +60,8 @@ Full Width button specify how wide the button should be. By setting **fullWidthB
 
 ```dart
 GFButton(
-    onPressed: null,
+    onPressed: (){},
     text: "primary",
-    type: GFType.solid,
     fullWidthButton: true,
  ),
 ```
@@ -70,9 +72,37 @@ Button size can be varied using **size** property, which specifies the size of t
 
 ```dart
 GFButton(
-    onPressed: null,
+    onPressed: (){},
     text: "primary",
     size: GFSize.small,
  ),
 ```
+
+## Outline Button
+
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+
+```dart
+GFButton(
+    onPressed: (){},
+    text: "primary",
+    type: GFType.outline,
+ ),
+```
+
+Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works fine in **Outline Button** also.
+
+## Outline2x Button
+
+Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+
+```dart
+GFButton(
+    onPressed: (){},
+    text: "primary",
+    type: GFType.outline2x,
+ ),
+```
+
+Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works fine in **Outline2x Button** also.
 

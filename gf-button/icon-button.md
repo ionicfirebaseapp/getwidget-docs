@@ -6,7 +6,20 @@ description: 'Icon Button having features of standard, solid button with label a
 
 ## Icon Button
 
-Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
+Default button **shape** set to `GFIconButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
+
+### Disabled Button:
+
+Default GFIconButton's  onPressed will be null, that gives Disabled button.
+
+```dart
+GFIconButton(                          
+    onPressed: null,             
+    text:"primary"
+),
+```
+
+GF IconButtons can be styled with several attributes to look a specific way. Each and every attribute is described below.
 
 ### Solid Icon Button
 
@@ -50,7 +63,7 @@ GFButton(
 
 ### Transparent Icon Button
 
-In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
+In GFIconButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFType.solid`**. 
 
 ```dart
 GFButton(
@@ -63,7 +76,7 @@ GFButton(
 
 ### Pills Icon Button
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
+We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  **`GFButtonShape.pills`** . 
 
 ```dart
   GFButton(
@@ -76,7 +89,7 @@ We will able to get pills shaped button with solid background color with rounded
 
 ### Square Icon Button
 
-We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
+We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  **`GFButtonShape.square`** . 
 
 ```dart
   GFButton(
@@ -182,9 +195,21 @@ GFIconButton(
 | **Description**     |  The GFIconButton Shape                                               |
 | **Attribute** |  shape |
 | **Type**               | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
-| **Default** | `GFButtonShape.standard` |
+| **Default** | `GFIconButtonShape.standard` |
 
+### Custom Properties
 
+| Name | Description |
+| :--- | :--- |
+| **child** | child of type \[widget\] alternative to text |
+| **textcolor** | the color to use for this badge;s text |
+| **textStyle** | defines the styling of the text |
+| **borderSide** | defines the border side  |
+| **bordershape** | defines the shape of the border |
+| **color** | GFColor is used to change the background of the button. |
+| **iconSize** | defines the size of icon |
+| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
+| **boxShadow** | defines the boxShadow |
 
 
 

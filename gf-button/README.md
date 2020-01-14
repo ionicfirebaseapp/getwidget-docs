@@ -89,9 +89,9 @@ GFColor is used to change the background of the button.
 | :--- | :--- |
 | **onPressed**   | callback i.e, called when the button is tapped |
 | **onLongPressed** | callback i.e, called when the button is long-pressed |
-| **text** | text of type \[string\] to describe button's label. text will be priority over child |
-| **icon** | icon of type \[widget\] to describe button's label with icon |
-| **child** | child of type \[widget\] alternative to text |
+| **text** |  describe button's label. text will be priority over child |
+| **icon** |  describe button's label with icon |
+| **child** | child of type Widget alternative to text |
 | **textcolor** | the color to use for this button's text when the button is enabled |
 | **textStyle** | defines the styling of the text |
 | **disabledColor** | the fillcolor of  the button when the button is disabled |

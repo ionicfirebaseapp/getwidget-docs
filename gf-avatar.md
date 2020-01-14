@@ -12,7 +12,7 @@ GFAvatar comes with different shapes , in which one of the default shape is circ
 
 ```dart
 GFAvatar(
-backgroundImage:NetworkImage(AvatarUrl);
+  backgroundImage:NetworkImage(AvatarUrl);
 )
 ```
 
@@ -22,8 +22,8 @@ Standard GFAvatar is a avatar shape which has a slightly rounded corners.
 
 ```dart
 GFAvatar(
- backgroundImage:NetworkImage(AvatarUrl);
- shape: GFAvatarShape.standard
+  backgroundImage:NetworkImage(AvatarUrl);
+  shape: GFAvatarShape.standard
 )
 ```
 
@@ -33,8 +33,8 @@ Square GFAvatar is a avatar shape which represents a square
 
 ```dart
 GFAvatar(
- backgroundImage:NetworkImage(AvatarUrl);
- shape: GFAvatarShape.square
+  backgroundImage:NetworkImage(AvatarUrl);
+  shape: GFAvatarShape.square
 )
 ```
 
@@ -42,7 +42,7 @@ GFAvatar(
 
 |  |  |
 | :--- | :--- |
-| **child** | type of \[widget\], which can have text  |
+| **child** | type of \[Widget\], which can have text , icon etc |
 | **backgroundColor** | GFColor or Color to fill the background of avatar |
 | **foregroundColor** | GFColor or Color to change the textColor inside the avatar |
 | **radius** | size of the avatar |

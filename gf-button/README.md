@@ -6,7 +6,7 @@ description: >-
 
 # GF Button
 
-GF Button provides a clickable element, which can be used in forms, or anywhere that needs simple, standard button functionality. They may display text, icons, or both.
+GF Button gives a clickable element, which can be used in forms, or anywhere that needs simple, standard button functionality. Button can use with any other widgets.
 
 ## Usage
 

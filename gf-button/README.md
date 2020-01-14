@@ -67,6 +67,8 @@ GFColor is used to change the background
 
 ### Type
 
+
+
 |  |  |
 | :--- | :--- |
 | **Description** |           The GFButton Type                                |

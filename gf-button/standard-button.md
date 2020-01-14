@@ -4,6 +4,8 @@ description: Standard Button looks like a solid button with slightly rounded cor
 
 # Standard Button
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/Standard_buttons_-_solid_uZzksC-oh.png)
+
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
 ## Solid Button

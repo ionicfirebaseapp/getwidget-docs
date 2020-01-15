@@ -6,10 +6,6 @@ description: >-
 
 # GF Avatar
 
-![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Avatars_2x_cM1srTq6w.png)
-
-Avatar
-
 ### Circular Avatar
 
 ![](.gitbook/assets/circular-avatars-2x.png)

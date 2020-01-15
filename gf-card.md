@@ -4,10 +4,6 @@ description: GFCard has slightly rounded corners and a shodow
 
 # GF Card
 
-![Cards](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
-
-
-
 ### Usage
 
 Below code gives the basic GFCard

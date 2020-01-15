@@ -4,10 +4,6 @@ description: GFImage typically manages assets and dispalys the images
 
 # GF Image
 
-![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Images-Square_2x_Zf91TY9B84.png)
-
-Images
-
 ###  Asset Image
 
 Asset image is used to display the images stored locally in the assets folder.

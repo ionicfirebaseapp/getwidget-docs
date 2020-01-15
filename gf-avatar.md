@@ -8,7 +8,7 @@ description: >-
 
 ### Circular Avatar
 
-![](.gitbook/assets/avatar-circular.png)
+![](.gitbook/assets/circular-avatars-2x.png)
 
 GFAvatar comes with different shapes , in which one of the default shape is circle. To place the image inside the avatar, image should be given in `backgroundImage` property.
 
@@ -20,7 +20,7 @@ GFAvatar(
 
 ### Standard Avatar
 
-![](.gitbook/assets/avatar-border-radius.png)
+![](.gitbook/assets/slightly-rounded-corners-2x.png)
 
 Standard GFAvatar is a avatar shape which has a slightly rounded corners.
 
@@ -32,6 +32,8 @@ GFAvatar(
 ```
 
 ### Square Avatar
+
+![](.gitbook/assets/square-2x.png)
 
 Square GFAvatar is a avatar shape which represents a square
 

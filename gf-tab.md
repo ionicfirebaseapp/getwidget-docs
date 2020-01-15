@@ -59,131 +59,120 @@ GFTabBar(
 ),
 ```
 
-### Properties
-
 Look and feel of the GFTabBar can be customized using the GFTabBar properties.
 
 ### Custom Properties
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>initialIndex</b>
-      </td>
-      <td style="text-align:left">initial index of the selected tab. Defaults to zero</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>length</b>
-      </td>
-      <td style="text-align:left">total number of tabs. Typically greater than one. Must match [TabBar.tabs]&apos;s
-        and [TabBarView.children]&apos;s length</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>tabBarHeight</b>
-      </td>
-      <td style="text-align:left">sets [GFTabBar] height</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>tabBarColor</b>
-      </td>
-      <td style="text-align:left">sets [TabBar] color using material color [Color]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>tabs</b>
-      </td>
-      <td style="text-align:left">typically a list of two or more [Tab] widgets. The length of this list
-        must match the [controller]&apos;s [TabController.length] and the length
-        of the [TabBarView.children] list</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>controller</b>
-      </td>
-      <td style="text-align:left">widget&apos;s selection and animation state. If [TabController] is not
-        provided, then the value of [DefaultTabController.of] will be used</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>indicatorColor</b>
-      </td>
-      <td style="text-align:left">color of the line that appears below the selected tab. If this parameter
-        is null, then the value of the Theme&apos;s indicatorColor property is
-        used. If [indicator] is specified, this property is ignored</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>indicatorWeight</b>
-      </td>
-      <td style="text-align:left">thickness of the line that appears below the selected tab. The value of
-        this parameter must be greater than zero and its default value is 2.0.
-        If [indicator] is specified, this property is ignored</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>indicatorPadding</b>
-      </td>
-      <td style="text-align:left">
-        <p>The horizontal padding for the line that appears below the selected tab.
-          For [isScrollable] tab bars, specifying [kTabLabelPadding] will align the
-          indicator with the tab&apos;s text for [Tab] widgets and all but the shortest
-          [Tab.text] values.</p>
-        <p>The default value of [indicatorPadding] is [EdgeInsets.zero]. If [indicator]
-          is specified, this property is ignored</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>indicator</b>
-      </td>
-      <td style="text-align:left">Defines the appearance of the selected tab indicator.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>indicatorSize</b>
-      </td>
-      <td style="text-align:left">
-        <p>Defines how the selected tab indicator&apos;s size is computed.</p>
-        <p>The size of the selected tab indicator is defined relative to the tab&apos;s
-          overall bounds if [indicatorSize] is [TabBarIndicatorSize.tab] (the default)
-          or relative to the bounds of the tab&apos;s widget if [indicatorSize] is
-          [TabBarIndicatorSize.label]</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>labelColor</b>
-      </td>
-      <td style="text-align:left">The color of selected tab labels. Unselected tab labels are rendered with
-        the same color rendered at 70% opacity unless [unselectedLabelColor] is
-        non-null.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>unselectedLabelColor</b>
-      </td>
-      <td style="text-align:left">The color of unselected tab labels. If this property is null, unselected
-        tab labels are rendered with the [labelColor] with 70% opacity</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>labelStyle</b>
-      </td>
-      <td style="text-align:left">The text style of the selected tab labels. If [unselectedLabelStyle] is
-        null, then this text style will be used for both selected and unselected
-        label styles.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>unselectedLabelStyle</b>
-      </td>
-      <td style="text-align:left">If this property is null, then the [labelStyle] value is used. If [labelStyle]
-        is null, then the default text style is used.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>labelPadding</b>
-      </td>
-      <td style="text-align:left">The padding added to each of the tab labels.</td>
-    </tr>
-  </tbody>
-</table>## GFTabBarView
+| Name | Description |
+| :--- | :--- |
+| **initialIndex** | initial index of the selected tab. Defaults to zero |
+| **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
+| **tabBarHeight** | sets \[GFTabBar\] height |
+| **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
+| **tabs** | typically a list of two or more \[Tab\] widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list |
+| **controller** | controls widget's selection and animation state. Must provide \[TabController\] |
+| **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
+| **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
+| **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
+| **indicator** | defines the appearance of the selected tab indicator.  |
+| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
+| **labelColor** | color of selected tab labels.  |
+| **unselectedLabelColor** | color of unselected tab labels. |
+| **labelStyle** | text style of the selected tab labels. |
+| **unselectedLabelStyle** | text style of the unselected tab labels. |
+| **labelPadding** | padding added to each of the tab labels. |
+
+## GFTabBarView
+
+A page view that displays the widget which corresponds to the currently selected tab. This widget is typically used in conjunction with a GFTabBar and must provide TabBarController.
+
+The tab controller's TabController.length must equal the length of the children list and the length of the TabBar.tabs list.
+
+```text
+GFTabBarView(
+  controller: tabController,
+  children: <Widget>[
+    Container(color: Colors.red),
+    Container(color: Colors.green),
+    Container(color: Colors.blue)
+  ]
+),
+```
+
+Look and feel of the GFTabBarVIew can be customized using the GFTabBarView properties.
+
+### Custom Properties
+
+| Name | Description |
+| :--- | :--- |
+| **controller** | controls widget's selection and animation state. Must provide \[TabController\] |
+| **children** | one widget per tab. Its length must match the length of the \[GFTabBar.tabs\] list, as well as the \[controller\]'s \[TabController.length\]. |
+| **height** | GFTabBarView height can be fixed |
 
 ## GFTabs
+
+GFTabs component is the combination of GFTabBar with GFTabBarView with default controller to controls page view that displays the widget which corresponds to the currently selected tab. 
+
+```text
+GFTabs(
+  initialIndex: 0,
+  length: 3,
+  tabs: <Widget>[
+    Tab(
+      icon: Icon(Icons.directions_bike),
+      child: Text(
+        "Tab1",
+      ),
+     ),
+     Tab(
+       icon: Icon(Icons.directions_bus),
+       child: Text(
+         "Tab2",
+       ),
+      ),
+      Tab(
+        icon: Icon(Icons.directions_railway),
+        child: Text(
+          "Tab3",
+        ),
+      ),
+   ],
+   tabBarView: GFTabBarView(
+     children: <Widget>[
+       Container(child: Icon(Icons.directions_bike), color: Colors.red,),
+       Container(child: Icon(Icons.directions_bus), color: Colors.blue,),
+       Container(child: Icon(Icons.directions_railway), color: Colors.orange,),
+     ],
+    ),
+),
+```
+
+Look and feel of the GFTabs can be customized using the GFTabs properties.
+
+### Custom Properties
+
+| Name | Description |
+| :--- | :--- |
+| **initialIndex** | initial index of the selected tab. Defaults to zero |
+| **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
+| **tabBarHeight** | sets \[GFTabBar\] height |
+| **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
+| **tabs** | typically a list of two or more \[Tab\] widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list |
+| **controller** | controls widget's selection and animation state. Must provide \[TabController\] |
+| **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
+| **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
+| **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
+| **indicator** | defines the appearance of the selected tab indicator.  |
+| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
+| **labelColor** | color of selected tab labels.  |
+| **unselectedLabelColor** | color of unselected tab labels. |
+| **labelStyle** | text style of the selected tab labels. |
+| **unselectedLabelStyle** | text style of the unselected tab labels. |
+| **labelPadding** | padding added to each of the tab labels. |
+| **tabBarView** | one widget per tab. LIst of widgets given to TabBarView.  The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list. |
+| **tabs** | typically a list of two or more tabs or widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list. |
+| **tabBarHeight** | defines the tabBar height |
+| **height** | defines the complete GFTabs height includes tabBar and tabBarView. |
 
 ## GFSegmentTabs
 

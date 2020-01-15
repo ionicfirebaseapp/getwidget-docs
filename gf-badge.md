@@ -13,6 +13,7 @@ Typically GFBadge takes text widget as child, to display number or characters in
 import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFBadge(
+  onPressed: (){},
   child: Text("12"),
 ),
 ```
@@ -136,8 +137,8 @@ GFButtonBadge(
     onPressed: (){},
     text: "primary",
     icon: GFBadge(
-    child: Text("12"),
-  ),
+      child: Text("12"),
+    ),
     type: GFType.outline,
  ),
 ```
@@ -154,8 +155,8 @@ We will able to get pills shaped button with solid background color with rounded
     onPressed: (){},
     text: "primary",
     icon: GFBadge(
-    child: Text("12"),
-  ),
+      child: Text("12"),
+    ),
     shape: GFButtonShape.pills,
   ),
 ```
@@ -172,8 +173,8 @@ GFButtonBadge(
     onPressed: (){},
     text: "primary",
     icon: GFBadge(
-    child: Text("12"),
-  ),
+      child: Text("12"),
+    ),
     size: GFSize.small,
  ),
 ```
@@ -285,11 +286,16 @@ import 'package:getflutter/components/badge/gf_icon_badge.dart';
 import 'package:getflutter/components/button/gf_icon_button.dart';
 import 'package:getflutter/components/badge/gf_badge.dart';
 
-GFIconButton(
-    onPressed: (){},
-    text: "primary",
-    size: GFSize.small,
- ),
+GFIconBadge(
+  child: GFIconButton(
+   onPressed: (){},
+   icon: Icon(Icons.ac_unit),
+   size: GFSize.large,
+  ),
+  counterChild: GFBadge(
+    child: Text("12"),
+  ),
+),
 ```
 
 ### IconButton Badge Type
@@ -300,12 +306,17 @@ Button type can be changed using property **type** by setting to `GFType.outline
 import 'package:getflutter/components/badge/gf_icon_badge.dart';
 import 'package:getflutter/components/button/gf_icon_button.dart';
 import 'package:getflutter/components/badge/gf_badge.dart';
-
-GFIconButton(
-    onPressed: (){},
-    text: "primary",
-    type: GFType.outline,
- ),
+ 
+ GFIconBadge(
+  child: GFIconButton(
+   onPressed: (){},
+   icon: Icon(Icons.ac_unit),
+   type: GFType.outline,
+  ),
+  counterChild: GFBadge(
+    child: Text("12"),
+  ),
+),
 ```
 
 ### IconButton Badge Shape
@@ -313,11 +324,22 @@ GFIconButton(
 Shape of Icon Button can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the IconButton set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
 ```dart
-GFIconButton(
-    onPressed: (){},
-    text: "primary",
-    shape: GFIconButtonShape.pills,
- ),
+import 'package:getflutter/components/badge/gf_icon_badge.dart';
+import 'package:getflutter/components/button/gf_icon_button.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
+
+GFIconBadge(
+  child: GFIconButton(
+   onPressed: (){},
+   icon: Icon(Icons.ac_unit),
+   shape: GFIconButtonShape.pills,
+  ),
+  counterChild: GFBadge(
+    child: Text("12"),
+  ),
+),
+ 
+ 
 ```
 
 |  |  |

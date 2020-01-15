@@ -6,10 +6,6 @@ description: >-
 
 # GF Tile
 
-![Tiles](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
-
-
-
 ## Usage
 
 The simple GFTile code is as show below

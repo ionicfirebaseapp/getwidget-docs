@@ -6,10 +6,6 @@ description: >-
 
 # GF Button
 
-![Buttons](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Gf_buttons_2x_aotfII9ZS5.png)
-
-
-
 GF Button gives a clickable element, which can be used in forms, or anywhere that needs simple, standard button functionality. Button can use with any other widgets.
 
 ## Usage

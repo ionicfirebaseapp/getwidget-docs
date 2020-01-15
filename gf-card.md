@@ -9,6 +9,11 @@ description: GFCard has slightly rounded corners and a shodow
 Below code gives the basic GFCard
 
 ```dart
+import 'package:getflutter/components/card/gf_card.dart';
+import 'package:getflutter/components/button/gf_button_bar.dart';
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+import 'package:getflutter/components/avatar/gf_avatar.dart';
+  
   GFCard(
     boxFit: BoxFit.cover,
     image: Image.asset('your asset image'),
@@ -38,6 +43,11 @@ Below code gives the basic GFCard
 ![](.gitbook/assets/cards-with-avatars-2x.png)
 
 ```dart
+import 'package:getflutter/components/card/gf_card.dart';
+import 'package:getflutter/components/button/gf_button_bar.dart';
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+import 'package:getflutter/components/avatar/gf_avatar.dart';
+  
   GFCard(
     boxFit: BoxFit.cover,
     image: Image.asset('your asset image'),
@@ -68,6 +78,11 @@ Below code gives the basic GFCard
 ![](.gitbook/assets/cards-with-image-overlays-2x.png)
 
 ```dart
+import 'package:getflutter/components/card/gf_card.dart';
+import 'package:getflutter/components/button/gf_button_bar.dart';
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+import 'package:getflutter/components/avatar/gf_avatar.dart';
+  
   GFCard(
     boxFit: BoxFit.cover,
     imageOverlay: AssetImage('your asset image'),

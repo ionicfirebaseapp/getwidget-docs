@@ -9,6 +9,8 @@ description: GFImage typically manages assets and dispalys the images
 Asset image is used to display the images stored locally in the assets folder.
 
 ```dart
+import 'package:getflutter/components/image/gf_image_overlay.dart';
+
 GFImageOverlay(
   height: 200,
   width: 300,
@@ -22,6 +24,8 @@ GFImageOverlay(
 Network image is used to display an image from the internet.
 
 ```dart
+import 'package:getflutter/components/image/gf_image_overlay.dart';
+
 GFImageOverlay(
   height: 200,
   width: 300,
@@ -36,6 +40,8 @@ GFImageOverlay(
 Image Overlay is used to set the image in the background and text in the foreground with the `colorFilter` property that takes two colors, and outputs one color
 
 ```dart
+ import 'package:getflutter/components/image/gf_image_overlay.dart';
+ 
  GFImageOverlay(
    height: 200,
    width: 300,
@@ -55,6 +61,8 @@ Image Overlay is used to set the image in the background and text in the foregro
 ![](.gitbook/assets/image-circular.png)
 
 ```dart
+ import 'package:getflutter/components/image/gf_image_overlay.dart';
+ 
  GFImageOverlay(
    height: 200,
    width: 200,

@@ -11,6 +11,8 @@ description: >-
 The simple Typography code is as shown below 
 
 ```dart
+import 'package:getflutter/components/typography/gf_typography.dart';
+
 GFTypography(
   text: 'GF Header Typo1',
 ),
@@ -21,6 +23,8 @@ GFTypography(
 The different sizes of Typography differs from **Typo1** to **Typo6**
 
 ```dart
+import 'package:getflutter/components/typography/gf_typography.dart';
+
 GFTypography(
   text: 'GF Header Typo1',
   type: GFTypographyType.typo1,
@@ -30,6 +34,8 @@ GFTypography(
 ### With Icon
 
 ```dart
+ import 'package:getflutter/components/typography/gf_typography.dart';
+ 
  GFTypography(
    text: 'GF Header Typo1',
    type: GFTypographyType.typo1,
@@ -40,6 +46,8 @@ GFTypography(
 ### With BackgroundImage
 
 ```dart
+import 'package:getflutter/components/typography/gf_typography.dart';
+
 GFTypography(
   text: 'GF Header Typo1',
   type: GFTypographyType.typo1,

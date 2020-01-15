@@ -11,6 +11,8 @@ description: >-
 The simple GFTile code is as show below
 
 ```dart
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+
 GFListTile(
   title: Text('Title'),
   subTitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing'),
@@ -23,6 +25,9 @@ GFListTile(
 ![](.gitbook/assets/tile-with-avatar-2x.png)
 
 ```dart
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+import 'package:getflutter/components/avatar/gf_avatar.dart';
+
 GFListTile(
   avatar:GFAvatar(),
   title: Text('Title'),

@@ -155,7 +155,6 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 | :--- | :--- |
 | **initialIndex** | initial index of the selected tab. Defaults to zero |
 | **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
-| **tabBarHeight** | sets \[GFTabBar\] height |
 | **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
 | **tabs** | typically a list of two or more \[Tab\] widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list |
 | **controller** | controls widget's selection and animation state. Must provide \[TabController\] |
@@ -170,9 +169,59 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 | **unselectedLabelStyle** | text style of the unselected tab labels. |
 | **labelPadding** | padding added to each of the tab labels. |
 | **tabBarView** | one widget per tab. LIst of widgets given to TabBarView.  The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list. |
-| **tabs** | typically a list of two or more tabs or widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list. |
 | **tabBarHeight** | defines the tabBar height |
 | **height** | defines the complete GFTabs height includes tabBar and tabBarView. |
 
 ## GFSegmentTabs
+
+GFSegmentTabs are best used as an alternative for tabs. It looks like pills shaped button tab bar with all features of GFTabBar.
+
+This component is typically used in conjunction with a GFTabBarView and must provide TabBarController to control  A page view that displays the widget which corresponds to the currently selected tab. 
+
+```text
+GFSegmentTabs(
+  tabController: tabController,
+  initialIndex: 0,
+  length: 3,
+  tabs: <Widget>[
+    Text(
+       "Tab1",
+    ),
+    Text(
+       "Tab2",
+    ),
+    Text(
+       "Tab3",
+    ),
+   ],
+),
+```
+
+Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs properties.
+
+### Custom Properties
+
+| Name | Description |
+| :--- | :--- |
+| **initialIndex** | initial index of the selected tab. Defaults to zero |
+| **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
+| **height** | sets \[GFSegmentTabs\] height |
+| **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
+| **tabs** | typically a list of two or more \[Tab\] widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list |
+| **controller** | controls widget's selection and animation state. Must provide \[TabController\] |
+| **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
+| **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
+| **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
+| **indicator** | defines the appearance of the selected tab indicator.  |
+| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
+| **labelColor** | color of selected tab labels.  |
+| **unselectedLabelColor** | color of unselected tab labels. |
+| **labelStyle** | text style of the selected tab labels. |
+| **unselectedLabelStyle** | text style of the unselected tab labels. |
+| **labelPadding** | padding added to each of the tab labels. |
+| **border** | defines outer border of the tabs |
+| **borderRadius** | defines outer border, border radius |
+| **width** | defines width of the tab row |
+
+
 

@@ -6,6 +6,8 @@ description: >-
 
 # GF Carousel
 
+![Carousel](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
+
 ## GF Carousel
 
 List of Images given to the items in the GFCarousel, it allows to slide the each image container. Below code gives the default image slider component. 

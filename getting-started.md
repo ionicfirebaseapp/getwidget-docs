@@ -1,6 +1,6 @@
 ---
 description: >-
-  GetFlutter is an open source library that comes with pre-build 500+ UI
+  GetFlutter is a Flutter open-source library that comes with pre-build 1000+ UI
   components. The library is built to make flutter development faster and more
   enjoyable.
 ---

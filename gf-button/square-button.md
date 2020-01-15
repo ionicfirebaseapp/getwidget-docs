@@ -4,6 +4,10 @@ description: Square Button looks like a solid button with no rounded corners.
 
 # Square Button
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Square_button-solid_2x_Wkjf-bdm3.png)
+
+Square Buttons
+
 We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` .
 
 ```dart

@@ -4,6 +4,10 @@ description: 'Icon Button having features of standard, solid button with label a
 
 # Icon Button
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
+
+Icon Buttons
+
 ## Icon Button
 
 Default button **shape** set to `GFIconButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.

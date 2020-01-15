@@ -37,6 +37,8 @@ GFTypography(
 
 ### With Icon
 
+![Typography with icon](.gitbook/assets/with-icon-2x.png)
+
 ```dart
  import 'package:getflutter/components/typography/gf_typography.dart';
  
@@ -48,6 +50,8 @@ GFTypography(
 ```
 
 ### With BackgroundImage
+
+![Typography with background image](.gitbook/assets/with-image-2x.png)
 
 ```dart
 import 'package:getflutter/components/typography/gf_typography.dart';

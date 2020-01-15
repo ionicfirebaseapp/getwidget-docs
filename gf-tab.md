@@ -7,6 +7,10 @@ description: >-
 
 # GF Tab
 
+![Tabs](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tabs-icon_1_2x_d161LbF9k.png)
+
+
+
 ## GFTabBar
 
 ![](.gitbook/assets/tabs-2x.png)

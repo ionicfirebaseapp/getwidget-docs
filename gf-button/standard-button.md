@@ -109,7 +109,7 @@ GFButton(
 
 ## Outline Button
 
-![](../.gitbook/assets/outline-2x-2x%20%281%29.png)
+![](../.gitbook/assets/outline-2x-2x%20%282%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -127,7 +127,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ## Outline2x Button
 
-![](../.gitbook/assets/outline-2x-2x.png)
+![](../.gitbook/assets/outline-2x-2x%20%281%29.png)
 
 Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
 

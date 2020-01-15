@@ -8,6 +8,8 @@ description: >-
 
 ### Circular Avatar
 
+![](.gitbook/assets/avatar-circular.png)
+
 GFAvatar comes with different shapes , in which one of the default shape is circle. To place the image inside the avatar, image should be given in `backgroundImage` property.
 
 ```dart
@@ -17,6 +19,8 @@ GFAvatar(
 ```
 
 ### Standard Avatar
+
+![](.gitbook/assets/avatar-border-radius.png)
 
 Standard GFAvatar is a avatar shape which has a slightly rounded corners.
 

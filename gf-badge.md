@@ -103,7 +103,7 @@ GFButtonBadge(
  ),
 ```
 
-### Button Badge Type
+### Button Badge Type \(Outline Button\)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -118,7 +118,7 @@ GFButtonBadge(
  ),
 ```
 
-### Button Badge Shape
+### Button Badge Shape \(Pills Button\)
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
 

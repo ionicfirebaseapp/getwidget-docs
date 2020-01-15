@@ -10,6 +10,8 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ### Solid Social Button
 
+![](../.gitbook/assets/solid-social-button-2x.png)
+
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
@@ -24,6 +26,8 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Disabled Button
 
+![](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
+
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
 ```dart
@@ -35,6 +39,8 @@ GFButton(
 ```
 
 ### Outline  Social Button
+
+![](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -49,6 +55,8 @@ GFButton(
 
 ### Outline2x  Social Button
 
+![](../.gitbook/assets/outline-2x-social-button-2x.png)
+
 Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
 
 ```dart
@@ -61,6 +69,8 @@ GFButton(
 ```
 
 ### Transparent  Social Button
+
+![](../.gitbook/assets/transparent-social-button-2x.png)
 
 In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
 
@@ -75,6 +85,8 @@ GFButton(
 
 ### Pills  Social Button
 
+![](../.gitbook/assets/pills-social-buttons-2x.png)
+
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
 
 ```dart
@@ -88,6 +100,8 @@ We will able to get pills shaped button with solid background color with rounded
 
 ### Square Social Button
 
+![](../.gitbook/assets/square-social-button-2x.png)
+
 We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
 
 ```dart
@@ -98,6 +112,8 @@ We will able to get pills shaped button with solid background color with no roun
     shape: GFButtonShape.square,
   ),
 ```
+
+![](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
 
 ###  Social  Button Size
 
@@ -114,6 +130,8 @@ GFButton(
 
 ### Block Social Button
 
+![](../.gitbook/assets/block-social-button-2x.png)
+
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
 ```dart
@@ -128,6 +146,8 @@ GFButton(
 
 ### Full Width Social Button
 
+![](../.gitbook/assets/full-width-social-button-2x.png)
+
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
 ```dart
@@ -141,6 +161,8 @@ GFButton(
 ```
 
 ## Social Icon Button
+
+![](../.gitbook/assets/social-icon-button-2x.png)
 
 Social Icon Button having features of standard, solid button with fill color background and slightly rounded corners and icon as a child.
 

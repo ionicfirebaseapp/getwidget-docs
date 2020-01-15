@@ -31,6 +31,8 @@ GFImageOverlay(
 
 ### Image Overlay
 
+![](.gitbook/assets/image-overlay.png)
+
 Image Overlay is used to set the image in the background and text in the foreground with the `colorFilter` property that takes two colors, and outputs one color
 
 ```dart
@@ -49,6 +51,8 @@ Image Overlay is used to set the image in the background and text in the foregro
 ```
 
 ### Circular Image
+
+![](.gitbook/assets/image-circular.png)
 
 ```dart
  GFImageOverlay(

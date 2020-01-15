@@ -131,9 +131,9 @@ We will able to get pills shaped button with solid background color with no roun
   ),
 ```
 
-![](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
-
 ###  Social  Button Size
+
+![](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 

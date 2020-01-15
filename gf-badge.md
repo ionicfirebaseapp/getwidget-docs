@@ -7,6 +7,10 @@ description: >-
 
 # GF Badge
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Badges_2x_08i8g5F_w.png)
+
+Badges
+
 Typically GFBadge takes text widget as child, to display number or characters inside badges.
 
 ```text

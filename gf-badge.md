@@ -75,6 +75,8 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ### Solid Button Badge
 
+![](.gitbook/assets/solid-badge-buttons-2x.png)
+
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
@@ -91,6 +93,8 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Disabled Button Badge
 
+![](.gitbook/assets/disabled-badge-buttons-2x.png)
+
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
 ```dart
@@ -104,6 +108,8 @@ GFButtonBadge(
 ```
 
 ### Button Badge Type \(Outline Button\)
+
+![](.gitbook/assets/outline-badge-buttons-2x%20%281%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 

@@ -35,6 +35,8 @@ Below code gives the basic GFCard
 
 ### GFCards with Avatar
 
+![](.gitbook/assets/cards-with-avatars-2x.png)
+
 ```dart
   GFCard(
     boxFit: BoxFit.cover,
@@ -62,6 +64,8 @@ Below code gives the basic GFCard
 ```
 
 ### GFCards with OverlayImage
+
+![](.gitbook/assets/cards-with-image-overlays-2x.png)
 
 ```dart
   GFCard(

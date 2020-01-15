@@ -20,6 +20,8 @@ GFListTile(
 
 ### With Avatar
 
+![](.gitbook/assets/tile-with-avatar-2x.png)
+
 ```dart
 GFListTile(
   avatar:GFAvatar(),

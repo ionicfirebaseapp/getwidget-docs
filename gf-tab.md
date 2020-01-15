@@ -9,6 +9,8 @@ description: >-
 
 ## GFTabBar
 
+![](.gitbook/assets/tabs-2x.png)
+
 The GFTabBar is a component that contains a set of tab buttons. A tab bar must be provided tabController to communicate with each tabBarView Component.
 
 TabController should be initialized, to communicate between Tabbar and Tabbarview.

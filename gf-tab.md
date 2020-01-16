@@ -19,7 +19,7 @@ The GFTabBar is a component that contains a set of tab buttons. A tab bar must b
 
 TabController should be initialized, to communicate between Tabbar and Tabbarview.
 
-```text
+```dart
 TabController tabController;
 
 @override
@@ -37,7 +37,7 @@ void dispose() {
 
 Below code gives, default GFTabBar with 3 children, children can be any type of widget.
 
-```text
+```dart
 import 'package:getflutter/components/tabs/gf_tabBar.dart';
 
 GFTabBar(
@@ -96,7 +96,7 @@ A page view that displays the widget which corresponds to the currently selected
 
 The tab controller's TabController.length must equal the length of the children list and the length of the TabBar.tabs list.
 
-```text
+```dart
 import 'package:getflutter/components/tabs/gf_tabBarView.dart';
 
 GFTabBarView(
@@ -123,7 +123,7 @@ Look and feel of the GFTabBarVIew can be customized using the GFTabBarView prope
 
 GFTabs component is the combination of GFTabBar with GFTabBarView with default controller to controls page view that displays the widget which corresponds to the currently selected tab. 
 
-```text
+```dart
 import 'package:getflutter/components/tabs/gf_tabs.dart';
 
 GFTabs(
@@ -190,7 +190,7 @@ GFSegmentTabs are best used as an alternative for tabs. It looks like pills shap
 
 This component is typically used in conjunction with a GFTabBarView and must provide TabBarController to control  A page view that displays the widget which corresponds to the currently selected tab. 
 
-```text
+```dart
 import 'package:getflutter/components/tabs/gf_segment_tabs.dart';
 
 GFSegmentTabs(

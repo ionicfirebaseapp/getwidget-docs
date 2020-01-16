@@ -12,7 +12,7 @@ description: >-
 
 List of Images given to the items in the GFCarousel, it allows to slide the each image container. Below code gives the default image slider component. 
 
-```text
+```dart
 import 'package:getflutter/components/carousel/gf_carousel.dart';
 
 final List<String> imageList = [
@@ -83,7 +83,7 @@ ItemsCarousel component is a multi-section container with multiple items. Each s
 
 In the below code, List of Images given to the children in the GFItemsCarousel, it allows to slide the each slide container that contain multiple items. Below code gives the default multi image slider component. 
 
-```text
+```dart
 import 'package:getflutter/components/carousel/gf_items_carousel.dart';
 
 final List<String> imageList = [

@@ -13,7 +13,7 @@ Badges
 
 Typically GFBadge takes text widget as child, to display number or characters inside badges.
 
-```text
+```dart
 import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFBadge(

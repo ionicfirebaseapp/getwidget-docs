@@ -13,7 +13,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ## Solid Button  
 
-![](../.gitbook/assets/solid-button-2x.png)
+![Solid Button](../.gitbook/assets/solid-button-2x.png)
 
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -30,7 +30,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Disabled Button
 
-![](../.gitbook/assets/disabled-button-2x.png)
+![Disabled Button](../.gitbook/assets/disabled-button-2x.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
@@ -45,7 +45,7 @@ GFButton(
 
 ### Transparent Button
 
-![](../.gitbook/assets/transparent-button-2x.png)
+![Transparent Button](../.gitbook/assets/transparent-button-2x.png)
 
 In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
 
@@ -61,7 +61,7 @@ GFButton(
 
 ### Block Button
 
-![](../.gitbook/assets/block-button-2x.png)
+![Block Button](../.gitbook/assets/block-button-2x.png)
 
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -77,7 +77,7 @@ GFButton(
 
 ### Full Width Button
 
-![](../.gitbook/assets/full-width-button-2x.png)
+![Full Width Button](../.gitbook/assets/full-width-button-2x.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
@@ -107,7 +107,7 @@ GFButton(
 
 ## Outline Button
 
-![](../.gitbook/assets/outline-2x-2x%20%282%29.png)
+![Outline Button](../.gitbook/assets/outline-2x-2x%20%282%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -125,7 +125,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ## Outline2x Button
 
-![](../.gitbook/assets/outline-2x-2x%20%281%29.png)
+![Outline 2X Button](../.gitbook/assets/outline-2x-2x%20%281%29.png)
 
 Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
 

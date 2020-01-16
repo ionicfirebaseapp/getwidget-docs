@@ -4,7 +4,7 @@ description: 'Social Button determines the standard, solid, button with both lab
 
 # Social Button
 
-![](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Social_Buttons_2x_qhe5emJKB.png)
+![Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Social_Buttons_2x_qhe5emJKB.png)
 
 Social Buttons
 
@@ -14,7 +14,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ### Solid Social Button
 
-![](../.gitbook/assets/solid-social-button-2x.png)
+![Solid Social Button](../.gitbook/assets/solid-social-button-2x.png)
 
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -30,9 +30,9 @@ The callback that is called when the button is tapped. By adding callback to **o
   ),
 ```
 
-### Disabled Button
+### Disabled Social Button
 
-![](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
+![Disabled Social Button](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
@@ -48,7 +48,7 @@ GFButton(
 
 ### Outline  Social Button
 
-![](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
+![Outline Social Button](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -65,7 +65,7 @@ GFButton(
 
 ### Outline2x  Social Button
 
-![](../.gitbook/assets/outline-2x-social-button-2x.png)
+![Outline 2X Social Button](../.gitbook/assets/outline-2x-social-button-2x.png)
 
 Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
 
@@ -82,7 +82,7 @@ GFButton(
 
 ### Transparent  Social Button
 
-![](../.gitbook/assets/transparent-social-button-2x.png)
+![Transparent Social Button](../.gitbook/assets/transparent-social-button-2x.png)
 
 In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
 
@@ -99,7 +99,7 @@ GFButton(
 
 ### Pills  Social Button
 
-![](../.gitbook/assets/pills-social-buttons-2x.png)
+![Pills Social Button](../.gitbook/assets/pills-social-buttons-2x.png)
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
 
@@ -116,7 +116,7 @@ We will able to get pills shaped button with solid background color with rounded
 
 ### Square Social Button
 
-![](../.gitbook/assets/square-social-button-2x.png)
+![Square Social Button](../.gitbook/assets/square-social-button-2x.png)
 
 We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
 
@@ -133,7 +133,7 @@ We will able to get pills shaped button with solid background color with no roun
 
 ###  Social  Button Size
 
-![](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
+![Social Button Size](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -150,7 +150,7 @@ GFButton(
 
 ### Block Social Button
 
-![](../.gitbook/assets/block-social-button-2x.png)
+![Block Social Button](../.gitbook/assets/block-social-button-2x.png)
 
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -168,7 +168,7 @@ GFButton(
 
 ### Full Width Social Button
 
-![](../.gitbook/assets/full-width-social-button-2x.png)
+![Full Width Social Button](../.gitbook/assets/full-width-social-button-2x.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
@@ -186,7 +186,7 @@ GFButton(
 
 ## Social Icon Button
 
-![](../.gitbook/assets/social-icon-button-2x.png)
+![Social Icon Button](../.gitbook/assets/social-icon-button-2x.png)
 
 Social Icon Button having features of standard, solid button with fill color background and slightly rounded corners and icon as a child.
 

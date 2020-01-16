@@ -4,7 +4,7 @@ description: 'Icon Button having features of standard, solid button with label a
 
 # Icon Button
 
-![Icon Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
 
 Icon Buttons
 
@@ -14,7 +14,7 @@ Default button **shape** set to `GFIconButtonShape.standard` so that we will abl
 
 ### Disabled Button:
 
-![Disabled Button](../.gitbook/assets/disabled-buttons-2x.png)
+![](../.gitbook/assets/disabled-buttons-2x.png)
 
 Default GFIconButton's  onPressed will be null, that gives Disabled button.
 
@@ -31,7 +31,7 @@ GF IconButtons can be styled with several attributes to look a specific way. Eac
 
 ### Solid Icon Button
 
-![Solid Icon Button](../.gitbook/assets/solid-icon-button-2x.png)
+![](../.gitbook/assets/solid-icon-button-2x.png)
 
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -49,7 +49,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Outline Icon Button
 
-![Outline Icon Button](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
+![](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
@@ -66,7 +66,7 @@ GFButton(
 
 ### Outline2x Icon Button
 
-![Outline 2X Icon Button](../.gitbook/assets/outline-2x-icon-button-2x.png)
+![](../.gitbook/assets/outline-2x-icon-button-2x.png)
 
 Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
 
@@ -83,7 +83,7 @@ GFButton(
 
 ### Transparent Icon Button
 
-![Transparent Icon Button](../.gitbook/assets/transparent-icon-button-2x.png)
+![](../.gitbook/assets/transparent-icon-button-2x.png)
 
 In GFIconButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFType.solid`**. 
 
@@ -100,7 +100,7 @@ GFButton(
 
 ### Pills Icon Button
 
-![Pills Icon Button](../.gitbook/assets/pills-icon-button-2x.png)
+![](../.gitbook/assets/pills-icon-button-2x.png)
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  **`GFButtonShape.pills`** . 
 
@@ -117,7 +117,7 @@ We will able to get pills shaped button with solid background color with rounded
 
 ### Square Icon Button
 
-![Square Icon Button](../.gitbook/assets/square-icon-button-2x.png)
+![](../.gitbook/assets/square-icon-button-2x.png)
 
 We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  **`GFButtonShape.square`** . 
 
@@ -134,7 +134,7 @@ We will able to get pills shaped button with solid background color with no roun
 
 ### Block Icon Button
 
-![Block Icon Button](../.gitbook/assets/block-icon-button-2x.png)
+![](../.gitbook/assets/block-icon-button-2x.png)
 
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -152,7 +152,7 @@ GFButton(
 
 ### Full Width Icon Button
 
-![Full Width Icon Button](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
+![](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 

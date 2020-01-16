@@ -6,7 +6,7 @@ description: >-
 
 # GF Tile
 
-![Tiles](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
+![Tile](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
 
 
 
@@ -26,7 +26,7 @@ GFListTile(
 
 ### With Avatar
 
-![](.gitbook/assets/tile-with-avatar-2x.png)
+![Tile With Avatar](.gitbook/assets/tile-with-avatar-2x.png)
 
 ```dart
 import 'package:getflutter/components/list_tile/gf_list_tile.dart';

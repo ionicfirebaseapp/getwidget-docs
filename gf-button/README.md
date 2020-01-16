@@ -10,7 +10,7 @@ description: >-
 
 
 
-GF Button gives a clickable element, which can be used in forms, or anywhere that needs simple, standard button functionality. Button can use with any other widgets.
+GF Button is a clickable element, that can be used for click events like click functions, page routing, social authentications, form submissions or anywhere that needs simple, standard button functionality. Buttons has a broad area to be used  and can be used with any other widgets as well.
 
 ## Usage
 
@@ -46,7 +46,7 @@ GFColor is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description** | The color to use from application's color pallete                                |
+| **Description** | The color to use from application's color palette                                |
 | **Attribute** |  color |
 | **Type** | `GFColor` |
 | **Default** | `GFColor.primary` |

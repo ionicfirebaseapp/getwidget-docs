@@ -6,8 +6,6 @@ description: 'Social Button determines the standard, solid, button with both lab
 
 ![Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Social_Buttons_2x_qhe5emJKB.png)
 
-Social Buttons
-
 ## Social Button Full
 
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.

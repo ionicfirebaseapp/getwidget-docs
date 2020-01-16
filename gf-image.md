@@ -4,7 +4,7 @@ description: GFImage typically manages assets and dispalys the images
 
 # GF Image
 
-![Image](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Images-Square_2x_Zf91TY9B84.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Images-Square_2x_Zf91TY9B84.png)
 
 Images
 
@@ -39,7 +39,7 @@ GFImageOverlay(
 
 ### Image Overlay
 
-![Image Overlay](.gitbook/assets/image-overlay.png)
+![](.gitbook/assets/image-overlay.png)
 
 Image Overlay is used to set the image in the background and text in the foreground with the `colorFilter` property that takes two colors, and outputs one color
 
@@ -62,7 +62,7 @@ Image Overlay is used to set the image in the background and text in the foregro
 
 ### Circular Image
 
-![Circular Image](.gitbook/assets/image-circular.png)
+![](.gitbook/assets/image-circular.png)
 
 ```dart
  import 'package:getflutter/components/image/gf_image_overlay.dart';

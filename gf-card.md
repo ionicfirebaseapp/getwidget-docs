@@ -4,7 +4,7 @@ description: GFCard has slightly rounded corners and a shodow
 
 # GF Card
 
-![Cards](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
+![Card](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
 
 
 
@@ -44,7 +44,7 @@ import 'package:getflutter/components/avatar/gf_avatar.dart';
 
 ### GFCards with Avatar
 
-![](.gitbook/assets/cards-with-avatars-2x.png)
+![Card With Avatar](.gitbook/assets/cards-with-avatars-2x.png)
 
 ```dart
 import 'package:getflutter/components/card/gf_card.dart';
@@ -79,7 +79,7 @@ import 'package:getflutter/components/avatar/gf_avatar.dart';
 
 ### GFCards with OverlayImage
 
-![](.gitbook/assets/cards-with-image-overlays-2x.png)
+![Card With Overlay Image](.gitbook/assets/cards-with-image-overlays-2x.png)
 
 ```dart
 import 'package:getflutter/components/card/gf_card.dart';

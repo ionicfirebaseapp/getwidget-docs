@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
 * [GF Button](gf-button/README.md)
-  * [Standard Button](gf-button/standard-button.md)
+  * [GF Flutter Standard Button](gf-button/standard-button.md)
   * [Pills Button](gf-button/pills-button.md)
   * [Square Button](gf-button/square-button.md)
   * [Icon Button](gf-button/icon-button.md)

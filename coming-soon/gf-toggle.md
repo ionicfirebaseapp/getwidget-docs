@@ -76,6 +76,6 @@ GFToggle(
 | **enabledTrackColor** | color used for the active track color |
 | **disabledTrackColor** | color used for the disabled track color |
 | **boxShape** | type of \[BoxShape\] ie , `circle`, `rectangle` used to change the shape of the thumb, default shape is `circle` |
-| **borderRadius** | borderRadius should be given zero for a ios toggle to make it a square toggle with boxshape as rectangle |
+| **borderRadius** | borderRadius should be given zero for a **ios** toggle to make it a **square** toggle with **boxshape** as `rectangle` |
 | **duration** | animation duration called when the switch animates during the specific time elapse |
 

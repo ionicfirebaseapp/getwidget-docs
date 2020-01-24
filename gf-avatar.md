@@ -17,7 +17,7 @@ Avatar
 GFAvatar comes with different shapes , in which one of the default shape is circle. To place the image inside the avatar, image should be given in `backgroundImage` property.
 
 ```dart
-import 'package:getflutter/components/avatar/gf_avatar.dart';
+import 'package:getflutter/getflutter.dart';
 
 GFAvatar(
   backgroundImage:NetworkImage(AvatarUrl);
@@ -31,7 +31,7 @@ GFAvatar(
 Standard GFAvatar is a avatar shape which has a slightly rounded corners.
 
 ```dart
-import 'package:getflutter/components/avatar/gf_avatar.dart';
+import 'package:getflutter/getflutter.dart';
 
 GFAvatar(
   backgroundImage:NetworkImage(AvatarUrl);
@@ -46,7 +46,7 @@ GFAvatar(
 Square GFAvatar is a avatar shape which represents a square
 
 ```dart
-import 'package:getflutter/components/avatar/gf_avatar.dart';
+import 'package:getflutter/getflutter.dart';
 
 GFAvatar(
   backgroundImage:NetworkImage(AvatarUrl);

@@ -14,7 +14,7 @@ Badges
 Typically GFBadge takes text widget as child, to display number or characters inside badges.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFBadge(
   onPressed: (){},
@@ -27,7 +27,7 @@ GFBadge(
 Badge size can be varied using **size** property, which specifies the size of the badge. Default badge size set to `GFSize.medium`.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFBadge(
     onPressed: (){},
@@ -41,7 +41,7 @@ GFBadge(
 Shape of Badge can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the Badge set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFBadge(
     onPressed: (){},
@@ -73,7 +73,8 @@ GFBadge(
 Badges can be used with button to display, the badges with label and GFButton properties.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_button_badge.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFButtonBadge(
   onPressed: () {},
@@ -95,7 +96,8 @@ By default, button **type** set to `GFType.solid` so, we able to get buttons hav
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_button_badge.dart'; 
+import 'package:getflutter/components/badge/gf_badge.dart';
   
 GFButtonBadge(
   onPressed: (){},
@@ -113,7 +115,8 @@ GFButtonBadge(
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_button_badge.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFButtonBadge(
     onPressed: null,
@@ -131,7 +134,8 @@ GFButtonBadge(
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_button_badge.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFButtonBadge(
     onPressed: (){},
@@ -148,7 +152,8 @@ GFButtonBadge(
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+  import 'package:getflutter/components/badge/gf_button_badge.dart';
+  import 'package:getflutter/components/badge/gf_badge.dart';
   
   GFButtonBadge(
     onPressed: (){},
@@ -165,7 +170,8 @@ import 'package:getflutter/getflutter.dart';
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_button_badge.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFButtonBadge(
     onPressed: (){},
@@ -258,7 +264,9 @@ GFColor is used to change the background of the button.
 Badges can be used with button to display, the badges with icons and GFIconButton properties.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_icon_badge.dart';
+import 'package:getflutter/components/button/gf_icon_button.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFIconBadge(
   child: GFIconButton(
@@ -278,7 +286,9 @@ Default icon button **shape** set to `GFButtonShape.standard` so that we will ab
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_icon_badge.dart';
+import 'package:getflutter/components/button/gf_icon_button.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFIconBadge(
   child: GFIconButton(
@@ -297,7 +307,9 @@ GFIconBadge(
 Button type can be changed using property **type** by setting to `GFType.outline`. Default type of the IconButton will be `GFType.solid`.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_icon_badge.dart';
+import 'package:getflutter/components/button/gf_icon_button.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
  
  GFIconBadge(
   child: GFIconButton(
@@ -316,7 +328,9 @@ import 'package:getflutter/getflutter.dart';
 Shape of Icon Button can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the IconButton set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/badge/gf_icon_badge.dart';
+import 'package:getflutter/components/button/gf_icon_button.dart';
+import 'package:getflutter/components/badge/gf_badge.dart';
 
 GFIconBadge(
   child: GFIconButton(

@@ -15,11 +15,11 @@ description: >-
 The simple GFTile code is as show below
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
 
 GFListTile(
-  titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing'
+  title: Text('Title'),
+  subTitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing'),
   icon: Icon(Icons.favorite)
 ),
 ```
@@ -29,12 +29,13 @@ GFListTile(
 ![Tile With Avatar](.gitbook/assets/tile-with-avatar-2x.png)
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/components/list_tile/gf_list_tile.dart';
+import 'package:getflutter/components/avatar/gf_avatar.dart';
 
 GFListTile(
   avatar:GFAvatar(),
-  titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing'
+  title: Text('Title'),
+  subTitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing'),
   icon: Icon(Icons.favorite)
 ),
 ```
@@ -45,5 +46,11 @@ GFListTile(
 | :--- | :--- |
 | **color** | defines the backgroundColor  |
 | **description** | brief text to display  |
+| **showDivider** | hide or show the divider , defaults to `true` |
 | **padding** | defines the tile's outer container padding |
+| **dividerHeight** | the height of the divider |
+| **dividerThickness** | the thickness of the divider |
+| **dividerColor** | the color of the divider |
+| **dividerIndent** | the amount of space to the leading edge of the divider |
+| **dividerEndIndent** | the amount of space to the trailing edge of the divider |
 

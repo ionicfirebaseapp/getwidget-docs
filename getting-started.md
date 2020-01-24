@@ -37,6 +37,7 @@ Import it:
 Now in your Dart code, you can import the components that are necessary for your application 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getflutter/colors/gf_color.dart';
+import 'package:getflutter/components/appbar/gf_appbar.dart';
 ```
 

@@ -25,6 +25,8 @@ There are four types ie, `android`, `ios`, `square` and `custom`. The default to
 
 ###  IOS Toggle
 
+![IOS Toggle](.gitbook/assets/ios.png)
+
 The below code shows a simple ios toggle
 
 ```dart
@@ -39,6 +41,10 @@ import 'package:getflutter/getflutter.dart';
 
 ### Square Toggle
 
+![Square Toggle](.gitbook/assets/square.png)
+
+
+
 The below code shows a simple square toggle
 
 ```dart
@@ -52,6 +58,8 @@ import 'package:getflutter/getflutter.dart';
 ```
 
 ### Custom Toggle
+
+![Custom Toggle](.gitbook/assets/custom-2.png)
 
 The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
 

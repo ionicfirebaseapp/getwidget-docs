@@ -15,8 +15,8 @@
 * [GF Carousel](gf-carousel.md)
 * [GF Tile](gf-tile.md)
 * [GF Tab](gf-tab.md)
-* [GF Toast](coming-soon/gf-toast.md)
-* [GF Toggle](coming-soon/gf-toggle.md)
+* [GF Toast](gf-toast.md)
+* [GF Toggle](gf-toggle.md)
 * [GF Typography](gf-typography.md)
 * [Changelog](changelog.md)
 

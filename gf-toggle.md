@@ -4,6 +4,8 @@ description: GFToggle is used to toggle the on/off state of a single setting.
 
 # GF Toggle
 
+![GF Toggle](.gitbook/assets/toggles-2x.png)
+
 ### Usage
 
 The simple toggle code is as shown below.

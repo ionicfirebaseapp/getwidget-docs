@@ -23,6 +23,6 @@
 ## Coming Soon
 
 * [GF Drawer](coming-soon/gf-drawer.md)
-* [GF Accordian](coming-soon/gf-accordian.md)
+* [GF Accordion](coming-soon/gf-accordian.md)
 * [GF Alert](coming-soon/gf-alert.md)
 

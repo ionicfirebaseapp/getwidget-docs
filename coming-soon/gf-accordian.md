@@ -20,7 +20,7 @@ The simple code is as shown below
 
 
 
-### Accordian with Text
+### Accordian with trailing Text
 
 The trailing part takes any widget like text, icon etc. The below code shows the accordian with the text.
 

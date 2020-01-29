@@ -8,7 +8,7 @@ description: GFToast can be used to display quick warning or error messages.
 
 ### Usage
 
-**GFToast** should be wrapped inside the **GFFloating** Widget.The child of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below. 
+**GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';

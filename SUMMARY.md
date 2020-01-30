@@ -19,7 +19,7 @@
 * [GF Toggle](gf-toggle.md)
 * [GF Typography](gf-typography.md)
 * [GF Drawer](gf-drawer.md)
-* [GF Accordion](gf-accordian.md)
+* [GF Accordion](gf-accordion.md)
 * [GF Alert](gf-alert.md)
 * [Changelog](changelog.md)
 

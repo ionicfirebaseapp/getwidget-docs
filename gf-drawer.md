@@ -7,6 +7,10 @@ description: >-
 
 # GF Drawer
 
+![Drawer](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
+
+
+
 The GFAppBar automatically displays an appropriate IconButton to show the GFDrawer when a GFDrawer is available in the Scaffold.
 
 ### Usage

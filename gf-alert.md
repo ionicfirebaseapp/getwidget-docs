@@ -6,6 +6,12 @@ description: >-
 
 # GF Alert
 
+![Alert](https://ik.imagekit.io/ionicfirebaseapp/tr:dpr-auto,tr:w-auto/docs/Alerts_2x_BDFQKkxzq.png)
+
+
+
+### 
+
 ### Usage
 
 **GFAlert** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below. 

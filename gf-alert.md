@@ -40,7 +40,7 @@ import 'package:getflutter/getflutter.dart';
                 ],
               ),
             )
-   body:widget.body
+   body:Text('body or any kind of widget here..')
  )
 )
 ```
@@ -84,7 +84,7 @@ import 'package:getflutter/getflutter.dart';
                 ],
               ),
             )
-   body:widget.body
+   body:Text('body or any kind of widget here..')
  )
 )
 ```
@@ -129,7 +129,7 @@ import 'package:getflutter/getflutter.dart';
                 ],
               ),
             )
-   body:widget.body
+   body:Text('body or any kind of widget here..')
  )
 )
 ```
@@ -147,7 +147,7 @@ body:GFFloatingWidget(
     child:GFAlert(
     title: 'Welcome!',
   ),
- body:widget.body
+ body:Text('body or any kind of widget here..')
 )
 ```
 

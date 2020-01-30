@@ -18,7 +18,7 @@ import 'package:getflutter/getflutter.dart';
      child:GFToast(
      text: 'This item already has the label “travel”',
    ),
-   body:widget.body
+   body:Text('body or any kind of widget here..')
  )
 )
 ```
@@ -68,7 +68,7 @@ body:GFFloatingWidget(
     child:GFToast(
     text: 'Logged In',
   ),
- body:widget.body
+ body:Text('body or any kind of widget here..')
 )
 ```
 

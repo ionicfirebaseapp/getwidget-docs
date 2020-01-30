@@ -19,12 +19,11 @@
 * [GF Toggle](gf-toggle.md)
 * [GF Typography](gf-typography.md)
 * [GF Drawer](gf-drawer.md)
-* [GF Accordion](gf-accordion.md)
+* [GF Accordion](gf-accordian.md)
 * [GF Alert](gf-alert.md)
+* [GF Appbar](gf-appbar.md)
+* [GF SearchBar](gf-searchbar.md)
 * [Changelog](changelog.md)
 
 ## Coming Soon
-
-* [GF Appbar](gf-appbar.md)
-* [GF SearchBar](gf-searchbar.md)
 

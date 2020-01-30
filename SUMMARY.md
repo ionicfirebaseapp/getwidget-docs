@@ -18,11 +18,10 @@
 * [GF Toast](gf-toast.md)
 * [GF Toggle](gf-toggle.md)
 * [GF Typography](gf-typography.md)
+* [GF Drawer](gf-drawer.md)
+* [GF Accordion](gf-accordian.md)
+* [GF Alert](gf-alert.md)
 * [Changelog](changelog.md)
 
 ## Coming Soon
-
-* [GF Drawer](coming-soon/gf-drawer.md)
-* [GF Accordion](coming-soon/gf-accordian.md)
-* [GF Alert](coming-soon/gf-alert.md)
 

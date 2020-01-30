@@ -26,4 +26,5 @@
 ## Coming Soon
 
 * [GF Appbar](gf-appbar.md)
+* [GF SearchBar](gf-searchbar.md)
 

@@ -27,3 +27,6 @@
 
 ## Coming Soon
 
+* [GF Rating](flutter-rating.md)
+* [GF Spinner](flutter-spinner.md)
+

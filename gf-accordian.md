@@ -9,10 +9,6 @@ description: >-
 
 ![Accordion](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Accordion_2x_kucB2_qHr.png)
 
-
-
-### 
-
 ### Usage
 
 The simple code of a basic Accordion is as shown below

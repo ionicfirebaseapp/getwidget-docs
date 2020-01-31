@@ -6,6 +6,10 @@ description: >-
 
 # GF SearchBar
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
+
+
+
 GF SearchBar contains textfield for user input and the overlay container to show the search list collections.
 
 ### Usage
@@ -48,6 +52,8 @@ GFSearchBar(
 ```
 
 Look and feel of the **GFSearchBar** can be customized using the GFSearchBar properties.
+
+![Search Bar with Results](.gitbook/assets/search-bar-2.png)
 
 ### Custom Properties
 

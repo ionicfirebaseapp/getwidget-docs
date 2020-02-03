@@ -89,6 +89,7 @@ Look and feel of the GFTabBar can be customized using the GFTabBar properties.
 | **labelStyle** | text style of the selected tab labels. |
 | **unselectedLabelStyle** | text style of the unselected tab labels. |
 | **labelPadding** | padding added to each of the tab labels. |
+| **shape** | defines the shape of tabBar |
 
 ## GFTabBarView
 
@@ -183,6 +184,7 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 | **tabBarView** | one widget per tab. LIst of widgets given to TabBarView.  The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list. |
 | **tabBarHeight** | defines the tabBar height |
 | **height** | defines the complete GFTabs height includes tabBar and tabBarView. |
+| **shape** | defines the shape of tabBar |
 
 ## GFSegmentTabs
 
@@ -237,5 +239,47 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 | **borderRadius** | defines outer border, border radius |
 | **width** | defines width of the tab row |
 
+### GFTabBar as Bottom Navigation Bar
 
+GFTabBar can be used as bottom navigation bar. The basic code is given below.
+
+```text
+import 'package:getflutter/getflutter.dart';
+
+Scaffold(
+      appBar: GFAppBar(
+        title: const Text('UI Kit'),
+      ),
+      body: GFTabBarView(controller: tabController, children: <Widget>[
+        Container(color: Colors.red),
+        Container(color: Colors.green),
+        Container(color: Colors.blue)
+      ]),
+      bottomNavigationBar: GFTabBar(
+        initialIndex: 0,
+        length: 3,
+        controller: tabController,
+        tabs: [
+          Tab(
+            icon: Icon(Icons.directions_bike),
+            child: const Text(
+              'Tab1',
+            ),
+          ),
+          Tab(
+            icon: Icon(Icons.directions_bus),
+            child: const Text(
+              'Tab2',
+            ),
+          ),
+          Tab(
+            icon: Icon(Icons.directions_railway),
+            child: const Text(
+              'Tab3',
+            ),
+          ),
+        ],
+      ),
+    )
+```
 

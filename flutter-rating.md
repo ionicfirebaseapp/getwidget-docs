@@ -1,3 +1,9 @@
+---
+description: >-
+  GFRating is a row of star icon, one can touch or drag the row of icons to set
+  the rating.
+---
+
 # GF Rating
 
 ### Usage
@@ -17,7 +23,7 @@ GFRating(
 ),
 ```
 
-If `showTextForm` true, it displays the GFRating bar with textfield, that allows user input to show the rating. The simple code of rating bar with textform is shown below.
+If `showTextForm` true, it displays the GFRating bar with textfield, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
 
 ```text
 final _ratingController = TextEditingController();

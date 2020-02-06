@@ -16,7 +16,7 @@ An app bar consists of a toolbar and potentially other widgets, such as a  GFTab
 
 The simple code of a basic GFAppbar is as shown below.
 
-```text
+```dart
 import 'package:getflutter/getflutter.dart';
 
 GFAppBar(
@@ -48,7 +48,7 @@ GFAppBar(
 
 If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options. 
 
-```text
+```dart
 import 'package:getflutter/getflutter.dart';
 
 GFAppBar(
@@ -73,6 +73,69 @@ GFAppBar(
     ),
   ],
 ),
+```
+
+### GFAppbar with Segmented Tabs
+
+**Segmented** **tabs** can also be used inside the **Appbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. Below code shows a simple segmented tab inside Appbar
+
+```dart
+import 'package:getflutter/getflutter.dart';
+
+TabController tabController;
+  @override
+  void initState() {
+    super.initState();
+    tabController = TabController(length: 3, vsync: this);
+  }
+
+  @override
+  void dispose() {
+    tabController.dispose();
+    super.dispose();
+  }
+  
+  return Scaffold(
+      appBar: GFAppBar(
+        backgroundColor: GFColors.getGFColor(GFColor.dark),
+        title:   GFSegmentTabs(
+          tabController: tabController,
+          tabBarColor: GFColors.getGFColor(GFColor.light),
+          labelColor: GFColors.getGFColor(GFColor.white),
+          unselectedLabelColor: GFColors.getGFColor(GFColor.dark),
+          indicator: BoxDecoration(
+            color: GFColors.getGFColor(GFColor.dark),
+          ),
+          indicatorPadding: EdgeInsets.all(8.0),
+          indicatorWeight: 2.0,
+          border: Border.all(color: Colors.white, width: 1.0),
+              initialIndex: 0,
+              length: 3,
+              tabs: <Widget>[
+                Text(
+                  "Tab1",
+                ),
+                Text(
+                  "Tab2",
+                ),
+                Text(
+                  "Tab3",
+                ),
+              ],
+            ),
+          ),
+ body: GFTabBarView(controller: tabController, children: <Widget>[
+   Center(
+     child: Text('Tab 1'),
+   ),
+   Center(
+     child: Text('Tab 2'),
+   ),
+   Center(
+     child: Text('Tab 3'),
+   ),
+ ]),
+);
 ```
 
 Look and feel of the **GFAppbar search bar** can be customized using the GFAppbar properties.

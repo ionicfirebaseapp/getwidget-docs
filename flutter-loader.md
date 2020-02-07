@@ -103,11 +103,11 @@ GFLoader(
 
 |  |  |
 | :--- | :--- |
-| **child** | child of type \[Widget\] used only for custom type and is prominent over the icon in custom type |
-| **duration** | defines the animation duration of the loader |
-| **loaderColorOne** |  defines the color of the first dot in the circle or square loader |
-| **loaderColorTwo** |  defines the color of the second dot in the circle or square loader |
-| **loaderColorThree** |  defines the color of the third dot in the circle or square loader |
+| **child** | child of type \[Widget\] used only for **custom** type and is prominent over the icon in **custom** type |
+| **duration** | defines the animation duration of the loader only in **circle** and **square** type |
+| **loaderColorOne** |  defines the color of the first dot in only  **circle** or **square** type of loader |
+| **loaderColorTwo** |  defines the color of the second dot in only **circle** or **square** type of loader |
+| **loaderColorThree** |  defines the color of the third dot in only **circle** or **square** type of loader |
 | **androidLoaderColor** | defines the color of the android type loader only |
 | **loaderstrokeWidth** | defines the stroke width of the android type loader only |
 | **size** | defines the size of the loader ie, `small`, `medium` and `large` and it is applicable to android ios, circle and square type loaders |

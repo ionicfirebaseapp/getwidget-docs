@@ -110,5 +110,5 @@ GFLoader(
 | **loaderColorThree** |  defines the color of the third dot in the circle or square loader |
 | **androidLoaderColor** | defines the color of the android type loader only |
 | **loaderstrokeWidth** | defines the stroke width of the android type loader only |
-| **size** | defines the size of the loader ie, `small`, medium and `large` and it is applicable to android ios, circle and square type loaders |
+| **size** | defines the size of the loader ie, `small`, `medium` and `large` and it is applicable to android ios, circle and square type loaders |
 

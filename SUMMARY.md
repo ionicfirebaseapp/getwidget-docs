@@ -23,10 +23,9 @@
 * [GF Alert](gf-alert.md)
 * [GF Appbar](gf-appbar.md)
 * [GF SearchBar](gf-searchbar.md)
+* [GF Rating](flutter-rating.md)
+* [GF Loader](flutter-spinner.md)
 * [Changelog](changelog.md)
 
 ## Coming Soon
-
-* [GF Rating](flutter-rating.md)
-* [GF Loader](flutter-spinner.md)
 

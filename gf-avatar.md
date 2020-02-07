@@ -1,7 +1,7 @@
 ---
 description: >-
-  GFAvatar typically represents the user's profile image. It comes with
-  different shapes
+  GFAvatar is a Flutter Avatar Widget that typically represents the user's
+  profile image. It comes with different shapes.
 ---
 
 # GF Avatar

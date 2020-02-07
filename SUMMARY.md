@@ -24,7 +24,7 @@
 * [GF Appbar](gf-appbar.md)
 * [GF SearchBar](gf-searchbar.md)
 * [GF Rating](flutter-rating.md)
-* [GF Loader](flutter-spinner.md)
+* [GF Loader](flutter-loader.md)
 * [Changelog](changelog.md)
 
 ## Coming Soon

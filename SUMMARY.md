@@ -28,5 +28,5 @@
 ## Coming Soon
 
 * [GF Rating](flutter-rating.md)
-* [GF Loader](flutter-loader.md)
+* [GF Loader](flutter-spinner.md)
 

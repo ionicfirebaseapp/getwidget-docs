@@ -4,7 +4,29 @@ description: Get flutter Changelog
 
 # Changelog
 
-### 1.0.3 - 2020-01-30
+### 1.0.5 - 2020-02-07
+
+#### Fixed
+
+* GFRating - minor issue fixed
+
+#### Added
+
+* added new component
+  * GFLoader
+
+### 1.0.4 - 2020-02-04
+
+#### Fixed
+
+* GFSearchBar - minor issue fixed
+
+#### Added
+
+* added new component
+  * GFRating
+
+### .3 - 2020-01-30
 
 #### Fixed
 

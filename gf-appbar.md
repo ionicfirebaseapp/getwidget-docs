@@ -6,7 +6,7 @@ description: >-
 
 # GF Appbar
 
-![App Bar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
+![GF App Bar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
 
 
 

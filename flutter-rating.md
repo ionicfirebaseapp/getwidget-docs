@@ -8,7 +8,7 @@ description: >-
 
 ### Usage
 
-The simple code of a basic GFRating is as shown below.
+The simple code of a basic **GF Rating** is as shown below.
 
 ```text
 double _rating = 3;
@@ -23,7 +23,7 @@ GFRating(
 ),
 ```
 
-If `showTextForm` true, it displays the GFRating bar with textfield, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
+If `showTextForm` true, it displays the GF Rating bar with text field, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
 
 ```text
 final _ratingController = TextEditingController();
@@ -51,7 +51,7 @@ GFRating(
 ),
 ```
 
-Look and feel of the **GFRating** can be customized using the GFRating properties.
+Look and feel of the **GF Rating** can be customized using the GF Rating properties.
 
 ### Custom Properties
 

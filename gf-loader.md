@@ -34,6 +34,8 @@ import 'package:getflutter/getflutter.dart';
  ),
 ```
 
+![Flutter IOS Loader](.gitbook/assets/ios-loaders-2x.png)
+
 ### Circular Loader
 
 A simple **circular** shape loader in which the type of the loader  should be passed to **circle**. The code is as shown below.
@@ -45,6 +47,8 @@ import 'package:getflutter/getflutter.dart';
    type:GFLoaderType.circle
  ),
 ```
+
+![Flutter Circular Loader](.gitbook/assets/circular-loaders-2x.png)
 
 ### Square Loader
 
@@ -58,6 +62,8 @@ import 'package:getflutter/getflutter.dart';
  ),
 ```
 
+![Flutter Square Loader](.gitbook/assets/squared-loaders-2x.png)
+
 ### Custom Loader
 
 Apart from the four types described above, there is a custom loader in which we can pass text, icons, images etc as the parameters to show a variety of customised loaders. The below code shows the custom loader with a gif in it.
@@ -70,6 +76,8 @@ Apart from the four types described above, there is a custom loader in which we 
    child: Image(image: AssetImage(your gif here...),
 ),
 ```
+
+### 
 
 ### Custom Loader with Icon
 

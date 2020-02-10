@@ -23,7 +23,7 @@
 * [GF Alert](gf-alert.md)
 * [GF Appbar](gf-appbar.md)
 * [GF SearchBar](gf-searchbar.md)
-* [GF Rating](flutter-rating.md)
+* [GF Rating](gf-rating.md)
 * [GF Loader](gf-loader.md)
 * [Changelog](changelog.md)
 

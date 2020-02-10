@@ -6,7 +6,7 @@ description: >-
 
 # GF SearchBar
 
-![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
+![GF Searchbar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
 
 
 

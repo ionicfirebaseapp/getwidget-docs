@@ -15,6 +15,7 @@
 * [GF Carousel](gf-carousel.md)
 * [GF Tile](gf-tile.md)
 * [GF Tab](gf-tab.md)
+* [GF Floating Widget](gf-floating-widget.md)
 * [GF Toast](gf-toast.md)
 * [GF Toggle](gf-toggle.md)
 * [GF Typography](gf-typography.md)

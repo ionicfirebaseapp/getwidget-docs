@@ -27,6 +27,8 @@ GFRating(
 ),
 ```
 
+![Flutter Rating](.gitbook/assets/ratings-2x.png)
+
 If `showTextForm` true, it displays the GF Rating bar with text field, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
 
 ```text

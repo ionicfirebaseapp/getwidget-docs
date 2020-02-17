@@ -27,4 +27,5 @@
 * [GF Rating](gf-rating.md)
 * [GF Loader](gf-loader.md)
 * [Changelog](changelog.md)
+* [GF Progress Bar](gf-progress-bar.md)
 

@@ -4,8 +4,6 @@ description: Get flutter Changelog
 
 # Changelog
 
-### 
-
 ### 1.0.8 - 2020-02-18
 
 #### Fixed

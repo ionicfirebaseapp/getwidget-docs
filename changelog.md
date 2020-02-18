@@ -4,6 +4,33 @@ description: Get flutter Changelog
 
 # Changelog
 
+### 
+
+### 1.0.8 - 2020-02-18
+
+#### Fixed
+
+* Hot reload in GFButton
+
+**Added**
+
+* added new component
+
+  * GFProgressBar
+
+  \*\*\*\*
+
+### **1.0.7 - 2020-02-11**
+
+**Fixed**
+
+* GFLoader - import issue fixed
+
+**Added**
+
+* added new component
+  * GFFloatingWidget
+
 ### 1.0.5 - 2020-02-07
 
 #### Fixed

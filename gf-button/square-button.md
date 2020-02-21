@@ -114,7 +114,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     shape: GFButtonShape.square,
-    type: GFType.outline,
+    type: GFButtonType.outline,
  ),
 ```
 
@@ -133,7 +133,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     shape: GFButtonShape.square,
-    type: GFType.outline2x,
+    type: GFButtonType.outline2x,
  ),
 ```
 

@@ -55,7 +55,7 @@ import 'package:getflutter/getflutter.dart';
 GFButton(
     onPressed: (){},
     text: "primary",
-    type: GFType.transparent,
+    type: GFButtonType.transparent,
  ),
 ```
 
@@ -117,7 +117,7 @@ import 'package:getflutter/getflutter.dart';
 GFButton(
     onPressed: (){},
     text: "primary",
-    type: GFType.outline,
+    type: GFButtonType.outline,
  ),
 ```
 
@@ -135,7 +135,7 @@ import 'package:getflutter/getflutter.dart';
 GFButton(
     onPressed: (){},
     text: "primary",
-    type: GFType.outline2x,
+    type: GFButtonType.outline2x,
  ),
 ```
 

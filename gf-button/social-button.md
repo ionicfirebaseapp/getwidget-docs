@@ -57,7 +57,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    type: GFType.outline,
+    type: GFButtonType.outline,
  ),
 ```
 
@@ -74,7 +74,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    type: GFType.outline2x,
+    type: GFButtonType.outline2x,
  ),
 ```
 
@@ -91,7 +91,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    type: GFType.transparent,
+    type: GFButtonType.transparent,
  ),
 ```
 
@@ -159,7 +159,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    type: GFType.solid,
+    type: GFButtonType.solid,
     blockButton: true,
  ),
 ```
@@ -177,7 +177,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    type: GFType.solid,
+    type: GFButtonType.solid,
     fullWidthButton: true,
  ),
 ```
@@ -223,7 +223,7 @@ import 'package:getflutter/getflutter.dart';
 GFIconButton(
     onPressed: (){},
     text: "primary",
-    type: GFType.outline,
+    type: GFButtonType.outline,
  ),
 ```
 

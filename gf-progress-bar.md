@@ -6,6 +6,10 @@ description: >-
 
 # GF Progress Bar
 
+![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
+
+Flutter Progress Bar Widget
+
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 
 ### Usage
@@ -40,7 +44,7 @@ Circular progress bar is as same as linear progress bar with some additional pro
 
 ### Progress bar with Child property
 
-The progress bar can be customised to show the percentage of progress completed. To show the progress percentage we can use child property which is a Widget type and can be a text, icon , image etc. The below code shows how a child property can be used as text to show the progress percentage.
+The progress bar can be customized to show the percentage of progress completed. To show the progress percentage we can use child property which is a Widget type and can be a text, icon , image etc. The below code shows how a child property can be used as text to show the progress percentage.
 
 ```dart
 import 'package:getflutter/getflutter.dart';

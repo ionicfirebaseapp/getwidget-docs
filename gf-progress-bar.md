@@ -6,9 +6,7 @@ description: >-
 
 # GF Progress Bar
 
-![](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
-
-Flutter Progress Bar Widget
+![ Flutter Progress Bar Widget](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
 
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 

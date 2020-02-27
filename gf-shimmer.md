@@ -61,7 +61,7 @@ final Widget emptyBlock = Padding(
 
 ```
 
-The below code gives a Shimmer effect for child with given Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
+The below code gives a Shimmer effect for child with Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
 
 ```text
 GFShimmer(

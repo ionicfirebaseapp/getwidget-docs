@@ -19,7 +19,7 @@ import 'package:getflutter/getflutter.dart';
 
 GFListTile(
   titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing'
+  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
   icon: Icon(Icons.favorite)
 ),
 ```
@@ -34,7 +34,7 @@ import 'package:getflutter/getflutter.dart';
 GFListTile(
   avatar:GFAvatar(),
   titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing'
+  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
   icon: Icon(Icons.favorite)
 ),
 ```

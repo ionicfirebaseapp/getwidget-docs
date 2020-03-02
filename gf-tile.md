@@ -8,8 +8,6 @@ description: >-
 
 ![Tile](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
 
-
-
 ## Usage
 
 The simple GFTile code is as show below
@@ -43,7 +41,7 @@ GFListTile(
 
 |  |  |
 | :--- | :--- |
-| **color** | defines the backgroundColor  |
-| **description** | brief text to display  |
+| **color** | defines the backgroundColor |
+| **description** | brief text to display |
 | **padding** | defines the tile's outer container padding |
 

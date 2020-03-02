@@ -24,6 +24,10 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 )
 ```
 
+###  
+
+![Linear Progress Bar](.gitbook/assets/linear-progress-bar-2x.png)
+
 ### Circular Progress Bar
 
 Circular progress bar is as same as linear progress bar with some additional properties added to the code structure. The below code shows a simple circular progress bar.
@@ -39,6 +43,10 @@ Circular progress bar is as same as linear progress bar with some additional pro
      progressBarColor: GFColors.DANGER
 )
 ```
+
+### 
+
+![Circular Progress Bar](.gitbook/assets/circular-progress-bar-2x.png)
 
 ### Progress bar with Child property
 
@@ -61,6 +69,10 @@ GFProgressBar(
 )
 ```
 
+### 
+
+![Progress Bar with Child Property](.gitbook/assets/progress-bar-with-child-property-2x.png)
+
 ### Progress bar with leading and trailing icons
 
 The progress bar can be used with leading and trailing icons to show the level of progress percent from 0 to 1. The below code shows a leading and trailing icons in a Linear Progress bar.
@@ -81,6 +93,12 @@ GFProgressBar(
      progressBarColor: GFColors.INFO,
 )
 ```
+
+### 
+
+![Progress bar with leading and trailing icons](.gitbook/assets/progressbar-with-leading-and-trailing-icons-2x.png)
+
+### 
 
 ### Custom Properties
 

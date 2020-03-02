@@ -1,8 +1,8 @@
 ---
 description: >-
-  GF Shimmer gives shimmer effect for the child, that can be used to indicate a
-  loading status. So instead of using ProgressBar or usual loader use GF Shimmer
-  for a better design and user interface.
+  GF Shimmer gives a shimmer effect for the child, that can be used to indicate
+  a loading status. So instead of using ProgressBar or usual loader use GF
+  Shimmer for a better design and user interface.
 ---
 
 # GF Shimmer

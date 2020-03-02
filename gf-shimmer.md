@@ -65,6 +65,12 @@ final Widget emptyBlock = Padding(
 
 ```
 
+
+
+![Basic Simmer](.gitbook/assets/basic-shimmer-effect-2x.png)
+
+
+
 The below code gives a Shimmer effect for child with Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
 
 ```text
@@ -88,6 +94,10 @@ GFShimmer(
   ),
 ),
 ```
+
+
+
+![Simmer on Text](.gitbook/assets/shimmer-effect-on-text-2x.png)
 
 Look and feel of the **GF Shimmer** can be customized using the GF Shimmer properties.
 

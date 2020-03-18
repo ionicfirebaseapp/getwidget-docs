@@ -1,42 +1,39 @@
 ---
 description: >-
-  GetFlutter is a Flutter open-source library that comes with pre-build 1000+ UI
-  components. The library is built to make flutter development faster and more
-  enjoyable.
+  GetFlutter es una librería de código abierto de Flutter que integra más de 1000 componentes UI preconstruidos. La librería es construida para hacer más rápido y amigable el desarrollo en Flutter.
 ---
 
-# Getting Started
+# Comenzando
 
-### Installation Guide
+### Gu&iacute;a de instalaci&oacute;n
 
- Add the following dependency into your pubspec.yaml file
+ Agrega la siguiente dependencia en el archivo pubspec.yaml
 
 ```dart
 dependencies:
   getflutter: ^1.0.9
 ```
 
-You can install the above dependency by running the following code
+Puedes instalar esta dependencia con los siguientes comandos:
 
-with pub:
+con pub:
 
 ```dart
 pub get
 ```
 
-with Flutter:
+con Flutter:
 
 ```dart
 flutter pub get
 ```
 
-Alternatively, your editor might support `pub get` or `flutter pub get`. Check the docs for your editor to learn more.
+Tu editor puede soportar `pub get` o `flutter pub get`. Revisa la documentaci&oacute;n de tu editor para m&aacute;s informaci&oacute;n.
 
-Import it:
+Importalo:
 
-Now in your Dart code, you can import the components that are necessary for your application 
+Ahora puedes importar en el c&oacute;digo Dart los componentes necesarios para tu aplicaci&oacute;n.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
 ```
-

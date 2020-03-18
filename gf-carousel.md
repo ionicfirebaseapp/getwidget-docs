@@ -60,7 +60,7 @@ Look and feel of the carousel can be customized using the GFCarousel properties.
 | **height** | set slide widget height and overrides any existing \[aspectRatio\] |
 | **aspectRatio** | aspect ratio is used if no height have been declared. Defaults to 16:9 aspect ratio |
 | **viewportFraction** | fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide |
-| **autoPlay** | enables auto play, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false |
+| **autoPlay** | enables auto play, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false, works only if `viewportFraction` set to 1.0, |
 | **reverse** | reverse the order of items if set to true. Defaults to false |
 | **autoPlayInterval** | sets Duration to determent the frequency of slides when \[autoPlay\] is set to true. Defaults to 4 seconds |
 | **autoPlayAnimationDuration** | animation duration between two transitioning pages while in auto playback. Defaults to 800 ms |
@@ -118,6 +118,7 @@ final List<String> imageList = [
 | :--- | :--- |
 | **rowCount** | count of visible cells in each slide |
 | **children** | widgets to be shown in slides |
+| **itemHeight** | defines the height of an item |
 
 
 

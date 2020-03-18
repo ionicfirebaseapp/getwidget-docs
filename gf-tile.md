@@ -43,5 +43,8 @@ GFListTile(
 | :--- | :--- |
 | **color** | defines the backgroundColor |
 | **description** | brief text to display |
-| **padding** | defines the tile's outer container padding |
+| **padding** | defines the tile's padding |
+| **margin** | defines the tile's margin |
+
+
 

@@ -16,7 +16,7 @@ The simple code of a basic Accordion is as shown below
 ```dart
  import 'package:getflutter/getflutter.dart';
  
- GFAccordian(
+ GFAccordion(
     title: 'GF Accordion',
     content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'
     )
@@ -32,7 +32,7 @@ Icons are mostly used in Accordion to show whether  the content is expanded or c
 ```dart
 import 'package:getflutter/getflutter.dart';
 
-GFAccordian(
+GFAccordion(
     title: 'GF Accordion',
     content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'),
     collapsedIcon: Icon(Icons.add),
@@ -49,7 +49,7 @@ The trailing part takes any widget like text, icon etc. The below code shows the
 ```dart
 import 'package:getflutter/getflutter.dart';
  
- GFAccordian(
+ GFAccordion(
      title: 'GF Accordion',
      content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'),
      collapsedIcon: Text('Show'),

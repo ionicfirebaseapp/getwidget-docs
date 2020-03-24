@@ -13,7 +13,7 @@ description: >-
 
 ```dart
 dependencies:
-  getflutter: ^1.0.10
+  getflutter: ^1.0.11
 ```
 
 You can install the above dependency by running the following code

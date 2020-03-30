@@ -1,20 +1,19 @@
 ---
 description: >-
-  GF button is Flutter Button Component that comes with a 100+ pre-built button
-  with endless color combinations that you can use straightway in your project.
+  GF Button es un componente Button de Flutter que viene con más de 100 botones preconstruidos, con interminables combinaciones de colores que puedes utilizar directamente en tu proyecto.
 ---
 
 # GF Button
 
-![Flutter Buttons Variant](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Gf_buttons_2x_aotfII9ZS5.png)
+![Variantes de botones Flutter](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Gf_buttons_2x_aotfII9ZS5.png)
 
 
 
-GF Button is a clickable element, that can be used for click events like click functions, page routing, social authentications, form submissions or anywhere that needs simple, standard button functionality. Buttons has a broad area to be used  and can be used with any other widgets as well.
+GF Button es un elemento clickeable que puede ser utilizado para eventos del click, como funciones, ruteo, autenticaciones con redes sociales, env&iacute;o de formularios, o en cualquier lugar que se necesite una funcionalidad simple y est&aacute;ndar de un bot&oacute;n. Los botones tienen una amplia &aacute;rea de uso y pueden ser utilizados tambi&eacute;n con cualquier otro widget.
 
-## Usage
+## Uso
 
-We can get simple standard button using below code. 
+Podemos obtener un simple bot&oacute;n est&aacute;ndar usando el c&oacute;digo a continuaci&oacute;n.
 
 ```dart
 GFButton(
@@ -23,9 +22,9 @@ GFButton(
 ),
 ```
 
-### Disabled Button:
+### Bot&oacute;n deshabilitado
 
-To use of Flutter Disable Button we have set Default GFButton's  onPressed be null, that gives Disabled button.
+Para utilizar un bot&oacute;n deshabilitado definimos por defecto el valor null al atributo onPressed del GFButton, lo cual deshabilita el bot&oacute;n.
 
 ```dart
 GFButton(                          
@@ -34,81 +33,78 @@ GFButton(
 ),
 ```
 
-GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
+## Propiedades
 
-## Properties 
+Se pueden utilizar muchos atributos para darle estilo a los botones GFButton y que luzcan de una manera espec&iacute;fica. Cada uno de los atributos se describe a continuaci&oacute;n.
 
-GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
+### Color
 
-### Color 
-
-GFColor is used to change the background of the button.
+GFColor es utilizado para cambiar el color de fondo del bot&oacute;n.
 
 |  |  |
 | :--- | :--- |
-| **Description** | The color to use from application's color palette                                |
-| **Attribute** |  color |
-| **Type** | `GFColor` |
-| **Default** | `GFColor.primary` |
+| **Descripci&oacute;n** | El color a utilizar de la paleta de colores de la aplicaci&oacute;n |
+| **Atributo** |  color |
+| **Tipo** | `GFColors` |
+| **Default** | `GFColors.PRIMARY` |
 
-### Size
-
-|  |  |
-| :--- | :--- |
-| **Description**  | The GFButton Size                                                                                           |
-| **Attribute** |  size |
-| **Type** | `GFSize.large,  GFSize.medium, GfSize.small` |
-| **Default** | `GFSize.medium` |
-
-### Shape
+### Tama&ntilde;o
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFButton Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
+| **Descripci&oacute;n** | El tama&ntilde;o del bot&oacute;n |
+| **Atributo** | size |
+| **Tipo** | `GFSize.LARGE, GFSize.MEDIUM, GFSize.SMALL` |
+| **Default** | `GFSize.MEDIUM` |
+
+### Forma
+
+|  |  |
+| :--- | :--- |
+| **Descripci&oacute;n** | La forma del bot&oacute;n |
+| **Atributo** | shape |
+| **Tipo** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
-### Type
+### Tipo
 
 |  |  |
 | :--- | :--- |
-| **Description**     |   The GFButton Type                                |
-| **Attribute** |   type |
-| **Type** | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
-| **Default** | `GFType.solid` |
+| **Descripci&oacute;n** | El tipo del bot&oacute;n |
+| **Atributo** | type |
+| **Tipo** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
+| **Default** | `GFButtonType.solid` |
 
-### Position
+### Posici&oacute;n
 
 |  |  |
 | :--- | :--- |
-| **Description** |  The GFButton Position                                                                    |
-| **Attribute** |  position |
-| **Type** | `GFPosition.start, GFPosition.end` |
+| **Descripci&oacute;n** | La posici&oacute;n del icono del bot&oacute;n |
+| **Atributo** | position |
+| **Tipo** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
 
-### Custom Properties
+### Propiedades personalizadas
 
-| Name | Description |
+| Nombre | Descripci&oacute;n |
 | :--- | :--- |
-| **onPressed**   | callback i.e, called when the button is tapped |
-| **onLongPressed** | callback i.e, called when the button is long-pressed |
-| **text** |  describe button's label. text will be priority over child |
-| **icon** |  describe button's label with icon |
-| **child** | child of type Widget alternative to text |
-| **textcolor** | the color to use for this button's text when the button is enabled |
-| **textStyle** | defines the styling of the text |
-| **disabledColor** | the fillcolor of  the button when the button is disabled |
-| **disabledTextColor** | the color to use for this button's text when the button is disabled |
-| **borderSide** | defines the border side  |
-| **bordershape** | defines the shape of the border |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
-| **boxShadow** | defines the boxShadow |
-| **fullWidthButton** | if `true,` defines the full width of the button.  |
-| **blockButton** | if `true`, defines the block button.  |
-| **padding** | defines internal padding of the button |
-| **focusColor** | fillColor of the button when it has the input focused |
-| **hoverColor** | fillColor of the button when the pointer is hovered over it |
-| **splashColor** | indicates that the button has been touched |
-| **highlightColor** | indicates that the button is actively being pressed |
-
+| **onPressed** | callback disparado cuando es tocado el bot&oacute;n |
+| **onLongPress** | callback disparado cuando el bot&oacute;n es presionado un poco m&aacute;s tiempo |
+| **text** | describe la etiqueta del bot&oacute;n con un texto. Tiene prioridad sobre la propiedad child |
+| **icon** | describe la etiqueta del bot&oacute;n con un &iacute;cono |
+| **child** | describe la etiqueta del bot&oacute;n con un Widget. Es una alternativa al atributo text |
+| **textColor** | el color del texto del bot&oacute;n cuando este est&aacute; habilitado |
+| **textStyle** | define el estilo del texto |
+| **disabledColor** | el color de relleno del bot&oacute;n cuando est&aacute; deshabilitado |
+| **disabledTextColor** | el color del texto del bot&oacute;n cuando este est&aacute; deshabilitado |
+| **borderSide** | define el borde del bot&oacute;n  |
+| **borderShape** | define la forma del borde del bot&oacute;n |
+| **buttonBoxShadow** | si es `true` muestra el sombreado por defecto |
+| **boxShadow** | define el sombreado del bot&oacute;n |
+| **fullWidthButton** | si es `true` muestra el bot&oacute;n ocupando el ancho m&aacute;ximo |
+| **blockButton** | si es `true` define el bot&oacute;n como un bloque |
+| **padding** | define el padding del bot&oacute;n |
+| **focusColor** | color del bot&oacute;n cuando tiene el foco |
+| **hoverColor** | color del bot&oacute;n cuando se pasa el puntero por encima |
+| **splashColor** | color del bot&oacute;n cuando se presiona |
+| **highlightColor** | color del bot&oacute;n cuando se mantiene presionado |

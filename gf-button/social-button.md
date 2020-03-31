@@ -14,7 +14,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ![Solid Social Button](../.gitbook/assets/solid-social-button-2x.png)
 
-By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+By default, button **type** set to `GFButtonType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
@@ -48,7 +48,7 @@ GFButton(
 
 ![Outline Social Button](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -65,7 +65,7 @@ GFButton(
 
 ![Outline 2X Social Button](../.gitbook/assets/outline-2x-social-button-2x.png)
 
-Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -82,7 +82,7 @@ GFButton(
 
 ![Transparent Social Button](../.gitbook/assets/transparent-social-button-2x.png)
 
-In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
+In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -116,7 +116,7 @@ We will able to get pills shaped button with solid background color with rounded
 
 ![Square Social Button](../.gitbook/assets/square-social-button-2x.png)
 
-We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
+We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
 
 ```dart
  import 'package:getflutter/getflutter.dart';
@@ -133,7 +133,7 @@ We will able to get pills shaped button with solid background color with no roun
 
 ![Social Button Size](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -142,7 +142,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
@@ -201,7 +201,7 @@ GFIconButton(
 
 ### Size
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -209,13 +209,13 @@ import 'package:getflutter/getflutter.dart';
 GFIconButton(
     onPressed: (){},
     text: "primary",
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
 ### Type
 
-Button type can be changed using property **type** by setting to `GFType.outline`. Default type of the IconButton will be `GFType.solid`.
+Button type can be changed using property **type** by setting to `GFButtonType.outline`. Default type of the IconButton will be `GFButtonType.solid`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';

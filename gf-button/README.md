@@ -34,22 +34,20 @@ GFButton(
 ),
 ```
 
-GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
-
 ## Properties 
 
 GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
 
 ### Color 
 
-GFColor is used to change the background of the button.
+GFColors is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
 | **Description** | The color to use from application's color palette                                |
 | **Attribute** |  color |
-| **Type** | `GFColor` |
-| **Default** | `GFColor.primary` |
+| **Type** | `GFColors` |
+| **Default** | GFColors.PRIMARY |
 
 ### Size
 
@@ -57,8 +55,8 @@ GFColor is used to change the background of the button.
 | :--- | :--- |
 | **Description**  | The GFButton Size                                                                                           |
 | **Attribute** |  size |
-| **Type** | `GFSize.large,  GFSize.medium, GfSize.small` |
-| **Default** | `GFSize.medium` |
+| **Type** | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
+| **Default** | `GFSize.MEDIUM` |
 
 ### Shape
 
@@ -75,14 +73,14 @@ GFColor is used to change the background of the button.
 | :--- | :--- |
 | **Description**     |   The GFButton Type                                |
 | **Attribute** |   type |
-| **Type** | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
-| **Default** | `GFType.solid` |
+| **Type** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
+| **Default** | `GFButtonType.solid` |
 
 ### Position
 
 |  |  |
 | :--- | :--- |
-| **Description** |  The GFButton Position                                                                    |
+| **Description** |  Position of icon in the button.                                                                  |
 | **Attribute** |  position |
 | **Type** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
@@ -96,7 +94,7 @@ GFColor is used to change the background of the button.
 | **text** |  describe button's label. text will be priority over child |
 | **icon** |  describe button's label with icon |
 | **child** | child of type Widget alternative to text |
-| **textcolor** | the color to use for this button's text when the button is enabled |
+| **textColor** | the color to use for this button's text when the button is enabled |
 | **textStyle** | defines the styling of the text |
 | **disabledColor** | the fillcolor of  the button when the button is disabled |
 | **disabledTextColor** | the color to use for this button's text when the button is disabled |

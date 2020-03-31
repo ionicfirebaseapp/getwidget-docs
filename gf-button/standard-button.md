@@ -15,7 +15,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ![Flutter Solid Button](../.gitbook/assets/solid-button-2x.png)
 
-By default, button **type** set to Flutter Solid Button`GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+By default, button **type** set to Flutter Solid Button`GFButtonType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
@@ -47,7 +47,7 @@ GFButton(
 
 ![Flutter Transparent Button](../.gitbook/assets/transparent-button-2x.png)
 
-In GFButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
+In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFButtonType.solid`. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -79,7 +79,7 @@ GFButton(
 
 ![Flutter Full Width Button](../.gitbook/assets/full-width-button-2x.png)
 
-Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
+Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -93,7 +93,7 @@ GFButton(
 
 ### Button Size
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -101,7 +101,7 @@ import 'package:getflutter/getflutter.dart';
 GFButton(
     onPressed: (){},
     text: "primary",
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
@@ -109,7 +109,7 @@ GFButton(
 
 ![Flutter Outline Button](../.gitbook/assets/outline-2x-2x%20%282%29.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -127,7 +127,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ![GF Flutter Outline 2X Button](../.gitbook/assets/outline-2x-2x%20%281%29.png)
 
-Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';

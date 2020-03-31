@@ -22,7 +22,7 @@ GFButton(
 
 ![Solid Button](../.gitbook/assets/square-solid-2x.png)
 
-By default, button **type** set to `GFType.solid` so, we able to get square shaped button have a solid background color with  no rounded corners.
+By default, button **type** set to `GFButtonType.solid` so, we able to get square shaped button have a solid background color with  no rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
@@ -88,7 +88,7 @@ GFButton(
 
 ### Button Size
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -97,7 +97,7 @@ GFButton(
     onPressed: (){},
     text: "primary",
     shape: GFButtonShape.square,
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
@@ -105,7 +105,7 @@ GFButton(
 
 ![Outline Button](../.gitbook/assets/outline-2x.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -124,7 +124,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ![Outline 2X Button](../.gitbook/assets/outline-2x-2x.png)
 
-Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
 
 ```dart
 import 'package:getflutter/getflutter.dart';

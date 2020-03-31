@@ -5,17 +5,17 @@ description: >-
   Shimmer for a better design and user interface.
 ---
 
-# GF Shimmer
+# GF Shimmer - A Flutter Widgets for Shimmer Effect
 
 ![Flutter Simmer Widget](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Shimmer_docs_banner_tQJ5qq2Fi.png)
 
 
 
-GFShimmer can be used by giving Linear Gradient for more visual shimmer effect or just by adding Main Color and Secondary Color for basic shimmer effect.
+GFShimmer is a Flutter Shimmer Effect Widget that can be used by giving Linear Gradient for more visual shimmer effect or just by adding Main Color and Secondary Color for basic shimmer effect.
 
-### Usage
+### How to Use Flutter Shimmer Effect using GetFlutter
 
-The below code gives a simple Shimmer effect for child with main color and secondary color.
+The below code gives a simple Flutter Shimmer effect for child with main color and secondary color.
 
 ```text
 import 'package:getflutter/getflutter.dart';
@@ -97,11 +97,11 @@ GFShimmer(
 
 
 
-![Simmer on Text](.gitbook/assets/shimmer-effect-on-text-2x.png)
+![Shimmer on Text](.gitbook/assets/shimmer-effect-on-text-2x.png)
 
-Look and feel of the **GF Shimmer** can be customized using the GF Shimmer properties.
+Look and feel of the **GF Shimmer \(Flutter Shimmer Widgets\)** could be customized using the GF Shimmer properties.
 
-### Custom Properties
+### Shimmer Custom Properties
 
 | Name | Description |
 | :--- | :--- |

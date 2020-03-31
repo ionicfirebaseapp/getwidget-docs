@@ -1,20 +1,20 @@
 ---
-description: 'Icon Button having features of standard, solid button with label and icon.'
+description: 'Un botón con ícono tiene la funcionalidad estándar de un botón sólido con una etiqueta y un ícono.'
 ---
 
-# Icon Button
+# Bot&oacute;n con &iacute;cono
 
-![Icon Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
+![Bot&oacute;n con &iacute;cono](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
 
-## Icon Button
+## Bot&oacute;n con &iacute;cono
 
-Default button **shape** set to `GFIconButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
+El atributo **shape** est&aacute; definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un bot&oacute;n est&aacute;ndar con un s&oacute;lido color de fondo y bordes ligeramente redondeados.
 
-### Disabled Button:
+### Bot&oacute;n deshabilitado
 
-![Disabled Button](../.gitbook/assets/disabled-buttons-2x.png)
+![Bot&oacute;n deshabilitado](../.gitbook/assets/disabled-buttons-2x.png)
 
-Default GFIconButton's  onPressed will be null, that gives Disabled button.
+El atributo **onPressed** de un GFIconButton es null por defecto, de esta forma obtenemos un bot&oacute;n deshabilitado.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -25,19 +25,19 @@ GFIconButton(
 ),
 ```
 
-GF IconButtons can be styled with several attributes to look a specific way. Each and every attribute is described below.
+Se pueden utilizar muchos atributos para darle estilo a los botones GFIconButton y que luzcan de una manera espec&iacute;fica. Cada uno de los atributos se describe a continuaci&oacute;n.
 
-### Solid Icon Button
+### Bot&oacute;n s&oacute;lido con &iacute;cono
 
-![Solid Icon Button](../.gitbook/assets/solid-icon-button-2x.png)
+![Bot&oacute;n s&oacute;lido con &iacute;cono](../.gitbook/assets/solid-icon-button-2x.png)
 
-By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+El atributo **type** est&aacute; definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un bot&oacute;n con un s&oacute;lido color de fondo y bordes ligeramente redondeados.
 
-The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
+El callback disparado cuando se presiona el bot&oacute;n, definido en el atributo **onPressed**, habilita el bot&oacute;n.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -45,11 +45,11 @@ import 'package:getflutter/getflutter.dart';
   ),
 ```
 
-### Outline Icon Button
+### Bot&oacute;n Outline con &iacute;cono
 
-![Outline Icon Button](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
+![Bot&oacute;n Outline con &iacute;cono](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Icon Button es un bot&oacute;n con fondo transparente y borde visible. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -62,11 +62,11 @@ GFButton(
  ),
 ```
 
-### Outline2x Icon Button
+### Bot&oacute;n Outline 2x con &iacute;cono
 
-![Outline 2X Icon Button](../.gitbook/assets/outline-2x-icon-button-2x.png)
+![Bot&oacute;n Outline 2x con &iacute;cono](../.gitbook/assets/outline-2x-icon-button-2x.png)
 
-Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+Outline 2x Icon Button es un bot&oacute;n con fondo transparente y borde visible con un ancho de 2x. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -79,11 +79,11 @@ GFButton(
  ),
 ```
 
-### Transparent Icon Button
+### Bot&oacute;n transparente con &iacute;cono
 
-![Transparent Icon Button](../.gitbook/assets/transparent-icon-button-2x.png)
+![Bot&oacute;n transparente con &iacute;cono](../.gitbook/assets/transparent-icon-button-2x.png)
 
-In GFIconButton by adding **type** **`GFType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFType.solid`**. 
+En un GFIconButton, definiendo la propiedad **type** como **`GFButtonType.transparent`** obtenemos un bot&oacute;n transparente. Por defecto, el valor de **type** es **`GFButtonType.solid`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -96,15 +96,15 @@ GFButton(
  ),
 ```
 
-### Pills Icon Button
+### Bot&oacute;n p&iacute;ldora con &iacute;cono
 
-![Pills Icon Button](../.gitbook/assets/pills-icon-button-2x.png)
+![Bot&oacute;n Pill con &iacute;cono](../.gitbook/assets/pills-icon-button-2x.png)
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  **`GFButtonShape.pills`** . 
+Podemos obtener un bot&oacute;n con forma de p&iacute;ldora y un color s&oacute;lido de fondo con bordes redondeados definiedo la propiedad **shape** como **`GFButtonShape.pills`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -113,15 +113,15 @@ import 'package:getflutter/getflutter.dart';
   ),
 ```
 
-### Square Icon Button
+### Bot&oacute;n cuadrado con &iacute;cono
 
-![Square Icon Button](../.gitbook/assets/square-icon-button-2x.png)
+![Bot&oacute;n cuadrado con &iacute;cono](../.gitbook/assets/square-icon-button-2x.png)
 
-We will able to get pills shaped button with solid background color with no rounded corners by adding property **shape** with  **`GFButtonShape.square`** . 
+Podemos obtener un bot&oacute;n cuadrado con un color s&oacute;lido de fondo y sin bordes redondeados definiedo la propiedad **shape** como **`GFButtonShape.square`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -130,11 +130,11 @@ import 'package:getflutter/getflutter.dart';
   ),
 ```
 
-### Block Icon Button
+### Bot&oacute;n bloque con &iacute;cono
 
-![Block Icon Button](../.gitbook/assets/block-icon-button-2x.png)
+![Bot&oacute;n bloque con &iacute;cono](../.gitbook/assets/block-icon-button-2x.png)
 
-Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
+Block Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **blockButton** como `true`, el bot&oacute;n ser&aacute; un bloque de ancho m&aacute;ximo con bordes redondeados. Por defecto **blockButton** est&aacute; definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -148,11 +148,11 @@ GFButton(
  ),
 ```
 
-### Full Width Icon Button
+### Bot&oacute;n de ancho m&aacute;ximo con &iacute;cono
 
-![Full Width Icon Button](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
+![Bot&oacute;n de ancho m&aacute;ximo con &iacute;cono](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
 
-Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
+Full Width Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **fullWidthButton** como `true`, el bot&oacute;n ser&aacute; un bot&oacute;n de ancho m&aacute;ximo con bordes redondeados y sin margen a los costados. Por defecto **fullWidthButton** est&aacute; definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -166,9 +166,9 @@ GFButton(
  ),
 ```
 
-### Icon Button Size
+### Tama&ntilde;o del bot&oacute;n con &iacute;cono
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+El tama&ntilde;o del bot&oacute;n puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -177,15 +177,15 @@ GFButton(
     onPressed: (){},
     text: "primary",
     icon: Icon(Icons.share),
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
-## Icons Only Button
+## Botones solo con &iacute;conos
 
-Icons Only Button having features of standard, solid button with fill color background and slightly rounded corners and icon as a child.
+Los botones solo con &iacute;conos tienen la funcionalidad est&aacute;ndar de un bot&oacute;n s&oacute;lido, y tienen un &iacute;cono como hijo.
 
-Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners. By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+El atributo **shape** est&aacute; definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un bot&oacute;n con forma est&aacute;ndar con un s&oacute;lido color de fondo y bordes ligeramente redondeados. El atributo **type** est&aacute; definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un bot&oacute;n con un s&oacute;lido color de fondo y bordes ligeramente redondeados.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -196,9 +196,9 @@ GFIconButton(
  ),
 ```
 
-### Size
+### Tama&ntilde;o
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+El tama&ntilde;o del bot&oacute;n puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -206,13 +206,13 @@ import 'package:getflutter/getflutter.dart';
 GFIconButton(
     onPressed: (){},
     text: "primary",
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
-### Type
+### Tipo
 
-Button type can be changed using property **type** by setting to `GFType.outline`. Default type of the IconButton will be `GFType.solid`.
+El tipo del bot&oacute;n puede ser cambiado definiedo la propiedad **type** como `GFButtonType.outline`. El valor por defecto es `GFButtonType.solid`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -224,9 +224,9 @@ GFIconButton(
  ),
 ```
 
-### Shape
+### Forma
 
-Shape of Icon Button can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the IconButton set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
+La forma del bot&oacute;n puede ser cambiada definiendo la propiedad **shape** to `GFIconButtonShape.circle`. El valor por defecto es `GFIconButtonShape.standard`, con lo cual obtenemos un bot&oacute;n cuadrado con los bordes ligeramente redondeados.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -240,24 +240,21 @@ GFIconButton(
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFIconButton Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+| **Descripci&oacute;n** | La forma del bot&oacute;n |
+| **Atributo** | shape |
+| **Tipo** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
 | **Default** | `GFIconButtonShape.standard` |
 
-### Custom Properties
+### Propiedades personalizadas
 
-| Name | Description |
+| Nombre | Descripci&oacute;n |
 | :--- | :--- |
-| **child** | child of type \[widget\] alternative to text |
-| **textcolor** | the color to use for this badge;s text |
-| **textStyle** | defines the styling of the text |
-| **borderSide** | defines the border side  |
-| **bordershape** | defines the shape of the border |
-| **color** | GFColor is used to change the background of the button. |
-| **iconSize** | defines the size of icon |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
-| **boxShadow** | defines the boxShadow |
-
-
-
+| **child** | hijo del tipo \[widget\] alternativa a la propiedad text |
+| **textColor** | el color a usar para el texto de esta insignia |
+| **textStyle** | define el estilo del texto |
+| **borderSide** | define el borde del bot&oacute;n  |
+| **borderShape** | define la forma del borde |
+| **color** | GFColor se usa para cambiar el fondo del bot&oacute;n |
+| **iconSize** | define el tama&ntilde;o del &iacute;cono |
+| **buttonBoxShadow** | si es `true` muestra el sombreado por defecto del bot&oacute;n |
+| **boxShadow** | define el sombreado del bot&oacute;n |

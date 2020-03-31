@@ -1,12 +1,12 @@
 ---
-description: Pills Button looks like a solid button with rounded corners.
+description: Un botón píldora luce como un botón sólido con bordes redondeados.
 ---
 
-# Pills Button
+# Bot&oacute;n p&iacute;ldora
 
-![Pills Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Pills_button-solid_2x_ckYKR31F62.png)
+![Bot&oacute;n p&iacute;ldora](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Pills_button-solid_2x_ckYKR31F62.png)
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` .
+Para obtener un bot&oacute;n con forma de p&iacute;ldora con un color de fondo s&oacute;lido y bordes redondeados solo debemos agregar la propiedad **shape** con el valor `GFButtonShape.pills` .
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -18,17 +18,17 @@ GFButton(
   ),
 ```
 
-## Solid Button
+## Bot&oacute;n s&oacute;lido
 
-![Solid Button](../.gitbook/assets/pills-solid-button-2x.png)
+![Bot&oacute;n s&oacute;lido](../.gitbook/assets/pills-solid-button-2x.png)
 
-By default, button **type** set to `GFType.solid` so, we able to get pills shaped button have a solid background color with  rounded corners.
+El atributo **type** est&aacute; definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un bot&oacute;n con forma de p&iacute;ldora con un s&oacute;lido color de fondo y bordes redondeados.
 
-The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
+El callback disparado cuando se presiona el bot&oacute;n, definido en el atributo **onPressed**, habilita el bot&oacute;n.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -36,11 +36,11 @@ import 'package:getflutter/getflutter.dart';
   ),
 ```
 
-### Disabled Button
+### Bot&oacute;n deshabilitado
 
-![Disabled Button](../.gitbook/assets/pills-disabled-2x.png)
+![Bot&oacute;n deshabilitado](../.gitbook/assets/pills-disabled-2x.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
+Si el atributo **onPressed** es null, entonces el bot&oacute;n estar&aacute; deshabilitado. Por defecto, GFButton estar&aacute; deshabilitado porque **onPressed** es null.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -52,11 +52,11 @@ GFButton(
  ),
 ```
 
-### Block Button
+### Bot&oacute;n bloque
 
-![Block Button](../.gitbook/assets/block-buttons-2x.png)
+![Bot&oacute;n bloque](../.gitbook/assets/block-buttons-2x.png)
 
-Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
+Block Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **blockButton** como `true`, el bot&oacute;n ser&aacute; un bloque de ancho m&aacute;ximo con bordes redondeados. Por defecto **blockButton** est&aacute; definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -69,11 +69,11 @@ GFButton(
  ),
 ```
 
-### Full Width Button
+### Bot&oacute;n de ancho m&aacute;ximo
 
-![Full Width Button](../.gitbook/assets/full-width-2x.png)
+![Bot&oacute;n de ancho m&aacute;ximo](../.gitbook/assets/full-width-2x.png)
 
-Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
+Full Width Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **fullWidthButton** como `true`, el bot&oacute;n ser&aacute; un bot&oacute;n de ancho m&aacute;ximo con bordes redondeados y sin margen a los costados. Por defecto **fullWidthButton** est&aacute; definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -86,9 +86,9 @@ GFButton(
  ),
 ```
 
-### Button Size
+### Tama&ntilde;o del bot&oacute;n
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
+El tama&ntilde;o del bot&oacute;n puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -97,15 +97,15 @@ GFButton(
     onPressed: (){},
     text: "primary",
     shape: GFButtonShape.pills,
-    size: GFSize.small,
+    size: GFSize.SMALL,
  ),
 ```
 
-## Outline Button
+## Bot&oacute;n Outline
 
-![Outline Button](../.gitbook/assets/pills-outline-2x.png)
+![Bot&oacute;n Outline](../.gitbook/assets/pills-outline-2x.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Button es un bot&oacute;n con fondo transparente y borde visible. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -118,13 +118,13 @@ GFButton(
  ),
 ```
 
-Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works fine in **Outline Button** also.
+Las propiedades antes mencionadas, como `size`, `blockButton`, `fullWidthButton`, habilitar y deshabilitar botones, funcionan tambi&eacute;n con **Outline Button**.
 
-## Outline2x Button
+## Bot&oacute;n Outline 2x
 
-![Outline 2X Button](../.gitbook/assets/pills-outline-2x-2x.png)
+![Bot&oacute;n Outline 2x](../.gitbook/assets/pills-outline-2x-2x.png)
 
-Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFType.outline2x`**. 
+Outline2x Button es un bot&oacute;n con fondo transparente y borde visible con un ancho de 2x. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -137,5 +137,4 @@ GFButton(
  ),
 ```
 
-Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works fine in **Outline2x Button** also.
-
+Las propiedades antes mencionadas, como `size`, `blockButton`, `fullWidthButton`, habilitar y deshabilitar botones, funcionan tambi&eacute;n con **Outline2x Button**.

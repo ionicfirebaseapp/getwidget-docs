@@ -9,7 +9,7 @@ description: >-
 
 ## &iquest; C&oacute;mo comenz&oacute; Get Flutter &#63;
 
-Somos grandes seguidores de Flutter y lo estamos utilizamos desde sus comienzos, incluso desde que fue lanzado en su versi&oacute;n alfa en el a&ntilde;o 2017. Lo utilizamos en varias aplicaciones, incluyendo algunas aplicaciones empresariales SAAS.
+Somos grandes seguidores de Flutter y lo estamos utilizando desde sus comienzos, incluso desde que fue lanzado en su versi&oacute;n alfa en el a&ntilde;o 2017. Lo utilizamos en varias aplicaciones, incluyendo algunas aplicaciones empresariales SAAS.
 
 Flutter tiene casi todos los widgets necesarios que un desarrollador puede usar en un proyecto, pero de nuevo, nosotros realizamos muchos proyectos con Flutter y decidimos, por qu&eacute; no, desarrollar todos los widgets posibles que pueden ser reutilizados en cualquier proyecto y aumentar la velocidad de desarrollo.
 

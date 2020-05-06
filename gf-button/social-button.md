@@ -1,22 +1,24 @@
 ---
-description: 'Los botones sociales son botones estándar, sólidos, con una etiqueta y/o con un ícono.'
+description: >-
+  Los botones sociales son botones estándar, sólidos, con una etiqueta y/o con
+  un ícono.
 ---
 
-# Bot&oacute;n social
+# Botón social
 
 ![Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Social_Buttons_2x_qhe5emJKB.png)
 
-## Bot&oacute;n social full
+## Botón social full
 
-El atributo **shape** est&aacute; definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un bot&oacute;n est&aacute;ndar con un s&oacute;lido color de fondo y bordes ligeramente redondeados.
+El atributo **shape** está definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un botón estándar con un sólido color de fondo y bordes ligeramente redondeados.
 
-### Bot&oacute;n social s&oacute;lido
+### Botón social sólido
 
-![Bot&oacute;n social s&oacute;lido](../.gitbook/assets/solid-social-button-2x.png)
+![Bot&#xF3;n social s&#xF3;lido](../.gitbook/assets/solid-social-button-2x.png)
 
-El atributo **type** est&aacute; definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un bot&oacute;n con s&oacute;lido color de fondo y bordes ligeramente redondeados.
+El atributo **type** está definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un botón con sólido color de fondo y bordes ligeramente redondeados.
 
-El callback disparado cuando se presiona el bot&oacute;n, definido en el atributo **onPressed**, habilita el bot&oacute;n.
+El callback disparado cuando se presiona el botón, definido en el atributo **onPressed**, habilita el botón.
 
 ```dart
   import 'package:getflutter/getflutter.dart';
@@ -28,11 +30,11 @@ El callback disparado cuando se presiona el bot&oacute;n, definido en el atribut
   ),
 ```
 
-### Bot&oacute;n social deshabilitado
+### Botón social deshabilitado
 
-![Bot&oacute;n social deshabilitado](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
+![Bot&#xF3;n social deshabilitado](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
 
-Si el atributo **onPressed** es null, entonces el bot&oacute;n estar&aacute; deshabilitado. Por defecto, GFButton estar&aacute; deshabilitado porque **onPressed** es null.
+Si el atributo **onPressed** es null, entonces el botón estará deshabilitado. Por defecto, GFButton estará deshabilitado porque **onPressed** es null.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -44,11 +46,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n social Outline
+### Botón social Outline
 
-![Bot&oacute;n social Outline](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
+![Bot&#xF3;n social Outline](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
 
-Outline Button es un bot&oacute;n con fondo transparente y borde visible. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
+Outline Button es un botón con fondo transparente y borde visible. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -61,11 +63,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n social Outline 2x
+### Botón social Outline 2x
 
-![Bot&oacute;n social Outline 2x](../.gitbook/assets/outline-2x-social-button-2x.png)
+![Bot&#xF3;n social Outline 2x](../.gitbook/assets/outline-2x-social-button-2x.png)
 
-Outline2x Button es un bot&oacute;n con fondo transparente y borde visible con un ancho de 2x. Podemos obtener este bot&oacute;n facilmente definiedo el atributo **type** como **`GFButtonType.outline2x`**.
+Outline2x Button es un botón con fondo transparente y borde visible con un ancho de 2x. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -78,11 +80,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n social transparente
+### Botón social transparente
 
-![Bot&oacute;n social transparente](../.gitbook/assets/transparent-social-button-2x.png)
+![Bot&#xF3;n social transparente](../.gitbook/assets/transparent-social-button-2x.png)
 
-Definiendo el atributo **type** como **`GFButtonType.transparent`** obtenemos un bot&oacute;n transparente. Por defecto, GFButton define el atributo **type** como `GFButtonType.solid`.
+Definiendo el atributo **type** como **`GFButtonType.transparent`** obtenemos un botón transparente. Por defecto, GFButton define el atributo **type** como `GFButtonType.solid`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -95,11 +97,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n social p&iacute;ldora
+### Botón social píldora
 
-![Bot&oacute;n social p&iacute;ldora](../.gitbook/assets/pills-social-buttons-2x.png)
+![Bot&#xF3;n social p&#xED;ldora](../.gitbook/assets/pills-social-buttons-2x.png)
 
-Para obtener un bot&oacute;n con forma de p&iacute;ldora con un color de fondo s&oacute;lido y bordes redondeados solo debemos agregar la propiedad **shape** con el valor `GFButtonShape.pills`.
+Para obtener un botón con forma de píldora con un color de fondo sólido y bordes redondeados solo debemos agregar la propiedad **shape** con el valor `GFButtonShape.pills`.
 
 ```dart
  import 'package:getflutter/getflutter.dart';
@@ -112,11 +114,11 @@ Para obtener un bot&oacute;n con forma de p&iacute;ldora con un color de fondo s
   ),
 ```
 
-### Bot&oacute;n social cuadrado
+### Botón social cuadrado
 
-![Bot&oacute;n social cuadrado](../.gitbook/assets/square-social-button-2x.png)
+![Bot&#xF3;n social cuadrado](../.gitbook/assets/square-social-button-2x.png)
 
-Para obtener un bot&oacute;n cuadrado con un color de fondo s&oacute;lido sin bordes redondeados solo debemos agregar la propiedad **shape** con el valor `GFButtonShape.square`.
+Para obtener un botón cuadrado con un color de fondo sólido sin bordes redondeados solo debemos agregar la propiedad **shape** con el valor `GFButtonShape.square`.
 
 ```dart
  import 'package:getflutter/getflutter.dart';
@@ -129,11 +131,11 @@ Para obtener un bot&oacute;n cuadrado con un color de fondo s&oacute;lido sin bo
   ),
 ```
 
-###  Tama&ntilde;o de un bot&oacute;n social
+### Tamaño de un botón social
 
-![Tama&ntilde;o de un bot&oacute;n social](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
+![Tama&#xF1;o de un bot&#xF3;n social](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
 
-El tama&ntilde;o del bot&oacute;n puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
+El tamaño del botón puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -146,11 +148,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n social bloque
+### Botón social bloque
 
-![Bot&oacute;n social bloque](../.gitbook/assets/block-social-button-2x.png)
+![Bot&#xF3;n social bloque](../.gitbook/assets/block-social-button-2x.png)
 
-Block Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **blockButton** como `true`, el bot&oacute;n ser&aacute; un bloque de ancho m&aacute;ximo con bordes redondeados. Por defecto **blockButton** est&aacute; definido como `false`.
+Block Button especifica cuan ancho debe ser el botón. Definiendo **blockButton** como `true`, el botón será un bloque de ancho máximo con bordes redondeados. Por defecto **blockButton** está definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -164,11 +166,11 @@ GFButton(
  ),
 ```
 
-### Bot&oacute;n de ancho m&aacute;ximo
+### Botón de ancho máximo
 
-![Bot&oacute;n de ancho m&aacute;ximo](../.gitbook/assets/full-width-social-button-2x.png)
+![Bot&#xF3;n de ancho m&#xE1;ximo](../.gitbook/assets/full-width-social-button-2x.png)
 
-Full Width Button especifica cuan ancho debe ser el bot&oacute;n. Definiendo **fullWidthButton** como `true`, el bot&oacute;n ser&aacute; un bot&oacute;n de ancho m&aacute;ximo con bordes redondeados y sin margen a los costados. Por defecto **fullWidthButton** est&aacute; definido como `false`.
+Full Width Button especifica cuan ancho debe ser el botón. Definiendo **fullWidthButton** como `true`, el botón será un botón de ancho máximo con bordes redondeados y sin margen a los costados. Por defecto **fullWidthButton** está definido como `false`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -182,13 +184,13 @@ GFButton(
  ),
 ```
 
-## Bot&oacute;n social con &iacute;cono
+## Botón social con ícono
 
-![Bot&oacute;n social con &iacute;cono](../.gitbook/assets/social-icon-button-2x.png)
+![Bot&#xF3;n social con &#xED;cono](../.gitbook/assets/social-icon-button-2x.png)
 
-Los botones solo con &iacute;conos tienen la funcionalidad est&aacute;ndar de un bot&oacute;n s&oacute;lido, y tienen un &iacute;cono como hijo.
+Los botones solo con íconos tienen la funcionalidad estándar de un botón sólido, y tienen un ícono como hijo.
 
-El atributo **shape** est&aacute; definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un bot&oacute;n con forma est&aacute;ndar con un s&oacute;lido color de fondo y bordes ligeramente redondeados. El atributo **type** est&aacute; definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un bot&oacute;n con un s&oacute;lido color de fondo y bordes ligeramente redondeados.
+El atributo **shape** está definido por defecto como `GFButtonShape.standard`, por lo tanto, obtendremos un botón con forma estándar con un sólido color de fondo y bordes ligeramente redondeados. El atributo **type** está definido por defecto como `GFButtonType.solid`, por lo tanto, obtendremos un botón con un sólido color de fondo y bordes ligeramente redondeados.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -199,9 +201,9 @@ GFIconButton(
  ),
 ```
 
-### Tama&ntilde;o
+### Tamaño
 
-El tama&ntilde;o del bot&oacute;n puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
+El tamaño del botón puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -215,7 +217,7 @@ GFIconButton(
 
 ### Tipo
 
-El tipo del bot&oacute;n puede ser cambiado definiedo la propiedad **type** como `GFButtonType.outline`. El valor por defecto es `GFButtonType.solid`.
+El tipo del botón puede ser cambiado definiedo la propiedad **type** como `GFButtonType.outline`. El valor por defecto es `GFButtonType.solid`.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -229,7 +231,7 @@ GFIconButton(
 
 ### Forma
 
-La forma del bot&oacute;n puede ser cambiada definiendo la propiedad **shape** to `GFIconButtonShape.circle`. El valor por defecto es `GFIconButtonShape.standard`, con lo cual obtenemos un bot&oacute;n cuadrado con los bordes ligeramente redondeados.
+La forma del botón puede ser cambiada definiendo la propiedad **shape** to `GFIconButtonShape.circle`. El valor por defecto es `GFIconButtonShape.standard`, con lo cual obtenemos un botón cuadrado con los bordes ligeramente redondeados.
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -240,3 +242,4 @@ GFIconButton(
     shape: GFIconButtonShape.pills,
  ),
 ```
+

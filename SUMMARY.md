@@ -1,13 +1,13 @@
-# Tabla de contenidos
+# Table of contents
 
-* [Introducci&oacute;n](README.md)
+* [Introducción](README.md)
 * [Comenzando](getting-started.md)
 * [GF Button](gf-button/README.md)
-  * [Bot&oacute;n est&aacute;ndar](gf-button/standard-button.md)
-  * [Bot&oacute;n p&iacute;ldora](gf-button/pills-button.md)
-  * [Bot&oacute;n cuadrado](gf-button/square-button.md)
-  * [Bot&oacute;n con &iacute;cono](gf-button/icon-button.md)
-  * [Bot&oacute;n social](gf-button/social-button.md)
+  * [Botón estándar](gf-button/standard-button.md)
+  * [Botón píldora](gf-button/pills-button.md)
+  * [Botón cuadrado](gf-button/square-button.md)
+  * [Botón con ícono](gf-button/icon-button.md)
+  * [Botón social](gf-button/social-button.md)
 * [GF Badge](gf-badge.md)
 * [GF Avatar](gf-avatar.md)
 * [GF Image](gf-image.md)
@@ -29,3 +29,4 @@
 * [GF Progress Bar](gf-progress-bar.md)
 * [GF Shimmer](gf-shimmer.md)
 * [Changelog](changelog.md)
+

@@ -9,13 +9,13 @@ description: >-
 
 ![Accordion](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Accordion_2x_kucB2_qHr.png)
 
-### Usage
+## Usage
 
 The simple code of a basic Accordion is as shown below
 
 ```dart
  import 'package:getflutter/getflutter.dart';
- 
+
  GFAccordion(
     title: 'GF Accordion',
     content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'
@@ -23,11 +23,11 @@ The simple code of a basic Accordion is as shown below
 )
 ```
 
-### Accordion with Icon
+## Accordion with Icon
 
 ![Accordion with Icon](.gitbook/assets/accordion-with-icon-2x.png)
 
-Icons are mostly used in Accordion to show whether  the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
+Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
 ```dart
 import 'package:getflutter/getflutter.dart';
@@ -40,7 +40,7 @@ GFAccordion(
 ),
 ```
 
-### Accordion with trailing Text
+## Accordion with trailing Text
 
 ![Accordion with Trailing Text](.gitbook/assets/accordion-with-text-2x.png)
 
@@ -48,7 +48,7 @@ The trailing part takes any widget like text, icon etc. The below code shows the
 
 ```dart
 import 'package:getflutter/getflutter.dart';
- 
+
  GFAccordion(
      title: 'GF Accordion',
      content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'),
@@ -57,7 +57,7 @@ import 'package:getflutter/getflutter.dart';
 ),
 ```
 
-### Custom Properties
+## Custom Properties
 
 |  |  |
 | :--- | :--- |

@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-![Get Widget Open Source UI library](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto-1300/github-settings_2_6MxhZpdf5.png)
+![Get Widget Open Source UI library](https://ik.imagekit.io/ionicfirebaseapp/link_share_09Z-pS6_Fm.png)
 
 ## How Get Widget Started ?
 

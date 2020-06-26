@@ -27,7 +27,7 @@
 * [GF Rating](gf-rating.md)
 * [GF Loader](gf-loader.md)
 * [GF Progress Bar](gf-progress-bar.md)
-* [GF Shimmer - A Flutter Widgets for Shimmer Effect](gf-shimmer.md)
+* [GF Shimmer](gf-shimmer.md)
 * [Changelog](changelog.md)
 * [Flutter Market](https://www.ionicfirebaseapp.com/products)
 

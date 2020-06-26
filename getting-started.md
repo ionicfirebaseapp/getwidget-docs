@@ -37,6 +37,6 @@ Import it:
 Now in your Dart code, you can import the components that are necessary for your application 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 ```
 

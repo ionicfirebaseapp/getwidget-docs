@@ -16,8 +16,8 @@ GF SearchBar contains textfield for user input and the overlay container to show
 
 The simple code of a basic GFSearchBar is as shown below.
 
-```text
-import 'package:getflutter/getflutter.dart';
+```dart
+import 'package:getwidget/getwidget.dart';
 
 List list = [
     "Flutter",

@@ -17,8 +17,8 @@ GFShimmer is a Flutter Shimmer Effect Widget that can be used by giving Linear G
 
 The below code gives a simple Flutter Shimmer effect for child with main color and secondary color.
 
-```text
-import 'package:getflutter/getflutter.dart';
+```dart
+import 'package:getwidget/getwidget.dart';
 
 GFShimmer(
   child: emptyBlock,
@@ -73,7 +73,7 @@ final Widget emptyBlock = Padding(
 
 The below code gives a Shimmer effect for child with Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
 
-```text
+```dart
 GFShimmer(
   child: const Text(
     'GF Shimmer',

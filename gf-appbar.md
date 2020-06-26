@@ -17,7 +17,7 @@ An app bar consists of a toolbar and potentially other widgets, such as a  GFTab
 The simple code of a basic GFAppbar is as shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFAppBar(
   leading:  GFIconButton(
@@ -49,7 +49,7 @@ GFAppBar(
 If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options. 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFAppBar(
   leading:  GFIconButton(
@@ -80,7 +80,7 @@ GFAppBar(
 **Segmented** **tabs** can also be used inside the **Appbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. Below code shows a simple segmented tab inside Appbar
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 TabController tabController;
   @override

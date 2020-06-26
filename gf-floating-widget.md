@@ -14,7 +14,7 @@ GF Floating Widget's child can take any kind of components or widgets as its par
 The simple way to use the GF Floating widget with its body and child properties is as shown below:
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 return Scaffold(
   body:GFFloatingWidget(
@@ -29,7 +29,7 @@ return Scaffold(
 There are two types of positions ie, **horizontalPosition** and **VerticalPosition** in which the **child** of GF Floating widget can be placed any where inside the body ie, it basically floats in the body and hence the name GF Floating Widget. The below code shows how to use the positions:
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 return Scaffold(
   body:GFFloatingWidget(

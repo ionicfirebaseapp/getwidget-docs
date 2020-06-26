@@ -14,7 +14,7 @@ description: >-
 The simple code of a basic Accordion is as shown below
 
 ```dart
- import 'package:getflutter/getflutter.dart';
+ import 'package:getwidget/getwidget.dart';
 
  GFAccordion(
     title: 'GF Accordion',
@@ -30,7 +30,7 @@ The simple code of a basic Accordion is as shown below
 Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFAccordion(
     title: 'GF Accordion',
@@ -47,7 +47,7 @@ GFAccordion(
 The trailing part takes any widget like text, icon etc. The below code shows the accordion with the text.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFAccordion(
      title: 'GF Accordion',

@@ -15,7 +15,7 @@ Progress bar can be of two types , a simple linear progress bar or a Circular Pr
 The below code shows a simple **Linear** **progress** **bar** with some defined properties of the progress bar.
 
 ```dart
- import 'package:getflutter/getflutter.dart';
+ import 'package:getwidget/getwidget.dart';
 
  GFProgressBar(
      percentage: 0.9,
@@ -33,7 +33,7 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 Circular progress bar is as same as linear progress bar with some additional properties added to the code structure. The below code shows a simple circular progress bar.
 
 ```dart
- import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFProgressBar(
      percentage: 0.9,
@@ -53,7 +53,7 @@ Circular progress bar is as same as linear progress bar with some additional pro
 The progress bar can be customized to show the percentage of progress completed. To show the progress percentage we can use child property which is a Widget type and can be a text, icon , image etc. The below code shows how a child property can be used as text to show the progress percentage.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
  
 GFProgressBar(
     percentage: 0.5,
@@ -78,7 +78,7 @@ GFProgressBar(
 The progress bar can be used with leading and trailing icons to show the level of progress percent from 0 to 1. The below code shows a leading and trailing icons in a Linear Progress bar.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFProgressBar(
      percentage: 0.8,

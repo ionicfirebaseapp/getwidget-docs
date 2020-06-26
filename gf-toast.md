@@ -11,7 +11,7 @@ description: GFToast can be used to display quick warning or error messages.
 **GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below. 
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
  
  return Scaffold(
    body:GFFloatingWidget(
@@ -28,7 +28,7 @@ import 'package:getflutter/getflutter.dart';
 ![Toast with Button](.gitbook/assets/2.png)
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFToast(
   text:'This item already has the label “travel”',
@@ -47,7 +47,7 @@ GFToast(
 The bool value `true` should be passed to **autoDismiss** property to make the toast, auto dismissible,
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFToast(
   text: 'This item already has the label “travel”',
@@ -60,7 +60,7 @@ GFToast(
 Toasts can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 body:GFFloatingWidget(
     horizontalPosition:40.0,

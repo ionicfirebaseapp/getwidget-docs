@@ -15,7 +15,7 @@ description: >-
 The basic code of a simple GFLoader is as shown below. There are five types in which the default corresponds to android type of loader.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
  GFLoader(),
 ```
 
@@ -28,7 +28,7 @@ There are five different types of loaders  namely **android** , **ios,** **circl
 A simple **ios** loader in which the type of the loader  should be passed to **ios**. The code is as shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
  GFLoader(
    type:GFLoaderType.ios
  ),
@@ -55,7 +55,7 @@ import 'package:getflutter/getflutter.dart';
 A simple **square** shape loader in which the type of the loader  should be passed to **square**. The code is as shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFLoader(
    type:GFLoaderType.square
@@ -69,7 +69,7 @@ import 'package:getflutter/getflutter.dart';
 Apart from the four types described above, there is a custom loader in which we can pass text, icons, images etc as the parameters to show a variety of customised loaders. The below code shows the custom loader with a gif in it.
 
 ```dart
- import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
  
  GFLoader(
    type: GFLoaderType.custom,
@@ -84,7 +84,7 @@ Apart from the four types described above, there is a custom loader in which we 
 The below code shows custom loaders with icons in it.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFLoader(
   type: GFLoaderType.custom,
@@ -101,7 +101,7 @@ GFLoader(
 We can also pass text  as a parameter to custom loader. The below code shows a simple usage.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFLoader(
   type: GFLoaderType.custom,

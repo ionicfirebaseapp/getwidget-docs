@@ -13,7 +13,7 @@ description: >-
 The simple GFTile code is as show below
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFListTile(
   titleText:'Title',
@@ -24,10 +24,8 @@ GFListTile(
 
 ### With Avatar
 
-![Tile With Avatar](.gitbook/assets/tile-with-avatar-2x.png)
-
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFListTile(
   avatar:GFAvatar(),

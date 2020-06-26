@@ -17,8 +17,8 @@ The GFAppBar automatically displays an appropriate IconButton to show the GFDraw
 
 The simple code of a basic GFDrawer is as shown below.
 
-```text
-import 'package:getflutter/getflutter.dart';
+```dart
+import 'package:getwidget/getwidget.dart';
 
 GFDrawer(
   child: ListView(
@@ -58,8 +58,8 @@ The GF Drawer Header component is a header that identifies the app's user. This 
 
 The simple code of a basic GFDrawerHeader with GFDrawer is as shown below.
 
-```text
-  import 'package:getflutter/getflutter.dart';    
+```dart
+import 'package:getwidget/getwidget.dart';    
       
       GFDrawer(
         child: ListView(

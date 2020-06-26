@@ -11,7 +11,7 @@ description: GFToggle is used to toggle the on/off state of a single setting.
 The simple toggle code is as shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
@@ -30,7 +30,7 @@ There are four types ie, `android`, `ios`, `square` and `custom`. The default to
 The below code shows a simple ios toggle
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
@@ -48,7 +48,7 @@ import 'package:getflutter/getflutter.dart';
 The below code shows a simple square toggle
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
@@ -64,7 +64,7 @@ import 'package:getflutter/getflutter.dart';
 The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
 GFToggle(
    onChanged: null,

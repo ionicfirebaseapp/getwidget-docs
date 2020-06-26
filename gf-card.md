@@ -13,7 +13,7 @@ description: GFCard has slightly rounded corners and a shodow
 Below code gives the basic GFCard
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
   
   GFCard(
     boxFit: BoxFit.cover,
@@ -44,7 +44,7 @@ import 'package:getflutter/getflutter.dart';
 ![Card With Avatar](.gitbook/assets/cards-with-avatars-2x.png)
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
   
   GFCard(
     boxFit: BoxFit.cover,
@@ -76,7 +76,7 @@ import 'package:getflutter/getflutter.dart';
 ![Card With Overlay Image](.gitbook/assets/cards-with-image-overlays-2x.png)
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
   
   GFCard(
     boxFit: BoxFit.cover,

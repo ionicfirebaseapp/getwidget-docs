@@ -8,7 +8,7 @@ description: >-
 
 ![GetWidget - An Open-Source Library for Flutter Development.](.gitbook/assets/link-share.png)
 
-## How Get Widget Started ?
+## How Get Widget Started?
 
 We are a huge follower of Flutter and using it from very early stage even since it was released in alpha stage at 2017. We used it in various Flutter apps including  some of enterprise SAAS applications. 
 

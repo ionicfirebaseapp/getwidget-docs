@@ -41,7 +41,7 @@ import 'package:getwidget/getwidget.dart';
 A simple **circular** shape loader in which the type of the loader  should be passed to **circle**. The code is as shown below.
 
 ```dart
-import 'package:getflutter/getflutter.dart';
+import 'package:getwidget/getwidget.dart';
 
  GFLoader(
    type:GFLoaderType.circle

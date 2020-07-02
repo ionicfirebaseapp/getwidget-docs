@@ -47,7 +47,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Alert with multiple buttons
 
-![Alert with Multiple Buttons](.gitbook/assets/basic-alert-2x.png)
+![](.gitbook/assets/alert-with-multiple-buttons-2x.png)
 
 Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons 
 

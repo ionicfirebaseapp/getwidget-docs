@@ -7,7 +7,7 @@ description: >-
 
 # GF Accordion
 
-![Accordion](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Accordion_2x_kucB2_qHr.png)
+![](.gitbook/assets/accordion.png)
 
 ## Usage
 
@@ -25,7 +25,7 @@ The simple code of a basic Accordion is as shown below
 
 ## Accordion with Icon
 
-![Accordion with Icon](.gitbook/assets/accordion-with-icon-2x.png)
+![](.gitbook/assets/accordion-with-icon-2x%20%281%29.png)
 
 Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
@@ -42,7 +42,7 @@ GFAccordion(
 
 ## Accordion with trailing Text
 
-![Accordion with Trailing Text](.gitbook/assets/accordion-with-text-2x.png)
+![](.gitbook/assets/accordian-with-text-2x.png)
 
 The trailing part takes any widget like text, icon etc. The below code shows the accordion with the text.
 

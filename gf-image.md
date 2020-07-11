@@ -50,8 +50,8 @@ import 'package:getwidget/getwidget.dart';
    height: 200,
    width: 300,
    child: Center(
-      child: Text('Light Overlay', style:TextStyle(color:getGFColor(GFColor.white))
-  ),
+      child: Text('Light Overlay', style: TextStyle(color: Colors.white))
+   ),
    colorFilter: new ColorFilter.mode(
    Colors.black.withOpacity(0.20),
    BlendMode.darken),

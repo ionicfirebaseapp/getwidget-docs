@@ -22,7 +22,12 @@ jobs:
       - name: Setup wrangler
         run: echo $WRANGLER_FILE | base64 --decode > wrangler.toml
       - name: Publish
-        uses: cloudflare/wrangler-action@1.1.0
+        uses: cloudflare/wrangler-action@1.2.0
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          environment: "production"            
+          apiKey: ${{ secrets.APIKEY }}
+          apiToken: ${{ secrets.APITOKEN }}
+          email: ${{ secrets.EMAIL }}
+#           environment: ${{ secrets.environment }}
+#           workingDirectory: ${{ secrets.workingDirectory }}
+#           wranglerVersion: ${{ secrets.wranglerVersion }}
+#           secrets: ${{ secrets.secrets }}

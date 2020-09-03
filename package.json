@@ -1,0 +1,21 @@
+{
+  "name": "Get-Widget-Docs",
+  "version": "0.0.1",
+  "description": "Get widget official documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Aditya Koushik R",
+    "email": "aditya@pietechsolution.com"
+  },
+  "repository": "/Get-Widget-Docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "npm run build && wrangler publish"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.5.4",
+    "vuepress": "^1.5.3"
+  }
+}

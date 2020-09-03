@@ -1,9 +1,9 @@
-name = "get-widget-docs"
+name = "getwidget-docs"
 type = "webpack"
 account_id = ""
-workers_dev = true
+workers_dev = false
 route = ""
 zone_id = ""
 [site]
 bucket = "./src/.vuepress/dist"
-entry-point = "workers-site"
+entry-point = "build"

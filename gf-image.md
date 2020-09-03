@@ -46,17 +46,16 @@ Image Overlay is used to set the image in the background and text in the foregro
 ```dart
 import 'package:getwidget/getwidget.dart';
  
- GFImageOverlay(
-   height: 200,
-   width: 300,
-   child: Center(
-      child: Text('Light Overlay', style: TextStyle(color: Colors.white))
-   ),
-   colorFilter: new ColorFilter.mode(
-   Colors.black.withOpacity(0.20),
+GFImageOverlay(
+  height: 200,
+  width: 300,
+  child: Center(
+    child: Text('Light Overlay', style:TextStyle(color: GFColors.LIGHT)),
+  ),
+  image: AssetImage('your asset image'),
+  colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.3),
    BlendMode.darken),
-   image: AssetImage('your asset image')
- )
+),
                                
 ```
 
@@ -71,7 +70,8 @@ import 'package:getwidget/getwidget.dart';
    height: 200,
    width: 200,
    shape: BoxShape.circle,
-   image:AssetImage('your asset image')
+   image:AssetImage('your asset image'),
+   boxFit: BoxFit.cover,
  )
                                
 ```

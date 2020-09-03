@@ -90,6 +90,7 @@ Look and feel of the GFTabBar can be customized using the GFTabBar properties.
 | **unselectedLabelStyle** | text style of the unselected tab labels. |
 | **labelPadding** | padding added to each of the tab labels. |
 | **shape** | defines the shape of tabBar |
+| **isScrollable** | If \[isScrollable\] is true, then each tab is as wide as needed for its label and the entire \[TabBar\] is scrollable. Otherwise each tab gets an equal share of the available space. |
 
 ## GFTabBarView
 

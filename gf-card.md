@@ -15,28 +15,30 @@ Below code gives the basic GFCard
 ```dart
 import 'package:getwidget/getwidget.dart';
   
-  GFCard(
-    boxFit: BoxFit.cover,
-    image: Image.asset('your asset image'),
-    title: GFListTile(
-        title: Text('Card Title'),
-        icon: GFIconButton(
-            onPressed: null,
-            icon: Icon(Icons.favorite_border),
-            type: GFType.transparent,
-        )
-    ),
-    content: Text("Some quick example text to build on the card"),
-    buttonBar: GFButtonBar(
-      alignment: MainAxisAlignment.start,
-      children: <Widget>[
-        GFButton(
-          onPressed: () {},
-          text: 'Read More',
-        ),
-     ],
+GFCard(
+ boxFit: BoxFit.cover,
+ image: Image.asset('your asset image'),
+ title: GFListTile(
+   avatar: GFAvatar(
+     backgroundImage: AssetImage('your asset image'),
    ),
+   title: Text('Card Title'),
+   subTitle: Text('Card Sub Title'),
+),
+content: Text("Some quick example text to build on the card"),
+buttonBar: GFButtonBar(
+ children: <Widget>[
+   GFButton(
+    onPressed: () {},
+    text: 'Buy',
+   ),
+   GFButton(
+    onPressed: () {},
+    text: 'Cancel',
+   ),
+ ],
  ),
+),
 ```
 
 ### GFCards with Avatar
@@ -46,29 +48,35 @@ import 'package:getwidget/getwidget.dart';
 ```dart
 import 'package:getwidget/getwidget.dart';
   
-  GFCard(
-    boxFit: BoxFit.cover,
-    image: Image.asset('your asset image'),
-    title: GFListTile(
-        avatar:GFAvatar(),
-        title: Text('Card Title'),
-        icon: GFIconButton(
-            onPressed: null,
-            icon: Icon(Icons.favorite_border),
-            type: GFType.transparent,
-         )
+ GFCard(
+   boxFit: BoxFit.cover,
+   titlePosition: GFPosition.start,
+   image: Image.asset('your asset image'),
+   title: GFListTile(
+     avatar: GFAvatar(
+       backgroundImage: AssetImage('your asset image'),
      ),
-     content:Text( "Some quick example text to build on the card"),
-     buttonBar: GFButtonBar(
-     alignment: MainAxisAlignment.start,
+     titleText: 'Game Controllers',
+     subtitleText: 'PlayStation 4',
+    ),
+    content: Text( "Some quick example text to build on the card"),
+    buttonBar: GFButtonBar(
       children: <Widget>[
-        GFButton(
-          onPressed: () {},
-          text: 'Read More',
-         ),
-       ],
-     ),
-   ),
+        GFAvatar(
+          backgroundColor: GFColors.PRIMARY,
+          child: Icon(Icons.share, color: Colors.white,),
+        ),
+        GFAvatar(
+          backgroundColor: GFColors.SECONDARY,
+          child: Icon(Icons.search, color: Colors.white,),
+        ),
+        GFAvatar(
+           backgroundColor: GFColors.SUCCESS,
+           child: Icon(Icons.phone, color: Colors.white,),
+        ),
+    ],
+  ),
+),
 ```
 
 ### GFCards with OverlayImage
@@ -82,9 +90,7 @@ import 'package:getwidget/getwidget.dart';
     boxFit: BoxFit.cover,
     imageOverlay: AssetImage('your asset image'),
     title: GFListTile(
-       avatar: GFAvatar(),
        title: Text('Card Title'),
-       subTitle: Text('subtitle'),
      ),
      content: Text("GFCards has three types of cards i.e, basic, with avataras and with overlay image")
      buttonBar: GFButtonBar(

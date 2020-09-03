@@ -24,3 +24,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           environment: "production"
+          preCommands: |
+            echo $WRANGLER_FILE | base64 --decode > wrangler.toml

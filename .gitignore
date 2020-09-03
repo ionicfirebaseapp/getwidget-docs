@@ -1,5 +1,8 @@
 /dist
 /node_modules/
 /package-lock.json
-/workers-site/node_modules/
-/workers-site/package-lock.json
+/build/node_modules/
+/build/package-lock.json
+.idea
+.DS_Store
+/src/.vuepress/dist

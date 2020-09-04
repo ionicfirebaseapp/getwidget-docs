@@ -26,8 +26,6 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 )
 ```
 
-###  
-
 ![Linear Progress Bar](./assets/linear-progress-bar-2x.png)
 
 ### Circular Progress Bar
@@ -45,8 +43,6 @@ import 'package:getwidget/getwidget.dart';
      progressBarColor: GFColors.DANGER
 )
 ```
-
-### 
 
 ![Circular Progress Bar](./assets/circular-progress-bar-2x.png)
 
@@ -71,8 +67,6 @@ GFProgressBar(
 )
 ```
 
-### 
-
 ![Progress Bar with Child Property](./assets/progress-bar-with-child-property-2x.png)
 
 ### Progress bar with leading and trailing icons
@@ -96,11 +90,7 @@ GFProgressBar(
 )
 ```
 
-### 
-
 ![Progress bar with leading and trailing icons](./assets/progressbar-with-leading-and-trailing-icons-2x.png)
-
-### 
 
 ### Custom Properties
 

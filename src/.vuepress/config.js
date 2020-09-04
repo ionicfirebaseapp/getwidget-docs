@@ -8,7 +8,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
-    description: description ,
+    description: description,
 
     /**
      * Extra tags to be injected to the page HTML `<head>`
@@ -33,6 +33,7 @@ module.exports = {
         docsDir: '',
         editLinkText: '',
         lastUpdated: true,
+        parseHeaders: ['h2', 'h3'],
         nav: [
             {text: 'Home', link: 'https://www.getwidget.dev/', target: 'blank'},
             {text: 'Blog', link: 'https://www.getwidget.dev/blog/', target: 'blank'},
@@ -68,7 +69,7 @@ module.exports = {
             {
                 title: 'GF Badge',
                 path: '/gf-badge',
-                // sidebarDepth: 2,
+                initialOpenGroupIndex: -1,
                 collapsable: true
             },
             {
@@ -185,6 +186,12 @@ module.exports = {
      */
     plugins: [
         '@vuepress/plugin-back-to-top',
-        '@vuepress/plugin-medium-zoom'
+        '@vuepress/plugin-medium-zoom',
+        'vuepress-plugin-clean-urls',
+        {
+            normalSuffix: '/',
+            indexSuffix: '/',
+            notFoundPath: '/404.html',
+        },
     ],
 }

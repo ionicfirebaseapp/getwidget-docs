@@ -8,7 +8,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
-    description: Getwidget is an open source library that comes with pre-build 1000+ UI components. ,
+    description: GetwidgetDocument ,
 
     /**
      * Extra tags to be injected to the page HTML `<head>`

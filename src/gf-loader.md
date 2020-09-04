@@ -78,8 +78,6 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-### 
-
 ### Custom Loader with Icon
 
 The below code shows custom loaders with icons in it.
@@ -94,8 +92,6 @@ GFLoader(
   loaderIconThree : Icon(Icons.insert_emoticon),
 ),
 ```
-
-
 
 ### Custom Loader with text
 

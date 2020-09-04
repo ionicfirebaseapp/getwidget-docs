@@ -1,4 +1,6 @@
 ---
+
+sidebarDepth: 2
 description: >-
   GetWidget is a Flutter open-source library that comes with pre-build 1000+ UI
   components. The library is built to make flutter development faster and more

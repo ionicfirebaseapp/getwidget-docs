@@ -4,7 +4,6 @@ description: >-
   GFAvatar is a Flutter Avatar Widget that typically represents the user's
   profile image. It comes with different shapes.
 ---
-## Avatar Info
 # GF Avatar
 
 ![Avatar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Avatars_2x_cM1srTq6w.png)

@@ -11,6 +11,7 @@ description: >-
 
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 
+## Progress Bar Info
 ### Usage
 
 The below code shows a simple **Linear** **progress** **bar** with some defined properties of the progress bar.

@@ -10,7 +10,7 @@ description: >-
 ![GF Loader](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Loaders_Docs_Banner_2x_d4qy_o4O9.png)
 
 
-
+## Loader Info
 ### Usage
 
 The basic code of a simple GFLoader is as shown below. There are five types in which the default corresponds to android type of loader.

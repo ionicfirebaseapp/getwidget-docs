@@ -13,6 +13,7 @@ description: >-
 
 An app bar consists of a toolbar and potentially other widgets, such as a  GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above. 
 
+## Appbar Info
 ### Usage
 
 The simple code of a basic GFAppbar is as shown below.

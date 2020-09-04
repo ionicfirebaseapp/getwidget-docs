@@ -10,7 +10,7 @@ description: >-
 ![Typography](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Typography_2x_7rUbGrN2G.png)
 
 
-
+## Typography Info
 ### Usage
 
 The simple Typography code is as shown below 

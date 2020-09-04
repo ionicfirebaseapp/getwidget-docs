@@ -19,6 +19,8 @@ jobs:
         run: npm install
       - name: Build docs
         run: npm run build
+      - name: Setup wrangler
+        run: echo $WRANGLER_FILE | base64 --decode > wrangler.toml
       - name: Publish
         uses: cloudflare/wrangler-action@1.2.0
         with:

@@ -4,11 +4,11 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'GetWidget documentation',
+    title: 'GetWidget',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
-    description: description,
+    description: Getwidget is an open source library that comes with pre-build 1000+ UI components. We build this library to make flutter development faster and more enjoyable.,
 
     /**
      * Extra tags to be injected to the page HTML `<head>`
@@ -29,17 +29,17 @@ module.exports = {
      */
     themeConfig: {
         repo: '',
-        editLinks: false,
+        editLinks: true,
         docsDir: '',
         editLinkText: '',
-        lastUpdated: false,
+        lastUpdated: true,
         nav: [
             {text: 'Home', link: 'https://www.getwidget.dev/', target: 'blank'},
             {text: 'Blog', link: 'https://www.getwidget.dev/blog/', target: 'blank'},
             {text: 'Github', link: 'https://github.com/ionicfirebaseapp/getwidget', target: 'blank'},
             {text: 'Marketplace', link: 'https://www.ionicfirebaseapp.com/products', target: 'blank'},
         ],
-        activeHeaderLinks: false,
+        activeHeaderLinks: true,
         sidebar: [
             {
                 title: 'Introduction',

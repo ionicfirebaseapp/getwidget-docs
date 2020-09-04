@@ -9,7 +9,7 @@ description: >-
 ![Card](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
 
 
-
+## Card Info
 ### Usage
 
 Below code gives the basic GFCard

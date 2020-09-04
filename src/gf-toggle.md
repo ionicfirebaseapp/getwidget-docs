@@ -8,6 +8,7 @@ description: >-
 
 ![GF Toggle](./assets/toggles-2x.png)
 
+## Toggle Info
 ### Usage
 
 The simple toggle code is as shown below.

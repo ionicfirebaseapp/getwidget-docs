@@ -10,7 +10,7 @@ description: >-
 ![GF Rating](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Ratings_2x_u92JHlj0d.png)
 
 
-
+## Rating Info
 ### Usage
 
 The simple code of a basic **GF Rating** is as shown below.

@@ -10,7 +10,7 @@ description: >-
 
 ![Flutter Simmer Widget](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Shimmer_docs_banner_tQJ5qq2Fi.png)
 
-
+## Shimmer Info
 
 GFShimmer is a Flutter Shimmer Effect Widget that can be used by giving Linear Gradient for more visual shimmer effect or just by adding Main Color and Secondary Color for basic shimmer effect.
 

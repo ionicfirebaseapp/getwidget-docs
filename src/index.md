@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-![GetWidget - An Open-Source Library for Flutter Development.](./assets/link-share.png)
+![GetWidget - An Open-Source Library for Flutter Development.](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/link-share_aT-cHzGY9.png)
 
 ## How Get Widget Started?
 

@@ -16,15 +16,13 @@ sections:
 - type: document
   path: src/.vuepress/config.js
   label: Config
-  match: "**/*"
-  read_only: false
 - type: directory
   path: src/.vuepress/config.js
   label: Setting
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: src/assets
+public_path: src/assets
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

@@ -13,11 +13,6 @@ sections:
   match: "**/*"
 - type: heading
   label: Setting
-- type: directory
-  path: src/.vuepress
-  label: Page Config
-  create: all
-  match: "**/*"
 - type: document
   path: src/.vuepress/config.js
   label: Config

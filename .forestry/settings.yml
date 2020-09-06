@@ -16,11 +16,6 @@ sections:
 - type: document
   path: src/.vuepress/config.js
   label: Config
-- type: directory
-  path: src/.vuepress/config.js
-  label: Setting
-  create: all
-  match: "**/*"
 upload_dir: src/assets
 public_path: src/assets
 front_matter_path: ''

@@ -7,7 +7,7 @@ description: >-
 
 # GF Progress Bar
 
-![ Flutter Progress Bar Widget](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
 
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 
@@ -26,7 +26,7 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 )
 ```
 
-![Linear Progress Bar](./assets/linear-progress-bar-2x.png)
+![img](./assets/linear-progress-bar-2x.png)
 
 ### Circular Progress Bar
 
@@ -44,7 +44,7 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-![Circular Progress Bar](./assets/circular-progress-bar-2x.png)
+![img](./assets/circular-progress-bar-2x.png)
 
 ### Progress bar with Child property
 
@@ -67,7 +67,7 @@ GFProgressBar(
 )
 ```
 
-![Progress Bar with Child Property](./assets/progress-bar-with-child-property-2x.png)
+![img](./assets/progress-bar-with-child-property-2x.png)
 
 ### Progress bar with leading and trailing icons
 
@@ -90,7 +90,7 @@ GFProgressBar(
 )
 ```
 
-![Progress bar with leading and trailing icons](./assets/progressbar-with-leading-and-trailing-icons-2x.png)
+![img](./assets/progressbar-with-leading-and-trailing-icons-2x.png)
 
 ### Custom Properties
 

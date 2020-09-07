@@ -1,4 +1,4 @@
-const {description} = require('../../package')
+const { description } = require('../../package')
 
 module.exports = {
     /**
@@ -9,17 +9,16 @@ module.exports = {
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
     description: description,
-
     /**
      * Extra tags to be injected to the page HTML `<head>`
      *
      * ref：https://v1.vuepress.vuejs.org/config/#head
      */
     head: [
-        ['link', {rel: 'icon', href: './favicon.png'}],
-        ['meta', {name: 'theme-color', content: '#3eaf7c'}],
-        ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
-        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}]
+        ['link', { rel: 'icon', href: 'https://ik.imagekit.io/ionicfirebaseapp/favicon_QkjfdlGz1.png' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
     ],
 
     /**
@@ -35,10 +34,10 @@ module.exports = {
         lastUpdated: true,
         parseHeaders: ['h2', 'h3'],
         nav: [
-            {text: 'Home', link: 'https://www.getwidget.dev/', target: 'blank'},
-            {text: 'Blog', link: 'https://www.getwidget.dev/blog/', target: 'blank'},
-            {text: 'Github', link: 'https://github.com/ionicfirebaseapp/getwidget', target: 'blank'},
-            {text: 'Marketplace', link: 'https://www.ionicfirebaseapp.com/products', target: 'blank'},
+            { text: 'Home', link: 'https://www.getwidget.dev/', target: 'blank' },
+            { text: 'Blog', link: 'https://www.getwidget.dev/blog/', target: 'blank' },
+            { text: 'Github', link: 'https://github.com/ionicfirebaseapp/getwidget', target: 'blank' },
+            { text: 'Marketplace', link: 'https://www.ionicfirebaseapp.com/products', target: 'blank' },
         ],
         activeHeaderLinks: true,
         sidebar: [
@@ -59,11 +58,11 @@ module.exports = {
                 initialOpenGroupIndex: -1,
                 collapsable: true,
                 children: [
-                    {title: 'GF Flutter Standard Button', path: '/gf-button/standard-button'},
-                    {title: 'Pills Button', path: '/gf-button/pills-button'},
-                    {title: 'Square Button', path: '/gf-button/square-button'},
-                    {title: 'Icon Button', path: '/gf-button/icon-button'},
-                    {title: 'Social Button', path: '/gf-button/social-button'}
+                    { title: 'GF Flutter Standard Button', path: '/gf-button/standard-button' },
+                    { title: 'Pills Button', path: '/gf-button/pills-button' },
+                    { title: 'Square Button', path: '/gf-button/square-button' },
+                    { title: 'Icon Button', path: '/gf-button/icon-button' },
+                    { title: 'Social Button', path: '/gf-button/social-button' }
                 ]
             },
             {
@@ -187,11 +186,19 @@ module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         '@vuepress/plugin-medium-zoom',
-        'vuepress-plugin-clean-urls',
-        {
-            normalSuffix: '/',
-            indexSuffix: '/',
-            notFoundPath: '/404.html',
-        },
+        ['vuepress-plugin-clean-urls',
+            {
+                normalSuffix: '/',
+                indexSuffix: '/',
+                notFoundPath: '/404.html',
+            },
+        ],
+        'img-lazy',
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-165669152-1'
+            }
+        ]
     ],
 }

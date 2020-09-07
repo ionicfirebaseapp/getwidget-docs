@@ -6,7 +6,7 @@ description: Get Widget is one of the largest Flutter open-source UI libraries f
 ---
 # Introduction
 
-![Get Widget Open Source UI library](https://ik.imagekit.io/ionicfirebaseapp/link_share_09Z-pS6_Fm.png "Get Widget Banner")
+![img](https://ik.imagekit.io/ionicfirebaseapp/link_share_09Z-pS6_Fm.png "Get Widget Banner")
 
 ## How Get Widget Started?
 

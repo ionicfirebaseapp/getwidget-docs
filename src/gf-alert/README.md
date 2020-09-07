@@ -7,7 +7,7 @@ description: >-
 
 # GF Alert
 
-![Alert](https://ik.imagekit.io/ionicfirebaseapp/tr:dpr-auto,tr:w-auto/docs/Alerts_2x_BDFQKkxzq.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/tr:dpr-auto,tr:w-auto/docs/Alerts_2x_BDFQKkxzq.png)
 
 
 
@@ -48,7 +48,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Alert with multiple buttons
 
-![](../assets/alert-with-multiple-buttons-2x.png)
+![img](../assets/alert-with-multiple-buttons-2x.png)
 
 Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons 
 

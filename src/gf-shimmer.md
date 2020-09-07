@@ -8,7 +8,7 @@ description: >-
 
 # GF Shimmer
 
-![Flutter Simmer Widget](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Shimmer_docs_banner_tQJ5qq2Fi.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Shimmer_docs_banner_tQJ5qq2Fi.png)
 
 ## Shimmer Info
 
@@ -68,7 +68,7 @@ final Widget emptyBlock = Padding(
 
 
 
-![Basic Simmer](./assets/basic-shimmer-effect-2x.png)
+![img](./assets/basic-shimmer-effect-2x.png)
 
 
 
@@ -98,7 +98,7 @@ GFShimmer(
 
 
 
-![Shimmer on Text](./assets/shimmer-effect-on-text-2x.png)
+![img](./assets/shimmer-effect-on-text-2x.png)
 
 Look and feel of the **GF Shimmer \(Flutter Shimmer Widgets\)** could be customized using the GF Shimmer properties.
 

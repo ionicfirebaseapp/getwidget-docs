@@ -16,8 +16,12 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-google-analytics": "^1.5.4",
     "@vuepress/plugin-pwa": "^1.5.4",
-    "vuepress": "^1.5.3",
-    "vuepress-plugin-clean-urls": "^1.1.2"
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-clean-urls": "1.1.1",
+    "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }

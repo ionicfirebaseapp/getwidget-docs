@@ -7,7 +7,7 @@ description: >-
 
 # GF Carousel
 
-![Carousel](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
 
 ## GF Carousel
 

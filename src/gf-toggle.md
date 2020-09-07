@@ -6,7 +6,7 @@ description: >-
 
 # GF Toggle
 
-![GF Toggle](./assets/toggles-2x.png)
+![img](./assets/toggles-2x.png)
 
 ## Toggle Info
 ### Usage
@@ -28,7 +28,7 @@ There are four types ie, `android`, `ios`, `square` and `custom`. The default to
 
 ###  IOS Toggle
 
-![IOS Toggle](./assets/ios.png)
+![img](./assets/ios.png)
 
 The below code shows a simple ios toggle
 
@@ -44,7 +44,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Square Toggle
 
-![Square Toggle](./assets/square.png)
+![img](./assets/square.png)
 
 
 
@@ -62,7 +62,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Custom Toggle
 
-![Custom Toggle](./assets/custom-2.png)
+![img](./assets/custom-2.png)
 
 The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
 

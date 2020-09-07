@@ -7,7 +7,7 @@ description: >-
 
 # GF Tile
 
-![Tile](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tiles_2x_NFyiWgtQc.png)
 
 ## Usage
 

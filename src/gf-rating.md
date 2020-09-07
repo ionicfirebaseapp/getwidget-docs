@@ -7,7 +7,7 @@ description: >-
 
 # GF Rating
 
-![GF Rating](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Ratings_2x_u92JHlj0d.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Ratings_2x_u92JHlj0d.png)
 
 
 ## Rating Info
@@ -28,7 +28,7 @@ GFRating(
 ),
 ```
 
-![Flutter Rating](./assets/ratings-2x.png)
+![img](./assets/ratings-2x.png)
 
 If `showTextForm` true, it displays the GF Rating bar with text field, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
 

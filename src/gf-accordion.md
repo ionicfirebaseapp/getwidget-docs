@@ -8,7 +8,7 @@ description: >-
 
 # GF Accordion
 
-![](./assets/accordion.png)
+![img](./assets/accordion.png)
 
 ## Usage
 
@@ -26,7 +26,7 @@ The simple code of a basic Accordion is as shown below
 
 ## Accordion with Icon
 
-![](./assets/accordion-with-icon-2x-1.png)
+![img](./assets/accordion-with-icon-2x-1.png)
 
 Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
@@ -43,7 +43,7 @@ GFAccordion(
 
 ## Accordion with trailing Text
 
-![](./assets/accordian-with-text-2x.png)
+![img](./assets/accordian-with-text-2x.png)
 
 The trailing part takes any widget like text, icon etc. The below code shows the accordion with the text.
 

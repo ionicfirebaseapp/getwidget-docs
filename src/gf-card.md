@@ -6,7 +6,7 @@ description: >-
 
 # GF Card
 
-![Card](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
 
 
 ## Card Info
@@ -45,7 +45,7 @@ buttonBar: GFButtonBar(
 
 ### GFCards with Avatar
 
-![Card With Avatar](./assets/cards-with-avatars-2x.png)
+![img](./assets/cards-with-avatars-2x.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -83,7 +83,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### GFCards with OverlayImage
 
-![Card With Overlay Image](./assets/cards-with-image-overlays-2x.png)
+![img](./assets/cards-with-image-overlays-2x.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

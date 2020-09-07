@@ -7,7 +7,7 @@ description: >-
 
 # GF Loader
 
-![GF Loader](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Loaders_Docs_Banner_2x_d4qy_o4O9.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Loaders_Docs_Banner_2x_d4qy_o4O9.png)
 
 
 ## Loader Info
@@ -35,7 +35,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![Flutter IOS Loader](./assets/ios-loaders-2x.png)
+![img](./assets/ios-loaders-2x.png)
 
 ### Circular Loader
 
@@ -49,7 +49,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![Flutter Circular Loader](./assets/circular-loaders-2x.png)
+![img](./assets/circular-loaders-2x.png)
 
 ### Square Loader
 
@@ -63,7 +63,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![Flutter Square Loader](./assets/squared-loaders-2x.png)
+![img](./assets/squared-loaders-2x.png)
 
 ### Custom Loader
 

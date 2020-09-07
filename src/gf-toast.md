@@ -6,7 +6,7 @@ description: >-
 
 # GF Toast
 
-![GF Toast](./assets/toasts-2x-1.png)
+![img](./assets/toasts-2x-1.png)
 
 ## Toast Info
 ### Usage
@@ -28,7 +28,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Toast with Button
 
-![Toast with Button](./assets/2.png)
+![img](./assets/2.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

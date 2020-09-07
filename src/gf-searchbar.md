@@ -7,7 +7,7 @@ description: >-
 
 # GF SearchBar
 
-![GF Searchbar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
 
 
 
@@ -55,7 +55,7 @@ GFSearchBar(
 
 Look and feel of the **GFSearchBar** can be customized using the GFSearchBar properties.
 
-![Search Bar with Results](./assets/search-bar-2.png)
+![img](./assets/search-bar-2.png)
 
 ### Custom Properties
 

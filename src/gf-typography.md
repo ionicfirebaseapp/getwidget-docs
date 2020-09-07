@@ -7,7 +7,7 @@ description: >-
 
 # GF Typography
 
-![Typography](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Typography_2x_7rUbGrN2G.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Typography_2x_7rUbGrN2G.png)
 
 
 ## Typography Info
@@ -38,7 +38,7 @@ GFTypography(
 
 ### With Icon
 
-![Typography with icon](./assets/with-icon-2x.png)
+![img](./assets/with-icon-2x.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -52,7 +52,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### With BackgroundImage
 
-![Typography with background image](./assets/with-image-2x.png)
+![img](./assets/with-image-2x.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

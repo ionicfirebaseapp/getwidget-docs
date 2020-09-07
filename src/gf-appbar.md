@@ -7,7 +7,7 @@ description: >-
 
 # GF Appbar
 
-![GF App Bar](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
 
 
 
@@ -46,7 +46,7 @@ GFAppBar(
 
 ### GFAppbar with SearchBar
 
-![App Bar with Search](./assets/appbar-3.png)
+![img](./assets/appbar-3.png)
 
 If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options. 
 

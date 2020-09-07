@@ -8,7 +8,7 @@ description: >-
 
 # GF Drawer
 
-![Drawer](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
 
 
 

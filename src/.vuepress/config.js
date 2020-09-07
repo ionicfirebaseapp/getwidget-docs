@@ -1,5 +1,59 @@
 const { description } = require('../../package')
+const default_options = {
 
+    enable: true, // enables/disables everything - control per page using frontmatter
+    image: true, // regular meta image used by search engines
+    twitter: true, // twitter card
+    og: true, // open graph: facebook, pinterest, google+
+    schema: false, // schema.org for google
+
+    author: {
+        name: 'getwidget',
+        twitter: '@getwidgetdev',
+    },
+
+    // ---------------------------------------------------------------------------
+
+    site: {
+        name: 'getwidget',
+        twitter: '@getwidgetdev',
+    },
+
+    description_sources: [
+
+        'frontmatter',
+        'excerpt',
+
+        // markdown paragraph regex
+        //
+        /^((?:(?!^#)(?!^\-|\+)(?!^[0-9]+\.)(?!^!\[.*?\]\((.*?)\))(?!^\[\[.*?\]\])(?!^\{\{.*?\}\})[^\n]|\n(?! *\n))+)(?:\n *)+\n/img,
+        //
+        // this excludes blockquotes using `(?!^>)`
+        ///^((?:(?!^#)(?!^\-|\+)(?!^[0-9]+\.)(?!^!\[.*?\]\((.*?)\))(?!^>)(?!^\[\[.*?\]\])(?!^\{\{.*?\}\})[^\n]|\n(?! *\n))+)(?:\n *)+\n/img,
+
+        // html paragraph regex
+        /<p(?:.*?)>(.*?)<\/p>/i,
+
+    ],
+
+    // ---------------------------------------------------------------------------
+
+    // order of what gets the highest priority:
+    //
+    // 1. frontmatter
+    // 2. content markdown image such as `![alt text](http://url)`
+    // 3. content regular html img
+
+    image_sources: [
+
+        'frontmatter',
+
+        /!\[.*?\]\((.*?)\)/i,        // markdown image regex
+        /<img.*?src=['"](.*?)['"]/i, // html image regex
+
+    ],
+
+};          // contains SEO meta configuration
 module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -9,6 +63,7 @@ module.exports = {
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
     description: description,
+    theme: 'vuepress-theme-book',
     /**
      * Extra tags to be injected to the page HTML `<head>`
      *
@@ -199,6 +254,7 @@ module.exports = {
             {
                 'ga': 'UA-165669152-1'
             }
-        ]
+        ],
+        ['autometa', default_options]
     ],
 }

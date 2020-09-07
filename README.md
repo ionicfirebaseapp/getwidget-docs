@@ -1,4 +1,5 @@
 ---
+image: ./src/assets/link-share.png
 description: >-
   Get Widget is one of the largest Flutter open-source UI library for mobile or
   web apps. It has more than 1000+ pre-built reusable widgets.
@@ -6,7 +7,7 @@ description: >-
 
 # Introduction
 
-![GetWidget - An Open-Source Library for Flutter Development.](./src/assets/link-share.png)
+![img](./src/assets/link-share.png)
 
 ## How Get Widget Started?
 

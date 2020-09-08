@@ -41,7 +41,7 @@ GFImageOverlay(
 
 ### Image Overlay
 
-![img](./assets/image-overlay.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/image-overlay_vUnez9tdD.png)
 
 Image Overlay is used to set the image in the background and text in the foreground with the `colorFilter` property that takes two colors, and outputs one color
 
@@ -63,7 +63,7 @@ GFImageOverlay(
 
 ### Circular Image
 
-![img](./assets/image-circular.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/image-circular_gc-0f8QJi.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

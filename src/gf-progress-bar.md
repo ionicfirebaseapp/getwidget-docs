@@ -26,7 +26,7 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 )
 ```
 
-![img](./assets/linear-progress-bar-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/linear-progress-bar-2x_ebnfBpW8b.png)
 
 ### Circular Progress Bar
 
@@ -44,7 +44,7 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-![img](./assets/circular-progress-bar-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/circular-progress-bar-2x_UaAAL_bAA.png)
 
 ### Progress bar with Child property
 
@@ -67,7 +67,7 @@ GFProgressBar(
 )
 ```
 
-![img](./assets/progress-bar-with-child-property-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/progress-bar-with-child-property-2x_KUHho34A3.png)
 
 ### Progress bar with leading and trailing icons
 
@@ -90,7 +90,7 @@ GFProgressBar(
 )
 ```
 
-![img](./assets/progressbar-with-leading-and-trailing-icons-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/progressbar-with-leading-and-trailing-icons-2x_b-NgotN5B.png)
 
 ### Custom Properties
 

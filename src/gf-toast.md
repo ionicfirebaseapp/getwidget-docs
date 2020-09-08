@@ -6,7 +6,7 @@ description: >-
 
 # GF Toast
 
-![img](./assets/toasts-2x-1.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/toasts-2x-1_9idLGAvE-.png)
 
 ## Toast Info
 ### Usage
@@ -28,7 +28,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Toast with Button
 
-![img](./assets/2.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/2_eNc7t_Ewo.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

@@ -48,7 +48,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Alert with multiple buttons
 
-![img](../assets/alert-with-multiple-buttons-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/alert-with-multiple-buttons-2x_Shkug_oIA.png)
 
 Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons 
 

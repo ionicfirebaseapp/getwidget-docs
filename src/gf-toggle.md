@@ -6,7 +6,7 @@ description: >-
 
 # GF Toggle
 
-![img](./assets/toggles-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/toggles-2x_TWbAtt1_D.png)
 
 ## Toggle Info
 ### Usage
@@ -28,7 +28,7 @@ There are four types ie, `android`, `ios`, `square` and `custom`. The default to
 
 ###  IOS Toggle
 
-![img](./assets/ios.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/ios_bW24_m8Gb.png)
 
 The below code shows a simple ios toggle
 
@@ -44,7 +44,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Square Toggle
 
-![img](./assets/square.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/square_kQf7GGmmw.png)
 
 
 
@@ -62,7 +62,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Custom Toggle
 
-![img](./assets/custom-2.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/custom-2_IukUJZTss.png)
 
 The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
 

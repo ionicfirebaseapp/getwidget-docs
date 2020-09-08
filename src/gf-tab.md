@@ -14,7 +14,7 @@ description: >-
 
 ## GFTabBar
 
-![img](./assets/tabs-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/tabs-2x_ic_9n6u7B.png)
 
 The GFTabBar is a component that contains a set of tab buttons. A tab bar must be provided tabController to communicate with each tabBarView Component.
 

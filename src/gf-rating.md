@@ -28,7 +28,7 @@ GFRating(
 ),
 ```
 
-![img](./assets/ratings-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/ratings-2x_Sn4SxO-12.png)
 
 If `showTextForm` true, it displays the GF Rating bar with text field, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
 

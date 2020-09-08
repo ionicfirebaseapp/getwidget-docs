@@ -45,7 +45,7 @@ buttonBar: GFButtonBar(
 
 ### GFCards with Avatar
 
-![img](./assets/cards-with-avatars-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/cards-with-avatars-2x_KDJRdLLbq.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -83,7 +83,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### GFCards with OverlayImage
 
-![img](./assets/cards-with-image-overlays-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/cards-with-image-overlays-2x_XIMzf_Bc7.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

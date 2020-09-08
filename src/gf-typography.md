@@ -38,7 +38,7 @@ GFTypography(
 
 ### With Icon
 
-![img](./assets/with-icon-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/with-icon-2x_dSdJYRg7W.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -52,7 +52,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### With BackgroundImage
 
-![img](./assets/with-image-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/with-image-2x_enX3EvMAB.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

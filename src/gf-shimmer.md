@@ -68,7 +68,7 @@ final Widget emptyBlock = Padding(
 
 
 
-![img](./assets/basic-shimmer-effect-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/basic-shimmer-effect-2x_JSJbGQcZW.png)
 
 
 
@@ -98,7 +98,7 @@ GFShimmer(
 
 
 
-![img](./assets/shimmer-effect-on-text-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/shimmer-effect-on-text-2x_cA2TM7eak.png)
 
 Look and feel of the **GF Shimmer \(Flutter Shimmer Widgets\)** could be customized using the GF Shimmer properties.
 

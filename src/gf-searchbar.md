@@ -55,7 +55,7 @@ GFSearchBar(
 
 Look and feel of the **GFSearchBar** can be customized using the GFSearchBar properties.
 
-![img](./assets/search-bar-2.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/search-bar-2_becfCmclS.png)
 
 ### Custom Properties
 

@@ -1,5 +1,5 @@
 ---
-image: ./src/assets/link-share.png
+image: https://ik.imagekit.io/ionicfirebaseapp/link-share_EbZz6yv3T.png
 description: >-
   Get Widget is one of the largest Flutter open-source UI library for mobile or
   web apps. It has more than 1000+ pre-built reusable widgets.
@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-![img](./src/assets/link-share.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/link-share_EbZz6yv3T.png)
 
 ## How Get Widget Started?
 

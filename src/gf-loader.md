@@ -35,7 +35,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![img](./assets/ios-loaders-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/ios-loaders-2x__Jk9mMMSE.png)
 
 ### Circular Loader
 
@@ -49,7 +49,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![img](./assets/circular-loaders-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/circular-loaders-2x_RaLOR5clm.png)
 
 ### Square Loader
 
@@ -63,7 +63,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![img](./assets/squared-loaders-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/squared-loaders-2x_4NxeGClPH.png)
 
 ### Custom Loader
 

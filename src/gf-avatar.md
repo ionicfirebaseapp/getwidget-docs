@@ -12,7 +12,7 @@ description: >-
 
 ### Circular Avatar  
 
-![img](./assets/circular-avatars-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/circular-avatars-2x_YEAePfrqD.png)
 
 GFAvatar comes with different shapes , in which one of the default shape is circle. To place the image inside the avatar, image should be given in `backgroundImage` property.
 
@@ -26,7 +26,7 @@ GFAvatar(
 
 ### Standard Avatar
 
-![img](./assets/slightly-rounded-corners-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/slightly-rounded-corners-2x_VCB3GCS2h.png)
 
 Standard GFAvatar is a avatar shape which has a slightly rounded corners.
 
@@ -41,7 +41,7 @@ GFAvatar(
 
 ### Square Avatar
 
-![img](./assets/square-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/square-2x_Zs-9r00cm.png)
 
 Square GFAvatar is a avatar shape which represents a square
 

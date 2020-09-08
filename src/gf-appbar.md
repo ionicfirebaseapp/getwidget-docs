@@ -46,7 +46,7 @@ GFAppBar(
 
 ### GFAppbar with SearchBar
 
-![img](./assets/appbar-3.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/appbar-3_mxflMyRld.png)
 
 If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options. 
 

@@ -14,7 +14,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ### Solid Social Button
 
-![img](../assets/solid-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/solid-social-button-2x_hWIbDpGLt.png)
 
 By default, button **type** set to `GFButtonType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -32,7 +32,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Disabled Social Button
 
-![img](../assets/disabled-buttons-2x-1.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x-1_WXYljNGX9.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
@@ -48,7 +48,7 @@ GFButton(
 
 ### Outline  Social Button
 
-![img](../assets/outline-social-button-2x-1.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/outline-social-button-2x-1_s9l5xQdik.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
@@ -65,7 +65,7 @@ GFButton(
 
 ### Outline2x  Social Button
 
-![img](../assets/outline-2x-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-social-button-2x_3hSCzrQDG.png)
 
 Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
 
@@ -82,7 +82,7 @@ GFButton(
 
 ### Transparent  Social Button
 
-![img](../assets/transparent-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-social-button-2x_lRGI7ulxY.png)
 
 In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
 
@@ -99,7 +99,7 @@ GFButton(
 
 ### Pills  Social Button
 
-![img](../assets/pills-social-buttons-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/pills-social-buttons-2x_GfJjVk77h.png)
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
 
@@ -116,7 +116,7 @@ We will able to get pills shaped button with solid background color with rounded
 
 ### Square Social Button
 
-![img](../assets/square-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/square-social-button-2x_ofI-wQHkM.png)
 
 We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
 
@@ -133,7 +133,7 @@ We will able to get square shaped button with solid background color with no rou
 
 ###  Social  Button Size
 
-![img](../assets/full-width-social-button-2x-1.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-social-button-2x-1_45MJ57qDeo.png)
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
@@ -150,7 +150,7 @@ GFButton(
 
 ### Block Social Button
 
-![img](../assets/block-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/block-social-button-2x_rkTw_Ij63.png)
 
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -168,7 +168,7 @@ GFButton(
 
 ### Full Width Social Button
 
-![img](../assets/full-width-social-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-social-button-2x_mDhv4iEG9.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
@@ -186,7 +186,7 @@ GFButton(
 
 ## Social Icon Button
 
-![img](../assets/social-icon-button-2x.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/social-icon-button-2x_sCVoXFCFZ.png)
 
 Social Icon Button having features of standard, solid button with fill color background and slightly rounded corners and icon as a child.
 

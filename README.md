@@ -29,6 +29,16 @@ Your support and feedback helps us to build the best Flutter Open-Source product
 
 ### [DOWNLOAD XD](https://drive.google.com/file/d/1vX7vT7soJS3weh7T8qWCTrmaA7_C-tDH/view?usp=sharing) 
 
+<style lang="scss">
+$font-stack: Helvetica, sans-serif;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+</style>
+
 
 
 

@@ -73,7 +73,11 @@ module.exports = {
         ['link', { rel: 'icon', href: 'https://ik.imagekit.io/ionicfirebaseapp/favicon_QkjfdlGz1.png' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap' }],
+
+
+
     ],
 
     /**
@@ -99,13 +103,21 @@ module.exports = {
             {
                 title: 'Introduction',
                 path: '/',
-                collapsable: false
+                collapsable: true,
+                children: [
+                    '/',
+                ],
+
             },
             {
                 title: 'Getting started',
                 path: '/getting-started',
                 initialOpenGroupIndex: -1,
-                collapsable: false
+                collapsable: true,
+                children: [
+                    '/getting-started'
+
+                ],
             },
             {
                 title: 'GF Button',
@@ -120,111 +132,189 @@ module.exports = {
                     { title: 'Social Button', path: '/gf-button/social-button' }
                 ]
             },
+
+            // {
+            //     title: 'GF Badge',
+            //     path: '/gf-badge',
+            //     initialOpenGroupIndex: -1,
+            //     collapsable: true,
+
+            // },
             {
                 title: 'GF Badge',
-                path: '/gf-badge',
                 initialOpenGroupIndex: -1,
-                collapsable: true
+                collapsable: true,
+                path: '/gf-badge',
+                children: [
+                    '/gf-badge',
+                ],
             },
+
+
+
             {
                 title: 'GF Avatar',
                 path: '/gf-avatar',
-                collapsable: true
+                initialOpenGroupIndex: -1,
+                collapsable: true,
+                children: [
+                    '/gf-avatar',
+                ],
             },
+
+
+
             {
                 title: 'GF Image',
                 path: '/gf-image',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-image',
+                ],
             },
             {
                 title: 'GF Card',
                 path: '/gf-card',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-card',
+                ],
             },
             {
                 title: 'GF Carousel',
                 path: '/gf-carousel',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-carousel',
+                ],
             },
             {
                 title: 'GF Tile',
                 path: '/gf-tile',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-tile',
+                ],
             },
             {
                 title: 'GF Tab',
                 path: '/gf-tab',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-tab',
+                ],
             },
             {
                 title: 'GF Floating Widget',
                 path: '/gf-floating-widget',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-floating-widget',
+                ],
             },
             {
                 title: 'GF Toast',
                 path: '/gf-toast',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-toast',
+                ],
             },
             {
                 title: 'GF Toggle',
                 path: '/gf-toggle',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-toggle',
+                ],
             },
             {
                 title: 'GF Typography',
                 path: '/gf-typography',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-typography',
+                ],
             },
             {
                 title: 'GF Drawer',
                 path: '/gf-drawer',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-drawer',
+                ],
             },
             {
                 title: 'GF Accordion',
                 path: '/gf-accordion',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-accordion',
+                ],
             },
             {
                 title: 'GF Alert',
                 path: '/gf-alert/',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-alert/',
+                ],
             },
             {
                 title: 'GF Appbar',
                 path: '/gf-appbar',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-appbar',
+                ],
             },
             {
                 title: 'GF Searchbar',
                 path: '/gf-searchbar',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-searchbar',
+                ],
             },
             {
                 title: 'GF Rating',
                 path: '/gf-rating',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-rating',
+                ],
             },
             {
                 title: 'GF Loader',
                 path: '/gf-loader',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-loader',
+                ],
             },
             {
                 title: 'GF Progress Bar',
                 path: '/gf-progress-bar',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-progress-bar',
+                ],
             },
             {
                 title: 'GF Shimmer',
                 path: '/gf-shimmer',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/gf-shimmer',
+                ],
             },
             {
                 title: 'Changelog',
                 path: '/changelog',
-                collapsable: true
+                collapsable: true,
+                children: [
+                    '/changelog',
+                ],
             },
             {
                 title: 'Flutter Market',

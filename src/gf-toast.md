@@ -1,7 +1,6 @@
 ---
 sidebarDepth: 2
-description: >- 
- GFToast can be used to display quick warning or error messages.
+description: GFToast can be used to display quick warning or error messages.
 ---
 
 # GF Toast
@@ -9,13 +8,14 @@ description: >-
 ![img](https://ik.imagekit.io/ionicfirebaseapp/toasts-2x-1_9idLGAvE-.png)
 
 ## Toast Info
+
 ### Usage
 
-**GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below. 
+**GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
  return Scaffold(
    body:GFFloatingWidget(
      child:GFToast(
@@ -79,7 +79,7 @@ body:GFFloatingWidget(
 
 |  |  |
 | :--- | :--- |
-| **child**               | **child** of type \[Widget\] which is alternative to **text**. **text** will get priority over **child** |
+| **child** | **child** of type \[Widget\] which is alternative to **text**. **text** will get priority over **child** |
 | **backgroundColor** | color of type \[GFColor\] or \[Color\] to change the backgroundColor of toast |
 | **textStyle** | textStyle of type \[textStyle\] applicable to **text** only and not for **child** |
 | **width** | to control the width of the toast |

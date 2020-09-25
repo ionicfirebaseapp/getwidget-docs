@@ -45,5 +45,3 @@ GFListTile(
 | **padding** | defines the tile's padding |
 | **margin** | defines the tile's margin |
 
-
-

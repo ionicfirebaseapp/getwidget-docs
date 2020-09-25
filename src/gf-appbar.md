@@ -9,11 +9,10 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
 
-
-
-An app bar consists of a toolbar and potentially other widgets, such as a  GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above. 
+An app bar consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above.
 
 ## Appbar Info
+
 ### Usage
 
 The simple code of a basic GFAppbar is as shown below.
@@ -48,7 +47,7 @@ GFAppBar(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/appbar-3_mxflMyRld.png)
 
-If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options. 
+If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -96,7 +95,7 @@ TabController tabController;
     tabController.dispose();
     super.dispose();
   }
-  
+
   return Scaffold(
       appBar: GFAppBar(
         backgroundColor: GFColors.getGFColor(GFColor.dark),

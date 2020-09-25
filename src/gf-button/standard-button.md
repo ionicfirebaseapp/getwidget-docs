@@ -12,7 +12,7 @@ description: >-
 
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-## Solid Button  
+## Solid Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/solid-button-2x_1mtTU6eHS.png)
 
@@ -22,7 +22,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ```dart
  import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -33,7 +33,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-button-2x_BF_NVpDS8.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
+If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -48,7 +48,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-button-2x_CnsR7pkJx.png)
 
-In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFButtonType.solid`. 
+In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFButtonType.solid`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -110,7 +110,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-2x-2_ORMH0Yz0u.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -128,7 +128,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-2x-1_LtgeZktSN.png)
 
-Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
+Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

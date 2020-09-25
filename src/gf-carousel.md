@@ -11,7 +11,7 @@ description: >-
 
 ## GF Carousel
 
-List of Images given to the items in the GFCarousel, it allows to slide the each image container. Below code gives the default image slider component. 
+List of Images given to the items in the GFCarousel, it allows to slide the each image container. Below code gives the default image slider component.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -24,7 +24,7 @@ final List<String> imageList = [
   "https://cdn.pixabay.com/photo/2019/12/22/04/18/x-mas-4711785__340.jpg",
   "https://cdn.pixabay.com/photo/2016/11/22/07/09/spruce-1848543__340.jpg"
 ];
- 
+
  GFCarousel(
     items: imageList.map(
      (url) {
@@ -57,7 +57,7 @@ Look and feel of the carousel can be customized using the GFCarousel properties.
 
 | Name | Description |
 | :--- | :--- |
-| **items**   | widgets to be shown as slider |
+| **items** | widgets to be shown as slider |
 | **height** | set slide widget height and overrides any existing \[aspectRatio\] |
 | **aspectRatio** | aspect ratio is used if no height have been declared. Defaults to 16:9 aspect ratio |
 | **viewportFraction** | fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide |
@@ -82,7 +82,7 @@ Look and feel of the carousel can be customized using the GFCarousel properties.
 
 ItemsCarousel component is a multi-section container with multiple items. Each section can be swiped or dragged betwen. It contains any number of items in each Slide components.
 
-In the below code, List of Images given to the children in the GFItemsCarousel, it allows to slide the each slide container that contain multiple items. Below code gives the default multi image slider component. 
+In the below code, List of Images given to the children in the GFItemsCarousel, it allows to slide the each slide container that contain multiple items. Below code gives the default multi image slider component.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -95,7 +95,7 @@ final List<String> imageList = [
   "https://cdn.pixabay.com/photo/2019/12/22/04/18/x-mas-4711785__340.jpg",
   "https://cdn.pixabay.com/photo/2016/11/22/07/09/spruce-1848543__340.jpg"
 ];
- 
+
  GFItemsCarousel(
    rowCount: 3,
    children: imageList.map(
@@ -120,6 +120,4 @@ final List<String> imageList = [
 | **rowCount** | count of visible cells in each slide |
 | **children** | widgets to be shown in slides |
 | **itemHeight** | defines the height of an item |
-
-
 

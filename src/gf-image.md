@@ -1,7 +1,6 @@
 ---
 sidebarDepth: 2
-description: >- 
- GFImage typically manages assets and dispalys the images
+description: GFImage typically manages assets and dispalys the images
 ---
 
 # GF Image
@@ -10,7 +9,7 @@ description: >-
 
 ## Images
 
-###  Asset Image
+### Asset Image
 
 Asset image is used to display the images stored locally in the assets folder.
 
@@ -22,7 +21,6 @@ GFImageOverlay(
   width: 300,
   image: AssetImage('your asset image')
 )
-                               
 ```
 
 ### Network Image
@@ -47,7 +45,7 @@ Image Overlay is used to set the image in the background and text in the foregro
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
 GFImageOverlay(
   height: 200,
   width: 300,
@@ -58,7 +56,6 @@ GFImageOverlay(
   colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.3),
    BlendMode.darken),
 ),
-                               
 ```
 
 ### Circular Image
@@ -67,7 +64,7 @@ GFImageOverlay(
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
  GFImageOverlay(
    height: 200,
    width: 200,
@@ -75,7 +72,6 @@ import 'package:getwidget/getwidget.dart';
    image:AssetImage('your asset image'),
    boxFit: BoxFit.cover,
  )
-                               
 ```
 
 ### Custom Properties

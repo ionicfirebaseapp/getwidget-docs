@@ -9,11 +9,10 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Search_bar_2x_F2W20uVHc.png)
 
-
-
 GF SearchBar contains textfield for user input and the overlay container to show the search list collections.
 
 ## SearchBar Info
+
 ### Usage
 
 The simple code of a basic GFSearchBar is as shown below.

@@ -1,14 +1,13 @@
 ---
 sidebarDepth: 2
-description: >-
- Square Button looks like a solid button with no rounded corners.
+description: Square Button looks like a solid button with no rounded corners.
 ---
 
 # Square Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Square_button-solid_2x_Wkjf-bdm3.png)
 
-We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` .
+We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with `GFButtonShape.square` .
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -24,13 +23,13 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-solid-2x_P3Wfnkh5t.png)
 
-By default, button **type** set to `GFButtonType.solid` so, we able to get square shaped button have a solid background color with  no rounded corners.
+By default, button **type** set to `GFButtonType.solid` so, we able to get square shaped button have a solid background color with no rounded corners.
 
 The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -42,7 +41,7 @@ import 'package:getwidget/getwidget.dart';
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-disabled-2x_t-HoELvaX.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
+If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -107,7 +106,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x_FZI7IwZnU.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -126,7 +125,7 @@ Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-2x_-CHfawHE8.png)
 
-Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
+Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

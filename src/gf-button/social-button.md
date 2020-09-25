@@ -1,7 +1,6 @@
 ---
 sidebarDepth: 2
-description: >-
- Social Button determines the standard, solid, button with both label and icon.
+description: 'Social Button determines the standard, solid, button with both label and icon.'
 ---
 
 # Social Button
@@ -22,7 +21,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ```dart
   import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -34,7 +33,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x-1_WXYljNGX9.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
+If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -50,7 +49,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-social-button-2x-1_s9l5xQdik.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -67,7 +66,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-social-button-2x_3hSCzrQDG.png)
 
-Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
+Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -84,7 +83,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-social-button-2x_lRGI7ulxY.png)
 
-In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`. 
+In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFType.solid`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -101,11 +100,11 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/pills-social-buttons-2x_GfJjVk77h.png)
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
+We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 
 ```dart
  import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -118,11 +117,11 @@ We will able to get pills shaped button with solid background color with rounded
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-social-button-2x_ofI-wQHkM.png)
 
-We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  `GFButtonShape.square` . 
+We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with `GFButtonShape.square` .
 
 ```dart
  import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -131,7 +130,7 @@ We will able to get square shaped button with solid background color with no rou
   ),
 ```
 
-###  Social  Button Size
+### Social  Button Size
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-social-button-2x-1_45MJ57qDeo.png)
 

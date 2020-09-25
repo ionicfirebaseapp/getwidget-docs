@@ -1,7 +1,6 @@
 ---
 sidebarDepth: 2
-description: >-
- Icon Button having features of standard, solid button with label and icon.
+description: 'Icon Button having features of standard, solid button with label and icon.'
 ---
 
 # Icon Button
@@ -16,7 +15,7 @@ Default button **shape** set to `GFIconButtonShape.standard` so that we will abl
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x_bIhj5gtao.png)
 
-Default GFIconButton's  onPressed will be null, that gives Disabled button.
+Default GFIconButton's onPressed will be null, that gives Disabled button.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -39,7 +38,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -51,7 +50,7 @@ import 'package:getwidget/getwidget.dart';
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-icon-button-2x-1_9DnBbeMtB.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -68,7 +67,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-icon-button-2x_RwMGJ0MJ_.png)
 
-Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**. 
+Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -85,7 +84,7 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-icon-button-2x_4nc41BciT.png)
 
-In GFIconButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFButtonType.solid`**. 
+In GFIconButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFButtonType.solid`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -102,11 +101,11 @@ GFButton(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/pills-icon-button-2x_o-E933fNd.png)
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  **`GFButtonShape.pills`** . 
+We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** .
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -119,11 +118,11 @@ import 'package:getwidget/getwidget.dart';
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-icon-button-2x_gwaY8THuK.png)
 
-We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with  **`GFButtonShape.square`** . 
+We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with **`GFButtonShape.square`** .
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFButton(
     onPressed: (){},
     text: "primary",
@@ -242,9 +241,9 @@ GFIconButton(
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFIconButton Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+| **Description** | The GFIconButton Shape |
+| **Attribute** | shape |
+| **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
 | **Default** | `GFIconButtonShape.standard` |
 
 ### Custom Properties
@@ -254,12 +253,10 @@ GFIconButton(
 | **child** | child of type \[widget\] alternative to text |
 | **textColor** | the color to use for this badge's text |
 | **textStyle** | defines the styling of the text |
-| **borderSide** | defines the border side  |
+| **borderSide** | defines the border side |
 | **borderShape** | defines the shape of the border |
 | **color** | GFColor is used to change the background of the button. |
 | **iconSize** | defines the size of icon |
 | **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
 | **boxShadow** | defines the boxShadow |
-
-
 

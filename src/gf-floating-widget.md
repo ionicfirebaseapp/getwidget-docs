@@ -9,8 +9,9 @@ description: >-
 # GF Floating Widget
 
 GF Floating Widget's child can take any kind of components or widgets as its paramater. The GF Floating Widget is mostly and effectively used to show some **popups**, **alerts** or some **error messages** which floats over the main body.
- 
+
 ## Floating Widget Info
+
 ### Usage
 
 The simple way to use the GF Floating widget with its body and child properties is as shown below:

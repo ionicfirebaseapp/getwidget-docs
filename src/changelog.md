@@ -1,13 +1,13 @@
 ---
 sidebarDepth: 2
-description: >- 
- Get flutter Changelog
+description: Get flutter Changelog
 ---
 
 # Changelog
+
 ## Changelog Info
 
-### 1.0.8 - 2020-02-18
+### 1.0.8 - 2020-02-19
 
 #### Fixed
 
@@ -91,20 +91,19 @@ Added few new components
 1. Stable version release
 2. code refectoring
 3. this release includes following stable components
-
-* GFAvatar
-* GFButton
-* GFIconButton
-* GFButtonBar
-* GFBadge
-* GFButtonBadge
-* GFIconBadge
-* GFCard
-* GFCarousel
-* GFImageOverlay
-* GFListTile
-* GFTabs
-* GFTypography
+4. GFAvatar
+5. GFButton
+6. GFIconButton
+7. GFButtonBar
+8. GFBadge
+9. GFButtonBadge
+10. GFIconBadge
+11. GFCard
+12. GFCarousel
+13. GFImageOverlay
+14. GFListTile
+15. GFTabs
+16. GFTypography
 
 ### 1.0.0-dev.9 - 2020-01-17
 

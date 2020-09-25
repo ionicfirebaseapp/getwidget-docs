@@ -10,8 +10,6 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
 
-
-
 The GFAppBar automatically displays an appropriate IconButton to show the GFDrawer when a GFDrawer is available in the Scaffold.
 
 ### Usage
@@ -61,7 +59,7 @@ The simple code of a basic GFDrawerHeader with GFDrawer is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';    
-      
+
       GFDrawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -115,6 +113,4 @@ Look and feel of the GFDrawerHeader can be customized using the GFDrawerHeader p
 | **otherAccountsPictures** | list of widgets that represent the current user's other accounts |
 | **duration** | the duration for animations of the \[decoration\] |
 | **curve** | the curve for animations of the \[decoration\] |
-
-
 

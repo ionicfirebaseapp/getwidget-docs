@@ -1,22 +1,21 @@
 ---
 sidebarDepth: 2
-description: >-
- GFCard has slightly rounded corners and a shodow
+description: GFCard has slightly rounded corners and a shodow
 ---
 
 # GF Card
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Cards_-_with_avatar_2x_TP2qeapUr.png)
 
-
 ## Card Info
+
 ### Usage
 
 Below code gives the basic GFCard
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
 GFCard(
  boxFit: BoxFit.cover,
  image: Image.asset('your asset image'),
@@ -49,7 +48,7 @@ buttonBar: GFButtonBar(
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
  GFCard(
    boxFit: BoxFit.cover,
    titlePosition: GFPosition.start,
@@ -87,7 +86,7 @@ import 'package:getwidget/getwidget.dart';
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFCard(
     boxFit: BoxFit.cover,
     imageOverlay: AssetImage('your asset image'),

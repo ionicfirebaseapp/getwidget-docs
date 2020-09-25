@@ -1,7 +1,6 @@
 ---
 sidebarDepth: 2
-description: >-
- GFToggle is used to toggle the on/off state of a single setting.
+description: GFToggle is used to toggle the on/off state of a single setting.
 ---
 
 # GF Toggle
@@ -9,6 +8,7 @@ description: >-
 ![img](https://ik.imagekit.io/ionicfirebaseapp/toggles-2x_TWbAtt1_D.png)
 
 ## Toggle Info
+
 ### Usage
 
 The simple toggle code is as shown below.
@@ -26,7 +26,7 @@ import 'package:getwidget/getwidget.dart';
 
 There are four types ie, `android`, `ios`, `square` and `custom`. The default toggle is a android toggle
 
-###  IOS Toggle
+### IOS Toggle
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/ios_bW24_m8Gb.png)
 
@@ -45,8 +45,6 @@ import 'package:getwidget/getwidget.dart';
 ### Square Toggle
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square_kQf7GGmmw.png)
-
-
 
 The below code shows a simple square toggle
 

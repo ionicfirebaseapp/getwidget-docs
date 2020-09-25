@@ -12,6 +12,7 @@ description: >-
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 
 ## Progress Bar Info
+
 ### Usage
 
 The below code shows a simple **Linear** **progress** **bar** with some defined properties of the progress bar.
@@ -52,7 +53,7 @@ The progress bar can be customized to show the percentage of progress completed.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
 GFProgressBar(
     percentage: 0.5,
     lineHeight: 20,
@@ -110,9 +111,9 @@ GFProgressBar(
 | **animateFromLastPercentage** | type of bool which is used to animate the progress bar from the last percentage value set |
 | **linearGradient** | linear gardient colors given to the progress line color |
 | **autoLive** | set to false if you don't want to preserve the state of the widget , default is true |
-| **fromRightToLeft** | set to true if you want to animate the linear progress bar from right to left  |
+| **fromRightToLeft** | set to true if you want to animate the linear progress bar from right to left |
 | **mask** | Creates a mask filter that takes the progress shape being drawn and blurs it |
-| **clipLinearGradient** | set to true if you want to display only a part of \[linearGradient\] based on percentage value,  |
+| **clipLinearGradient** | set to true if you want to display only a part of \[linearGradient\] based on percentage value, |
 | **progressHeadType** | type of \[GFProgressHeadType\] which changes the shape of the progress head ie ,  circular or sqaure |
 | **reverse** | type to bool which is used to display the progress in reverse direction |
 

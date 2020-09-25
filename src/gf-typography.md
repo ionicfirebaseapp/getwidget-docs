@@ -9,11 +9,11 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Typography_2x_7rUbGrN2G.png)
 
-
 ## Typography Info
+
 ### Usage
 
-The simple Typography code is as shown below 
+The simple Typography code is as shown below
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -42,7 +42,7 @@ GFTypography(
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
  GFTypography(
    text: 'GF Header Typo1',
    type: GFTypographyType.typo1,

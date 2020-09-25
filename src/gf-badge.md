@@ -53,9 +53,9 @@ GFBadge(
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFBadge Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
+| **Description** | The GFBadge Shape |
+| **Attribute** | shape |
+| **Type** | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
 | **Default** | `GFButtonShape.standard` |
 
 ### Custom Properties
@@ -65,7 +65,7 @@ GFBadge(
 | **child** | child of type \[widget\] alternative to text |
 | **textcolor** | the color to use for this badge;s text |
 | **textStyle** | defines the styling of the text |
-| **border** | defines the border side  |
+| **border** | defines the border side |
 | **bordershape** | defines the shape of the border |
 | **color** | GFColor is used to change the background of the button. |
 
@@ -97,7 +97,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
 GFButtonBadge(
   onPressed: (){},
   text: "primary",
@@ -111,7 +111,7 @@ GFButtonBadge(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-badge-buttons-2x_pRTAZyWWe.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
+If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -129,7 +129,7 @@ GFButtonBadge(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-badge-buttons-2x-1_-Tow_mzA3.png)
 
-Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**. 
+Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -146,11 +146,11 @@ GFButtonBadge(
 
 ### Button Badge Shape \(Pills Button\)
 
-We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with  `GFButtonShape.pills` . 
+We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 
 ```dart
 import 'package:getwidget/getwidget.dart';
-  
+
   GFButtonBadge(
     onPressed: (){},
     text: "primary",
@@ -161,7 +161,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-###  Button Badge Size
+### Button Badge Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -178,18 +178,18 @@ GFButtonBadge(
  ),
 ```
 
-## Properties 
+## Properties
 
 GF Button Badge can be styled with several attributes to look a specific way. Each and every attribute is described below.
 
-### Color 
+### Color
 
 GFColor is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description** | The color to use from application's color pallete                                |
-| **Attribute** |  color |
+| **Description** | The color to use from application's color pallete |
+| **Attribute** | color |
 | **Type** | `GFColor` |
 | **Default** | `GFColor.primary` |
 
@@ -197,8 +197,8 @@ GFColor is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description**  | The GFButtonBadge Size                                                                                           |
-| **Attribute** |  size |
+| **Description** | The GFButtonBadge Size |
+| **Attribute** | size |
 | **Type** | `GFSize.large,  GFSize.medium, GfSize.small` |
 | **Default** | `GFSize.medium` |
 
@@ -206,17 +206,17 @@ GFColor is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFButtonBadge Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
+| **Description** | The GFButtonBadge Shape |
+| **Attribute** | shape |
+| **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
 ### Type
 
 |  |  |
 | :--- | :--- |
-| **Description**     |   The GFButtonBadge Type                                |
-| **Attribute** |   type |
+| **Description** | The GFButtonBadge Type |
+| **Attribute** | type |
 | **Type** | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
 | **Default** | `GFType.solid` |
 
@@ -224,8 +224,8 @@ GFColor is used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description** |  The GFButtonBadge Position                                                                    |
-| **Attribute** |  position |
+| **Description** | The GFButtonBadge Position |
+| **Attribute** | position |
 | **Type** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
 
@@ -233,7 +233,7 @@ GFColor is used to change the background of the button.
 
 | Name | Description |
 | :--- | :--- |
-| **onPressed**   | callback i.e, called when the button is tapped |
+| **onPressed** | callback i.e, called when the button is tapped |
 | **onLongPressed** | callback i.e, called when the button is long-pressed |
 | **text** | text of type \[string\] to describe button's label. text will be priority over child |
 | **icon** | icon of type \[widget\] to describe button's label with icon |
@@ -242,12 +242,12 @@ GFColor is used to change the background of the button.
 | **textStyle** | defines the styling of the text |
 | **disabledColor** | the fillcolor of  the button when the button is disabled |
 | **disabledTextColor** | the color to use for this button's text when the button is disabled |
-| **borderSide** | defines the border side  |
+| **borderSide** | defines the border side |
 | **bordershape** | defines the shape of the border |
 | **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
 | **boxShadow** | defines the boxShadow |
-| **fullWidthButton** | if `true,` defines the full width of the button.  |
-| **blockButton** | if `true`, defines the block button.  |
+| **fullWidthButton** | if `true,` defines the full width of the button. |
+| **blockButton** | if `true`, defines the block button. |
 | **padding** | defines internal padding of the button |
 | **focusColor** | fillColor of the button when it has the input focused |
 | **hoverColor** | fillColor of the button when the pointer is hovered over it |
@@ -299,7 +299,7 @@ Button type can be changed using property **type** by setting to `GFType.outline
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
  GFIconBadge(
   child: GFIconButton(
    onPressed: (){},
@@ -329,15 +329,13 @@ GFIconBadge(
     child: Text("12"),
   ),
 ),
- 
- 
 ```
 
 |  |  |
 | :--- | :--- |
-| **Description**     |  The GFIconButton Shape                                               |
-| **Attribute** |  shape |
-| **Type**               | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+| **Description** | The GFIconButton Shape |
+| **Attribute** | shape |
+| **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
 | **Default** | `GFIconButtonShape.standard` |
 
 ### Custom Properties
@@ -347,7 +345,7 @@ GFIconBadge(
 | **child** | child of type \[widget\] alternative to text |
 | **textcolor** | the color to use for this badge;s text |
 | **textStyle** | defines the styling of the text |
-| **borderSide** | defines the border side  |
+| **borderSide** | defines the border side |
 | **bordershape** | defines the shape of the border |
 | **color** | GFColor is used to change the background of the button. |
 | **iconSize** | defines the size of icon |

@@ -10,8 +10,6 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tabs-icon_1_2x_d161LbF9k.png)
 
-
-
 ## GFTabBar
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/tabs-2x_ic_9n6u7B.png)
@@ -83,9 +81,9 @@ Look and feel of the GFTabBar can be customized using the GFTabBar properties.
 | **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
 | **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
 | **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
-| **indicator** | defines the appearance of the selected tab indicator.  |
-| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
-| **labelColor** | color of selected tab labels.  |
+| **indicator** | defines the appearance of the selected tab indicator. |
+| **indicatorSize** | defines how the selected tab indicator's size is computed. |
+| **labelColor** | color of selected tab labels. |
 | **unselectedLabelColor** | color of unselected tab labels. |
 | **labelStyle** | text style of the selected tab labels. |
 | **unselectedLabelStyle** | text style of the unselected tab labels. |
@@ -124,7 +122,7 @@ Look and feel of the GFTabBarVIew can be customized using the GFTabBarView prope
 
 ## GFTabs
 
-GFTabs component is the combination of GFTabBar with GFTabBarView with default controller to controls page view that displays the widget which corresponds to the currently selected tab. 
+GFTabs component is the combination of GFTabBar with GFTabBarView with default controller to controls page view that displays the widget which corresponds to the currently selected tab.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -176,9 +174,9 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 | **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
 | **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
 | **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
-| **indicator** | defines the appearance of the selected tab indicator.  |
-| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
-| **labelColor** | color of selected tab labels.  |
+| **indicator** | defines the appearance of the selected tab indicator. |
+| **indicatorSize** | defines how the selected tab indicator's size is computed. |
+| **labelColor** | color of selected tab labels. |
 | **unselectedLabelColor** | color of unselected tab labels. |
 | **labelStyle** | text style of the selected tab labels. |
 | **unselectedLabelStyle** | text style of the unselected tab labels. |
@@ -192,7 +190,7 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 
 GFSegmentTabs are best used as an alternative for tabs. It looks like pills shaped button tab bar with all features of GFTabBar.
 
-This component is typically used in conjunction with a GFTabBarView and must provide TabBarController to control  A page view that displays the widget which corresponds to the currently selected tab. 
+This component is typically used in conjunction with a GFTabBarView and must provide TabBarController to control A page view that displays the widget which corresponds to the currently selected tab.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -230,9 +228,9 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 | **indicatorColor** | color of the line that appears below the selected tab. If this parameter is null, then the value of the Theme's indicatorColor property is used. |
 | **indicatorWeight** | thickness of the line that appears below the selected tab. The value of this parameter must be greater than zero and its default value is 2.0. |
 | **indicatorPadding** | horizontal padding for the line that appears below the selected tab. |
-| **indicator** | defines the appearance of the selected tab indicator.  |
-| **indicatorSize** | defines how the selected tab indicator's size is computed.  |
-| **labelColor** | color of selected tab labels.  |
+| **indicator** | defines the appearance of the selected tab indicator. |
+| **indicatorSize** | defines how the selected tab indicator's size is computed. |
+| **labelColor** | color of selected tab labels. |
 | **unselectedLabelColor** | color of unselected tab labels. |
 | **labelStyle** | text style of the selected tab labels. |
 | **unselectedLabelStyle** | text style of the unselected tab labels. |

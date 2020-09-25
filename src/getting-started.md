@@ -1,5 +1,4 @@
 ---
-
 sidebarDepth: 2
 description: >-
   GetWidget is a Flutter open-source library that comes with pre-build 1000+ UI
@@ -9,9 +8,9 @@ description: >-
 
 # Getting Started
 
-### Installation Guide
+## Installation Guide
 
- Add the following dependency into your pubspec.yaml file
+Add the following dependency into your pubspec.yaml file
 
 ```dart
 dependencies:
@@ -36,7 +35,7 @@ Alternatively, your editor might support `pub get` or `flutter pub get`. Check t
 
 Import it:
 
-Now in your Dart code, you can import the components that are necessary for your application 
+Now in your Dart code, you can import the components that are necessary for your application
 
 ```dart
 import 'package:getwidget/getwidget.dart';

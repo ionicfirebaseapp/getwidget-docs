@@ -9,8 +9,8 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Ratings_2x_u92JHlj0d.png)
 
-
 ## Rating Info
+
 ### Usage
 
 The simple code of a basic **GF Rating** is as shown below.
@@ -81,6 +81,4 @@ Look and feel of the **GF Rating** can be customized using the GF Rating propert
 | **inputDecorations** | defines the \[InputDecoration\] of rating \[TextFormField\] |
 | **margin** | defines the margin of rating \[TextFormField\] |
 | **padding** | defines the padding of rating \[TextFormField\] |
-
-
 

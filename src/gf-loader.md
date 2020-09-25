@@ -9,8 +9,8 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Loaders_Docs_Banner_2x_d4qy_o4O9.png)
 
-
 ## Loader Info
+
 ### Usage
 
 The basic code of a simple GFLoader is as shown below. There are five types in which the default corresponds to android type of loader.
@@ -22,11 +22,11 @@ import 'package:getwidget/getwidget.dart';
 
 ### Types of Loaders
 
-There are five different types of loaders  namely **android** , **ios,** **circle**, **square** and **custom**
+There are five different types of loaders namely **android** , **ios,** **circle**, **square** and **custom**
 
 ### **IOS Loader**
 
-A simple **ios** loader in which the type of the loader  should be passed to **ios**. The code is as shown below.
+A simple **ios** loader in which the type of the loader should be passed to **ios**. The code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -39,7 +39,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Circular Loader
 
-A simple **circular** shape loader in which the type of the loader  should be passed to **circle**. The code is as shown below.
+A simple **circular** shape loader in which the type of the loader should be passed to **circle**. The code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -53,7 +53,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Square Loader
 
-A simple **square** shape loader in which the type of the loader  should be passed to **square**. The code is as shown below.
+A simple **square** shape loader in which the type of the loader should be passed to **square**. The code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -71,7 +71,7 @@ Apart from the four types described above, there is a custom loader in which we 
 
 ```dart
 import 'package:getwidget/getwidget.dart';
- 
+
  GFLoader(
    type: GFLoaderType.custom,
    child: Image(image: AssetImage(your gif here...),
@@ -95,7 +95,7 @@ GFLoader(
 
 ### Custom Loader with text
 
-We can also pass text  as a parameter to custom loader. The below code shows a simple usage.
+We can also pass text as a parameter to custom loader. The below code shows a simple usage.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -114,9 +114,9 @@ GFLoader(
 | :--- | :--- |
 | **child** | child of type \[Widget\] used only for **custom** type and is prominent over loaderIconOne, loaderIconTwo and loaderIconThree in **custom** type |
 | **duration** | defines the animation duration of the loader only in **circle** and **square** type |
-| **loaderColorOne** |  defines the color of the first dot in only  **circle** or **square** type of loader |
-| **loaderColorTwo** |  defines the color of the second dot in only **circle** or **square** type of loader |
-| **loaderColorThree** |  defines the color of the third dot in only **circle** or **square** type of loader |
+| **loaderColorOne** | defines the color of the first dot in only  **circle** or **square** type of loader |
+| **loaderColorTwo** | defines the color of the second dot in only **circle** or **square** type of loader |
+| **loaderColorThree** | defines the color of the third dot in only **circle** or **square** type of loader |
 | **androidLoaderColor** | defines the color of the android type loader only |
 | **loaderstrokeWidth** | defines the stroke width of the android type loader only |
 | **size** | defines the size of the loader ie, `small`, `medium` and `large` and it is applicable to android ios, circle and square type loaders |

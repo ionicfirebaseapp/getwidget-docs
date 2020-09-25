@@ -1,0 +1,237 @@
+---
+description: GFCheckbox allows user to select one or more options.
+---
+
+# GF Checkbox
+
+## GF Checkbox Info
+
+### Usage
+
+Below code gives the basic GFCheckbox
+
+```text
+bool isChecked = false;
+
+GFCheckbox(
+  size: GFSize.SMALL,
+  activebgColor: GFColors.DANGER,
+  onChanged: (value) {
+    setState(() {
+      isChecked = value;
+    });
+  },
+  value: isChecked,
+),
+```
+
+### Basic Checkbox
+
+```text
+bool isChecked = false;
+
+GFCard(
+ content: Row(
+ mainAxisAlignment: MainAxisAlignment.spaceBetween,
+ children: <Widget>[
+   GFCheckbox(
+     size: GFSize.SMALL,
+     activebgColor: GFColors.DANGER,
+     onChanged: (val) {
+       setState(() {
+         isChecked = val;
+       });
+     },
+     value: isChecked,
+     inactiveIcon: null,
+   ),
+  GFCheckbox(
+    activebgColor: GFColors.SECONDARY,
+    onChanged: (val) {
+      setState(() {
+        isChecked = val;
+      });
+    },
+    value: isChecked,
+    inactiveIcon: null,
+   ),
+   GFCheckbox(
+     size: GFSize.LARGE,
+     activebgColor: GFColors.SUCCESS,
+     onChanged: (val) {
+       setState(() {
+         isChecked = val;
+       });
+     },
+     value: isChecked,
+     inactiveIcon: null,
+    ),
+   ],
+  ),
+),
+```
+
+### Square Checkbox
+
+```text
+bool isChecked = false;
+
+GFCard(
+  content: Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: <Widget>[
+      GFCheckbox(
+        size: GFSize.SMALL,
+        activebgColor: GFColors.DANGER,
+        type: GFCheckboxType.square,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+      GFCheckbox(
+        type: GFCheckboxType.square,
+        activebgColor: GFColors.SECONDARY,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+      GFCheckbox(
+        size: GFSize.LARGE,
+        activebgColor: GFColors.SUCCESS,
+        type: GFCheckboxType.square,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+    ],
+  ),
+),
+```
+
+### Circular Checkbox
+
+```text
+bool isChecked = false;
+
+GFCard(
+  content: Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: <Widget>[
+      GFCheckbox(
+        size: GFSize.SMALL,
+        activebgColor: GFColors.DANGER,
+        type: GFCheckboxType.circle,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+      GFCheckbox(
+        type: GFCheckboxType.circle,
+        activebgColor: GFColors.SECONDARY,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+      ),
+      GFCheckbox(
+        activebgColor: GFColors.SUCCESS,
+        size: GFSize.LARGE,
+        type: GFCheckboxType.circle,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+    ],
+  ),
+),
+```
+
+### Custom Checkbox
+
+```text
+bool isChecked = false;
+
+GFCard(
+  content: Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: <Widget>[
+      GFCheckbox(
+        size: GFSize.SMALL,
+        type: GFCheckboxType.custom,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: null,
+      ),
+      GFCheckbox(
+        type: GFCheckboxType.square,
+        activebgColor: GFColors.SECONDARY,
+        activeIcon: Icon(Icons.sentiment_satisfied),
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        inactiveIcon: Icon(Icons.sentiment_dissatisfied),
+      ),
+      GFCheckbox(
+        size: GFSize.MEDIUM,
+        type: GFCheckboxType.custom,
+        onChanged: (val) {
+          setState(() {
+            isChecked = val;
+          });
+        },
+        value: isChecked,
+        custombgColor: GFColors.INFO,
+      ),
+    ],
+  ),
+),
+```
+
+### Custom Properties
+
+|  |  |
+| :--- | :--- |
+| **type** | type of \[GFCheckboxType\] which is of four type is basic, square, circular and custom |
+| **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |
+| **checkColor** | type of \[Color\] used to change the checkcolor when the checkbox is active |
+| **activebgColor** | type of \[Color\] used to change the backgroundColor of the active checkbox |
+| **inactivebgColor** | type of \[Color\] used to change the backgroundColor of the inactive checkbox |
+| **activeBorderColor** | type of \[Color\] used to change the border color of the active checkbox |
+| **inactiveBorderColor** | type of \[Color\] used to change the border color of the inactive checkbox |
+| **onChanged** | called when the user checks or unchecks the checkbox. |
+| **value** | used to set the current state of the checkbox |
+| **activeIcon** | type of \[Widget\] used to change the  checkbox's active icon |
+| **inactiveIcon** | type of \[Widget\] used to change the  checkbox's inactive icon |
+| **custombgColor** | type of \[Color\] used to change the background color of the custom active checkbox only |
+| **autofocus** | on true state this widget will be selected as the initial focus when no other node in its scope is currently focused |
+| **focusNode** | an optional focus node to use as the focus node for this widget. |
+

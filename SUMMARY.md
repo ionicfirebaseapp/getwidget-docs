@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction Getwidget](README.md)
 * [src](src/README.md)
-  * [GF Accordion](src/gf-accordion.md)
+  * [GF Accordion Widget](src/gf-accordion.md)
   * [Introduction](src/introduction.md)
   * [GF Toast](src/gf-toast.md)
   * [GF Alert](src/gf-alert.md)

@@ -6,7 +6,7 @@ description: >-
   the description of the given title
 ---
 
-# GF Accordion
+# GF Accordion Widget
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/accordion_EghoEjZzz.png)
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction Getwidget](README.md)
+* [Introduction](README.md)
 * [src](src/README.md)
   * [GF Accordion Widget](src/gf-accordion.md)
   * [Introduction](src/introduction.md)

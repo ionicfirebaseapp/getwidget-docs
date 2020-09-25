@@ -254,10 +254,10 @@ module.exports = {
             },
             {
                 title: 'GF Alert',
-                path: '/gf-alert/',
+                path: '/gf-alert',
                 collapsable: true,
                 children: [
-                    '/gf-alert/',
+                    '/gf-alert',
                 ],
             },
             {

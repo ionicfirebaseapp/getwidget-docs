@@ -25,6 +25,7 @@
     "vuepress-plugin-autometa": "^0.1.13"
   },
   "dependencies": {
+    "vue-router": "^3.4.4",
     "vuepress-plugin-clean-urls": "1.1.1",
     "vuepress-plugin-img-lazy": "^1.0.4",
     "vuepress-theme-book": "0.0.4"

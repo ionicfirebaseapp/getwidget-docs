@@ -5,6 +5,7 @@
   * [GF Radio](src/gf-radio.md)
   * [GF Radio ListTile](src/gf-radio-listtile.md)
   * [GF Animation](src/gf-animation.md)
+  * [GF Border](src/gf-border.md)
   * [GF Accordion Widget](src/gf-accordion.md)
   * [Introduction](src/introduction.md)
   * [GF Checkbox](src/gf-checkbox.md)

@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [src](src/README.md)
   * [GF Radio](src/gf-radio.md)
+  * [GF Bottomsheet](src/gf-bottomsheet.md)
   * [GF Radio ListTile](src/gf-radio-listtile.md)
   * [GF Animation](src/gf-animation.md)
   * [GF Border](src/gf-border.md)

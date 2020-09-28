@@ -8,9 +8,11 @@ description: >-
 
 ## GF Radio Info
 
+![GF Radio button](../.gitbook/assets/docs-banner-radio-button-2x.png)
+
 ### Usage
 
-Below code gives the basic GFRadio
+The simple code of a basic GFRadio is as shown below.
 
 ```text
 int groupValue = 0;
@@ -19,9 +21,9 @@ GFRadio(
   size: GFSize.SMALL,
   value: 2,
   groupValue: groupValue,
-  onChanged: (val) {
+  onChanged: (value) {
     setState(() {
-      groupValue = val;
+      groupValue = value;
     });
   },
   inactiveIcon: null,
@@ -32,7 +34,11 @@ GFRadio(
 
 ### Basic Radio Button
 
+![Basic Radio Buttons](../.gitbook/assets/basic-radio-button.png)
+
 ```text
+int groupValue = 0;
+
 GFCard(
     content: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -44,7 +50,7 @@ GFCard(
           groupValue: groupValue,
           onChanged: (val) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -54,9 +60,9 @@ GFCard(
           size: GFSize.MEDIUM,
           value: 1,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -67,9 +73,9 @@ GFCard(
           size: GFSize.SMALL,
           value: 2,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -80,9 +86,9 @@ GFCard(
           size: 20,
           value: 3,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -95,7 +101,11 @@ GFCard(
 
 ### Square Radio Button
 
+![Square Radio Button](../.gitbook/assets/square-radio-buttons.png)
+
 ```text
+int groupValue = 0;
+
 GFCard(
     content: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -105,9 +115,9 @@ GFCard(
           size: GFSize.LARGE,
           value: 4,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -119,9 +129,9 @@ GFCard(
           size: GFSize.MEDIUM,
           value: 5,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -133,9 +143,9 @@ GFCard(
           size: GFSize.SMALL,
           value: 6,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -147,9 +157,9 @@ GFCard(
           size: 20,
           value: 7,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -163,7 +173,11 @@ GFCard(
 
 ### Custom Radio Button Type 1
 
+![Custom Radio Button Type 1](../.gitbook/assets/custom-1%20%281%29.png)
+
 ```text
+int groupValue = 0;
+
 GFCard(
     content: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -174,9 +188,9 @@ GFCard(
             activeBorderColor: GFColors.SUCCESS,
             value: 8,
             groupValue: groupValue,
-            onChanged: (val) {
+            onChanged: (value) {
               setState(() {
-                groupValue = val;
+                groupValue = value;
               });
             },
             inactiveIcon: null,
@@ -186,9 +200,9 @@ GFCard(
           size: GFSize.MEDIUM,
           value: 9,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -200,9 +214,9 @@ GFCard(
           size: GFSize.SMALL,
           value: 10,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -214,9 +228,9 @@ GFCard(
           size: 25,
           value: 11,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -229,7 +243,11 @@ GFCard(
 
 ### Custom Radio Button Type 2
 
+![Custom Radio Button Type 2](../.gitbook/assets/custom-2%20%281%29.png)
+
 ```text
+int groupValue = 0;
+
 GFCard(
     content: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -244,9 +262,9 @@ GFCard(
           activeBorderColor: GFColors.SUCCESS,
           value: 12,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
         ),
@@ -256,9 +274,9 @@ GFCard(
           size: GFSize.MEDIUM,
           value: 13,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: Icon(Icons.sentiment_dissatisfied),
@@ -271,9 +289,9 @@ GFCard(
           size: GFSize.SMALL,
           value: 14,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -285,9 +303,9 @@ GFCard(
           size: 25,
           value: 15,
           groupValue: groupValue,
-          onChanged: (val) {
+          onChanged: (value) {
             setState(() {
-              groupValue = val;
+              groupValue = value;
             });
           },
           inactiveIcon: null,
@@ -299,6 +317,8 @@ GFCard(
 ```
 
 ### Custom Properties
+
+Look and feel of the **GFRadio** can be customized using the GFRadio properties.
 
 |  |  |
 | :--- | :--- |

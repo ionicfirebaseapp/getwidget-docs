@@ -1,26 +1,33 @@
 ---
 description: >-
-  GFCheckbox ListTile is checkbox with listTile to display labels and which
-  allows user to select one or more options.
+  GFCheckbox ListTile is checkbox with ListTile to display labels and avatar,
+  which allows user to select one or more options.
 ---
 
 # GF Checkbox ListTile
 
 ## GF Checkbox ListTile Info
 
+![GF Checkbox ListTile](../.gitbook/assets/docs-banner-checkbox-list-tile-2x.png)
+
 ### Usage
 
-Below code gives the basic GFCheckbox ListTile
+The simple code of a basic GFCheckboxListTile is as shown below.
+
+![GF CheckboxListTile](../.gitbook/assets/checkbox-list-tile-3x.png)
 
 ```text
+bool isChecked = false;
+
 GFCheckboxListTile(
-  titleText: 'hi',
-  subtitleText: 'Happy Ugadi',
+  titleText: 'Arthur Shelby',
+  subtitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
-    backgroundColor: GFColors.PRIMARY,
+    backgroundImage: AssetImage('Assets image here'),
   ),
   size: 25,
   activebgColor: Colors.green,
+  type: GFCheckboxType.circle,
   activeIcon: Icon(
     Icons.check,
     size: 15,
@@ -37,6 +44,8 @@ GFCheckboxListTile(
 ```
 
 ### Custom Properties
+
+Look and feel of the **GFCheckboxListTile** can be customized using the GFCheckboxListTile properties.
 
 |  |  |
 | :--- | :--- |

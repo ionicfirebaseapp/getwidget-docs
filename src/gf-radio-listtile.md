@@ -9,18 +9,22 @@ description: >-
 
 ## GF Radio ListTile Info
 
+![GF Radio ListTile](../.gitbook/assets/docs-banner-radio-list-tile-2x.png)
+
 ### Usage
 
-Below code gives the basic GFRadio ListTile
+The simple code of a basic GFRadioListTile is as shown below.
+
+![GF RadioListTile](../.gitbook/assets/radiolist-tile-3x.png)
 
 ```text
 int groupValue = 0;
 
 GFRadioListTile(
-  titleText: 'Hello',
-  subtitleText: 'Happy New Year',
+  titleText: 'Arthur Shelby',
+  subtitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
-    backgroundColor: GFColors.PRIMARY,
+    backgroundImage: AssetImage('Assets image here'),
   ),
   size: 25,
   activeBorderColor: Colors.green,
@@ -36,10 +40,10 @@ GFRadioListTile(
   inactiveIcon: null,
 ),
 GFRadioListTile(
-  titleText: 'Hello',
-  subtitleText: 'Happy New Year',
+  titleText: 'Arthur Shelby',
+  subtitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
-    backgroundColor: GFColors.PRIMARY,
+    backgroundImage: AssetImage('Assets image here'),
   ),
   size: 25,
   activeBorderColor: Colors.green,
@@ -57,6 +61,8 @@ GFRadioListTile(
 ```
 
 ### Custom Properties
+
+Look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
 
 <table>
   <thead>

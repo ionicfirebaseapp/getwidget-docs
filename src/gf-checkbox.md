@@ -6,9 +6,11 @@ description: GFCheckbox allows user to select one or more options.
 
 ## GF Checkbox Info
 
+![GF CheckBox](../.gitbook/assets/docs-banner-checkboxes-2x.png)
+
 ### Usage
 
-Below code gives the basic GFCheckbox
+The simple code of a basic GFCheckbox is as shown below.
 
 ```text
 bool isChecked = false;
@@ -27,6 +29,8 @@ GFCheckbox(
 
 ### Basic Checkbox
 
+![Basic Checkbox](../.gitbook/assets/basic-checkbox.png)
+
 ```text
 bool isChecked = false;
 
@@ -37,9 +41,9 @@ GFCard(
    GFCheckbox(
      size: GFSize.SMALL,
      activebgColor: GFColors.DANGER,
-     onChanged: (val) {
+     onChanged: (value) {
        setState(() {
-         isChecked = val;
+         isChecked = value;
        });
      },
      value: isChecked,
@@ -47,9 +51,9 @@ GFCard(
    ),
   GFCheckbox(
     activebgColor: GFColors.SECONDARY,
-    onChanged: (val) {
+    onChanged: (value) {
       setState(() {
-        isChecked = val;
+        isChecked = value;
       });
     },
     value: isChecked,
@@ -58,9 +62,9 @@ GFCard(
    GFCheckbox(
      size: GFSize.LARGE,
      activebgColor: GFColors.SUCCESS,
-     onChanged: (val) {
+     onChanged: (value) {
        setState(() {
-         isChecked = val;
+         isChecked = value;
        });
      },
      value: isChecked,
@@ -73,6 +77,8 @@ GFCard(
 
 ### Square Checkbox
 
+![Square Checkbox](../.gitbook/assets/square-checkbox.png)
+
 ```text
 bool isChecked = false;
 
@@ -84,9 +90,9 @@ GFCard(
         size: GFSize.SMALL,
         activebgColor: GFColors.DANGER,
         type: GFCheckboxType.square,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -95,9 +101,9 @@ GFCard(
       GFCheckbox(
         type: GFCheckboxType.square,
         activebgColor: GFColors.SECONDARY,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -107,9 +113,9 @@ GFCard(
         size: GFSize.LARGE,
         activebgColor: GFColors.SUCCESS,
         type: GFCheckboxType.square,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -122,6 +128,8 @@ GFCard(
 
 ### Circular Checkbox
 
+![Circular Checkbox](../.gitbook/assets/circular-checkbox.png)
+
 ```text
 bool isChecked = false;
 
@@ -133,9 +141,9 @@ GFCard(
         size: GFSize.SMALL,
         activebgColor: GFColors.DANGER,
         type: GFCheckboxType.circle,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -144,9 +152,9 @@ GFCard(
       GFCheckbox(
         type: GFCheckboxType.circle,
         activebgColor: GFColors.SECONDARY,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -155,9 +163,9 @@ GFCard(
         activebgColor: GFColors.SUCCESS,
         size: GFSize.LARGE,
         type: GFCheckboxType.circle,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -170,6 +178,8 @@ GFCard(
 
 ### Custom Checkbox
 
+![Custom Checkbox](../.gitbook/assets/custom-checkbox.png)
+
 ```text
 bool isChecked = false;
 
@@ -180,9 +190,9 @@ GFCard(
       GFCheckbox(
         size: GFSize.SMALL,
         type: GFCheckboxType.custom,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -192,9 +202,9 @@ GFCard(
         type: GFCheckboxType.square,
         activebgColor: GFColors.SECONDARY,
         activeIcon: Icon(Icons.sentiment_satisfied),
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -203,9 +213,9 @@ GFCard(
       GFCheckbox(
         size: GFSize.MEDIUM,
         type: GFCheckboxType.custom,
-        onChanged: (val) {
+        onChanged: (value) {
           setState(() {
-            isChecked = val;
+            isChecked = value;
           });
         },
         value: isChecked,
@@ -217,6 +227,8 @@ GFCard(
 ```
 
 ### Custom Properties
+
+Look and feel of the **GFCheckbox** can be customized using the GFCheckbox properties.
 
 |  |  |
 | :--- | :--- |

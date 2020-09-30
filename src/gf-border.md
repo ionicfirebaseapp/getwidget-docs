@@ -53,7 +53,7 @@ Look and feel of the **GFBorder** can be customized using the GFBorder propertie
 |  |  |
 | :--- | :--- |
 | **child** | child of  type \[Widget\] which can be any component or text, etc |
-| **padding** | padding of time \[EdgeInsets\] where in padding is given to the border types |
+| **padding** | padding for \[child\] where in padding is given to the border types |
 | **strokeWidth** | storkeWidth of type \[double\] which is used to define the thickness of the border |
 | **color** | color of type \[Color\] or GFColor which is used to change the color of the border type |
 | **dashedLine** | dashedLine of type \[List&lt;double&gt;\] which is used for the linear and simple dashed line of border |

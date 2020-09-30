@@ -101,8 +101,6 @@ Look and feel of the **GFBottomsheet** can be customized using the GFBottomsheet
       </td>
       <td style="text-align:left">
         <p>[minContentHeight] controls the minimum height of the content body.</p>
-        <p>Content body with [minContentHeight] displays only when [enableExpandableContent]
-          is false.</p>
         <p>It Must be greater or equal to 0. Default value is 0.</p>
       </td>
     </tr>

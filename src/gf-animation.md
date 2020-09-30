@@ -216,7 +216,7 @@ Look and feel of the **GFAnimation** can be customized using the GFAnimation pro
     <tr>
       <td style="text-align:left"><b>width</b>
       </td>
-      <td style="text-align:left">[AnimatedContainer] initial width</td>
+      <td style="text-align:left">defines [AnimatedContainer] initial width</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>changedWidth</b>
@@ -227,7 +227,7 @@ Look and feel of the **GFAnimation** can be customized using the GFAnimation pro
     <tr>
       <td style="text-align:left"><b>height</b>
       </td>
-      <td style="text-align:left">[AnimatedContainer] initial height</td>
+      <td style="text-align:left">defines [AnimatedContainer] initial height</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>changedHeight</b>

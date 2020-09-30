@@ -59,7 +59,6 @@ Look and feel of the **GFBorder** can be customized using the GFBorder propertie
 | **dashedLine** | dashedLine of type \[List&lt;double&gt;\] which is used for the linear and simple dashed line of border |
 | **type** | type of \[GFBorderType\] which is used to define the different types of borders ie, circle, Rect, RRect and oval |
 | **radius** | radius of type \[Radius\] used to give a curved border only when the border type is RRect, in other cases radius will not work |
-| **customPath** | customPath of type \[PathBuilder\] used for drawing the paths |
 
 
 

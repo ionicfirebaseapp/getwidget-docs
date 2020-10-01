@@ -13,6 +13,12 @@ description: >-
 
 The simple code of a basic GFIntroScreen is as shown below.
 
+### GF Intro Screen Types
+
+### GF Intro Screen with Pagination
+
+### GF Intro Screen with BottomNavigationBar
+
 ### Custom Properties
 
 Look and feel of the **GFIntroScreen** can be customized using the GFIntroScreen properties.
@@ -37,10 +43,10 @@ Look and feel of the **GFIntroScreen** can be customized using the GFIntroScreen
 | **navigationBarMargin** | defines \[GFIntroScreenBottomNavigationBar\] margin |
 | **navigationBarColor** | defines \[GFIntroScreenBottomNavigationBar\] color |
 | **navigationBarShape** | defines the shape of \[GFIntroScreenBottomNavigationBar\] |
-| **onForwardButtonTap** | called when the forward button is tapped |
-| **onBackButtonTap** | called when the back button is tapped |
-| **onDoneTap** | called when the done button is tapped |
-| **onSkipTap** | called when the skip button is tapped |
+| **onForwardButtonTap** | called when the \[forwardButtonText\]  is tapped |
+| **onBackButtonTap** | called when the \[backButtonText\] is tapped |
+| **onDoneTap** | called when the \[doneButtonText\] is tapped |
+| **onSkipTap** | called when the \[skipButtonText\] is tapped |
 | **backButton** | takes any Widget to define the backButton widget |
 | **forwardButton** | takes any Widget to define the forwardButton widget |
 | **doneButton** | takes any Widget to define the doneButton widget |

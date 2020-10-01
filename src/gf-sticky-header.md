@@ -14,6 +14,8 @@ The simple code of a basic GFSticky Header is as shown below. Place
 
 #### GF Sticky Header - Vertical
 
+
+
 GF Sticky Header property _`direction: Axis.vertical`  align the stickyContent and content in vertical  way._ 
 
 #### GF Sticky Header - Horizontal

@@ -62,17 +62,23 @@ import 'package:getwidget/getwidget.dart';
 
 |  |  |
 | :--- | :--- |
-| **child** | **child** of type \[Widget\] which is alternative to **title**. **title** will get priority over **child** |
-| **content** | shows its **children** when it is expanded |
-| **contentChild** | **contentChild** of type \[Widget\] which is alternative to **content**. **content** will get priority over **contentChild** |
-| **titlebackgroundColor** | changes the **backgroundColor** of the **Accordion** title |
-| **collapsedIcon** | type of \[Widget\] when the **Accordion** is collpased |
-| **expandedIcon** | type of \[Widget\] when the **Accordion** is expanded |
-| **textStyle** | textStyle of type \[textStyle\] applicable to **title** only and not for **child** |
-| **titlePadding** | padding used to set for the **Accordion** title |
-| **contentPadding** | padding used to set for the **Accordion** description |
-| **contentbackgroundColor** | changes the **backgroundColor** of the **Accordion** description |
-| **margin** | used to set the margin of the **Accordion** |
-| **titleborderColor** | used to change the color of the title **border** |
-| **contentborderColor** | used to change the color of the content **border** |
+| **showAccordion** | controls if the accordion should be collapsed or not making it possible to be controlled from outside |
+| **titleChild** | child of  type \[Widget\]is alternative to title key. title will get priority over titleChild |
+| **content** | content of type\[String\] which shows the messages after the \[GFAccordion\] is expanded |
+| **contentChild** | contentChild of  type \[Widget\]is alternative to content key. content will get priority over contentChild |
+| **collapsedTitleBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] title when it is collapsed |
+| **expandedTitleBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] title when it is expanded |
+| **collapsedIcon** | collapsedIcon of type \[Widget\] which is used to show when the \[GFAccordion\] is collapsed |
+| **expandedIcon** | expandedIcon of type\[Widget\] which is used when the \[GFAccordion\] is expanded |
+| **title** | text of type \[String\] is alternative to child. text will get priority over titleChild |
+| **textStyle** | textStyle of type \[textStyle\] will be applicable to text only and not for the child |
+| **titlePadding** | titlePadding of type \[EdgeInsets\] which is used to set the padding of the \[GFAccordion\] title |
+| **contentPadding** | descriptionPadding of type \[EdgeInsets\] which is used to set the padding of the \[GFAccordion\] description |
+| **contentBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] description |
+| **margin** | margin of type \[EdgeInsets\] which is used to set the margin of the \[GFAccordion\] |
+| **titleBorder** | titleBorderColor of type  \[Color\] or \[GFColors\] which is used to change the border color of title |
+| **contentBorder** | contentBorderColor of type  \[Color\] or \[GFColors\] which is used to change the border color of content |
+| **titleBorderRadius** | titleBorderRadius of type  \[Radius\]  which is used to change the border radius of title |
+| **contentBorderRadius** | contentBorderRadius of type  \[Radius\]  which is used to change the border radius of content |
+| **onToggleCollapsed** | function called when the content body collapsed |
 

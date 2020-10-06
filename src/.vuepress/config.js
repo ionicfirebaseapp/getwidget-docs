@@ -416,7 +416,7 @@ module.exports = {
         [
             '@vuepress/google-analytics',
             {
-                'ga': 'UA-165669152-1'
+                ga: 'UA-165669152-1'
             }
         ],
         ['autometa', default_options]

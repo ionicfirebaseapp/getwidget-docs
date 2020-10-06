@@ -309,6 +309,80 @@ module.exports = {
                 ],
             },
             {
+                title: 'GF Animation',
+                path: '/gf-animation',
+                collapsable: true,
+                children: [
+                    '/gf-animation',
+                ],
+            },
+            {
+                title: 'GF Border',
+                path: '/gf-border',
+                collapsable: true,
+                children: [
+                    '/gf-border',
+                ],
+            },
+            {
+                title: 'GF Bottom Sheet',
+                path: '/gf-bottomsheet',
+                collapsable: true,
+                children: [
+                    '/gf-bottomsheet',
+                ],
+            },
+
+            {
+                title: 'GF Checkbox List Title',
+                path: '/gf-checkbox-listtile',
+                collapsable: true,
+                children: [
+                    '/gf-checkbox-listtile',
+                ],
+            },
+            {
+                title: 'GF Checkbox',
+                path: '/gf-checkbox',
+                collapsable: true,
+                children: [
+                    '/gf-checkbox',
+                ],
+            },
+            {
+                title: 'GF Intro Screen',
+                path: '/gf-intro-screen',
+                collapsable: true,
+                children: [
+                    '/gf-intro-screen',
+                ],
+            },
+            {
+                title: 'GF Radio List Title',
+                path: '/gf-radio-listtile',
+                collapsable: true,
+                children: [
+                    '/gf-radio-listtile',
+                ],
+            },
+            {
+                title: 'GF Radio',
+                path: '/gf-radio',
+                collapsable: true,
+                children: [
+                    '/gf-radio',
+                ],
+            },
+            {
+                title: 'GF Sticky Header',
+                path: '/gf-sticky-header',
+                collapsable: true,
+                children: [
+                    '/gf-sticky-header',
+                ],
+            },
+
+            {
                 title: 'Changelog',
                 path: '/changelog',
                 collapsable: true,

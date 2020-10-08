@@ -1,12 +1,12 @@
 ---
 sidebarDepth: 2
 description: >-
-  The GFDrawer component is a navigation drawer that slides in from the side of
-  the current view. GFDrawer can be the perfect option to provide common
-  navigation options.
+  The GFDrawer is a Flutter Drawer Widget component that navigation drawer that
+  slides in from the side of the current view. GFDrawer can be the perfect
+  option to provide common navigation options.
 ---
 
-# GF Drawer
+# GF Drawer \| Flutter Drawer Widget
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
 
@@ -14,7 +14,7 @@ The GFAppBar automatically displays an appropriate IconButton to show the GFDraw
 
 ### Usage
 
-The simple code of a basic GFDrawer is as shown below.
+The simple code of a basic GFDrawer is as shown below to build the **Flutter Drawer Widget**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -36,7 +36,7 @@ GFDrawer(
 ),
 ```
 
-Look and feel of the GFDrawer can be customized using the GFDrawer properties.
+The look and feel of the GFDrawer can be customized using the GFDrawer properties.
 
 ### Custom Properties
 
@@ -55,7 +55,7 @@ The GF Drawer Header component is a header that identifies the app's user. This 
 
 ### Usage
 
-The simple code of a basic GFDrawerHeader with GFDrawer is as shown below.
+The simple code of a basic GFDrawerHeader with GFDrawer is as shown below that help you build an awesome Flutter Drawer Header Widget in your app.
 
 ```dart
 import 'package:getwidget/getwidget.dart';    
@@ -100,14 +100,14 @@ import 'package:getwidget/getwidget.dart';
       ),
 ```
 
-Look and feel of the GFDrawerHeader can be customized using the GFDrawerHeader properties.
+The look and feel of the GFDrawerHeader can be customized using the GFDrawerHeader properties.
 
 ### Custom Properties
 
 | Name | Description |
 | :--- | :--- |
 | **decoration** | defines the background color of the drawer header |
-| **margin** | refers to margin around the drawer header |
+| **margin** | refers to the margin around the drawer header |
 | **child** | widget to be placed inside the drawer header, inset by the \[padding\] |
 | **currentAccountPicture** | widget placed in the upper-left corner that represents the current user's account |
 | **otherAccountsPictures** | list of widgets that represent the current user's other accounts |

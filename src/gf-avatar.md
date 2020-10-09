@@ -9,9 +9,7 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Avatars_2x_cM1srTq6w.png)
 
-## Avatar Info
-
-### Circular Avatar
+## Circular Avatar
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/circular-avatars-2x_YEAePfrqD.png)
 
@@ -25,7 +23,7 @@ GFAvatar(
 )
 ```
 
-### Standard Avatar
+## Standard Avatar
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/slightly-rounded-corners-2x_VCB3GCS2h.png)
 
@@ -40,7 +38,7 @@ GFAvatar(
 )
 ```
 
-### Square Avatar
+## Square Avatar
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-2x_Zs-9r00cm.png)
 
@@ -55,7 +53,7 @@ GFAvatar(
 )
 ```
 
-### Custom Properties
+## Custom Properties
 
 |  |  |
 | :--- | :--- |

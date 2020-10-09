@@ -10,7 +10,7 @@ description: >-
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Badges_2x_08i8g5F_w.png)
 
-Badges
+## Badges
 
 Typically GFBadge takes text widget as child, to display number or characters inside badges.
 
@@ -23,7 +23,7 @@ GFBadge(
 ),
 ```
 
-### Size
+## Size
 
 Badge size can be varied using **size** property, which specifies the size of the badge. Default badge size set to `GFSize.medium`.
 
@@ -37,7 +37,7 @@ GFBadge(
  ),
 ```
 
-### Shape
+## Shape
 
 Shape of Badge can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the Badge set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
@@ -58,7 +58,7 @@ GFBadge(
 | **Type** | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
 | **Default** | `GFButtonShape.standard` |
 
-### Custom Properties
+## Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -87,7 +87,7 @@ GFButtonBadge(
 
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-### Solid Button Badge
+## Solid Button Badge
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/solid-badge-buttons-2x_AEtC9rqrH.png)
 
@@ -107,7 +107,7 @@ GFButtonBadge(
 ),
 ```
 
-### Disabled Button Badge
+## Disabled Button Badge
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-badge-buttons-2x_pRTAZyWWe.png)
 
@@ -125,7 +125,7 @@ GFButtonBadge(
  ),
 ```
 
-### Button Badge Type \(Outline Button\)
+## Outline Button Badge 
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-badge-buttons-2x-1_-Tow_mzA3.png)
 
@@ -144,7 +144,7 @@ GFButtonBadge(
  ),
 ```
 
-### Button Badge Shape \(Pills Button\)
+## Pills Button Badge   
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 
@@ -161,7 +161,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-### Button Badge Size
+## Button Badge Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -229,7 +229,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
 
-### Custom Properties
+## Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -254,7 +254,7 @@ GFColor is used to change the background of the button.
 | **splashColor** | indicates that the button has been touched |
 | **highlightColor** | indicates that the button is actively being pressed |
 
-## Icon Button with Badge
+## Icon Badge Button  
 
 Badges can be used with button to display, the badges with icons and GFIconButton properties.
 
@@ -274,7 +274,7 @@ GFIconBadge(
 
 Default icon button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-### IconButton Badge Size
+## IconButton Badge Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -293,7 +293,7 @@ GFIconBadge(
 ),
 ```
 
-### IconButton Badge Type
+## IconButton Badge Type
 
 Button type can be changed using property **type** by setting to `GFType.outline`. Default type of the IconButton will be `GFType.solid`.
 
@@ -312,7 +312,7 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-### IconButton Badge Shape
+## IconButton Badge Shape
 
 Shape of Icon Button can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the IconButton set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 

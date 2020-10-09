@@ -6,7 +6,7 @@ description: >-
   option to provide common navigation options.
 ---
 
-# GF Drawer \| Flutter Drawer Widget
+# Flutter Drawer Widget
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
 

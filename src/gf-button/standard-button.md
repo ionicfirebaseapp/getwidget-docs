@@ -29,7 +29,7 @@ The callback that is called when the button is tapped. By adding callback to **o
   ),
 ```
 
-### Disabled Button
+## Disabled Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-button-2x_BF_NVpDS8.png)
 

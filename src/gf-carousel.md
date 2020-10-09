@@ -1,17 +1,18 @@
 ---
 sidebarDepth: 2
 description: >-
-  Carousel component is a multi-section container. Each section can be swiped or
-  dragged between. It contains any number of Slide components.
+  The Flutter carousel widget component is a multi-section container. Each
+  section can be swiped or dragged between. It contains any number of Slide
+  components.
 ---
 
-# GF Carousel
+# GF Carousel \| A Flutter Carousel Widget
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
 
 ## GF Carousel
 
-List of Images given to the items in the GFCarousel, it allows to slide the each image container. Below code gives the default image slider component.
+GF Carousel is a Flutter Carousel widget that used for List of Images given to the items in the GFCarousel, it allows us to slide each image container. The below code gives the default image slider component.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -51,23 +52,23 @@ final List<String> imageList = [
 
 ### Properties
 
-Look and feel of the carousel can be customized using the GFCarousel properties. Sliding items can be any type of list of widgets or list of images.
+The look and feel of the GetWidget carousel widget for the Flutter app can be customized using the GFCarousel properties. Sliding items can be any type of list of widgets or a list of images.
 
 ### Custom Properties
 
 | Name | Description |
 | :--- | :--- |
-| **items** | widgets to be shown as slider |
+| **items** | widgets to be shown as a slider |
 | **height** | set slide widget height and overrides any existing \[aspectRatio\] |
-| **aspectRatio** | aspect ratio is used if no height have been declared. Defaults to 16:9 aspect ratio |
-| **viewportFraction** | fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide |
-| **autoPlay** | enables auto play, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false, works only if `viewportFraction` set to 1.0, |
+| **aspectRatio** | aspect ratio is used if no height has been declared. Defaults to 16:9 aspect ratio |
+| **viewportFraction** | The fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide |
+| **autoPlay** | enables autoplay, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false works only if `viewportFraction` set to 1.0, |
 | **reverse** | reverse the order of items if set to true. Defaults to false |
 | **autoPlayInterval** | sets Duration to determent the frequency of slides when \[autoPlay\] is set to true. Defaults to 4 seconds |
 | **autoPlayAnimationDuration** | animation duration between two transitioning pages while in auto playback. Defaults to 800 ms |
 | **autoPlayCurve** | determines the animation curve physics. Defaults to \[Curves.fastOutSlowIn\] |
-| **enlargeMainPage** | determines if current page should be larger then the side images, creating a feeling of depth in the carousel. Defaults to false |
-| **pauseAutoPlayOnTouch** | sets a timer on touch detected that pause the auto play with the given \[Duration\]. Touch Detection is only active if \[autoPlay\] is true |
+| **enlargeMainPage** | determines if the current page should be larger then the side images, creating a feeling of depth in the carousel. Defaults to false |
+| **pauseAutoPlayOnTouch** | sets a timer on touch detected that pause the autoplay with the given \[Duration\]. Touch Detection is only active if \[autoPlay\] is true |
 | **pagination** | displays pagination on state true |
 | **passiveIndicator** | slider pagination's passive color |
 | **activeIndicator** | slider pagination's active color |
@@ -76,13 +77,13 @@ Look and feel of the carousel can be customized using the GFCarousel properties.
 | **enableInfiniteScroll** | determines if slides should loop infinitely or be limited to item length. Defaults to true, i.e. infinite loop |
 | **scrollDirection** | axis along which the page view scrolls. Defaults to \[Axis.horizontal\] |
 | **onPageChanged** | called whenever the page in the center of the viewport changes |
-| **pageController** | \[pageController\] is created using the properties passed to the constructor  and can be used to control the \[PageView\] it is passed to. |
+| **pageController** | \[pageController\] is created using the properties passed to the constructor and can be used to control the \[PageView\] it is passed to. |
 
 ## GF ItemsCarousel
 
-ItemsCarousel component is a multi-section container with multiple items. Each section can be swiped or dragged betwen. It contains any number of items in each Slide components.
+The ItemsCarousel component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide components.
 
-In the below code, List of Images given to the children in the GFItemsCarousel, it allows to slide the each slide container that contain multiple items. Below code gives the default multi image slider component.
+In the below code, List of Images given to the children in the GFItemsCarousel, that allows sliding each slide container that contains multiple items. The below code gives the default multi-image slider component.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

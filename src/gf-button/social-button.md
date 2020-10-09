@@ -11,7 +11,7 @@ description: 'Social Button determines the standard, solid, button with both lab
 
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-### Solid Social Button
+## Solid Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/solid-social-button-2x_hWIbDpGLt.png)
 
@@ -29,7 +29,7 @@ The callback that is called when the button is tapped. By adding callback to **o
   ),
 ```
 
-### Disabled Social Button
+## Disabled Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x-1_WXYljNGX9.png)
 
@@ -45,7 +45,7 @@ GFButton(
  ),
 ```
 
-### Outline  Social Button
+## Outline  Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-social-button-2x-1_s9l5xQdik.png)
 
@@ -62,7 +62,7 @@ GFButton(
  ),
 ```
 
-### Outline2x  Social Button
+## Outline2x  Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-social-button-2x_3hSCzrQDG.png)
 
@@ -79,7 +79,7 @@ GFButton(
  ),
 ```
 
-### Transparent  Social Button
+## Transparent  Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-social-button-2x_lRGI7ulxY.png)
 
@@ -96,7 +96,7 @@ GFButton(
  ),
 ```
 
-### Pills  Social Button
+## Pills  Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/pills-social-buttons-2x_GfJjVk77h.png)
 
@@ -113,7 +113,7 @@ We will able to get pills shaped button with solid background color with rounded
   ),
 ```
 
-### Square Social Button
+## Square Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-social-button-2x_ofI-wQHkM.png)
 
@@ -130,7 +130,7 @@ We will able to get square shaped button with solid background color with no rou
   ),
 ```
 
-### Social  Button Size
+## Social  Button Size
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-social-button-2x-1_45MJ57qDeo.png)
 
@@ -147,7 +147,7 @@ GFButton(
  ),
 ```
 
-### Block Social Button
+## Block Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/block-social-button-2x_rkTw_Ij63.png)
 
@@ -165,7 +165,7 @@ GFButton(
  ),
 ```
 
-### Full Width Social Button
+## Full Width Social Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-social-button-2x_mDhv4iEG9.png)
 

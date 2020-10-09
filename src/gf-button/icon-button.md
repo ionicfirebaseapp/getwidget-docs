@@ -11,7 +11,7 @@ description: 'Icon Button having features of standard, solid button with label a
 
 Default button **shape** set to `GFIconButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-### Disabled Button:
+## Disabled Button:
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x_bIhj5gtao.png)
 
@@ -28,7 +28,7 @@ GFIconButton(
 
 GF IconButtons can be styled with several attributes to look a specific way. Each and every attribute is described below.
 
-### Solid Icon Button
+## Solid Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/solid-icon-button-2x_x7HdkO4Xa.png)
 
@@ -46,7 +46,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-### Outline Icon Button
+## Outline Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-icon-button-2x-1_9DnBbeMtB.png)
 
@@ -63,7 +63,7 @@ GFButton(
  ),
 ```
 
-### Outline2x Icon Button
+## Outline2x Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-icon-button-2x_RwMGJ0MJ_.png)
 
@@ -80,7 +80,7 @@ GFButton(
  ),
 ```
 
-### Transparent Icon Button
+## Transparent Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-icon-button-2x_4nc41BciT.png)
 
@@ -97,7 +97,7 @@ GFButton(
  ),
 ```
 
-### Pills Icon Button
+## Pills Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/pills-icon-button-2x_o-E933fNd.png)
 
@@ -114,7 +114,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-### Square Icon Button
+## Square Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-icon-button-2x_gwaY8THuK.png)
 
@@ -131,7 +131,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-### Block Icon Button
+## Block Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/block-icon-button-2x_jb9rGWSR9.png)
 
@@ -149,7 +149,7 @@ GFButton(
  ),
 ```
 
-### Full Width Icon Button
+## Full Width Icon Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/fullwidth-icon-button-2x-1_rsx_EmmVZ.png)
 
@@ -167,7 +167,7 @@ GFButton(
  ),
 ```
 
-### Icon Button Size
+## Icon Button Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 

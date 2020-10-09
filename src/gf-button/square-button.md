@@ -37,7 +37,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-### Disabled Button
+## Disabled Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/square-disabled-2x_t-HoELvaX.png)
 
@@ -53,7 +53,7 @@ GFButton(
  ),
 ```
 
-### Block Button
+## Block Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/block-2x_zhfeGvIuT0.png)
 
@@ -70,7 +70,7 @@ GFButton(
  ),
 ```
 
-### Full Width Button
+## Full Width Button
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/fullwidth-2x_R1MRr5rgb.png)
 
@@ -87,7 +87,7 @@ GFButton(
  ),
 ```
 
-### Button Size
+## Button Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 

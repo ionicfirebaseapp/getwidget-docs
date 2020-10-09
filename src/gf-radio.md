@@ -173,7 +173,7 @@ GFCard(
 
 ### Custom Radio Button Type 1
 
-![Custom Radio Button Type 1](../.gitbook/assets/custom-1-radio.png)
+![Custom Radio Button Type 1](../.gitbook/assets/custom-1%20%281%29.png)
 
 ```text
 int groupValue = 0;
@@ -243,7 +243,7 @@ GFCard(
 
 ### Custom Radio Button Type 2
 
-![Custom Radio Button Type 2](../.gitbook/assets/custom-2-radio.png)
+![Custom Radio Button Type 2](../.gitbook/assets/custom-2%20%281%29.png)
 
 ```text
 int groupValue = 0;

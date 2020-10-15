@@ -186,22 +186,22 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
     <tr>
       <td style="text-align:left"><b>title</b>
       </td>
-      <td style="text-align:left">The title to display inside the [GFListTile]. see [Text]</td>
+      <td style="text-align:left">The title to display inside the [GFListTile].</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>subTitle</b>
       </td>
-      <td style="text-align:left">The subTitle to display inside the [GFListTile]. see [Text]</td>
+      <td style="text-align:left">The subTitle to display inside the [GFListTile].</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>description</b>
       </td>
-      <td style="text-align:left">The description to display inside the [GFListTile]. see [Text]</td>
+      <td style="text-align:left">The description to display inside the [GFListTile].</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>icon</b>
       </td>
-      <td style="text-align:left">The icon to display inside the [GFListTile]. see [Icon]</td>
+      <td style="text-align:left">The icon to display inside the [GFListTile].</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>margin</b>

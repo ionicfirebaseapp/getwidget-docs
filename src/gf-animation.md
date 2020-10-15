@@ -1,8 +1,8 @@
 ---
 description: >-
-  GF Animations make UI feel more interesting, it make look and feel of the app
-  more polished and improve the user experience. GF Animation makes it easy to
-  implement a variety of animation.
+  GF Animations make a UI feel more interesting, it make look and feel of the
+  app more polished and improve the user experience. GF Animation makes it easy
+  to implement a variety of animation.
 ---
 
 # GF Animation
@@ -167,36 +167,169 @@ GFAnimation(
 
 Look and feel of the **GFAnimation** can be customized using the GFAnimation properties.
 
-|  |  |
-| :--- | :--- |
-| **duration** | The duration for animation to perform |
-| **reverseDuration** | The duration for reverse animation to perform |
-| **alignment** | Defines how the animated widget is aligned during Animation. |
-| **activeAlignment** | Defines how the animated widget is aligned\(after the onTap\) during Animation. |
-| **child** | The child of type \[Widget\] to display animation effect. |
-| **curve** | Determines the animation curve. Defaults to \[Curves.linear\]. |
-| **type** | type of \[GFAnimation\] which takes the type ie, align, size, container, rotateTransition, scaleTransition, slideTransition, and textStyle for the \[GFAnimation\] |
-| **width** | defines \[AnimatedContainer\] initial width |
-| **changedWidth** | defines the width of \[AnimatedContainer\] upto which it can expand during animation |
-| **height** | defines \[AnimatedContainer\] initial height |
-| **changedHeight** | defines the height of \[AnimatedContainer\] upto which it can expand during animation |
-| **activeColor** | defines the color of \[AnimatedContainer\] when onTap triggers |
-| **color** | defines the color of \[AnimatedContainer\] |
-| **padding** | defines \[child\]'s or \[AnimatedContainer\] padding |
-| **margin** | defines \[child\]'s or \[AnimatedContainer\] margin |
-| **onTap** | Called when the user taps the \[child\] |
-| **turnsAnimation** | For GFAnimationType.rotateTransition, customized turns animation can be added to \[RotationTransition\] widget |
-| **scaleAnimation** | For GFAnimationType.scaleTransition, customized scale animation can be added to \[ScaleTransition\] widget |
-| **controller** |  Type of \[AnimationController\], its a controller of an animation. |
-| **textDirection** | Defines direction of the \[AnimatedDefaultTextStyle\] TextDirection i.e \[ltr,rtl\] |
-| **slidePosition** | For GFAnimationType.slideTransition, which animates the position of a widget. |
-| **style** | Defines the \[TextStyle\] of \[AnimatedDefaultTextStyle\] |
-| **textAlign** | Defines the \[TextAlign\] of \[AnimatedDefaultTextStyle\] |
-| **textOverflow** | Defines the \[TextOverflow\] of \[AnimatedDefaultTextStyle\] |
-| **maxLines** | Defines the \[maxLines\] of \[AnimatedDefaultTextStyle\] |
-| **textWidthBasis** | Defines the \[TextWidthBasis\] of \[AnimatedDefaultTextStyle\] |
-| **fontSize** | Defines the \[fontSize\] of \[AnimatedDefaultTextStyle\] |
-| **fontWeight** | Defines the \[fontWeight\] of \[AnimatedDefaultTextStyle\] |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>duration</b>
+      </td>
+      <td style="text-align:left">The duration for animation to perform</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>reverseDuration</b>
+      </td>
+      <td style="text-align:left">The duration for animation to perform</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>alignment</b>
+      </td>
+      <td style="text-align:left">Defines how the animated widget is aligned within the Animation.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>activeAlignment</b>
+      </td>
+      <td style="text-align:left">Defines how the animated widget is aligned(after the onTap) within the
+        Animation.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>child</b>
+      </td>
+      <td style="text-align:left">The child of type [Widget] to display animation effect.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>curve</b>
+      </td>
+      <td style="text-align:left">Determines the animation curve. Defaults to [Curves.linear].</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>type</b>
+      </td>
+      <td style="text-align:left">type of [GFAnimation] which takes the type ie, align, size, container,
+        rotateTransition, scaleTransition, slideTransition, and textStyle for the
+        [GFAnimation]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>width</b>
+      </td>
+      <td style="text-align:left">defines [AnimatedContainer] initial width</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>changedWidth</b>
+      </td>
+      <td style="text-align:left">defines the width of [AnimatedContainer] upto which it can extend during
+        animation</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>height</b>
+      </td>
+      <td style="text-align:left">defines [AnimatedContainer] initial height</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>changedHeight</b>
+      </td>
+      <td style="text-align:left">defines the height of [AnimatedContainer] upto which it can extend during
+        animation</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>activeColor</b>
+      </td>
+      <td style="text-align:left">defines the color of [AnimatedContainer] when onTap triggers</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>color</b>
+      </td>
+      <td style="text-align:left">defines the color of [AnimatedContainer]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>padding</b>
+      </td>
+      <td style="text-align:left">defines [child]&apos;s or [AnimatedContainer] padding</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>margin</b>
+      </td>
+      <td style="text-align:left">defines [child]&apos;s or [AnimatedContainer] margin</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>onTap</b>
+      </td>
+      <td style="text-align:left">Called when the user taps the [child]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>turnsAnimation</b>
+      </td>
+      <td style="text-align:left">
+        <p>Here&apos;s an illustration of the [RotationTransition] widget, with it&apos;s
+          [turnsAnimation]</p>
+        <p>animated by a [stuckValue] set to [animate]</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>scaleAnimation</b>
+      </td>
+      <td style="text-align:left">
+        <p>Here&apos;s an illustration of the [ScaleTransition] widget, with it&apos;s
+          [scaleAnimation]</p>
+        <p>animated by a [CurvedAnimation] set to [Curves.linear]</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>controller</b>
+      </td>
+      <td style="text-align:left">controls animation</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>textDirection</b>
+      </td>
+      <td style="text-align:left">direction of the [AnimatedDefaultTextStyle] TextDirection for [ltr,rtl]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>slidePosition</b>
+      </td>
+      <td style="text-align:left">[ScaleTransition], which animates the scale of a widget.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>style</b>
+      </td>
+      <td style="text-align:left">defines the [TextStyle] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>textAlign</b>
+      </td>
+      <td style="text-align:left">defines the [TextAlign] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>textOverflow</b>
+      </td>
+      <td style="text-align:left">defines the [TextOverflow] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>maxLines</b>
+      </td>
+      <td style="text-align:left">defines the [maxLines] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>textWidthBasis</b>
+      </td>
+      <td style="text-align:left">defines the [TextWidthBasis] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>fontSize</b>
+      </td>
+      <td style="text-align:left">defines the [fontSize] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>fontWeight</b>
+      </td>
+      <td style="text-align:left">defines the [fontWeight] of [AnimatedDefaultTextStyle]</td>
+    </tr>
+  </tbody>
+</table>
 
 
 

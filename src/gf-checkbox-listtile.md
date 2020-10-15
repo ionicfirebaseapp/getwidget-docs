@@ -53,9 +53,9 @@ Look and feel of the **GFCheckboxListTile** can be customized using the GFCheckb
 | **subtitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
 | **color** | GFListTile's background color. Can be given \[Color\] or \[GFColors\] |
 | **avatar** | type of \[Widget\] or \[GFAvatar\] used to create rounded user profile |
-| **title** | title to display inside the \[GFListTile\]. see \[Text\] |
-| **subTitle** | subTitle to display inside the \[GFListTile\]. see \[Text\] |
-| **description** | description to display inside the \[GFListTile\]. see \[Text\] |
+| **title** | title to display inside the \[GFListTile\].  |
+| **subTitle** | subTitle to display inside the \[GFListTile\].  |
+| **description** | description to display inside the \[GFListTile\].  |
 | **margin** | defines the margin of GFListTile |
 | **padding** | defines the padding of GFListTile |
 | **type** | type of \[GFCheckboxType\] which is of four type is basic, sqaure, circular and custom |

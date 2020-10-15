@@ -14,14 +14,17 @@ description: >-
 
 The simple code of a basic GFBottomsheet is as shown below.
 
+### Basic GF Bottomsheet
+
 ![GFBottomsheet](../.gitbook/assets/bottom-sheets-without-overlay-3x.png)
 
 ```text
+final GFBottomSheetController _controller = GFBottomSheetController();
+
 Scaffold(
   bottomSheet: GFBottomSheet(
     controller: _controller,
     maxContentHeight: 150,
-    enableExpandableContent: true,
     stickyHeaderHeight: 100,
     stickyHeader: Container(
       decoration: BoxDecoration(color: Colors.white,
@@ -82,6 +85,95 @@ Scaffold(
       }
       ),
 )
+```
+
+### GF Bottomsheet with Expandable content
+
+GF Bottomsheet allow user to expand content body to display the more content. The property `enableExpandableContent`  on `true` state makes content body expandable.
+
+```text
+final GFBottomSheetController _controller = GFBottomSheetController();
+
+GFBottomSheet(
+  controller: _controller,
+  maxContentHeight: 300,
+  enableExpandableContent: true,
+  stickyHeaderHeight: 100,
+  stickyHeader: Container(
+    decoration: BoxDecoration(
+        color: Colors.white,
+        boxShadow: [BoxShadow(color: Colors.black45, blurRadius: 0)]),
+    child: const GFListTile(
+      avatar: GFAvatar(
+        backgroundImage: AssetImage('asset image here'),
+      ),
+      titleText: 'Eva Mendez',
+      subtitleText: '11 minutes ago',
+    ),
+  ),
+  contentBody: SingleChildScrollView(
+    child: Container(
+      margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+      child: Column(
+        children: [
+          Container(
+            margin: EdgeInsets.symmetric(horizontal: 15),
+            child: Row(
+              children: <Widget>[
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      image: DecorationImage(
+                          image: AssetImage(
+                              'asset image here'))),
+                ),
+                Container(
+                    margin: EdgeInsets.only(left: 6),
+                    child: Text(
+                      'Add to your story',
+                      style: TextStyle(color: Colors.blue),
+                    ))
+              ],
+            ),
+          ),
+          ListView.builder(
+              physics: ScrollPhysics(),
+              shrinkWrap: true,
+              scrollDirection: Axis.vertical,
+              itemCount: 3,
+              itemBuilder: (BuildContext context, int index) {
+                return SingleChildScrollView(
+                    child: InkWell(
+                  child: GFListTile(
+                    avatar: GFAvatar(
+                      backgroundImage:
+                          AssetImage('asset image here'),
+                      size: 20,
+                    ),
+                    subtitleText: 'John Mendez',
+                    icon: Container(
+                      width: 66,
+                      height: 30,
+                      child: GFButton(
+                        onPressed: () {},
+                        color: GFColors.PRIMARY,
+                        child: Center(
+                            child: Text(
+                          'Send',
+                          style: TextStyle(color: Colors.white),
+                        )),
+                      ),
+                    ),
+                  ),
+                ));
+              }),
+        ],
+      ),
+    ),
+  ),
+),
 ```
 
 ### Custom Properties

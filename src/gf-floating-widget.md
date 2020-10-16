@@ -57,6 +57,6 @@ return Scaffold(
 
 |  |  |
 | :--- | :--- |
-| **showBlurness** | showBlurness defines whether the body should be blur or not when showing popups, error messages etc whenever the  **child** property is used in  GF Floating widget. The showBlurness defaults to `false`. |
-| **blurnessColor** | defines how much blur  backgroundColor should be whenever the **child** is used and when showBlurness is `true` |
+| showblurness | showblurness defines whether the body should be blur or not when showing popups, error messages etc whenever the  **child** property is used in  GF Floating widget. The showblurness defaults to `false`. |
+| blurnessColor | defines how much blur  backgroundColor should be whenever the **child** is used and when showblurness is `true` |
 

@@ -32,7 +32,7 @@ Widget build(BuildContext context) {
       color: Colors.blueGrey,
       slides: slides(),
       pageController: _pageController,
-      currentIndex: inittialIndex,
+      currentIndex: null,
       pageCount: 5,
       introScreenBottomNavigationBar: GFIntroScreenBottomNavigationBar(
         pageController: _pageController,
@@ -142,23 +142,16 @@ void initState() {
   super.initState();
 }
 
-GFIntroScreen(
-  color: Colors.blueGrey,
-  slides: slides(),
+GFIntroScreenBottomNavigationBar(
   pageController: _pageController,
-  currentIndex: inittialIndex,
-  pageCount: 5,
-  introScreenBottomNavigationBar: GFIntroScreenBottomNavigationBar(
-    pageController: _pageController,
-    pageCount: slideList.length,
-    currentIndex: initialPage,
-  ),
-),  
+  pageCount: slideList.length,
+  currentIndex: initialPage,
+),
 ```
 
 ### GF Intro Screen - Customised
 
-GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
+
 
 ```text
 PageController _pageController;
@@ -330,7 +323,7 @@ Look and feel of the **GFIntroScreen** can be customized using the GFIntroScreen
 | **dividerThickness** | defines divider thickness |
 | **dividerColor** | defines divider color |
 | **dotShape** | defines pagination shape |
-| **inactiveColor** | defines pagination inactive color |
+| **inActiveColor** | defines pagination inactive color |
 | **activeColor** | defines pagination active color |
 | **dotHeight** | defines pagination height |
 | **dotWidth** | defines pagination width |

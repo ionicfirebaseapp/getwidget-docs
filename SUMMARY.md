@@ -30,7 +30,7 @@
   * [GF Card](src/gf-card.md)
   * [GF Tab](src/gf-tab.md)
   * [GF Typography](src/gf-typography.md)
-  * [GF Tile](src/gf-tile.md)
+  * [GF ListTile](src/gf-tile.md)
   * [Getting Started](src/getting-started.md)
   * [Changelog](src/changelog.md)
   * [GF SearchBar](src/gf-searchbar.md)

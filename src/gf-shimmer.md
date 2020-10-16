@@ -67,8 +67,6 @@ final Widget emptyBlock = Padding(
 
 ![img](https://ik.imagekit.io/ionicfirebaseapp/basic-shimmer-effect-2x_JSJbGQcZW.png)
 
-### GFShimmer with Gradient
-
 The below code gives a Shimmer effect for child with Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
 
 ```dart

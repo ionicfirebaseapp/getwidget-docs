@@ -15,79 +15,33 @@ description: >-
 
 **GFAlert** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
 
-```text
+```dart
 import 'package:getwidget/getwidget.dart';
 
-Widget alertWidget;
-
-Scaffold(
-    appBar: AppBar(
-      backgroundColor: GFColors.DARK,
-      leading: InkWell(
-          onTap: () {
-            Navigator.pop(context);
-          },
-          child: Container(
-            child: Icon(
-              CupertinoIcons.back,
-              color: GFColors.SUCCESS,
-            ),
-          )),
-      title: const Text(
-        'Animation',
-        style: TextStyle(fontSize: 17),
-      ),
-      centerTitle: true,
-    ),
-    body: GFFloatingWidget(
-        verticalPosition: 150,
-        showBlurness: false,
-        child: alertWidget,
-        body: Column(
-          children: [
-            Container(
-              margin: const EdgeInsets.only(top: 20),
-              color: Colors.transparent,
-              child: Center(
-                child: GFButton(
-                    text: 'Tap to View',
-                    onPressed: () {
+ return Scaffold(
+   body:GFFloatingWidget(
+     child:GFAlert(
+              title: 'Welcome !',
+              content: 'Get Flutter is one of the largest Flutter open-source UI library for mobile or web apps with  1000+ pre-built reusable widgets.',
+              bottombar: Row(
+                 mainAxisAlignment: MainAxisAlignment.end,
+                 children: <Widget>[
+                    GFButton(
+                      onPressed: (){
                       setState(() {
-                        showblur = true;
-                        alertWidget = GFAlert(
-                          alignment: Alignment.center,
-                          backgroundColor: Colors.white,
-                          title: 'Welcome!',
-                          content:
-                          'Get Flutter is one of the largest Flutter open-source UI library for mobile or web apps with  1000+ pre-built reusable widgets.',
-                          type: GFAlertType.rounded,
-                          bottombar: Row(
-                            mainAxisAlignment: MainAxisAlignment.end,
-                            children: <Widget>[
-                              GFButton(
-                                onPressed: () {
-                                  setState(() {
-                                    alertWidget = null;
-                                    showblur = false;
-                                  });
-                                },
-                                color: GFColors.LIGHT,
-                                child: const Text(
-                                  'Close',
-                                  style: TextStyle(color: Colors.black),
-                                ),
-                              ),
-                            ],
-                          ),
-                        );
-                      });
-                    }),
+                        showalert=false;
+                    });
+                  },
+                    shape: GFButtonShape.pills,
+                    icon: Icon(Icons.keyboard_arrow_right, color: GFColors.getGFColor(GFColor.white),),
+                    position: GFPosition.end,
+                    text: 'Learn More',)
+                ],
               ),
-            ),
-          ],
-        )
-    ),
- ),
+            )
+   body:Text('body or any kind of widget here..')
+ )
+)
 ```
 
 ### Alert with multiple buttons

@@ -12,37 +12,153 @@ description: A customizable uniform border with color and width.
 
 The simple code of a basic GFBorder is as shown below.
 
-![Basic Border](../.gitbook/assets/solid-borders-3x.png)
+### Solid Border
+
+Solid Border is basic border used for the many components. GF Border property `[dashedLine`\] takes array of doubles like  `[2, 0]` to display solid border.
+
+![Solid Border](../.gitbook/assets/solid-borders-3x.png)
 
 ```text
-GFBorder(
-    type: GFBorderType.Rect,
+Container(
+  margin: EdgeInsets.symmetric(
+      horizontal: 15, vertical: 15),
+  child: GFBorder(
+    color: Color(0xFF19CA4B),
     dashedLine: [2, 0],
-    child: Text('Basic Border')
+    type: GFBorderType.rect,
+    child: Container(
+      height: 100,
+      color: Color(0xFFE9FFEF),
+    ),
+  ),
 ),
 ```
 
 ### Dashed Border
 
+Dashed Border is customised border with dashed patterns used in UI designs. GF Border property `[dashedLine`\] takes array of doubles like `[4, 6]` to display dashed border.
+
 ![Dashed Border](../.gitbook/assets/dashed-borders-3x.png)
 
 ```text
-GFBorder(
-    type: GFBorderType.Rect,
-    dashedLine: [4, 6],
-    child: Text('Dashed Border')
+Container(
+  margin: EdgeInsets.symmetric(
+      horizontal: 15, vertical: 15),
+  child: GFBorder(
+    type: GFBorderType.rRect,
+    color: Color(0xFF19CA4B),
+    child: Container(
+      decoration: BoxDecoration(
+        color: Color(0xFFE9FFEF),
+      ),
+      height: 100,
+    ),
+  ),
 ),
 ```
 
 ### Dotted Border
 
+Dotted Border is customised border with dotted patterns used in many UI designs. GF Border property `[dashedLine`\] takes array of doubles like `[2, 1]` to display dotted border.
+
 ![Dotted Border](../.gitbook/assets/dotted-borders-3x.png)
 
 ```text
-GFBorder(
-    type: GFBorderType.Rect,
+Container(
+  margin: EdgeInsets.symmetric(
+      horizontal: 15, vertical: 15),
+  child: GFBorder(
+    color: Color(0xFF19CA4B),
     dashedLine: [2, 1],
-    child: Text('Dotted Border')
+    type: GFBorderType.rect,
+    child: Container(
+      height: 100,
+      color: Color(0xFFE9FFEF),
+    ),
+  ),
+),
+```
+
+### GF Border Types
+
+### GFBorderType.rect
+
+GF Border property `type` takes `GFBorderType.rect` to display borders with no rounded corner.
+
+```text
+Container(
+  margin: EdgeInsets.symmetric(
+      horizontal: 15, vertical: 15),
+  child: GFBorder(
+    color: Color(0xFF19CA4B),
+    dashedLine: [2, 0],
+    type: GFBorderType.rect,
+    child: Container(
+      height: 100,
+      color: Color(0xFFE9FFEF),
+    ),
+  ),
+),
+```
+
+### GFBorderType.rRect
+
+GF Border property `type` takes `GFBorderType.rRect` to display borders with rounded corner.
+
+```text
+Container(
+  margin: EdgeInsets.symmetric(
+      horizontal: 15, vertical: 15),
+  child: GFBorder(
+    radius: Radius.circular(20),
+    color: Color(0xFF19CA4B),
+    dashedLine: [2, 0],
+    type: GFBorderType.rRect,
+    child: Container(
+      height: 100,
+      color: Color(0xFFE9FFEF),
+    ),
+  ),
+),
+```
+
+### GFBorderType.oval
+
+GF Border property `type` takes `GFBorderType.oval` to display oval shape borders.
+
+```text
+Container(
+  width: 50,
+  height: 60,
+  child: GFBorder(
+    type: GFBorderType.oval,
+    dashedLine: [6, 0],
+    color: Color(0xFF19CA4B),
+    strokeWidth: 2,
+    child: Center(child: Text('Oval Border')),
+  ),
+),
+```
+
+### GFBorderType.circle
+
+GF Border property `type` takes `GFBorderType.circle` to display circular shape borders.
+
+```text
+Container(
+  width: 100,
+  height: 100,
+  child: GFBorder(
+    type: GFBorderType.circle,
+    dashedLine: [2, 0],
+    color: Color(0xFF19CA4B),
+    strokeWidth: 2,
+    child: Center(
+        child: Text(
+      'Circular Border',
+      textAlign: TextAlign.center,
+    )),
+  ),
 ),
 ```
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  GF Multiselect let user to select multiple items from the number of Checbox
+  GF Multiselect let user to select multiple items from the number of Checkbox
   ListTile items and display selected items in the TitleTile box. It displays
   list of items in the overlay dropdown fashion.
 ---
@@ -43,22 +43,22 @@ Look and feel of the **GFMultiselect** can be customized using the GFMultiselect
         of selected items index</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>dropDownTitleTileText</b>
+      <td style="text-align:left"><b>dropdownTitleTileText</b>
       </td>
       <td style="text-align:left">type of [String] to define the dropdownTitleTile title</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>dropDownTitleTileTextStyle</b>
+      <td style="text-align:left"><b>dropdownTitleTileTextStyle</b>
       </td>
       <td style="text-align:left">type of [TextStyle] to define the textStyle of [dropDownTitleTileText]</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>dropDownTitleTileHintText</b>
+      <td style="text-align:left"><b>dropdownTitleTileHintText</b>
       </td>
       <td style="text-align:left">type of [String] to define the dropdownTitleTile hint text</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>dropDownTitleTileHintTextStyle</b>
+      <td style="text-align:left"><b>dropdownTitleTileHintTextStyle</b>
       </td>
       <td style="text-align:left">type of [TextStyle] to define the textStyle of [dropDownTitleTileHintTextStyle]</td>
     </tr>
@@ -157,13 +157,13 @@ Look and feel of the **GFMultiselect** can be customized using the GFMultiselect
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>activebgColor</b>
+      <td style="text-align:left"><b>activeBgColor</b>
       </td>
       <td style="text-align:left">defines dropdown ListTile&apos;s checkbox background color when its active
         type of [Color] used to change the backgroundColor of the active checkbox</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>inactivebgColor</b>
+      <td style="text-align:left"><b>inactiveBgColor</b>
       </td>
       <td style="text-align:left">defines dropdown ListTile&apos;s checkbox background color when its inactive
         type of [Color] used to change the backgroundColor of the inactive checkbox</td>
@@ -201,7 +201,7 @@ Look and feel of the **GFMultiselect** can be customized using the GFMultiselect
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>custombgColor</b>
+      <td style="text-align:left"><b>customBgColor</b>
       </td>
       <td style="text-align:left">type of [Color] used to change the background color of the custom active
         checkbox only</td>
@@ -214,7 +214,7 @@ Look and feel of the **GFMultiselect** can be customized using the GFMultiselect
         value, false.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>dropdownbgColor</b>
+      <td style="text-align:left"><b>dropdownBgColor</b>
       </td>
       <td style="text-align:left">defines the background color of the dropdown. Can be given [Color] or
         [GFColors]</td>

@@ -8,13 +8,80 @@ description: GF Sticky Header will the stick header at top when content is being
 
 #### Usage
 
-The simple code of a basic GFSticky Header is as shown below. Place
+The simple code of a basic GFSticky Header is as shown below. 
+
+```text
+ListView.builder(
+    itemCount: imageList.length,
+    itemBuilder: (context, index) => GFStickyHeader(
+          stickyContent: Container(
+            child: Container(
+              alignment: AlignmentDirectional.center,
+              height: 50,
+              width: MediaQuery.of(context).size.width,
+              color: Color(0xFF42335d),
+              padding: EdgeInsets.symmetric(horizontal: 16.0),
+              child: Row(
+                children: [
+                  Text(
+                    'Contact Group $index',
+                    style: const TextStyle(color: Colors.white),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          content: Container(
+            height: 300,
+            child: ListView.builder(
+                physics: ScrollPhysics(),
+                shrinkWrap: true,
+                scrollDirection: Axis.vertical,
+                itemCount: 8,
+                itemBuilder: (BuildContext context, int index) {
+                  return SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        GFCheckboxListTile(
+                          titleText: 'Eva Mendez',
+                          subtitleText: 'Hello',
+                          avatar: GFAvatar(
+                            backgroundImage: AssetImage('asset image here),
+                          ),
+                          size: 25,
+                          activebgColor: Colors.green,
+                          activeIcon: Icon(
+                            Icons.check,
+                            size: 15,
+                            color: Colors.white,
+                          ),
+                          type: GFCheckboxType.circle,
+                          onChanged: (val) {
+                            setState(() {
+                              check = val;
+                            });
+                          },
+                          value: check,
+                          inactiveIcon: null,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0),
+                          child: Divider(),
+                        ),
+                      ],
+                    ),
+                  );
+                }),
+          ),
+        )),
+```
+
+Always wrap GFSticky Header inside \[LIstView\], \[GridView\], \[CustomScrollView\], \[SingleChildScrollView\] or similar
 
 ### GF Sticky Header Types
 
 #### GF Sticky Header - Vertical
-
-
 
 GF Sticky Header property _`direction: Axis.vertical`  align the stickyContent and content in vertical  way._ 
 
@@ -24,7 +91,163 @@ GF Sticky Header property _`direction: Axis.horizontal`  align the stickyContent
 
 ### GF Sticky Header Builder
 
-\[GFStickyHeaderBuilder\] component works same as GFStickyHeader, instead of widget for stickyHeader here we can use \[builder\].
+\[GFStickyHeaderBuilder\] component works same as GFStickyHeader, instead of widget for stickyHeader here we can use \[builder\]. This allows user to customize the stickyHeader with render values. 
+
+The basic example GFSticky Header Builder is as shown below. 
+
+```text
+List imageList = ['asset images here'];
+
+ListView.builder(
+    itemCount: imageList.length,
+    itemBuilder: (context, index) => GFStickyHeaderBuilder(
+          direction: Axis.horizontal,
+          stickyContentBuilder:
+              (BuildContext context, double stuckValue) {
+            stuckValue = 1.0 - stuckValue.clamp(0.0, 1.0);
+            return Column(
+              children: [
+                Container(
+                  height: 50,
+                  width: MediaQuery.of(context).size.width * 0.5,
+                  color: Color.lerp(Color(0xFF42335d).withOpacity(0.6),
+                      Color(0xFF42335d), stuckValue),
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  alignment: Alignment.centerLeft,
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          'Product Name $index',
+                          style: const TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  // height: 200,
+                  width: MediaQuery.of(context).size.width * 0.5,
+                  child: ListView.builder(
+                      physics: ScrollPhysics(),
+                      shrinkWrap: true,
+                      scrollDirection: Axis.vertical,
+                      itemCount: 1,
+                      itemBuilder: (BuildContext context, int index) {
+                        return SingleChildScrollView(
+                          child: Container(
+                            padding:
+                                EdgeInsets.symmetric(horizontal: 15),
+                            child: Column(
+                              crossAxisAlignment:
+                                  CrossAxisAlignment.start,
+                              children: [
+                                SizedBox(height: 15),
+                                Row(
+                                  children: [
+                                    GFRadio(
+                                      type: GFRadioType.blunt,
+                                      size: 23,
+                                      value: 1,
+                                      groupValue: groupValue,
+                                      onChanged: (val) {
+                                        setState(() {
+                                          groupValue = val;
+                                        });
+                                      },
+                                      inactiveIcon: null,
+                                      activeBorderColor:
+                                          GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
+                                    ),
+                                    SizedBox(width: 5),
+                                    Text('Large')
+                                  ],
+                                ),
+                                SizedBox(height: 8),
+                                Row(
+                                  children: [
+                                    GFRadio(
+                                      type: GFRadioType.blunt,
+                                      size: 23,
+                                      value: 2,
+                                      groupValue: groupValue,
+                                      onChanged: (val) {
+                                        setState(() {
+                                          groupValue = val;
+                                        });
+                                      },
+                                      inactiveIcon: null,
+                                      activeBorderColor:
+                                          GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
+                                    ),
+                                    SizedBox(width: 5),
+                                    Text('Medium')
+                                  ],
+                                ),
+                                SizedBox(height: 8),
+                                Row(
+                                  children: [
+                                    GFRadio(
+                                      type: GFRadioType.blunt,
+                                      size: 23,
+                                      value: 3,
+                                      groupValue: groupValue,
+                                      onChanged: (val) {
+                                        setState(() {
+                                          groupValue = val;
+                                        });
+                                      },
+                                      inactiveIcon: null,
+                                      activeBorderColor:
+                                          GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
+                                    ),
+                                    SizedBox(width: 5),
+                                    Text('Small')
+                                  ],
+                                ),
+                                 SizedBox(height: 8),
+                                Row(
+                                  children: [
+                                    GFRadio(
+                                      type: GFRadioType.blunt,
+                                      size: 23,
+                                      value: 3,
+                                      groupValue: groupValue,
+                                      onChanged: (val) {
+                                        setState(() {
+                                          groupValue = val;
+                                        });
+                                      },
+                                      inactiveIcon: null,
+                                      activeBorderColor:
+                                          GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
+                                    ),
+                                    SizedBox(width: 5),
+                                    Text('Extra Small')
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      }),
+                ),
+              ],
+            );
+          },
+          content: Container(
+            height: 200,
+            width: MediaQuery.of(context).size.width * 0.5,
+            color: Colors.teal,
+            child: Image.asset(imageList[index],
+                fit: BoxFit.fill, width: 100, height: 200),
+          ),
+        )),
+```
 
 ### Custom Properties
 

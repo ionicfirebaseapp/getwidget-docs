@@ -23,7 +23,7 @@ Scaffold
         verticalPosition: MediaQuery.of(context).size.width * 0.5,
         horizontalPosition: MediaQuery.of(context).size.height * 0.02,
         showBlurness: showFloatingToast,
-        blurnessColor: Colors.black87,
+        blurnessColor: Colors.black54,
         child: showFloatingToast
             ? GFToast(
           backgroundColor: Colors.white,

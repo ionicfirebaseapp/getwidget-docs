@@ -33,7 +33,7 @@ import 'package:getwidget/getwidget.dart';
 GFTypography(
   text: 'GF Header Typo1',
   type: GFTypographyType.typo1,
-  ),
+),
 ```
 
 ### With Icon
@@ -61,7 +61,7 @@ GFTypography(
   text: 'GF Header Typo1',
   type: GFTypographyType.typo1,
   icon: Icon(Icons.send),
-  backgroundImage: NetworkImage(''),
+  backgroundImage: AssetImage('asset image here'),
 ),
 ```
 

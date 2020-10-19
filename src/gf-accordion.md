@@ -17,10 +17,9 @@ The simple code of a basic Accordion is as shown below
 ```dart
  import 'package:getwidget/getwidget.dart';
 
- GFAccordion(
+GFAccordion(
     title: 'GF Accordion',
-    content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'
-    )
+    content: 'GetFlutter is an open source library that comes with pre-build 1000+ UI components.'
 )
 ```
 
@@ -35,7 +34,7 @@ import 'package:getwidget/getwidget.dart';
 
 GFAccordion(
     title: 'GF Accordion',
-    content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'),
+    content: 'GetFlutter is an open source library that comes with pre-build 1000+ UI components.',
     collapsedIcon: Icon(Icons.add),
     expandedIcon: Icon(Icons.minimize)
 ),
@@ -52,7 +51,7 @@ import 'package:getwidget/getwidget.dart';
 
  GFAccordion(
      title: 'GF Accordion',
-     content: Text('GetFlutter is an open source library that comes with pre-build 1000+ UI components.'),
+     content: 'GetFlutter is an open source library that comes with pre-build 1000+ UI components.',
      collapsedIcon: Text('Show'),
      expandedIcon: Text('Hide')
 ),

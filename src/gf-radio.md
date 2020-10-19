@@ -194,7 +194,7 @@ GFCard(
               });
             },
             inactiveIcon: null,
-            custombgColor: GFColors.SUCCESS),
+            customBgColor: GFColors.SUCCESS),
         GFRadio(
           type: GFRadioType.blunt,
           size: GFSize.MEDIUM,
@@ -207,7 +207,7 @@ GFCard(
           },
           inactiveIcon: null,
           activeBorderColor: GFColors.SUCCESS,
-          custombgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.SUCCESS,
         ),
         GFRadio(
           type: GFRadioType.blunt,
@@ -221,7 +221,7 @@ GFCard(
           },
           inactiveIcon: null,
           activeBorderColor: GFColors.SUCCESS,
-          custombgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.SUCCESS,
         ),
         GFRadio(
           type: GFRadioType.blunt,
@@ -235,7 +235,7 @@ GFCard(
           },
           inactiveIcon: null,
           activeBorderColor: GFColors.SUCCESS,
-          custombgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.SUCCESS,
         )
       ],
     )),
@@ -257,7 +257,7 @@ GFCard(
           activeIcon: Icon(Icons.check),
           radioColor: Colors.red,
           size: GFSize.LARGE,
-          activebgColor: GFColors.SUCCESS,
+          activeBgColor: GFColors.SUCCESS,
           inactiveBorderColor: GFColors.DARK,
           activeBorderColor: GFColors.SUCCESS,
           value: 12,
@@ -280,8 +280,8 @@ GFCard(
             });
           },
           inactiveIcon: Icon(Icons.sentiment_dissatisfied),
-          custombgColor: GFColors.WARNING,
-          activebgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.WARNING,
+          activeBgColor: GFColors.SUCCESS,
           activeBorderColor: GFColors.SUCCESS,
         ),
         GFRadio(
@@ -295,7 +295,7 @@ GFCard(
             });
           },
           inactiveIcon: null,
-          custombgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.SUCCESS,
           activeBorderColor: GFColors.SUCCESS,
         ),
         GFRadio(
@@ -310,7 +310,7 @@ GFCard(
           },
           inactiveIcon: null,
           activeBorderColor: GFColors.SUCCESS,
-          custombgColor: GFColors.SUCCESS,
+          customBgColor: GFColors.SUCCESS,
         ),
       ],
     )),
@@ -325,14 +325,14 @@ Look and feel of the **GFRadio** can be customized using the GFRadio properties.
 | **type** | type of \[GFRadioType\] which is of four type is basic, sqaure, circular and custom |
 | **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |
 | **radioColor** | type pf \[Color\] used to change the checkcolor when the radio button is active |
-| **activebgColor** | type of \[Color\] used to change the backgroundColor of the active radio button |
-| **inactivebgColor** | type of \[Color\] used to change the backgroundColor of the inactive radio button |
+| **activeBgColor** | type of \[Color\] used to change the backgroundColor of the active radio button |
+| **inactiveBgColor** | type of \[Color\] used to change the backgroundColor of the inactive radio button |
 | **activeBorderColor** | type of \[Color\] used to change the border color of the active radio button |
 | **inactiveBorderColor** | type of \[Color\] used to change the border color of the inactive radio button |
 | **onChanged** | Called when the user checks or unchecks the radio button |
 | **activeIcon** | type of Widget used to change the  radio button's active icon |
 | **inactiveIcon** | type of \[Widget\] used to change the  radio button's inactive icon |
-| **custombgColor** | type of \[Color\] used to change the background color of the custom active  radio button only |
+| **customBgColor** | type of \[Color\] used to change the background color of the custom active  radio button only |
 | **autofocus** | on true state this widget will be selected as the initial focus when no other node in its scope is currently focused |
 | **focusNode** | an optional focus node to use as the focus node for this widget. |
 | **value** | The value represented by this radio button. |

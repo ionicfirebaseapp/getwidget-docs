@@ -13,17 +13,53 @@ description: GFToast can be used to display quick warning or error messages.
 
 **GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
 
-```dart
+```text
 import 'package:getwidget/getwidget.dart';
 
- return Scaffold(
-   body:GFFloatingWidget(
-     child:GFToast(
-     text: 'This item already has the label “travel”',
-   ),
-   body:Text('body or any kind of widget here..')
- )
-)
+bool showFloatingToast = false;
+
+Scaffold
+    body: GFFloatingWidget(
+        verticalPosition: MediaQuery.of(context).size.width * 0.5,
+        horizontalPosition: MediaQuery.of(context).size.height * 0.02,
+        showBlurness: showFloatingToast,
+        blurnessColor: Colors.black54,
+        child: showFloatingToast
+            ? GFToast(
+          backgroundColor: Colors.white,
+          text:
+          'This item already has the label “travel”',
+          textStyle: const TextStyle(color: Colors.black87),
+          button: GFButton(
+            onPressed: () {
+              setState(() {
+                showFloatingToast = false;
+              });
+            },
+            text: 'OK',
+            type: GFButtonType.transparent,
+            color: GFColors.SUCCESS,
+          ),
+          autoDismiss: false,
+        )
+            : Container(),
+        body: Column(
+          children: [
+            Container(
+              margin: const EdgeInsets.only(left: 40, right: 40),
+              child: GFButton(
+                onPressed: () {
+                  setState(() {
+                    showFloatingToast = !showFloatingToast;
+                  });
+                },
+                text: 'View Floating Toast',
+              ),
+            ),
+          ],
+        )
+    ),
+),  
 ```
 
 ### Toast with Button

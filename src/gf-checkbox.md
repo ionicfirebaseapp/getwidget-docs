@@ -17,7 +17,7 @@ bool isChecked = false;
 
 GFCheckbox(
   size: GFSize.SMALL,
-  activebgColor: GFColors.DANGER,
+  activeBgColor: GFColors.DANGER,
   onChanged: (value) {
     setState(() {
       isChecked = value;
@@ -40,7 +40,7 @@ GFCard(
  children: <Widget>[
    GFCheckbox(
      size: GFSize.SMALL,
-     activebgColor: GFColors.DANGER,
+     activeBgColor: GFColors.DANGER,
      onChanged: (value) {
        setState(() {
          isChecked = value;
@@ -50,7 +50,7 @@ GFCard(
      inactiveIcon: null,
    ),
   GFCheckbox(
-    activebgColor: GFColors.SECONDARY,
+    activeBgColor: GFColors.SECONDARY,
     onChanged: (value) {
       setState(() {
         isChecked = value;
@@ -61,7 +61,7 @@ GFCard(
    ),
    GFCheckbox(
      size: GFSize.LARGE,
-     activebgColor: GFColors.SUCCESS,
+     activeBgColor: GFColors.SUCCESS,
      onChanged: (value) {
        setState(() {
          isChecked = value;
@@ -88,7 +88,7 @@ GFCard(
     children: <Widget>[
       GFCheckbox(
         size: GFSize.SMALL,
-        activebgColor: GFColors.DANGER,
+        activeBgColor: GFColors.DANGER,
         type: GFCheckboxType.square,
         onChanged: (value) {
           setState(() {
@@ -100,7 +100,7 @@ GFCard(
       ),
       GFCheckbox(
         type: GFCheckboxType.square,
-        activebgColor: GFColors.SECONDARY,
+        activeBgColor: GFColors.SECONDARY,
         onChanged: (value) {
           setState(() {
             isChecked = value;
@@ -111,7 +111,7 @@ GFCard(
       ),
       GFCheckbox(
         size: GFSize.LARGE,
-        activebgColor: GFColors.SUCCESS,
+        activeBgColor: GFColors.SUCCESS,
         type: GFCheckboxType.square,
         onChanged: (value) {
           setState(() {
@@ -139,7 +139,7 @@ GFCard(
     children: <Widget>[
       GFCheckbox(
         size: GFSize.SMALL,
-        activebgColor: GFColors.DANGER,
+        activeBgColor: GFColors.DANGER,
         type: GFCheckboxType.circle,
         onChanged: (value) {
           setState(() {
@@ -151,7 +151,7 @@ GFCard(
       ),
       GFCheckbox(
         type: GFCheckboxType.circle,
-        activebgColor: GFColors.SECONDARY,
+        activeBgColor: GFColors.SECONDARY,
         onChanged: (value) {
           setState(() {
             isChecked = value;
@@ -160,7 +160,7 @@ GFCard(
         value: isChecked,
       ),
       GFCheckbox(
-        activebgColor: GFColors.SUCCESS,
+        activeBgColor: GFColors.SUCCESS,
         size: GFSize.LARGE,
         type: GFCheckboxType.circle,
         onChanged: (value) {
@@ -200,7 +200,7 @@ GFCard(
       ),
       GFCheckbox(
         type: GFCheckboxType.square,
-        activebgColor: GFColors.SECONDARY,
+        activeBgColor: GFColors.SECONDARY,
         activeIcon: Icon(Icons.sentiment_satisfied),
         onChanged: (value) {
           setState(() {
@@ -235,15 +235,15 @@ Look and feel of the **GFCheckbox** can be customized using the GFCheckbox prope
 | **type** | type of \[GFCheckboxType\] which is of four type is basic, square, circular and custom |
 | **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |
 | **checkColor** | type of \[Color\] used to change the checkcolor when the checkbox is active |
-| **activebgColor** | type of \[Color\] used to change the backgroundColor of the active checkbox |
-| **inactivebgColor** | type of \[Color\] used to change the backgroundColor of the inactive checkbox |
+| **activeBgColor** | type of \[Color\] used to change the backgroundColor of the active checkbox |
+| **inactiveBgColor** | type of \[Color\] used to change the backgroundColor of the inactive checkbox |
 | **activeBorderColor** | type of \[Color\] used to change the border color of the active checkbox |
 | **inactiveBorderColor** | type of \[Color\] used to change the border color of the inactive checkbox |
 | **onChanged** | called when the user checks or unchecks the checkbox. |
 | **value** | used to set the current state of the checkbox |
 | **activeIcon** | type of \[Widget\] used to change the  checkbox's active icon |
 | **inactiveIcon** | type of \[Widget\] used to change the  checkbox's inactive icon |
-| **custombgColor** | type of \[Color\] used to change the background color of the custom active checkbox only |
+| **customBgColor** | type of \[Color\] used to change the background color of the custom active checkbox only |
 | **autofocus** | on true state this widget will be selected as the initial focus when no other node in its scope is currently focused |
 | **focusNode** | an optional focus node to use as the focus node for this widget. |
 

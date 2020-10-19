@@ -91,13 +91,13 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
         active</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>activebgColor</b>
+      <td style="text-align:left"><b>activeBgColor</b>
       </td>
       <td style="text-align:left">type of [Color] used to change the backgroundColor of the active radio
         button</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>inactivebgColor</b>
+      <td style="text-align:left"><b>inactiveBgColor</b>
       </td>
       <td style="text-align:left">type of [Color] used to change the backgroundColor of the inactive radio
         button</td>
@@ -129,7 +129,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">type of [Widget] used to change the radio button&apos;s inactive icon</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>custombgColor</b>
+      <td style="text-align:left"><b>customBgColor</b>
       </td>
       <td style="text-align:left">type of [Color] used to change the background color of the custom active
         radio button only</td>
@@ -189,9 +189,9 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">The title to display inside the [GFListTile].</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subTitle</b>
+      <td style="text-align:left"><b>subtitle</b>
       </td>
-      <td style="text-align:left">The subTitle to display inside the [GFListTile].</td>
+      <td style="text-align:left">The subtitle to display inside the [GFListTile].</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>description</b>

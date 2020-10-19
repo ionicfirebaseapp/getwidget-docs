@@ -24,7 +24,7 @@ GFCard(
      backgroundImage: AssetImage('your asset image'),
    ),
    title: Text('Card Title'),
-   subTitle: Text('Card Sub Title'),
+   subtitle: Text('Card Sub Title'),
 ),
 content: Text("Some quick example text to build on the card"),
 buttonBar: GFButtonBar(

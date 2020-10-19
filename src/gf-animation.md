@@ -9,11 +9,15 @@ description: >-
 
 ### GF Animation Info
 
+![GFAnimation Banner](../.gitbook/assets/animation-docs-banner.gif)
+
 ### Types of GF Animation :
 
 ### 1. Rotation
 
 GFAnimation property `type: GFAnimationType.rotateTransition` ,  creates a rotation transition for the child of widget. Animates the rotation of a widget.
+
+![GFAnimationType.rotateTransition](../.gitbook/assets/rotation-3x.png)
 
 ```text
   AnimationController controller;
@@ -50,6 +54,8 @@ GestureDetector(
 
 GFAnimation property `type: GFAnimationType.scaleTransition` ,  creates a scale transition for the child of widget. Animates the scale of a transformed widget.
 
+![GFAnimationType.scaleTransition](../.gitbook/assets/scaling-3x.png)
+
 ```text
   AnimationController controller;
   Animation<double> animation;
@@ -82,6 +88,8 @@ GestureDetector(
 
 ### 3. Alignment
 
+![GFAnimationType.align](../.gitbook/assets/allignment-3x.png)
+
 GFAnimation property `type: GFAnimationType.align` ,  creates a alignment transitions for the child of widget. Animates the position alignment of a widget over a given duration whenever alignment changes.
 
 ```text
@@ -98,6 +106,8 @@ GFAnimation(
 ```
 
 ### 4. Slide Transition
+
+![GFAnimationType.slideTransition](../.gitbook/assets/slide-3x.png)
 
 GFAnimation property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of widget. Animates the position  of a widget relative to its normal position.
 
@@ -135,6 +145,8 @@ Container(
 ```
 
 ### 5. Size
+
+![GFAnimationType.size](../.gitbook/assets/size-3x.png)
 
 GFAnimation property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 

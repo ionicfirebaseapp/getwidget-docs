@@ -9,7 +9,11 @@ description: >-
 
 ### GF Intro Screen Info
 
+![GFIntroscreen Banner](../.gitbook/assets/intro-screens-docs-banner-compressed%20%281%29.gif)
+
 #### Usage
+
+![Basic GFIntroScreen](../.gitbook/assets/intro-screens-docs-banner-compressed.gif)
 
 The simple code of a basic GFIntroScreen is as shown below.
 

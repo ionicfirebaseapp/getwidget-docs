@@ -6,9 +6,13 @@ description: GF Sticky Header will the stick header at top when content is being
 
 ### GF Sticky Header Info
 
+![GFStickyHeader Banner](../.gitbook/assets/sticky-headers-docs-banner.gif)
+
 #### Usage
 
 The simple code of a basic GFSticky Header is as shown below. 
+
+![Basic Sticky Header](../.gitbook/assets/sticky-headers-docs-baner_compressed.gif)
 
 ```text
 ListView.builder(

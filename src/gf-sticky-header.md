@@ -12,7 +12,7 @@ description: GF Sticky Header will the stick header at top when content is being
 
 The simple code of a basic GFSticky Header is as shown below. 
 
-![Basic Sticky Header](../.gitbook/assets/sticky-headers-docs-baner_compressed.gif)
+![](../.gitbook/assets/sticky-headers-basic.gif)
 
 ```text
 ListView.builder(
@@ -94,6 +94,8 @@ GF Sticky Header property _`direction: Axis.vertical`  align the stickyContent a
 GF Sticky Header property _`direction: Axis.horizontal`  align the stickyContent and content in horizontal  way._ 
 
 ### GF Sticky Header Builder
+
+![](../.gitbook/assets/sticky-headers-customized.gif)
 
 \[GFStickyHeaderBuilder\] component works same as GFStickyHeader, instead of widget for stickyHeader here we can use \[builder\]. This allows user to customize the stickyHeader with render values. 
 

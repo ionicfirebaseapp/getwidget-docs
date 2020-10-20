@@ -13,7 +13,7 @@ description: >-
 
 #### Usage
 
-![Basic GFIntroScreen](../.gitbook/assets/intro-screens-docs-banner-compressed.gif)
+![](../.gitbook/assets/introscreens-full-width.gif)
 
 The simple code of a basic GFIntroScreen is as shown below.
 
@@ -161,6 +161,8 @@ GFIntroScreen(
 ```
 
 ### GF Intro Screen - Customised
+
+![](../.gitbook/assets/introscreens-half.gif)
 
 GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
 

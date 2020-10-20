@@ -185,6 +185,41 @@ GFAnimation(
 ),
 ```
 
+### 6. Container
+
+GFAnimation property `type: GFAnimationType.container` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
+
+```text
+AnimationController controller;
+Animation<double> animation;
+double _fontSize = 30;
+  
+@override
+  void initState() {
+    super.initState();
+    controller =
+        AnimationController(duration: const Duration(seconds: 5), vsync: this);
+    animation = new CurvedAnimation(parent: controller, curve: Curves.linear);
+    controller.repeat();
+  }
+
+GFAnimation(
+  width: 50,
+  changedWidth: 100,
+  height: 50,
+  changedHeight: 100,
+  activeColor: Colors.transparent,
+  color: Colors.transparent,
+  fontSize: _fontSize,
+  type: GFAnimationType.container,
+  child: Image.asset(
+    'assets image here',
+     width: 80,
+    height: 80,
+  ),
+),
+```
+
 ### Custom Properties
 
 Look and feel of the **GFAnimation** can be customized using the GFAnimation properties.

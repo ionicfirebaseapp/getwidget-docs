@@ -234,7 +234,6 @@ Look and feel of the **GFCheckbox** can be customized using the GFCheckbox prope
 | :--- | :--- |
 | **type** | type of \[GFCheckboxType\] which is of four type is basic, square, circular and custom |
 | **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |
-| **checkColor** | type of \[Color\] used to change the checkcolor when the checkbox is active |
 | **activeBgColor** | type of \[Color\] used to change the backgroundColor of the active checkbox |
 | **inactiveBgColor** | type of \[Color\] used to change the backgroundColor of the inactive checkbox |
 | **activeBorderColor** | type of \[Color\] used to change the border color of the active checkbox |

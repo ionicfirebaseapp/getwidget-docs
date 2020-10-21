@@ -149,14 +149,6 @@ Look and feel of the **GFMultiselect** can be customized using the GFMultiselect
         is GFSize ie, small, medium and large and can use any double value</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>checkColor</b>
-      </td>
-      <td style="text-align:left">
-        <p>defines dropdown ListTile&apos;s checkbox color when its active</p>
-        <p>type of [Color] used to change the checkcolor when the checkbox is active</p>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left"><b>activeBgColor</b>
       </td>
       <td style="text-align:left">defines dropdown ListTile&apos;s checkbox background color when its active

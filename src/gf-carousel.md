@@ -77,7 +77,6 @@ The look and feel of the GetWidget carousel widget for the Flutter app can be cu
 | **enableInfiniteScroll** | determines if slides should loop infinitely or be limited to item length. Defaults to true, i.e. infinite loop |
 | **scrollDirection** | axis along which the page view scrolls. Defaults to \[Axis.horizontal\] |
 | **onPageChanged** | called whenever the page in the center of the viewport changes |
-| **pageController** | \[pageController\] is created using the properties passed to the constructor and can be used to control the \[PageView\] it is passed to. |
 
 ## GF ItemsCarousel
 

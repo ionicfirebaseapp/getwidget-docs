@@ -8,11 +8,9 @@ description: >-
 
 # GF Carousel \| A Flutter Carousel Widget
 
-![GW Carousel Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
 
 ## GF Carousel
-
-![GF Carousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
 
 GF Carousel is a Flutter Carousel widget that used for List of Images given to the items in the GFCarousel, it allows us to slide each image container. The below code gives the default image slider component.
 
@@ -81,8 +79,6 @@ The look and feel of the GetWidget carousel widget for the Flutter app can be cu
 | **onPageChanged** | called whenever the page in the center of the viewport changes |
 
 ## GF ItemsCarousel
-
-![GW ItemsCarousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousal-image-Multiple_items_UzBeEj6VU.png)
 
 The ItemsCarousel component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide components.
 

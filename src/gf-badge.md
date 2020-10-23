@@ -8,7 +8,7 @@ description: >-
 
 # GF Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Badges_2x_08i8g5F_w.png)
+![GW Badges Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Badges_v0v7rCbeO.png)
 
 ## Badges
 
@@ -89,7 +89,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will able to
 
 ## Solid Button Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/solid-badge-buttons-2x_AEtC9rqrH.png)
+![Solid Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-badge-buttons-2x_AEtC9rqrH_9WGUj7cmx.png)
 
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -109,7 +109,7 @@ GFButtonBadge(
 
 ## Disabled Button Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-badge-buttons-2x_pRTAZyWWe.png)
+![Disabled Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-badge-buttons-2x_pRTAZyWWe_DdAbyhxxOt.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
@@ -127,7 +127,7 @@ GFButtonBadge(
 
 ## Outline Button Badge 
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-badge-buttons-2x-1_-Tow_mzA3.png)
+![Outline Button Badge ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-badge-buttons-2x-1_-Tow_mzA3_uCCZDyDrN.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**.
 

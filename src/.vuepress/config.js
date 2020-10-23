@@ -107,7 +107,6 @@ module.exports = {
                 children: [
                     '/',
                 ],
-
             },
             {
                 title: 'Getting started',

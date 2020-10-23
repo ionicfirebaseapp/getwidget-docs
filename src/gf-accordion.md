@@ -8,7 +8,7 @@ description: >-
 
 # GF Accordion
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/accordion_EghoEjZzz.png)
+![GF Accordion Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png)
 
 ## Usage
 
@@ -25,9 +25,7 @@ GFAccordion(
 
 ## Accordion with Icon
 
-[https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/](https://ik.imagekit.io/ionicfirebaseapp/docs/Accordion_2x_p80nA-V4OzG.png)tr:w-800,f-auto/[Accordion\_2x\_p80nA-V4OzG.png](https://ik.imagekit.io/ionicfirebaseapp/docs/Accordion_2x_p80nA-V4OzG.png)
-
-
+![Accordion with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordion-with-icon-2x_zWtnsZQmZ.png)
 
 Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
@@ -44,7 +42,7 @@ GFAccordion(
 
 ## Accordion with trailing Text
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/accordian-with-text-2x_zitIBS6DI.png)
+![Accordion with trailing text](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordian-with-text-2x_zitIBS6DI_FMr8uWr38.png)
 
 The trailing part takes any widget like text, icon etc. The below code shows the accordion with the text.
 

@@ -7,7 +7,7 @@ description: >-
 
 # GF Appbar
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Appbar_-3bDD0z8f.png)
+![GW Appbar Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Appbar_qHw5dgqjR5Q5.png)
 
 An app bar consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above.
 
@@ -16,6 +16,8 @@ An app bar consists of a toolbar and potentially other widgets, such as a GFTabB
 ### Usage
 
 The simple code of a basic GFAppbar is as shown below.
+
+![Basic Appbar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_3x_cbGIPYmQJ.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -45,7 +47,7 @@ GFAppBar(
 
 ### GFAppbar with SearchBar
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/appbar-3_mxflMyRld.png)
+![GFAppbar with SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_search_3x_1A4y5PZuu.png)
 
 If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options.
 
@@ -77,6 +79,8 @@ GFAppBar(
 ```
 
 ### GFAppbar with Segmented Tabs
+
+![GFAppbar with Segmented Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Segmented_3x_yGAKyoSOD.png)
 
 **Segmented** **tabs** can also be used inside the **Appbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. Below code shows a simple segmented tab inside Appbar
 

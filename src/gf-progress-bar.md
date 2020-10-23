@@ -7,7 +7,7 @@ description: >-
 
 # GF Progress Bar
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Progress_bar_docs_banner_2x_U9p_yPuSY.png)
+![GW Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Progress_bar_docs_banner_cogNGuz9x.png)
 
 Progress bar can be of two types , a simple linear progress bar or a Circular Progress bar
 
@@ -16,6 +16,8 @@ Progress bar can be of two types , a simple linear progress bar or a Circular Pr
 ### Usage
 
 The below code shows a simple **Linear** **progress** **bar** with some defined properties of the progress bar.
+
+![Basic Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/linear_2_3x_tbrWidKp_.png)
 
 ```dart
  import 'package:getwidget/getwidget.dart';
@@ -27,9 +29,9 @@ The below code shows a simple **Linear** **progress** **bar** with some defined 
 )
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/linear-progress-bar-2x_ebnfBpW8b.png)
-
 ### Circular Progress Bar
+
+![Circular Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_1_3x_NfFXiyxXyz.png)
 
 Circular progress bar is as same as linear progress bar with some additional properties added to the code structure. The below code shows a simple circular progress bar.
 
@@ -45,9 +47,9 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/circular-progress-bar-2x_UaAAL_bAA.png)
-
 ### Progress bar with Child property
+
+![Progress bar with Child property](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_2_3x_tY_3Jy7Fw.png)
 
 The progress bar can be customized to show the percentage of progress completed. To show the progress percentage we can use child property which is a Widget type and can be a text, icon , image etc. The below code shows how a child property can be used as text to show the progress percentage.
 
@@ -68,9 +70,9 @@ GFProgressBar(
 )
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/progress-bar-with-child-property-2x_KUHho34A3.png)
-
 ### Progress bar with leading and trailing icons
+
+![Progress bar with leading and trailing icons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Linear_1_3x_2oh4hQejHD.png)
 
 The progress bar can be used with leading and trailing icons to show the level of progress percent from 0 to 1. The below code shows a leading and trailing icons in a Linear Progress bar.
 
@@ -90,8 +92,6 @@ GFProgressBar(
      progressBarColor: GFColors.INFO,
 )
 ```
-
-![img](https://ik.imagekit.io/ionicfirebaseapp/progressbar-with-leading-and-trailing-icons-2x_b-NgotN5B.png)
 
 ### Custom Properties
 

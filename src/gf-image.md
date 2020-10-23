@@ -5,7 +5,7 @@ description: GFImage typically manages assets and dispalys the images
 
 # GF Image
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Images-Square_2x_Zf91TY9B84.png)
+![GW Images](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png)
 
 ## Images
 
@@ -39,7 +39,7 @@ GFImageOverlay(
 
 ### Image Overlay
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/image-overlay_vUnez9tdD.png)
+![Image Overlay](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images_-_basic_3x_uHCFyLq7s.png)
 
 Image Overlay is used to set the image in the background and text in the foreground with the `colorFilter` property that takes two colors, and outputs one color
 
@@ -60,7 +60,7 @@ GFImageOverlay(
 
 ### Circular Image
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/image-circular_gc-0f8QJi.png)
+![Circular Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-circular_3x_DOdazHv_R.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

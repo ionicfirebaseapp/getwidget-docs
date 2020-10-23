@@ -7,7 +7,7 @@ description: >-
 
 # GF Typography
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Typography_2x_7rUbGrN2G.png)
+![GF Typography](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Typography_WU9Jso1UwI.png)
 
 ## Typography Info
 
@@ -38,7 +38,7 @@ GFTypography(
 
 ### With Icon
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/with-icon-2x_dSdJYRg7W.png)
+![GF Typography with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_icon_3x_f-2jWZF_2.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -52,7 +52,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### With BackgroundImage
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/with-image-2x_enX3EvMAB.png)
+![GF Typography with Background Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_image_3x_EMzRHJ-fi.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

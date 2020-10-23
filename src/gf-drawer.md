@@ -8,7 +8,7 @@ description: >-
 
 # Flutter Drawer Widget
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Drawer_2x_SN3DBznNN.png)
+![GW Drawer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png)
 
 The GFAppBar automatically displays an appropriate IconButton to show the GFDrawer when a GFDrawer is available in the Scaffold.
 

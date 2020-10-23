@@ -6,7 +6,7 @@ description: A customizable uniform border with color and width.
 
 ### GF Border Info
 
-![](../.gitbook/assets/gw-borders-docs-banner.png)
+![GW Border](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW-Borders_docs_banner_JIomXoiPKpc.png)
 
 ### Usage
 
@@ -14,9 +14,9 @@ The simple code of a basic GFBorder is as shown below.
 
 ### Solid Border
 
-Solid Border is basic border used for the many components. GF Border property `[dashedLine`\] takes array of doubles like  `[2, 0]` to display solid border.
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border_3x_yCU-0SBxv.png)
 
-![](../.gitbook/assets/solid-border-3x.png)
+Solid Border is basic border used for the many components. GF Border property `[dashedLine`\] takes array of doubles like  `[2, 0]` to display solid border.
 
 ```text
 Container(
@@ -39,7 +39,7 @@ Container(
 
 Dashed Border is customised border with dashed patterns used in UI designs. GF Border property `[dashedLine`\] takes array of doubles like `[4, 6]` to display dashed border.
 
-![](../.gitbook/assets/dashed-border-3x.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_3x_DQyNt2Emrew.png)
 
 ```text
 Container(
@@ -62,7 +62,7 @@ Container(
 
 Dotted Border is customised border with dotted patterns used in many UI designs. GF Border property `[dashedLine`\] takes array of doubles like `[2, 1]` to display dotted border.
 
-![](../.gitbook/assets/dotted-border-3x.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dotted_border_3x_bVhWMc5Nv.png)
 
 ```text
 Container(
@@ -85,7 +85,7 @@ Container(
 
 ### GFBorderType.rect
 
-![](../.gitbook/assets/solid-border.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border_vw_8B7kiHo.png)
 
 GF Border property `type` takes `GFBorderType.rect` to display borders with no rounded corner.
 
@@ -107,7 +107,7 @@ Container(
 
 ### GFBorderType.rRect
 
-![](../.gitbook/assets/dashed-border-with-radius.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_with_radius_4NgBID_ne.png)
 
 GF Border property `type` takes `GFBorderType.rRect` to display borders with rounded corner.
 
@@ -130,9 +130,9 @@ Container(
 
 ### GFBorderType.oval
 
-![](../.gitbook/assets/circular-border-oval-solid-3x.png)
-
 GF Border property `type` takes `GFBorderType.oval` to display oval shape borders.
+
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_border_-_oval-solid_3x_o_S1GuEvf.png)
 
 ```text
 Container(
@@ -150,7 +150,7 @@ Container(
 
 ### GFBorderType.circle
 
-![](../.gitbook/assets/dashed-border-circle-3x.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dashed_border_-_circle_3x_hoEZqNy-tw.png)
 
 GF Border property `type` takes `GFBorderType.circle` to display circular shape borders.
 

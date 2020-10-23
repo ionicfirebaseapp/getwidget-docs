@@ -9,7 +9,7 @@ description: >-
 
 ### GF Animation Info
 
-![GFAnimation Banner](../.gitbook/assets/animation-docs-banner.gif)
+![GW Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_docs_banner_A_10aeESdCUL.gif)
 
 ### Types of GF Animation :
 
@@ -17,7 +17,7 @@ description: >-
 
 GFAnimation property `type: GFAnimationType.rotateTransition` ,  creates a rotation transition for the child of widget. Animates the rotation of a widget.
 
-![](../.gitbook/assets/animation-rotation.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-Rotation_xN-DtCumD.gif)
 
 ```text
   AnimationController controller;
@@ -54,7 +54,7 @@ GestureDetector(
 
 GFAnimation property `type: GFAnimationType.scaleTransition` ,  creates a scale transition for the child of widget. Animates the scale of a transformed widget.
 
-![](../.gitbook/assets/animation-scaling.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_-scaling_xKsfUBwdY.gif)
 
 ```text
   AnimationController controller;
@@ -88,7 +88,7 @@ GestureDetector(
 
 ### 3. Alignment
 
-![](../.gitbook/assets/animation-allignment.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_allignment_1NU1fAmgT.gif)
 
 GFAnimation property `type: GFAnimationType.align` ,  creates a alignment transitions for the child of widget. Animates the position alignment of a widget over a given duration whenever alignment changes.
 
@@ -107,7 +107,7 @@ GFAnimation(
 
 ### 4. Slide Transition
 
-![](../.gitbook/assets/animation-slide.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_slide_pCBzSV31Bgt.gif)
 
 GFAnimation property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of widget. Animates the position  of a widget relative to its normal position.
 
@@ -146,7 +146,7 @@ Container(
 
 ### 5. Size
 
-![](../.gitbook/assets/animation-size.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-size_Uo3LU0xmy.gif)
 
 GFAnimation property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 
@@ -187,7 +187,7 @@ GFAnimation(
 
 ### 6. Container
 
-![](../.gitbook/assets/animation-container.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-container_vGQhL26sk.gif)
 
 GFAnimation property `type: GFAnimationType.container` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 

@@ -8,7 +8,7 @@ description: >-
 
 ### GF Bottomsheet Info
 
-![Bottomsheet](../.gitbook/assets/bottom-sheet-docs-banner.gif)
+![GW Bottomsheet](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheet_Docs_banner_GkAs27_V5g4K.gif)
 
 ### Usage
 
@@ -16,7 +16,7 @@ The simple code of a basic GFBottomsheet is as shown below.
 
 ### Basic GF Bottomsheet
 
-![GFBottomsheet](../.gitbook/assets/bottom-sheets-without-overlay-3x.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png)
 
 ```text
 final GFBottomSheetController _controller = GFBottomSheetController();

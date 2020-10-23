@@ -5,7 +5,7 @@ description: GFToggle is used to toggle the on/off state of a single setting.
 
 # GF Toggle
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/toggles-2x_TWbAtt1_D.png)
+![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
 ## Toggle Info
 
@@ -28,7 +28,7 @@ There are four types ie, `android`, `ios`, `square` and `custom`. The default to
 
 ### IOS Toggle
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/ios_bW24_m8Gb.png)
+![IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24_m8Gb_wJs_-EKey0.webp)
 
 The below code shows a simple ios toggle
 
@@ -44,7 +44,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Square Toggle
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/square_kQf7GGmmw.png)
+![Square Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square_kQf7GGmmw_rysXqcWnd.png)
 
 The below code shows a simple square toggle
 
@@ -60,7 +60,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Custom Toggle
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/custom-2_IukUJZTss.png)
+![Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
 
 The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
 

@@ -8,11 +8,11 @@ description: >-
 
 # GF Tab
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Tabs-icon_1_2x_d161LbF9k.png)
+![GW Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png)
 
 ## GFTabBar
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/tabs-2x_ic_9n6u7B.png)
+![GF TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_labelled_tabs_3x_Tj9Q0jtsE.png)
 
 The GFTabBar is a component that contains a set of tab buttons. A tab bar must be provided tabController to communicate with each tabBarView Component.
 

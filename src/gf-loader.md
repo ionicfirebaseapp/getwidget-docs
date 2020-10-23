@@ -7,7 +7,7 @@ description: >-
 
 # GF Loader
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Loaders_Docs_Banner_2x_d4qy_o4O9.png)
+![GW Loader Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
 ## Loader Info
 
@@ -26,6 +26,8 @@ There are five different types of loaders namely **android** , **ios,** **circle
 
 ### **IOS Loader**
 
+![IOS Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders_3x__6iEhhCjnN.png)
+
 A simple **ios** loader in which the type of the loader should be passed to **ios**. The code is as shown below.
 
 ```dart
@@ -35,9 +37,9 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/ios-loaders-2x__Jk9mMMSE.png)
-
 ### Circular Loader
+
+![Circular Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
 
 A simple **circular** shape loader in which the type of the loader should be passed to **circle**. The code is as shown below.
 
@@ -49,9 +51,9 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/circular-loaders-2x_RaLOR5clm.png)
-
 ### Square Loader
+
+![Square Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
 
 A simple **square** shape loader in which the type of the loader should be passed to **square**. The code is as shown below.
 
@@ -62,8 +64,6 @@ import 'package:getwidget/getwidget.dart';
    type:GFLoaderType.square
  ),
 ```
-
-![img](https://ik.imagekit.io/ionicfirebaseapp/squared-loaders-2x_4NxeGClPH.png)
 
 ### Custom Loader
 

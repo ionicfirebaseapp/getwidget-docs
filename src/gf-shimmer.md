@@ -8,13 +8,15 @@ description: >-
 
 # GF Shimmer
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Shimmer_docs_banner_tQJ5qq2Fi.png)
+![GW Shimmer Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/shimmer_kb-ZpQnB5.png)
 
 ## Shimmer Info
 
 GFShimmer is a Flutter Shimmer Effect Widget that can be used by giving Linear Gradient for more visual shimmer effect or just by adding Main Color and Secondary Color for basic shimmer effect.
 
 ### How to Use Flutter Shimmer Effect using GetFlutter
+
+![Shimmer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_3x_pRKTr4X6_r.png)
 
 The below code gives a simple Flutter Shimmer effect for child with main color and secondary color.
 
@@ -65,9 +67,9 @@ final Widget emptyBlock = Padding(
     );
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/basic-shimmer-effect-2x_JSJbGQcZW.png)
-
 ### GFShimmer with Gradient
+
+![GFShimmer with Gradient](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/text_3x_fzYT22T5N.png)
 
 The below code gives a Shimmer effect for child with Liner Gradient. It only takes Liner Gradient when `[showGradient`\] is **true .**
 
@@ -92,8 +94,6 @@ GFShimmer(
   ),
 ),
 ```
-
-![img](https://ik.imagekit.io/ionicfirebaseapp/shimmer-effect-on-text-2x_cA2TM7eak.png)
 
 Look and feel of the **GF Shimmer \(Flutter Shimmer Widgets\)** could be customized using the GF Shimmer properties.
 

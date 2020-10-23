@@ -6,13 +6,13 @@ description: GF Sticky Header will the stick header at top when content is being
 
 ### GF Sticky Header Info
 
-![GFStickyHeader Banner](../.gitbook/assets/sticky-headers-docs-banner.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers_docs_baner_compressed_-_a1zk2C7.gif)
 
 #### Usage
 
 The simple code of a basic GFSticky Header is as shown below. 
 
-![](../.gitbook/assets/sticky-headers-basic.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers-basic_D4r9sejB1sy1.gif)
 
 ```text
 ListView.builder(
@@ -95,7 +95,7 @@ GF Sticky Header property _`direction: Axis.horizontal`  align the stickyContent
 
 ### GF Sticky Header Builder
 
-![](../.gitbook/assets/sticky-headers-customized.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers-customized_-3xHGFDJw--.gif)
 
 \[GFStickyHeaderBuilder\] component works same as GFStickyHeader, instead of widget for stickyHeader here we can use \[builder\]. This allows user to customize the stickyHeader with render values. 
 

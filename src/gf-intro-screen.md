@@ -9,13 +9,13 @@ description: >-
 
 ### GF Intro Screen Info
 
-![GFIntroscreen Banner](../.gitbook/assets/intro-screens-docs-banner-compressed%20%281%29.gif)
+![GW Introscreens](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Intro_screens_docs_banner-compressed_IQ9kTYzvLEsR.gif)
 
 #### Usage
 
-![](../.gitbook/assets/introscreens-full-width.gif)
-
 The simple code of a basic GFIntroScreen is as shown below.
+
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens_full_width_tT9qnpWrC.gif)
 
 ```text
 PageController _pageController;
@@ -162,7 +162,7 @@ GFIntroScreen(
 
 ### GF Intro Screen - Customised
 
-![](../.gitbook/assets/introscreens-half.gif)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens-half_-Ptb6PZ669.gif)
 
 GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
 

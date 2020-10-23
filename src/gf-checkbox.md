@@ -6,7 +6,7 @@ description: GFCheckbox allows user to select one or more options.
 
 ## GF Checkbox Info
 
-![GF CheckBox](../.gitbook/assets/docs-banner-checkboxes-2x.png)
+![GW Checkbox Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png)
 
 ### Usage
 
@@ -29,7 +29,7 @@ GFCheckbox(
 
 ### Basic Checkbox
 
-![Basic Checkbox](../.gitbook/assets/basic-checkbox.png)
+![Basic Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_checkbox_wFE44t1vkV.png)
 
 ```text
 bool isChecked = false;
@@ -77,7 +77,7 @@ GFCard(
 
 ### Square Checkbox
 
-![Square Checkbox](../.gitbook/assets/square-checkbox.png)
+![Square Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_checkbox_jrW69hqknN.png)
 
 ```text
 bool isChecked = false;
@@ -128,7 +128,7 @@ GFCard(
 
 ### Circular Checkbox
 
-![Circular Checkbox](../.gitbook/assets/circular-checkbox.png)
+![Circular Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_checkbox_rbkYXd9a6m.png)
 
 ```text
 bool isChecked = false;
@@ -178,7 +178,7 @@ GFCard(
 
 ### Custom Checkbox
 
-![Custom Checkbox](../.gitbook/assets/custom-checkbox.png)
+![Custom Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_checkbox_MxBkIXTfNJ.png)
 
 ```text
 bool isChecked = false;

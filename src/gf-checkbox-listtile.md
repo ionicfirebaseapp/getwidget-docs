@@ -8,13 +8,13 @@ description: >-
 
 ## GF Checkbox ListTile Info
 
-![GF Checkbox ListTile](../.gitbook/assets/docs-banner-checkbox-list-tile-2x.png)
+![GW Checkbox ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png)
 
 ### Usage
 
 The simple code of a basic GFCheckboxListTile is as shown below.
 
-![GF CheckboxListTile](../.gitbook/assets/checkbox-list-tile-3x.png)
+![GW Checkbox ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Checkbox_list_tile_3x_pjFO-T5_W.png)
 
 ```text
 bool isChecked = false;

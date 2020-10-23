@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/link-share_EbZz6yv3T.png)
+![Get Widget Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/link-share_aT-cHzGY9.png)
 
 ## How Get Widget Started?
 

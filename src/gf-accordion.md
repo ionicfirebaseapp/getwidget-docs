@@ -25,7 +25,9 @@ GFAccordion(
 
 ## Accordion with Icon
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/accordion_TSkV0IklJ.png)
+[https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/](https://ik.imagekit.io/ionicfirebaseapp/docs/Accordion_2x_p80nA-V4OzG.png)tr:w-800,f-auto/[Accordion\_2x\_p80nA-V4OzG.png](https://ik.imagekit.io/ionicfirebaseapp/docs/Accordion_2x_p80nA-V4OzG.png)
+
+
 
 Icons are mostly used in Accordion to show whether the content is expanded or collapsed. The most commonly used icons are the up and down arrow icons. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 

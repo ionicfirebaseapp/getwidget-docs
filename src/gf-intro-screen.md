@@ -9,7 +9,7 @@ description: >-
 
 ### GF Intro Screen Info
 
-![GFIntroscreen Banner](../.gitbook/assets/intro-screens-docs-banner-compressed%20%281%29.gif)
+![GFIntroscreen Banner](../.gitbook/assets/intro-screens-docs-banner-compressed.gif)
 
 #### Usage
 

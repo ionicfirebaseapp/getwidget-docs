@@ -8,15 +8,93 @@ description: >-
 
 ### GF Dropdown Info
 
+![GW Dropdown](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_Drop_down_2x_R8HnHoR9S.png)
+
 #### Usage
 
 The simple code of a basic GFDropdown is as shown below. 
 
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/DROP_DOWN-BASIC_pl2dlIIoM.gif)
 
+```text
+String dropdown;
+
+Container(
+  height: 50,
+  width: MediaQuery.of(context).size.width,
+  margin: EdgeInsets.all(20),
+  child: DropdownButtonHideUnderline(
+    child: GFDropdown(
+      padding: const EdgeInsets.all(15),
+      borderRadius: BorderRadius.circular(5),
+      border: const BorderSide(
+          color: Colors.black12, width: 1),
+      dropdownButtonColor: Colors.white,
+      value: dropdownValue,
+      onChanged: (newValue) {
+        setState(() {
+          dropdownValue = newValue;
+        });
+      },
+      items: [
+        'FC Barcelona',
+        'Real Madrid',
+        'Villareal',
+        'Manchester City'
+      ]
+          .map((value) => DropdownMenuItem(
+        value: value,
+        child: Text(value),
+      ))
+          .toList(),
+    ),
+  ),
+),
+```
 
 ### Customized GF Dropdown
 
 GFDropdown features allows user to create customized dropdown for the more flexible and interactive UI design.
+
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dropdown-custom_YPxBvxKZJbi.gif)
+
+
+
+```text
+String dropdown;
+
+Container(
+  height: 50,
+  width: MediaQuery.of(context).size.width,
+  margin: EdgeInsets.all(20),
+  child: DropdownButtonHideUnderline(
+    child: GFDropdown(
+      padding: const EdgeInsets.all(15),
+      borderRadius: BorderRadius.circular(10),
+      border: const BorderSide(
+          color: Colors.black12, width: 1),
+      dropdownButtonColor: Colors.grey[300],
+      value: dropdownValue,
+      onChanged: (newValue) {
+        setState(() {
+          dropdownValue = newValue;
+        });
+      },
+      items: [
+        'FC Barcelona',
+        'Real Madrid',
+        'Villareal',
+        'Manchester City'
+      ]
+          .map((value) => DropdownMenuItem(
+        value: value,
+        child: Text(value),
+      ))
+          .toList(),
+    ),
+  ),
+),
+```
 
 ### Custom Properties
 

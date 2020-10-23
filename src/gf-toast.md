@@ -5,9 +5,9 @@ description: GFToast can be used to display quick warning or error messages.
 
 # GF Toast
 
-## Toast Info
+![img](https://ik.imagekit.io/ionicfirebaseapp/toasts-2x-1_9idLGAvE-.png)
 
-![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
+## Toast Info
 
 ### Usage
 
@@ -64,7 +64,7 @@ Scaffold
 
 ### Toast with Button
 
-![Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts_3x_Jy51nVck_o.png)
+![img](https://ik.imagekit.io/ionicfirebaseapp/2_eNc7t_Ewo.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';

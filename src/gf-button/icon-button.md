@@ -5,15 +5,15 @@ description: 'Icon Button having features of standard, solid button with label a
 
 # Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Icon_buttons_2x_OTNJg6egxk.png)
+![GW Icon Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png)
 
 ## Icon Button
 
 Default button **shape** set to `GFIconButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-## Disabled Button:
+## Disabled Icon Button:
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-buttons-2x_bIhj5gtao.png)
+![Disabled Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x_bIhj5gtao_KuzmzE36rim8.png)
 
 Default GFIconButton's onPressed will be null, that gives Disabled button.
 
@@ -30,7 +30,7 @@ GF IconButtons can be styled with several attributes to look a specific way. Eac
 
 ## Solid Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/solid-icon-button-2x_x7HdkO4Xa.png)
+![Solid Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-icon-button-2x_x7HdkO4Xa_5i6iwtmoQY.png)
 
 By default, button **type** set to `GFButtonType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -48,7 +48,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Outline Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-icon-button-2x-1_9DnBbeMtB.png)
+![Outline Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-icon-button-2x-1_9DnBbeMtB_kkUSHBKTef.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -65,7 +65,7 @@ GFButton(
 
 ## Outline2x Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-icon-button-2x_RwMGJ0MJ_.png)
+![Outline2x Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-icon-button-2x_RwMGJ0MJ__5VFGKu0tkD.png)
 
 Outline Icon Button describes as the Button with a transparent background and a visible border of 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -82,7 +82,7 @@ GFButton(
 
 ## Transparent Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-icon-button-2x_4nc41BciT.png)
+![Transparent Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-icon-button-2x_4nc41BciT_NGPSMw7qc8.png)
 
 In GFIconButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be **`GFButtonType.solid`**.
 
@@ -99,7 +99,7 @@ GFButton(
 
 ## Pills Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/pills-icon-button-2x_o-E933fNd.png)
+![Pills Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-icon-button-2x_o-E933fNd_XL_kSsNAyvto.png)
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** .
 
@@ -116,7 +116,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Square Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/square-icon-button-2x_gwaY8THuK.png)
+![Square Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-icon-button-2x_gwaY8THuK_FvQEV9zlIp.png)
 
 We will able to get square shaped button with solid background color with no rounded corners by adding property **shape** with **`GFButtonShape.square`** .
 
@@ -133,7 +133,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Block Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/block-icon-button-2x_jb9rGWSR9.png)
+![Block Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-icon-button-2x_jb9rGWSR9_Dm-XpRE3dgwQ.png)
 
 Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -151,7 +151,7 @@ GFButton(
 
 ## Full Width Icon Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/fullwidth-icon-button-2x-1_rsx_EmmVZ.png)
+![Full Width Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 

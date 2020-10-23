@@ -8,7 +8,7 @@ description: >-
 
 ## GF Radio Info
 
-![GF Radio button](../.gitbook/assets/docs-banner-radio-button-2x.png)
+![GW Radio Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
 
 ### Usage
 
@@ -34,7 +34,7 @@ GFRadio(
 
 ### Basic Radio Button
 
-![Basic Radio Buttons](../.gitbook/assets/basic-radio-button.png)
+![Basic Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_radio_button_x_CcqpvKba.png)
 
 ```text
 int groupValue = 0;
@@ -101,7 +101,7 @@ GFCard(
 
 ### Square Radio Button
 
-![Square Radio Button](../.gitbook/assets/square-radio-buttons.png)
+![Square Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_radio_buttons_UOSD9OSpo_.png)
 
 ```text
 int groupValue = 0;
@@ -173,7 +173,7 @@ GFCard(
 
 ### Custom Radio Button Type 1
 
-![](../.gitbook/assets/custom_radio_1.png)
+![Custom Radio Button Type 1](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_1_5pRZCct_LM.png)
 
 ```text
 int groupValue = 0;
@@ -243,7 +243,7 @@ GFCard(
 
 ### Custom Radio Button Type 2
 
-![](../.gitbook/assets/custom_radio_2.png)
+![Custom Radio Button Type 2](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_2_fSkHHSP4Wa.png)
 
 ```text
 int groupValue = 0;

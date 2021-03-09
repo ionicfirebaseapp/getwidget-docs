@@ -250,8 +250,7 @@ ListView.builder(
             width: MediaQuery.of(context).size.width * 0.5,
             color: Colors.teal,
             child: Image.asset(imageList[index],
-                fit: BoxFit.fill, width: 100, height: 200),
-          ),
+                fit: BoxFit.fill, width: 100, height: 200),          ),
         )),
 ```
 

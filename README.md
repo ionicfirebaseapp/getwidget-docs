@@ -27,7 +27,5 @@ Your support and feedback helps us to build the best Flutter Open-Source product
 
 ### XD Link : [https://xd.adobe.com/view/f80280b8-82b9-4b40-68a3-5d26ff4c5c91-8e33/](https://xd.adobe.com/view/f80280b8-82b9-4b40-68a3-5d26ff4c5c91-8e33/)
 
-### [DOWNLOAD XD](https://drive.google.com/file/d/1vX7vT7soJS3weh7T8qWCTrmaA7_C-tDH/view?usp=sharing)
-
 
 

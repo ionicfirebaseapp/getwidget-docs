@@ -17,7 +17,7 @@
     * [Pills Button](src/gf-button/pills-button.md)
     * [Social Button](src/gf-button/social-button.md)
     * [Icon Button](src/gf-button/icon-button.md)
-    * [GF Flutter Standard Button](src/gf-button/standard-button.md)
+    * [Flutter Standard Button](src/gf-button/standard-button.md)
     * [Square Button](src/gf-button/square-button.md)
   * [GF Shimmer](src/gf-shimmer.md)
   * [GF Avatar](src/gf-avatar.md)

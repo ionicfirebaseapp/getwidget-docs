@@ -5,9 +5,9 @@ description: >-
   with endless color combinations that you can use straightway in your project.
 ---
 
-# GF Button
+# GF Button - Flutter Button Widget
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Gf_buttons_2x_aotfII9ZS5.png)
+![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png)
 
 GF Button is a clickable element, that can be used for click events like click functions, page routing, social authentications, form submissions or anywhere that needs simple, standard button functionality. Buttons has a broad area to be used and can be used with any other widgets as well.
 

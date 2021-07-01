@@ -13,7 +13,7 @@
   * [GF Carousel \| A Flutter Carousel Widget](src/gf-carousel.md)
   * [GF Badge](src/gf-badge.md)
   * [GF Rating](src/gf-rating.md)
-  * [GF Button](src/gf-button/README.md)
+  * [GF Button \| Flutter Button Widget](src/gf-button/README.md)
     * [Pills Button](src/gf-button/pills-button.md)
     * [Social Button](src/gf-button/social-button.md)
     * [Icon Button](src/gf-button/icon-button.md)

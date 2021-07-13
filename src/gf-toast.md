@@ -1,6 +1,8 @@
 ---
 sidebarDepth: 2
-description: GFToast can be used to display quick warning or error messages.
+description: >-
+  GFToast is a Flutter Toast Widget that can be used to display quick warning or
+  error messages.
 ---
 
 # GF Toast - A Flutter Toast Widget

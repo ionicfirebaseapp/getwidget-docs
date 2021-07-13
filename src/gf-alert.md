@@ -1,15 +1,15 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFAlert is a simple widget which is used to show some information and wait for
-  the user's action.
+  GFAlert is a simple Flutter alert widget which is used to show some
+  information and wait for the user's action.
 ---
 
-# GF Alert
-
-![img](https://ik.imagekit.io/ionicfirebaseapp/tr:dpr-auto,tr:w-auto/docs/Alerts_2x_BDFQKkxzq.png)
+# GF Alert - A Flutter Alert Widget
 
 ## Alert Info
+
+![GW Alert Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
 
 ### Usage
 
@@ -93,7 +93,7 @@ Scaffold(
 
 ### Alert with multiple buttons
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/alert-with-multiple-buttons-2x_Shkug_oIA.png)
+![Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
 
 Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons
 

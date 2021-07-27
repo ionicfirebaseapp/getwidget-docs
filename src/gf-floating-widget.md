@@ -38,7 +38,7 @@ return Scaffold(
   body:GFFloatingWidget(
     child: GFIconBadge(
               child: GFAvatar(
-              size: GFSize.large,
+              size: GFSize.LARGE,
               backgroundImage:AssetImage('your asset image'),
               ),
            counterChild:  GFBadge(

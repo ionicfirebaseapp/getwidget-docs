@@ -40,7 +40,6 @@ Below code gives, default GFTabBar with 3 children, children can be any type of 
 import 'package:getwidget/getwidget.dart';
 
 GFTabBar(
-  initialIndex: 0,
   length: 3,
   controller: tabController,
   tabs: [
@@ -72,7 +71,6 @@ Look and feel of the GFTabBar can be customized using the GFTabBar properties.
 
 | Name | Description |
 | :--- | :--- |
-| **initialIndex** | initial index of the selected tab. Defaults to zero |
 | **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
 | **tabBarHeight** | sets \[GFTabBar\] height |
 | **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
@@ -128,7 +126,6 @@ GFTabs component is the combination of GFTabBar with GFTabBarView with default c
 import 'package:getwidget/getwidget.dart';
 
 GFTabs(
-  initialIndex: 0,
   length: 3,
   tabs: <Widget>[
     Tab(
@@ -166,7 +163,6 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 
 | Name | Description |
 | :--- | :--- |
-| **initialIndex** | initial index of the selected tab. Defaults to zero |
 | **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
 | **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
 | **tabs** | typically a list of two or more \[Tab\] widgets. The length of this list must match the \[controller\]'s \[TabController.length\] and the length of the \[TabBarView.children\] list |
@@ -197,7 +193,6 @@ import 'package:getwidget/getwidget.dart';
 
 GFSegmentTabs(
   tabController: tabController,
-  initialIndex: 0,
   length: 3,
   tabs: <Widget>[
     Text(
@@ -219,7 +214,6 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 
 | Name | Description |
 | :--- | :--- |
-| **initialIndex** | initial index of the selected tab. Defaults to zero |
 | **length** | total number of tabs. Typically greater than one. Must match \[TabBar.tabs\]'s and \[TabBarView.children\]'s length |
 | **height** | sets \[GFSegmentTabs\] height |
 | **tabBarColor** | sets \[TabBar\] color using GFColor or material color \[Color\] |
@@ -256,8 +250,7 @@ Scaffold(
         Container(color: Colors.blue)
       ]),
       bottomNavigationBar: GFTabBar(
-        initialIndex: 0,
-        length: 3,
+       length: 3,
         controller: tabController,
         tabs: [
           Tab(

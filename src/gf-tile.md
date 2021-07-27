@@ -18,7 +18,7 @@ import 'package:getwidget/getwidget.dart';
 
 GFListTile(
   titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
+  subTitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
   icon: Icon(Icons.favorite)
 ),
 ```
@@ -31,7 +31,7 @@ import 'package:getwidget/getwidget.dart';
 GFListTile(
   avatar:GFAvatar(),
   titleText:'Title',
-  subtitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
+  subTitleText:'Lorem ipsum dolor sit amet, consectetur adipiscing',
   icon: Icon(Icons.favorite)
 ),
 ```
@@ -45,10 +45,10 @@ GFListTile(
 | **padding** | defines the padding of GFListTile |
 | **margin** | defines the margin of GFListTile |
 | **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than title |
-| **subtitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
+| **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
 | **avatar** | type of \[Widget\] or \[GFAvatar\] used to create rounded user profile |
 | **title** | The title to display inside the \[GFListTile\]. see \[Text\] |
-| **subtitle** | The subtitle to display inside the \[GFListTile\]. see \[Text\] |
+| **subTitle** | The subtitle to display inside the \[GFListTile\]. see \[Text\] |
 | **icon** | The icon to display inside the \[GFListTile\]. see \[Icon\] |
 | **enabled** | Whether this list tile is interactive. If false, this list tile is styled with the disabled color from the current \[Theme\] and the \[onTap\] and \[onLongPress\] callbacks are inoperative. |
 | **onTap** | Called when the user taps this list tile. Inoperative if \[enabled\] is false. |

@@ -18,7 +18,7 @@ import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
-    value: null,
+    value: true,
  )
 ```
 
@@ -37,7 +37,7 @@ import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
-    value: null,
+    value: true,
     type: GFToggleType.ios,
  )
 ```
@@ -53,7 +53,7 @@ import 'package:getwidget/getwidget.dart';
 
  GFToggle(
     onChanged: (val){},
-    value: null,
+    value: true,
     type: GFToggleType.square,
  )
 ```
@@ -69,7 +69,7 @@ import 'package:getwidget/getwidget.dart';
 
 GFToggle(
    onChanged: null,
-   value: null,
+   value: true,
    type: GFToggleType.custom,
  ),
 ```

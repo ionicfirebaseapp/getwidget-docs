@@ -124,6 +124,6 @@ body:GFFloatingWidget(
 | **type** | type of \[GFToastType\]  _ie_, `rounded` , `fullWidth` and defaults to `basic` |
 | **autoDismiss** | takes **bool** values to automatically hide the toast, defaults to `true` |
 | **animationDuration** | duration of the fade in and out animation when **autoDismiss** is `true` |
-| **animation** | duration called on how much delay the toast should be visible |
+| **duration** | duration called on how much delay the toast should be visible |
 | **alignment** | to align the text inside the toast _ie,_ `left`, `center`, `end` |
 

@@ -9,20 +9,20 @@ description: >-
 
 ## GF Radio ListTile Info
 
-![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
+![GF Radio ListTile](../.gitbook/assets/docs-banner-radio-list-tile-2x.png)
 
 ### Usage
 
 The simple code of a basic GFRadioListTile is as shown below.
 
-![GW RadioListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
+![GF RadioListTile](../.gitbook/assets/radiolist-tile-3x.png)
 
-```dart
+```text
 int groupValue = 0;
 
 GFRadioListTile(
   titleText: 'Arthur Shelby',
-  subTitleText: 'By order of the peaky blinders',
+  subtitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
     backgroundImage: AssetImage('Assets image here'),
   ),
@@ -168,7 +168,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
         gets higher priority than title</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subTitleText</b>
+      <td style="text-align:left"><b>subtitleText</b>
       </td>
       <td style="text-align:left">type of [String] used to pass text, alternative to subtitle property and
         gets higher priority than subtitle</td>
@@ -189,7 +189,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">The title to display inside the [GFListTile].</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subTitle</b>
+      <td style="text-align:left"><b>subtitle</b>
       </td>
       <td style="text-align:left">The subtitle to display inside the [GFListTile].</td>
     </tr>

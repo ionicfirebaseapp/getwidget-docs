@@ -19,7 +19,7 @@ The GFTabBar is a component that contains a set of tab buttons. A tab bar must b
 TabController should be initialized, to communicate between Tabbar and Tabbarview.
 
 ```dart
-late TabController tabController;
+TabController tabController;
 
 @override
 void initState() {
@@ -237,7 +237,7 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 
 GFTabBar can be used as bottom navigation bar. The basic code is given below.
 
-```dart
+```text
 import 'package:getwidget/getwidget.dart';
 
 Scaffold(

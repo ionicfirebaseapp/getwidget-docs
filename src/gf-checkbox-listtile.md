@@ -8,20 +8,20 @@ description: >-
 
 ## GF Checkbox ListTile Info
 
-![GW Checkbox ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png)
+![GF Checkbox ListTile](../.gitbook/assets/docs-banner-checkbox-list-tile-2x.png)
 
 ### Usage
 
 The simple code of a basic GFCheckboxListTile is as shown below.
 
-![GW Checkbox ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Checkbox_list_tile_3x_pjFO-T5_W.png)
+![GF CheckboxListTile](../.gitbook/assets/checkbox-list-tile-3x.png)
 
-```dart
+```text
 bool isChecked = false;
 
 GFCheckboxListTile(
   titleText: 'Arthur Shelby',
-  subTitleText: 'By order of the peaky blinders',
+  subtitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
     backgroundImage: AssetImage('Assets image here'),
   ),
@@ -50,11 +50,11 @@ Look and feel of the **GFCheckboxListTile** can be customized using the GFCheckb
 |  |  |
 | :--- | :--- |
 | **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than title |
-| **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
+| **subtitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
 | **color** | GFListTile's background color. Can be given \[Color\] or \[GFColors\] |
 | **avatar** | type of \[Widget\] or \[GFAvatar\] used to create rounded user profile |
 | **title** | title to display inside the \[GFListTile\].  |
-| **subTitle** | subtitle to display inside the \[GFListTile\].  |
+| **subtitle** | subtitle to display inside the \[GFListTile\].  |
 | **description** | description to display inside the \[GFListTile\].  |
 | **margin** | defines the margin of GFListTile |
 | **padding** | defines the padding of GFListTile |

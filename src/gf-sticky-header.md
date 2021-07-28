@@ -14,9 +14,7 @@ The simple code of a basic GFSticky Header is as shown below.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers-basic_D4r9sejB1sy1.gif)
 
-```dart
-List imageList = ['asset images here'];
-
+```text
 ListView.builder(
     itemCount: imageList.length,
     itemBuilder: (context, index) => GFStickyHeader(
@@ -50,9 +48,9 @@ ListView.builder(
                       children: [
                         GFCheckboxListTile(
                           titleText: 'Eva Mendez',
-                          subTitleText: 'Hello',
+                          subtitleText: 'Hello',
                           avatar: GFAvatar(
-                            backgroundImage: AssetImage('asset image here'),
+                            backgroundImage: AssetImage('asset image here),
                           ),
                           size: 25,
                           activebgColor: Colors.green,
@@ -103,7 +101,7 @@ GF Sticky Header property _`direction: Axis.horizontal`  align the stickyContent
 
 The basic example GFSticky Header Builder is as shown below. 
 
-```dart
+```text
 List imageList = ['asset images here'];
 
 ListView.builder(
@@ -160,13 +158,13 @@ ListView.builder(
                                       groupValue: groupValue,
                                       onChanged: (val) {
                                         setState(() {
-                                          groupValue = 1;
+                                          groupValue = val;
                                         });
                                       },
                                       inactiveIcon: null,
                                       activeBorderColor:
                                           GFColors.SUCCESS,
-                                      customBgColor: GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
                                     ),
                                     SizedBox(width: 5),
                                     Text('Large')
@@ -182,13 +180,13 @@ ListView.builder(
                                       groupValue: groupValue,
                                       onChanged: (val) {
                                         setState(() {
-                                          groupValue = 2;
+                                          groupValue = val;
                                         });
                                       },
                                       inactiveIcon: null,
                                       activeBorderColor:
                                           GFColors.SUCCESS,
-                                      customBgColor: GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
                                     ),
                                     SizedBox(width: 5),
                                     Text('Medium')
@@ -204,13 +202,13 @@ ListView.builder(
                                       groupValue: groupValue,
                                       onChanged: (val) {
                                         setState(() {
-                                          groupValue = 3;
+                                          groupValue = val;
                                         });
                                       },
                                       inactiveIcon: null,
                                       activeBorderColor:
                                           GFColors.SUCCESS,
-                                      customBgColor: GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
                                     ),
                                     SizedBox(width: 5),
                                     Text('Small')
@@ -222,17 +220,17 @@ ListView.builder(
                                     GFRadio(
                                       type: GFRadioType.blunt,
                                       size: 23,
-                                      value: 4,
+                                      value: 3,
                                       groupValue: groupValue,
                                       onChanged: (val) {
                                         setState(() {
-                                          groupValue = 4;
+                                          groupValue = val;
                                         });
                                       },
                                       inactiveIcon: null,
                                       activeBorderColor:
                                           GFColors.SUCCESS,
-                                      customBgColor: GFColors.SUCCESS,
+                                      custombgColor: GFColors.SUCCESS,
                                     ),
                                     SizedBox(width: 5),
                                     Text('Extra Small')

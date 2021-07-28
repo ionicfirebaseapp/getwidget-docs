@@ -12,7 +12,7 @@ description: GFCheckbox allows user to select one or more options.
 
 The simple code of a basic GFCheckbox is as shown below.
 
-```text
+```dart
 bool isChecked = false;
 
 GFCheckbox(
@@ -31,7 +31,7 @@ GFCheckbox(
 
 ![Basic Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_checkbox_wFE44t1vkV.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -79,7 +79,7 @@ GFCard(
 
 ![Square Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_checkbox_jrW69hqknN.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -130,7 +130,7 @@ GFCard(
 
 ![Circular Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_checkbox_rbkYXd9a6m.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -180,7 +180,7 @@ GFCard(
 
 ![Custom Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_checkbox_MxBkIXTfNJ.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(

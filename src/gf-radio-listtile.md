@@ -9,15 +9,15 @@ description: >-
 
 ## GF Radio ListTile Info
 
-![GF Radio ListTile](../.gitbook/assets/docs-banner-radio-list-tile-2x.png)
+![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
 
 ### Usage
 
 The simple code of a basic GFRadioListTile is as shown below.
 
-![GF RadioListTile](../.gitbook/assets/radiolist-tile-3x.png)
+![GW RadioListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
 
-```text
+```dart
 int groupValue = 0;
 
 GFRadioListTile(

@@ -19,7 +19,7 @@ GFAnimation property `type: GFAnimationType.rotateTransition` ,  creates a rotat
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-Rotation_xN-DtCumD.gif)
 
-```text
+```dart
   AnimationController controller;
   Animation<double> animation;
   
@@ -56,7 +56,7 @@ GFAnimation property `type: GFAnimationType.scaleTransition` ,  creates a scale 
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_-scaling_xKsfUBwdY.gif)
 
-```text
+```dart
   AnimationController controller;
   Animation<double> animation;
   
@@ -92,7 +92,7 @@ GestureDetector(
 
 GFAnimation property `type: GFAnimationType.align` ,  creates a alignment transitions for the child of widget. Animates the position alignment of a widget over a given duration whenever alignment changes.
 
-```text
+```dart
 GFAnimation(
   duration: Duration(seconds: 2),
   alignment: Alignment.bottomLeft,
@@ -111,7 +111,7 @@ GFAnimation(
 
 GFAnimation property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of widget. Animates the position  of a widget relative to its normal position.
 
-```text
+```dart
  Animation<Offset> offsetAnimation;
   @override
   void initState() {
@@ -150,7 +150,7 @@ Container(
 
 GFAnimation property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 
-```text
+```dart
 bool selected = false;
 
 AnimationController controller;
@@ -191,7 +191,7 @@ GFAnimation(
 
 GFAnimation property `type: GFAnimationType.container` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 
-```text
+```dart
 AnimationController controller;
 Animation<double> animation;
 double _fontSize = 30;

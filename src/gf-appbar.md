@@ -114,7 +114,8 @@ TabController tabController;
           indicatorPadding: EdgeInsets.all(8.0),
           indicatorWeight: 2.0,
           border: Border.all(color: Colors.white, width: 1.0),
-             length: 3,
+              initialIndex: 0,
+              length: 3,
               tabs: <Widget>[
                 Text(
                   "Tab1",

@@ -15,7 +15,7 @@ description: >-
 
 **GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
 
-```text
+```dart
 import 'package:getwidget/getwidget.dart';
 
 bool showFloatingToast = false;

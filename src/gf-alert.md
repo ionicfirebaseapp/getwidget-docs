@@ -15,7 +15,7 @@ description: >-
 
 **GFAlert** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
 
-```dart
+```text
 import 'package:getwidget/getwidget.dart';
 
 Widget alertWidget;

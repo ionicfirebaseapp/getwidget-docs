@@ -24,7 +24,7 @@ GFCard(
      backgroundImage: AssetImage('your asset image'),
    ),
    title: Text('Card Title'),
-   subtitle: Text('Card Sub Title'),
+   subTitle: Text('Card Sub Title'),
 ),
 content: Text("Some quick example text to build on the card"),
 buttonBar: GFButtonBar(
@@ -50,34 +50,49 @@ buttonBar: GFButtonBar(
 import 'package:getwidget/getwidget.dart';
 
  GFCard(
-   boxFit: BoxFit.cover,
-   titlePosition: GFPosition.start,
-   image: Image.asset('your asset image'),
-   title: GFListTile(
-     avatar: GFAvatar(
-       backgroundImage: AssetImage('your asset image'),
-     ),
-     titleText: 'Game Controllers',
-     subtitleText: 'PlayStation 4',
-    ),
-    content: Text( "Some quick example text to build on the card"),
-    buttonBar: GFButtonBar(
-      children: <Widget>[
-        GFAvatar(
-          backgroundColor: GFColors.PRIMARY,
-          child: Icon(Icons.share, color: Colors.white,),
-        ),
-        GFAvatar(
-          backgroundColor: GFColors.SECONDARY,
-          child: Icon(Icons.search, color: Colors.white,),
-        ),
-        GFAvatar(
-           backgroundColor: GFColors.SUCCESS,
-           child: Icon(Icons.phone, color: Colors.white,),
-        ),
-    ],
-  ),
-),
+            boxFit: BoxFit.cover,
+            titlePosition: GFPosition.start,
+            image: Image.asset(
+              'lib/assets/cup.jpg',
+              height: MediaQuery.of(context).size.height * 0.2,
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.cover,
+            ),
+            showImage: true,
+            title: GFListTile(
+              avatar: GFAvatar(
+                backgroundImage: AssetImage('your asset image'),
+              ),
+              titleText: 'Game Controllers',
+              subTitleText: 'PlayStation 4',
+            ),
+            content: Text("Some quick example text to build on the card"),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFAvatar(
+                  backgroundColor: GFColors.PRIMARY,
+                  child: Icon(
+                    Icons.share,
+                    color: Colors.white,
+                  ),
+                ),
+                GFAvatar(
+                  backgroundColor: GFColors.SECONDARY,
+                  child: Icon(
+                    Icons.search,
+                    color: Colors.white,
+                  ),
+                ),
+                GFAvatar(
+                  backgroundColor: GFColors.SUCCESS,
+                  child: Icon(
+                    Icons.phone,
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
+          ),
 ```
 
 ### GFCards with OverlayImage
@@ -88,22 +103,31 @@ import 'package:getwidget/getwidget.dart';
 import 'package:getwidget/getwidget.dart';
 
   GFCard(
-    boxFit: BoxFit.cover,
-    imageOverlay: AssetImage('your asset image'),
-    title: GFListTile(
-       title: Text('Card Title'),
-     ),
-     content: Text("GFCards has three types of cards i.e, basic, with avataras and with overlay image")
-     buttonBar: GFButtonBar(
-     alignment: MainAxisAlignment.center,
-     children: <Widget>[
-     GFButton(
-       onPressed: () {},
-       text: 'View',
-       )
-      ],
-     ),
-   ),
+            boxFit: BoxFit.cover,
+            titlePosition: GFPosition.start,
+            showOverlayImage: true,
+            imageOverlay: AssetImage(
+              'your asset image',
+            ),
+            title: GFListTile(
+              avatar: GFAvatar(),
+              titleText: 'Game Controllers',
+              subTitleText: 'PlayStation 4',
+            ),
+            content: Text("Some quick example text to build on the card"),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFAvatar(
+                  backgroundColor: GFColors.PRIMARY,
+                  child: Icon(
+                    Icons.share,
+                    color: Colors.white,
+                  ),
+                ),
+              
+              ],
+            ),
+          ),
 ```
 
 ### Custom Properties

@@ -21,7 +21,7 @@ bool isChecked = false;
 
 GFCheckboxListTile(
   titleText: 'Arthur Shelby',
-  subtitleText: 'By order of the peaky blinders',
+  subTitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
     backgroundImage: AssetImage('Assets image here'),
   ),
@@ -50,11 +50,11 @@ Look and feel of the **GFCheckboxListTile** can be customized using the GFCheckb
 |  |  |
 | :--- | :--- |
 | **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than title |
-| **subtitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
+| **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
 | **color** | GFListTile's background color. Can be given \[Color\] or \[GFColors\] |
 | **avatar** | type of \[Widget\] or \[GFAvatar\] used to create rounded user profile |
 | **title** | title to display inside the \[GFListTile\].  |
-| **subtitle** | subtitle to display inside the \[GFListTile\].  |
+| **subTitle** | subtitle to display inside the \[GFListTile\].  |
 | **description** | description to display inside the \[GFListTile\].  |
 | **margin** | defines the margin of GFListTile |
 | **padding** | defines the padding of GFListTile |

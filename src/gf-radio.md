@@ -14,7 +14,7 @@ description: >-
 
 The simple code of a basic GFRadio is as shown below.
 
-```dart
+```text
 int groupValue = 0;
 
 GFRadio(
@@ -36,7 +36,7 @@ GFRadio(
 
 ![Basic Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_radio_button_x_CcqpvKba.png)
 
-```dart
+```text
 int groupValue = 0;
 
 GFCard(
@@ -103,7 +103,7 @@ GFCard(
 
 ![Square Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_radio_buttons_UOSD9OSpo_.png)
 
-```dart
+```text
 int groupValue = 0;
 
 GFCard(
@@ -175,7 +175,7 @@ GFCard(
 
 ![Custom Radio Button Type 1](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_1_5pRZCct_LM.png)
 
-```dart
+```text
 int groupValue = 0;
 
 GFCard(
@@ -245,7 +245,7 @@ GFCard(
 
 ![Custom Radio Button Type 2](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_2_fSkHHSP4Wa.png)
 
-```dart
+```text
 int groupValue = 0;
 
 GFCard(

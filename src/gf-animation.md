@@ -20,8 +20,8 @@ GFAnimation property `type: GFAnimationType.rotateTransition` ,  creates a rotat
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-Rotation_xN-DtCumD.gif)
 
 ```dart
-  AnimationController controller;
-  Animation<double> animation;
+  late AnimationController controller;
+  late Animation<double> animation;
   
   @override
   void initState() {
@@ -57,8 +57,8 @@ GFAnimation property `type: GFAnimationType.scaleTransition` ,  creates a scale 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_-scaling_xKsfUBwdY.gif)
 
 ```dart
-  AnimationController controller;
-  Animation<double> animation;
+  late AnimationController controller;
+  late Animation<double> animation;
   
   @override
   void initState() {
@@ -112,7 +112,7 @@ GFAnimation(
 GFAnimation property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of widget. Animates the position  of a widget relative to its normal position.
 
 ```dart
- Animation<Offset> offsetAnimation;
+ late Animation<Offset> offsetAnimation;
   @override
   void initState() {
     super.initState();
@@ -153,8 +153,8 @@ GFAnimation property `type: GFAnimationType.size` ,  creates a widget that anima
 ```dart
 bool selected = false;
 
-AnimationController controller;
-Animation<double> animation;
+late AnimationController controller;
+late Animation<double> animation;
   
 @override
   void initState() {
@@ -192,8 +192,8 @@ GFAnimation(
 GFAnimation property `type: GFAnimationType.container` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes.
 
 ```dart
-AnimationController controller;
-Animation<double> animation;
+late AnimationController controller;
+late Animation<double> animation;
 double _fontSize = 30;
   
 @override

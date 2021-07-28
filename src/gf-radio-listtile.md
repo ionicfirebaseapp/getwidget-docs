@@ -22,7 +22,7 @@ int groupValue = 0;
 
 GFRadioListTile(
   titleText: 'Arthur Shelby',
-  subtitleText: 'By order of the peaky blinders',
+  subTitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
     backgroundImage: AssetImage('Assets image here'),
   ),
@@ -168,7 +168,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
         gets higher priority than title</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subtitleText</b>
+      <td style="text-align:left"><b>subTitleText</b>
       </td>
       <td style="text-align:left">type of [String] used to pass text, alternative to subtitle property and
         gets higher priority than subtitle</td>
@@ -189,7 +189,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">The title to display inside the [GFListTile].</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subtitle</b>
+      <td style="text-align:left"><b>subTitle</b>
       </td>
       <td style="text-align:left">The subtitle to display inside the [GFListTile].</td>
     </tr>

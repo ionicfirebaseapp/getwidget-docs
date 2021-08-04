@@ -15,7 +15,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will be able
 
 ![Solid Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 
-By default, the button **type** is set to `GFButtonType.solid` so, we were able to get buttons that has a solid background color with slightly rounded corners.
+By default, the button **type** is set to `GFButtonType.solid` so, we were able to get buttons that have a solid background color with slightly rounded corners.
 
 The callback is called when the button is tapped. By adding a callback to **onPressed** enables the button.
 
@@ -117,7 +117,7 @@ We will be able to get **pills** **shaped** **button** with solid background col
 
 ![Square Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 
-We will be able to get square-shaped button with solid background color with no rounded corners by adding property **shape** with `GFButtonShape.square` .
+We will be able to get a square-shaped button with solid background color with no rounded corners by adding property **shape** with `GFButtonShape.square` .
 
 ```dart
  import 'package:getwidget/getwidget.dart';
@@ -151,7 +151,7 @@ GFButton(
 
 ![Block Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63_tp2AOfDiWy.png)
 
-**The Flutter Block button** specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
+**The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state, `true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -187,9 +187,9 @@ GFButton(
 
 ![Social Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/social-icon-button-2x_sCVoXFCFZ_sC-Qx0HKP.webp)
 
-**The Flutter Social Icon Button** are buttons that has features of **standard**, **solid** button with fill color background and slightly rounded corners and icon as a child.
+**The Flutter Social Icon Button** are buttons that have features of a **standard**, **solid** button with a full-color background and slightly rounded corners and icons as a child.
 
-Default button **shape** is set to `GFButtonShape.standard` so that we will be able to get a standard shaped button with solid background color with slightly rounded corners. By default, button **type** is set to `GFType.solid` so, we are able to get buttons that have a solid background color with slightly rounded corners.
+The Default button **shape** is set`GFButtonShape.standard`so that we will be able to get a standard shaped button with solid background color with slightly rounded corners. By default, button **type** is set to`GFType.solid`so, we can get buttons that have a solid background color with slightly rounded corners.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -216,7 +216,7 @@ GFIconButton(
 
 ### Flutter Button Type
 
-**The Flutter Button type** can be changed using the property **type** by setting to `GFButtonType.outline`. Default type of the IconButton will be `GFButtonType.solid`.
+**The Flutter Button type** can be changed using the property **type** by setting it to `GFButtonType.outline`. The Default type of the IconButton will be `GFButtonType.solid`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -230,7 +230,7 @@ GFIconButton(
 
 ### Flutter Icon Button Shape
 
-**The Shape of Icon Button** can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the **IconButton** set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
+**The Shape of Icon Button** can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the **IconButton** set to`GFIconButtonShape.standard`which gives square-shaped IconButton with slightly rounded corners.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

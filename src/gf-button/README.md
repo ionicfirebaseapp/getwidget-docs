@@ -13,7 +13,7 @@ GF Button is a clickable element, that can be used for click events like click f
 
 ## Usage
 
-We can get simple standard button using below code.
+We can get simple standard button using the below code.
 
 ```dart
 GFButton(
@@ -22,9 +22,9 @@ GFButton(
 ),
 ```
 
-### Disabled Button:
+### Flutter Disabled Button:
 
-To use of Flutter Disable Button we have set Default GFButton's onPressed be null, that gives Disabled button.
+To use of **Flutter Disable Button** we have set Default GFButton's onPressed be null, which gives Disabled button.
 
 ```dart
 GFButton(                          

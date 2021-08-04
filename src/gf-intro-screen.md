@@ -18,17 +18,6 @@ The simple code of a basic GFIntroScreen is as shown below.
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens_full_width_tT9qnpWrC.gif)
 
 ```text
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:getwidget/getwidget.dart';
-
-class FullWidthIntro extends StatefulWidget {
-  FullWidthIntro({Key key}) : super(key: key);
-  @override
-  _FullWidthIntroState createState() => _FullWidthIntroState();
-}
-
-class _FullWidthIntroState extends State<FullWidthIntro> {
 PageController _pageController;
 List<Widget> slideList;
 int initialPage;
@@ -147,17 +136,6 @@ List<Widget> slides() {
 GF IntroScreenBottomNavigationBar is a bottom bar sit at the bottom end of the screen. This component contains pagination and buttons for naviagtion. It has many features for customising the bottom navigation bar.
 
 ```text
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:getwidget/getwidget.dart';
-
-class BottomNavIntro extends StatefulWidget {
-  BottomNavIntro({Key key}) : super(key: key);
-  @override
-  _BottomNavIntroState createState() => _BottomNavIntroState();
-}
-
-class _HBottomNavIntroState extends State<BottomNavIntro> {
 PageController _pageController;
 int initialPage;
 
@@ -189,17 +167,6 @@ GFIntroScreen(
 GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
 
 ```text
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:getwidget/getwidget.dart';
-
-class CustomIntro extends StatefulWidget {
-  CustomIntro({Key key}) : super(key: key);
-  @override
-  _CustomIntroState createState() => _CustomIntroState();
-}
-
-class _CustomIntroState extends State<CustomIntro> {
 PageController _pageController;
 List<Widget> slideList;
 int initialPage;

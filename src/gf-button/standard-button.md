@@ -80,7 +80,7 @@ GFButton(
 
 ![Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
-The Full-Width button specifies the button should be in full width of the screen. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
+The **Flutter Full-Width button** specifies the button should be in full width of the screen. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

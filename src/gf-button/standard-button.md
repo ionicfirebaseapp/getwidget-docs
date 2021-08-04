@@ -6,19 +6,19 @@ description: >-
   and Block button.
 ---
 
-# GF Flutter Standard Button
+# Flutter Standard Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/buttons/tr:dpr-auto,tr:w-auto/Standard_buttons_-_solid_2x_lnCv20In0.png)
+![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
 
-Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
+Default button **shape** set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
 
-## Solid Button
+## Flutter Solid Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/solid-button-2x_1mtTU6eHS.png)
+![Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-button-2x_1mtTU6eHS_d9pt0_fS_g.png)
 
-By default, button **type** set to Flutter Solid Button`GFButtonType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
+By default, button **type** is set to Flutter Solid Button`GFButtonType.solid` so, we are able to get buttons that have a solid background color with slightly rounded corners.
 
-The callback that is called when the button is tapped. By adding callback to **onPressed** enables the button.
+The callback is called when the button is tapped. By adding a callback to **onPressed** enables the button.
 
 ```dart
  import 'package:getwidget/getwidget.dart';
@@ -29,11 +29,11 @@ The callback that is called when the button is tapped. By adding callback to **o
   ),
 ```
 
-## Disabled Button
+## Flutter Disabled Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-button-2x_BF_NVpDS8.png)
+![Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-button-2x_BF_NVpDS8_LvFp8btIa2.png)
 
-If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
+If the callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because **onPressed** set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -44,11 +44,11 @@ GFButton(
  ),
 ```
 
-## Transparent Button
+## Flutter Transparent Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/transparent-button-2x_CnsR7pkJx.png)
+![Transparent Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-button-2x_CnsR7pkJx_1foWmNnyos.png)
 
-In GFButton by adding **type** **`GFButtonType.transparent`**, we able to get transparent button. Default GFButton **type** will be `GFButtonType.solid`.
+In GFButton by adding **type`GFButtonType.transparent`**, we will get the transparent button. Default GFButton **type** will be `GFButtonType.solid`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -60,11 +60,11 @@ GFButton(
  ),
 ```
 
-## Block Button
+## Flutter Block Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/block-buttons-2x_gd1aXxKLI.png)
+![Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
 
-Block button specify how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
+Block button specifies how wide the button should be. By setting **blockButton** state `true`, it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -76,11 +76,11 @@ GFButton(
  ),
 ```
 
-## Full Width Button
+## Flutter Full-Width Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/full-width-button-2x_Hant6Kr9x.png)
+![Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
-Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
+Full-Width button specifies the button should be in full width of the screen. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -92,9 +92,9 @@ GFButton(
  ),
 ```
 
-## Button Size
+## Flutter Button Size
 
-Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
+Button size can be varied using the **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -106,9 +106,9 @@ GFButton(
  ),
 ```
 
-## Outline Button
+## Flutter Outline Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-2x-2_ORMH0Yz0u.png)
+![Outline Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -124,9 +124,9 @@ GFButton(
 
 Above mentioned all the properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works fine in **Outline Button** also.
 
-## Outline2x Button
+## Flutter Outline2x Button
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-2x-2x-1_LtgeZktSN.png)
+![Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
 
 Outline2x Button describes as the Button with a transparent background and a visible border with 2x border-width. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 

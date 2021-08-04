@@ -1,19 +1,19 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF button is Flutter Button Widgets that comes with a 100+ pre-built button
+  GF button is Flutter Button Component that comes with a 100+ pre-built button
   with endless color combinations that you can use straightway in your project.
 ---
 
 # GF Button - Flutter Button Widget
 
-![GF Flutter Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png)
+![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png)
 
 GF Button is a clickable element, that can be used for click events like click functions, page routing, social authentications, form submissions or anywhere that needs simple, standard button functionality. Buttons has a broad area to be used and can be used with any other widgets as well.
 
 ## Usage
 
-We can get simple standard button using the below code.
+We can get simple standard button using below code.
 
 ```dart
 GFButton(
@@ -22,9 +22,9 @@ GFButton(
 ),
 ```
 
-### Flutter Disabled Button:
+### Disabled Button:
 
-To use of **Flutter Disable Button** we have set Default GFButton's onPressed be null, which gives Disabled button.
+To use of Flutter Disable Button we have set Default GFButton's onPressed be null, that gives Disabled button.
 
 ```dart
 GFButton(                          

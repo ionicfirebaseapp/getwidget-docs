@@ -182,9 +182,9 @@ GFButton(
 
 ## Flutter Icon Button
 
-**The Flutter Icon Button** having features of a **standard, solid button** with a fill-color background and slightly rounded corners and icon as a child.
+**The Flutter Icon Button** having features of a **standard, solid button** with a fill-color background and slightly rounded corners and icons as a child.
 
-The Default button **shape** is set to`GFButtonShape.standard`so that we will be able to get a standard-shaped button with solid background color with slightly rounded corners. By default, button **type** is set to `GFButtonType.solid` so, we are able to get buttons to have a solid background color with slightly rounded corners.
+The Default button **shape** is set`GFButtonShape.standard`so that we will be able to get a standard-shaped button with solid background color with slightly rounded corners. By default, button **type** is set to `GFButtonType.solid` so, we are able to get buttons to have a solid background color with slightly rounded corners.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

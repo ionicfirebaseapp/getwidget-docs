@@ -125,7 +125,7 @@ Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabl
 
 ![Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x_-CHfawHE8_05mmWBq_il.png)
 
-**Flutter Outline2x Button** describes the Button with a transparent background and a visible border with 2x border-width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
+**Flutter Outline2x Button** describes the Button with a transparent background and a visible border with 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

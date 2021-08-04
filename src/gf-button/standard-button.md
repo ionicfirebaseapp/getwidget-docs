@@ -16,7 +16,7 @@ Default button **shape** set to `GFButtonShape.standard` so that we will be able
 
 ![Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-button-2x_1mtTU6eHS_d9pt0_fS_g.png)
 
-By default, button **type** is set to Flutter Solid Button`GFButtonType.solid` so, we are able to get buttons that have a solid background color with slightly rounded corners.
+By default, button **type** is set to Flutter Solid Button`GFButtonType.solid` so, we can get buttons that have a solid background color with slightly rounded corners.
 
 The callback is called when the button is tapped. By adding a callback to **onPressed** enables the button.
 
@@ -33,7 +33,7 @@ The callback is called when the button is tapped. By adding a callback to **onPr
 
 ![Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-button-2x_BF_NVpDS8_LvFp8btIa2.png)
 
-If the callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because **onPressed** set to null.
+If the callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled as **onPressed** is set to null.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -128,7 +128,7 @@ Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabl
 
 ![Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
 
-**The Flutter Outline2x Button** describes  the Button with a transparent background and a visible border with 2x border-width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
+**The Flutter Outline2x Button** describes the Button with a transparent background and a visible border with 2x border-width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

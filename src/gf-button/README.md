@@ -11,7 +11,7 @@ description: >-
 
 The **GF Button** is a clickable element, that can be used for click events like **click functions, page routing**, **social authentications**, **form submissions,** or anywhere that needs simple, standard button functionality. **Flutter Buttons** have a broad area and can be used with any other widgets as well.
 
-## Flutter Button Usage
+## How to create GF Button in Flutter? 
 
 The **Flutter Buttons** are the very simple yet most commonly used component in almost all of the pages. The simple code of a **GFButton** looks like the following:
 
@@ -33,11 +33,11 @@ GFButton(
 ),
 ```
 
-## GFButton Properties
+## Flutter Button Properties
 
 **GF Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
-### Button Color
+### How to Set Button Color in flutter? 
 
 **GFColors** are used to change the background of the button.
 
@@ -48,7 +48,7 @@ GFButton(
 | **Type** | `GFColors` |
 | **Default** | GFColors.PRIMARY |
 
-### Button Size
+### How to Set Button Size in Flutter?
 
 **GFSize** can be used to determine the size of the buttons as follows:
 
@@ -59,7 +59,7 @@ GFButton(
 | **Type** | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
 | **Default** | `GFSize.MEDIUM` |
 
-### Button Shape
+### How to Change Button Shape in Flutter?
 
 The **shape of the button** like **standard**, **square**,  or **pills** can be determined by the shape property.
 
@@ -70,7 +70,7 @@ The **shape of the button** like **standard**, **square**,  or **pills** can be 
 | **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
-### Button Type
+### GF Button Type
 
 The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 
@@ -81,7 +81,7 @@ The **button type** of the button like **solid**, **outline** can be determined 
 | **Type** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
 | **Default** | `GFButtonType.solid` |
 
-### Button Position
+### How to change Button Position in Flutter?
 
 The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 

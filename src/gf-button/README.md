@@ -1,19 +1,19 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF button is Flutter Button Component that comes with a 100+ pre-built button
+  GF Button is Flutter Button Widgets that come with a 100+ pre-built button
   with endless color combinations that you can use straightway in your project.
 ---
 
 # GF Button - Flutter Button Widget
 
-![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png)
+![GF Flutter Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png)
 
-GF Button is a clickable element, that can be used for click events like click functions, page routing, social authentications, form submissions or anywhere that needs simple, standard button functionality. Buttons has a broad area to be used and can be used with any other widgets as well.
+The **GF Button** is a clickable element, that can be used for click events like **click functions, page routing**, **social authentications**, **form submissions,** or anywhere that needs simple, standard button functionality. **Flutter Buttons** have a broad area and can be used with any other widgets as well.
 
-## Usage
+## Flutter Button Usage
 
-We can get simple standard button using below code.
+The **Flutter Buttons** are the very simple yet most commonly used component in almost all of the pages. The simple code of a **GFButton** looks like the following:
 
 ```dart
 GFButton(
@@ -22,9 +22,9 @@ GFButton(
 ),
 ```
 
-### Disabled Button:
+### Flutter Disabled Button:
 
-To use of Flutter Disable Button we have set Default GFButton's onPressed be null, that gives Disabled button.
+The **Flutter Disable Button** is used to get a disabled button in the application. The disabled button will have a `null` value on the **onPressed** parameter. The simple code of **GFDisabled Button** is as follows:
 
 ```dart
 GFButton(                          
@@ -33,22 +33,24 @@ GFButton(
 ),
 ```
 
-## Properties
+## GFButton Properties
 
-GF Buttons can be styled with several attributes to look a specific way. Each and every attribute is described below.
+**GF Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
-### Color
+### Button Color
 
-GFColors is used to change the background of the button.
+**GFColors** are used to change the background of the button.
 
 |  |  |
 | :--- | :--- |
-| **Description** | The color to use from application's color palette |
+| **Description** | The color to use from the application color palette |
 | **Attribute** | color |
 | **Type** | `GFColors` |
 | **Default** | GFColors.PRIMARY |
 
-### Size
+### Button Size
+
+**GFSize** can be used to determine the size of the buttons as follows:
 
 |  |  |
 | :--- | :--- |
@@ -57,7 +59,9 @@ GFColors is used to change the background of the button.
 | **Type** | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
 | **Default** | `GFSize.MEDIUM` |
 
-### Shape
+### Button Shape
+
+The **shape of the button** like **standard**, **square**,  or **pills** can be determined by the shape property.
 
 |  |  |
 | :--- | :--- |
@@ -66,7 +70,9 @@ GFColors is used to change the background of the button.
 | **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
-### Type
+### Button Type
+
+The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 
 |  |  |
 | :--- | :--- |
@@ -75,7 +81,9 @@ GFColors is used to change the background of the button.
 | **Type** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
 | **Default** | `GFButtonType.solid` |
 
-### Position
+### Button Position
+
+The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 
 |  |  |
 | :--- | :--- |
@@ -84,13 +92,13 @@ GFColors is used to change the background of the button.
 | **Type** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
 
-### Custom Properties
+### GFButton Custom Properties
 
 | Name | Description |
 | :--- | :--- |
 | **onPressed** | callback i.e, called when the button is tapped |
 | **onLongPressed** | callback i.e, called when the button is long-pressed |
-| **text** | describe button's label. text will be priority over child |
+| **text** | describe the button's label. text will be a priority over child |
 | **icon** | describe button's label with icon |
 | **child** | child of type Widget alternative to text |
 | **textColor** | the color to use for this button's text when the button is enabled |
@@ -99,7 +107,7 @@ GFColors is used to change the background of the button.
 | **disabledTextColor** | the color to use for this button's text when the button is disabled |
 | **borderSide** | defines the border side |
 | **bordershape** | defines the shape of the border |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
+| **buttonBoxShadow** | if `true,` default boxShadow appears around the button. |
 | **boxShadow** | defines the boxShadow |
 | **fullWidthButton** | if `true,` defines the full width of the button. |
 | **blockButton** | if `true`, defines the block button. |

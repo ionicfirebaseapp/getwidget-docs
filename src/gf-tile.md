@@ -9,9 +9,11 @@ description: >-
 
 ![GW ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png)
 
-## Usage
+**GFListTile** is a widget that is used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**.
 
-The simple GFTile code is as show below
+## GFListTile Usage
+
+The simple GFTile code is as shown below
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -23,7 +25,9 @@ GFListTile(
 ),
 ```
 
-### With Avatar
+### GFListTile With Avatar
+
+**GFListTile** can have an **avatar** in the starting position in it. The avatar is usually a background image or just a profile image. The simple code with avatar is as shown below:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -36,7 +40,9 @@ GFListTile(
 ),
 ```
 
-### Custom Properties
+### GFListTile Custom Properties.
+
+GFListTile has some of its custom properties to create a smooth look and feel for the application. The below table shows the custom properties:
 
 |  |  |
 | :--- | :--- |
@@ -44,9 +50,9 @@ GFListTile(
 | **description** | The description to display inside the \[GFListTile\]. see \[Text\] |
 | **padding** | defines the padding of GFListTile |
 | **margin** | defines the margin of GFListTile |
-| **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than title |
-| **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than subtitle |
-| **avatar** | type of \[Widget\] or \[GFAvatar\] used to create rounded user profile |
+| **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than the title |
+| **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than the subtitle |
+| **avatar** | type of \[Widget\] or \[GFAvatar\] used to create a rounded user profile |
 | **title** | The title to display inside the \[GFListTile\]. see \[Text\] |
 | **subTitle** | The subtitle to display inside the \[GFListTile\]. see \[Text\] |
 | **icon** | The icon to display inside the \[GFListTile\]. see \[Icon\] |
@@ -57,5 +63,5 @@ GFListTile(
 | **focusColor** | The color for the tile's \[Material\] when it has the input focus. |
 | **hoverColor** | The color for the tile's \[Material\] when a pointer is hovering over it. |
 | **focusNode** | Defines the keyboard focus for this widget. |
-| **autofocus** | On true state it should focus itself if nothing else is already focused. Defaults to false |
+| **autofocus** | On true state, it should focus itself if nothing else is already focused. Defaults to false |
 

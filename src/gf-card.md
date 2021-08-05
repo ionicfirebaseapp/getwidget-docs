@@ -1,17 +1,17 @@
 ---
 sidebarDepth: 2
-description: GFCard has slightly rounded corners and a shadow
+description: >-
+  GFCard are a flexible piece of container wherein there can be a piece of
+  information in it. GFCard has slightly rounded corners and a shadow.
 ---
 
 # GF Card
 
 ![GF Card](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png)
 
-## Card Info
+### GFCard Usage:
 
-### Usage
-
-Below code gives the basic GFCard
+The **GFCard** can be used in any section of the application to display certain types of information about the application. It can be simply used with a **title** and **buttons**. The simple code below gives a **basic GFCard**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -44,7 +44,11 @@ buttonBar: GFButtonBar(
 
 ### GFCards with Avatar
 
+**GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an avatar gives more precise information about the block. Hence GFAvatar can be used with **GFCard** to make a **GFCard Avatar.**
+
 ![GFCards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards_with_avatars_3x_wiStZFa9L.png)
+
+Below is a simple example of **GFCard with Avatar**:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -95,9 +99,13 @@ import 'package:getwidget/getwidget.dart';
           ),
 ```
 
-### GFCards with OverlayImage
+### GFCards with OverlayImage:
+
+**GFCards** has **OverlayImage** property wherein a **background image** can be placed and upon the image any widget like Text, buttons can be used as shown in the image below.
 
 ![GFCards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7_-j3RXaSa2.webp)
+
+Below shows a simple code for **GFCard with OverlayImage**:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -130,20 +138,22 @@ import 'package:getwidget/getwidget.dart';
           ),
 ```
 
-### Custom Properties
+### GFCard Custom Properties:
+
+**GFCard** can be used like **GFCard with Avatar,** **GFCard with ImageOverlay,** and just a **GFCard**. To make the **GFcard** more flexible we have the below properties:
 
 |  |  |
 | :--- | :--- |
 | **titlePosition** | helps to set the title at  top of the card |
 | **color** | sets the background color of the card |
 | **elevation** | controls the size of the shadow below the card |
-| **shape** | shape of the card |
+| **shape** | the shape of the card |
 | **borderOnForeground** | whether to paint the shape of the border in front of the child, defaults to true |
 | **clipBehaviour** | defines the clipping of the child |
 | **margin** | defines the card's outer container margin |
 | **padding** | defines the card's outer container padding |
 | **semanticContainer** | represents a single semantic container, if false a collection of semantic nodes |
-| **border** | to draw border above the card |
+| **border** | to draw a border above the card |
 | **borderRadius** | represents the rounded corners of the card |
 | **colorFilter** | applies to the image before painting it |
 | **boxFit** | how the image should be inscribed into the box |

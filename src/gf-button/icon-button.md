@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 2
-description: 'Icon Button having features of standard, solid button with label and icon.'
+description: 'Icon Button having features of a standard, solid button with label and icon.'
 ---
 
 # Flutter Icon Button
@@ -8,6 +8,8 @@ description: 'Icon Button having features of standard, solid button with label a
 ![GW Icon Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png)
 
 ## Flutter Icon Button
+
+**GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and types. One of them is **Flutter Icon Button.**
 
 The Default button **shape** is set to`GFIconButtonShape.standard`so that we will be able to get a standard shaped button with solid background color with slightly rounded corners.
 

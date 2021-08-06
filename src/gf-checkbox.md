@@ -1,5 +1,7 @@
 ---
-description: GFCheckbox allows user to select one or more options.
+description: >-
+  GFCheckbox allows user to select one or more options. Flutter Checkbox allows
+  the user to make a choice between one or more options.
 ---
 
 # GF Checkbox
@@ -8,11 +10,13 @@ description: GFCheckbox allows user to select one or more options.
 
 ![GW Checkbox Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png)
 
-### Usage
+**GFCheckbox** is a **flutter widget** that permits the user to select one or more than one option in a given set of lists. It can have any number of possible ticks. The user can check and uncheck on the boxes provided.
+
+### GFCheckbox and its Usage:
 
 The simple code of a basic GFCheckbox is as shown below.
 
-```text
+```dart
 bool isChecked = false;
 
 GFCheckbox(
@@ -27,11 +31,13 @@ GFCheckbox(
 ),
 ```
 
-### Basic Checkbox
+### Basic GFCheckbox:
+
+**GFCheckbox** has many kinds and one of them is a **basic** or **standard** type of **checkbox**. Here the box will have a slight border-radius around it as shown in the below image. The code below gives a basic or standard checkbox
 
 ![Basic Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_checkbox_wFE44t1vkV.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -75,11 +81,13 @@ GFCard(
 ),
 ```
 
-### Square Checkbox
+### Square Checkbox:
+
+**GFCheckbox** has **square** type checkbox. Here the box will not have any border radius and it will be in a square shape as shown in the below image. Hence the name **Square Checkbox**. The below code shows the example of a square checkbox:
 
 ![Square Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_checkbox_jrW69hqknN.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -126,11 +134,13 @@ GFCard(
 ),
 ```
 
-### Circular Checkbox
+### Circular Checkbox:
+
+**GFCheckbox** has **circle-**type checkbox. Here the box will have a circle shape as shown in the below image. Hence the name **Circular Checkbox**. The below code shows the example of a circular checkbox:
 
 ![Circular Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_checkbox_rbkYXd9a6m.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -176,11 +186,13 @@ GFCard(
 ),
 ```
 
-### Custom Checkbox
+### Custom Checkbox:
+
+**GFCheckbox** has **custom** type checkbox. Here the box will have any custom items like **icons** or **background color** when the box is checked as shown in the below image. Hence the name **Custom Checkbox**. The below code shows the example of a square checkbox:
 
 ![Custom Checkbox](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_checkbox_MxBkIXTfNJ.png)
 
-```text
+```dart
 bool isChecked = false;
 
 GFCard(
@@ -226,7 +238,7 @@ GFCard(
 ),
 ```
 
-### Custom Properties
+### GFCheckbox Custom Properties
 
 Look and feel of the **GFCheckbox** can be customized using the GFCheckbox properties.
 

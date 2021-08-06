@@ -8,9 +8,9 @@ description: >-
 
 # Flutter Standard Button
 
-![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
+![Flutter Button Widget UI Kit ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
 
-Default button **shape** set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
+The default button **shape** is set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
 
 ## Flutter Solid Button
 
@@ -64,7 +64,7 @@ GFButton(
 
 ![Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
 
-**The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
+The **Flutter Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -78,7 +78,7 @@ GFButton(
 
 ## Flutter Full-Width Button
 
-![Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
+![Flutter Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side.  Default **fullWidthButton** set to `false`.
 

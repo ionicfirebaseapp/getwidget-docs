@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Flutter GetWidget Docs](README.md)
 * [src](src/README.md)
   * [Flutter GetWidget Docs](src/introduction.md)
   * [Getwidget Tutorial](src/getting-started.md)

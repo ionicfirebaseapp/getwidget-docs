@@ -1,8 +1,8 @@
 ---
 sidebarDepth: 2
 description: >-
-  The GFDrawer is a Flutter Drawer Widget component that is a navigation drawer
-  that slides in from the side of the current view. GFDrawer can be the perfect
+  The GFDrawer is a Flutter Drawer Widget component that navigation drawer that
+  slides in from the side of the current view. GFDrawer can be the perfect
   option to provide common navigation options.
 ---
 
@@ -10,11 +10,11 @@ description: >-
 
 ![GW Drawer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png)
 
-### GFDrawer and its Usage:
+The GFAppBar automatically displays an appropriate IconButton to show the GFDrawer when a GFDrawer is available in the Scaffold.
 
-**GFDrawer** is a  **Flutter Drawer** **widget** that slides from the left side of the screen when clicked on the drawer button which will be seen on the left top side of the application. The drawer has mainly navigation options that navigate to the respective other pages depending upon the routes.
+### Usage
 
-The simple code of a basic **GFDrawer** is as shown below to build the **Flutter Drawer Widget**.
+The simple code of a basic GFDrawer is as shown below to build the **Flutter Drawer Widget**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -36,24 +36,26 @@ GFDrawer(
 ),
 ```
 
-### GFDrawer Custom Properties:
+The look and feel of the GFDrawer can be customized using the GFDrawer properties.
 
-The look and feel of the **GFDrawer** can be customized using the GFDrawer properties.
+### Custom Properties
 
 | Name | Description |
 | :--- | :--- |
 | **child** | displays the drawer items |
 | **color** | defines the background color of the drawer |
-| **gradient** | the gradient can be used for transforming gradient shaders without applying the same transform to the entire canvas. |
-| **backgroundImage** | the background image can be added to the drawer |
+| **gradient** | gradient can be used for transforming gradient shaders without applying the same transform to the entire canvas. |
+| **backgroundImage** | background image can be added to the drawer |
 | **colorFilter** | composited layer that applies a color filter to its children |
 | **elevation** | controls the size of the shadow below the drawer. |
 
-## GF Drawer Header and its Usage:
+## GF Drawer Header
 
-The **GF Drawer Header** component is a header that gives information about the user whole is using the application. This can be placed inside the **GFDrawer** child.
+The GF Drawer Header component is a header that identifies the app's user. This can be placed inside GFDrawer child.
 
-The simple code of a basic **GFDrawerHeader** with **GFDrawer** is as shown below that helps you build an awesome Flutter Drawer Header Widget in your application.
+### Usage
+
+The simple code of a basic GFDrawerHeader with GFDrawer is as shown below that help you build an awesome Flutter Drawer Header Widget in your app.
 
 ```dart
 import 'package:getwidget/getwidget.dart';    
@@ -98,9 +100,9 @@ import 'package:getwidget/getwidget.dart';
       ),
 ```
 
-### GFDrawerHeader Custom Properties:
+The look and feel of the GFDrawerHeader can be customized using the GFDrawerHeader properties.
 
-The look and feel of the **GFDrawerHeader** can be customized using the **GFDrawerHeader** properties.
+### Custom Properties
 
 | Name | Description |
 | :--- | :--- |

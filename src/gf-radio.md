@@ -10,11 +10,13 @@ description: >-
 
 ![GW Radio Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
 
-### Usage
+**Flutter RadioBox** permits the user to select only one option in any two sets of mutual options. The radio button has to be checked or unchecked only once in a given set of options.
 
-The simple code of a basic GFRadio is as shown below.
+### GFRadioButton and its Usage:
 
-```text
+**GFRadioButton** has to be checked only one at a time and other options are by default unchecked as radio buttons allow only one option to be checked at a time. The code below gives a simple radio button.
+
+```dart
 int groupValue = 0;
 
 GFRadio(
@@ -32,11 +34,13 @@ GFRadio(
 ),
 ```
 
-### Basic Radio Button
+### Basic Radio Button:
+
+**GFRadioButton** has many types in it and the basic type is a circular radio button. The shape is of a circle and hence the name circular and it is a basic type as shown in the below image. Let us look at the example below :
 
 ![Basic Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_radio_button_x_CcqpvKba.png)
 
-```text
+```dart
 int groupValue = 0;
 
 GFCard(
@@ -99,11 +103,13 @@ GFCard(
     )),
 ```
 
-### Square Radio Button
+### Square Radio Button:
+
+**GFRadioButton** can be a square type. The outer border will not have any border-radius and the shape will be of a square and hence the name square radio button as shown in the below image. Let us look at the example below :
 
 ![Square Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_radio_buttons_UOSD9OSpo_.png)
 
-```text
+```dart
 int groupValue = 0;
 
 GFCard(
@@ -173,9 +179,11 @@ GFCard(
 
 ### Custom Radio Button Type 1
 
+**GFRadioButton** can be a custom type. The outer border will  have little border-radius and comes in different sizes as shown in the below image. Let us look at the example below :
+
 ![Custom Radio Button Type 1](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_1_5pRZCct_LM.png)
 
-```text
+```dart
 int groupValue = 0;
 
 GFCard(
@@ -241,11 +249,13 @@ GFCard(
     )),
 ```
 
-### Custom Radio Button Type 2
+### Custom Radio Button Type 2:
+
+**GFRadioButton** can be a custom type 2 wherein the checked box can be any type of widget like a icon, background color, etc as shown in the image below. Let us look at the example below :
 
 ![Custom Radio Button Type 2](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_2_fSkHHSP4Wa.png)
 
-```text
+```dart
 int groupValue = 0;
 
 GFCard(
@@ -316,9 +326,9 @@ GFCard(
     )),
 ```
 
-### Custom Properties
+### GFRadio Button Custom Properties
 
-Look and feel of the **GFRadio** can be customized using the GFRadio properties.
+The look and feel of the **GFRadio button** can be customized using the GFRadio properties.
 
 |  |  |
 | :--- | :--- |

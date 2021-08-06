@@ -51,7 +51,7 @@ GFBadge(
  ),
 ```
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFBadge Shape |
 | **Attribute** | shape |
@@ -186,7 +186,7 @@ GF Button Badge can be styled with several attributes to look a specific way. Ea
 
 GFColor is used to change the background of the button.
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The color to use from application's color pallete |
 | **Attribute** | color |
@@ -195,7 +195,7 @@ GFColor is used to change the background of the button.
 
 #### How to change badge size in flutter?
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Size |
 | **Attribute** | size |
@@ -204,7 +204,7 @@ GFColor is used to change the background of the button.
 
 #### Flutter badge shape
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Shape |
 | **Attribute** | shape |
@@ -213,7 +213,7 @@ GFColor is used to change the background of the button.
 
 #### Flutter Badges Type 
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Type |
 | **Attribute** | type |
@@ -222,7 +222,7 @@ GFColor is used to change the background of the button.
 
 #### Flutter Badge custom position properties
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Position |
 | **Attribute** | position |
@@ -331,7 +331,7 @@ GFIconBadge(
 ),
 ```
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFIconButton Shape |
 | **Attribute** | shape |

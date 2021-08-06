@@ -41,7 +41,7 @@ GFButton(
 
 **GFColors** are used to change the background of the button.
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The color to use from the application color palette |
 | **Attribute** | color |
@@ -52,7 +52,7 @@ GFButton(
 
 **GFSize** can be used to determine the size of the buttons as follows:
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButton Size |
 | **Attribute** | size |
@@ -63,7 +63,7 @@ GFButton(
 
 The **shape of the button** like **standard**, **square**,  or **pills** can be determined by the shape property.
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The GFButton Shape |
 | **Attribute** | shape |
@@ -74,7 +74,7 @@ The **shape of the button** like **standard**, **square**,  or **pills** can be 
 
 The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButton Type |
 | **Attribute** | type |
@@ -85,7 +85,7 @@ The **button type** of the button like **solid**, **outline** can be determined 
 
 The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 
-|  |  |
+| Name | Description  |
 | :--- | :--- |
 | **Description** | Position of icon in the button. |
 | **Attribute** | position |

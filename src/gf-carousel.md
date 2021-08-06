@@ -1,18 +1,21 @@
 ---
 sidebarDepth: 2
 description: >-
-  The Flutter carousel widget component is a multi-section container. Each
-  section can be swiped or dragged between. It contains any number of Slide
-  components.
+  Flutter carousel widget component is a multi-section container. Each section
+  can be swiped or dragged between. It contains any number of Slide components.
 ---
 
-# GF Carousel \| A Flutter Carousel Widget
+# GF Carousel - Flutter Carousel Widget
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Carousels-Images_2x_ib7ZUd6vJ.png)
+![GF Flutter Carousel Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png)
 
-## GF Carousel
+### Flutter Carousel Slider 
 
-GF Carousel is a Flutter Carousel widget that used for List of Images given to the items in the GFCarousel, it allows us to slide each image container. The below code gives the default image slider component.
+![GF Carousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
+
+**GFCarousel** is a **Flutter Carousel** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide.
+
+Below is a simple example of one image in one slide of **GFCarousel**:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -50,11 +53,9 @@ final List<String> imageList = [
  ),
 ```
 
-### Properties
+### Flutter GFCarousel Custom Properties
 
-The look and feel of the GetWidget carousel widget for the Flutter app can be customized using the GFCarousel properties. Sliding items can be any type of list of widgets or a list of images.
-
-### Custom Properties
+The look and feel of the **GF carousel** widget for the Flutter app can be customized using the GFCarousel properties. Sliding items can be any type of list of widgets or a list of images.
 
 | Name | Description |
 | :--- | :--- |
@@ -65,10 +66,10 @@ The look and feel of the GetWidget carousel widget for the Flutter app can be cu
 | **autoPlay** | enables autoplay, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false works only if `viewportFraction` set to 1.0, |
 | **reverse** | reverse the order of items if set to true. Defaults to false |
 | **autoPlayInterval** | sets Duration to determent the frequency of slides when \[autoPlay\] is set to true. Defaults to 4 seconds |
-| **autoPlayAnimationDuration** | animation duration between two transitioning pages while in auto playback. Defaults to 800 ms |
+| **autoPlayAnimationDuration** | animation-duration between two transitioning pages while in auto playback. Defaults to 800 ms |
 | **autoPlayCurve** | determines the animation curve physics. Defaults to \[Curves.fastOutSlowIn\] |
-| **enlargeMainPage** | determines if the current page should be larger then the side images, creating a feeling of depth in the carousel. Defaults to false |
-| **pauseAutoPlayOnTouch** | sets a timer on touch detected that pause the autoplay with the given \[Duration\]. Touch Detection is only active if \[autoPlay\] is true |
+| **enlargeMainPage** | determines if the current page should be larger than the side images, creating a feeling of depth in the carousel. Defaults to false |
+| **pauseAutoPlayOnTouch** | sets a timer on touch detected that pauses the autoplay with the given \[Duration\]. Touch Detection is only active if \[autoPlay\] is true |
 | **pagination** | displays pagination on state true |
 | **passiveIndicator** | slider pagination's passive color |
 | **activeIndicator** | slider pagination's active color |
@@ -78,11 +79,13 @@ The look and feel of the GetWidget carousel widget for the Flutter app can be cu
 | **scrollDirection** | axis along which the page view scrolls. Defaults to \[Axis.horizontal\] |
 | **onPageChanged** | called whenever the page in the center of the viewport changes |
 
-## GF ItemsCarousel
+### GFCarousel with Multiple Items
 
-The ItemsCarousel component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide components.
+![GW ItemsCarousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousal-image-Multiple_items_UzBeEj6VU.png)
 
-In the below code, List of Images given to the children in the GFItemsCarousel, that allows sliding each slide container that contains multiple items. The below code gives the default multi-image slider component.
+**GFCarousel** can have any number of images and it can also have multiple images in just one slide. It supports multi-image slides. The **ItemsCarousel** component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide component.
+
+In the below code, the list of Images given to the children in the **GFItemsCarousel**, that allows sliding each slide container that contains multiple items. The below code gives the default multi-image slider component.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -113,7 +116,7 @@ final List<String> imageList = [
 ),
 ```
 
-### Custom Properties
+### GFCarousel with Multiple Image Custom Properties
 
 | Name | Description |
 | :--- | :--- |

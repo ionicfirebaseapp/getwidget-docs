@@ -1,16 +1,16 @@
 ---
 sidebarDepth: 2
 description: >-
-  Badge contain a number or other characters. They can be used as a notification
-  that there are additional items associated with an element and indicate how
-  many items there are.
+  Badge contains a number or other characters. They can be used as a
+  notification that there are additional items associated with an element and
+  indicate how many items there are.
 ---
 
-# GF Badge
+# GF Flutter Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Badges_2x_08i8g5F_w.png)
+![GF Flutter Badges Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Badges_v0v7rCbeO.png)
 
-## Badges
+### GF Flutter Badges
 
 Typically GFBadge takes text widget as child, to display number or characters inside badges.
 
@@ -23,7 +23,7 @@ GFBadge(
 ),
 ```
 
-## Size
+### GF Flutter Badge Size
 
 Badge size can be varied using **size** property, which specifies the size of the badge. Default badge size set to `GFSize.medium`.
 
@@ -37,7 +37,7 @@ GFBadge(
  ),
 ```
 
-## Shape
+### GF Flutter Badge Shape
 
 Shape of Badge can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the Badge set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
@@ -58,7 +58,7 @@ GFBadge(
 | **Type** | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
 | **Default** | `GFButtonShape.standard` |
 
-## Custom Properties
+### GF Flutter Badge Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -69,7 +69,7 @@ GFBadge(
 | **bordershape** | defines the shape of the border |
 | **color** | GFColor is used to change the background of the button. |
 
-## Button with Badges
+### Flutter Button with Badges
 
 Badges can be used with button to display, the badges with label and GFButton properties.
 
@@ -87,9 +87,9 @@ GFButtonBadge(
 
 Default button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-## Solid Button Badge
+### Flutter Solid Button Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/solid-badge-buttons-2x_AEtC9rqrH.png)
+![Flutter Solid Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-badge-buttons-2x_AEtC9rqrH_9WGUj7cmx.png)
 
 By default, button **type** set to `GFType.solid` so, we able to get buttons have a solid background color with slightly rounded corners.
 
@@ -107,9 +107,9 @@ GFButtonBadge(
 ),
 ```
 
-## Disabled Button Badge
+### Flutter Disabled Button Badge
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/disabled-badge-buttons-2x_pRTAZyWWe.png)
+![Flutter Disabled Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-badge-buttons-2x_pRTAZyWWe_DdAbyhxxOt.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null.
 
@@ -125,9 +125,9 @@ GFButtonBadge(
  ),
 ```
 
-## Outline Button Badge 
+### Flutter Outline Button Badge 
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/outline-badge-buttons-2x-1_-Tow_mzA3.png)
+![Flutter Outline Button Badge ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-badge-buttons-2x-1_-Tow_mzA3_uCCZDyDrN.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFType.outline`**.
 
@@ -144,7 +144,7 @@ GFButtonBadge(
  ),
 ```
 
-## Pills Button Badge   
+### Flutter Pills Button Badge   
 
 We will able to get pills shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 
@@ -161,7 +161,7 @@ import 'package:getwidget/getwidget.dart';
   ),
 ```
 
-## Button Badge Size
+### Flutter Button Badge Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -178,11 +178,11 @@ GFButtonBadge(
  ),
 ```
 
-## Properties
+### GF Badge Custom Properties
 
 GF Button Badge can be styled with several attributes to look a specific way. Each and every attribute is described below.
 
-### Color
+#### How to change flutter badge color?
 
 GFColor is used to change the background of the button.
 
@@ -193,7 +193,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFColor` |
 | **Default** | `GFColor.primary` |
 
-### Size
+#### How to change badge size in flutter?
 
 |  |  |
 | :--- | :--- |
@@ -202,7 +202,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFSize.large,  GFSize.medium, GfSize.small` |
 | **Default** | `GFSize.medium` |
 
-### Shape
+#### Flutter badge shape
 
 |  |  |
 | :--- | :--- |
@@ -211,7 +211,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
-### Type
+#### Flutter Badges Type 
 
 |  |  |
 | :--- | :--- |
@@ -220,7 +220,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
 | **Default** | `GFType.solid` |
 
-### Position
+#### Flutter Badge custom position properties
 
 |  |  |
 | :--- | :--- |
@@ -229,7 +229,7 @@ GFColor is used to change the background of the button.
 | **Type** | `GFPosition.start, GFPosition.end` |
 | **Default** | `GFPosition.start` |
 
-## Custom Properties
+### GF Badge More custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -254,7 +254,7 @@ GFColor is used to change the background of the button.
 | **splashColor** | indicates that the button has been touched |
 | **highlightColor** | indicates that the button is actively being pressed |
 
-## Icon Badge Button  
+### Flutter Icon Badge Button  
 
 Badges can be used with button to display, the badges with icons and GFIconButton properties.
 
@@ -274,7 +274,7 @@ GFIconBadge(
 
 Default icon button **shape** set to `GFButtonShape.standard` so that we will able to get standard shaped button with solid background color with slightly rounded corners.
 
-## IconButton Badge Size
+### Flutter Icon Button Badge Size
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.medium`.
 
@@ -293,7 +293,7 @@ GFIconBadge(
 ),
 ```
 
-## IconButton Badge Type
+### Flutter Icon Button Badge Type
 
 Button type can be changed using property **type** by setting to `GFType.outline`. Default type of the IconButton will be `GFType.solid`.
 
@@ -312,7 +312,7 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-## IconButton Badge Shape
+### Flutter Icon Button Badge Shape
 
 Shape of Icon Button can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the IconButton set to `GFIconButtonShape.standard` which gives square shaped IconButton with slightly rounded corners.
 
@@ -338,7 +338,7 @@ GFIconBadge(
 | **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
 | **Default** | `GFIconButtonShape.standard` |
 
-### Custom Properties
+### Flutter Icon Button Custom Properties
 
 | Name | Description |
 | :--- | :--- |

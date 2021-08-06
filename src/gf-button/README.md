@@ -11,7 +11,7 @@ description: >-
 
 **GF Button** is a clickable element, that can be used for click events like **click functions, page routing**, **social authentications**, **form submissions,** or anywhere that needs simple, standard button functionality. **Flutter Buttons** have a broad area and can be used with any other widgets as well.
 
-### How to create GF Button in Flutter? 
+## How to create GF Button in Flutter? 
 
 The **Flutter Buttons** are the very simple yet most commonly used component in almost all of the pages. The simple code of a **GFButton** looks like the following:
 
@@ -33,7 +33,7 @@ GFButton(
 ),
 ```
 
-### Flutter GF Button Properties
+## Flutter Button Properties
 
 **GF Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
@@ -70,7 +70,7 @@ The **shape of the button** like **standard**, **square**,  or **pills** can be 
 | **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
 | **Default** | `GFButtonShape.standard` |
 
-### GF Flutter Button Type Properties 
+### GF Button Type
 
 The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 

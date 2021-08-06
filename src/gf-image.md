@@ -11,7 +11,7 @@ description: GFImage typically manages assets and dispalys the images
 
 **GFImage** supports and manages the images to be displayed on run time. It has the following types of images which can be used in any application.
 
-### Asset Image
+### GF Asset Image
 
 **Asset image** is used to display the images stored locally in the assets folder. Below is a simple example of an asset image.
 
@@ -25,7 +25,7 @@ GFImageOverlay(
 )
 ```
 
-### Network Image
+### GF Network Image
 
 **Network image** is used to display an image from the internet. Hence the passing parameter for the image will be as shown in the below code.
 
@@ -39,7 +39,7 @@ GFImageOverlay(
 )
 ```
 
-### Image Overlay
+### GF Image Overlay
 
 I**mage Overlay** is used to set the image in the **background** and text in the **foreground** with the `colorFilter` property that takes two colors, and outputs one color
 
@@ -60,7 +60,7 @@ GFImageOverlay(
 ),
 ```
 
-### Circular Image
+### GF Circular Image
 
 A **Circular Image** is an image with a circle-shaped border. It is widely used in any profile screen to display the profile picture.
 

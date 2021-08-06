@@ -1,17 +1,17 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFCard are a flexible piece of container wherein there can be a piece of
-  information in it. GFCard has slightly rounded corners and a shadow.
+  GFCard is a Flutter Card Widget component. It is a flexible piece of the
+  container wherein there can be a piece of information in it.
 ---
 
-# GF Card
+# GF Card - Flutter Card Widget
 
 ![GF Card](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png)
 
 ### GFCard Usage:
 
-The **GFCard** can be used in any section of the application to display certain types of information about the application. It can be simply used with a **title** and **buttons**. The simple code below gives a **basic GFCard**.
+The **GFCard -** A Flutter Card widget can be used in any section of the application to display certain types of information about the application. It can be simply used with a **title** and **buttons**. The simple code below gives a **basic GFCard**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -42,7 +42,7 @@ buttonBar: GFButtonBar(
 ),
 ```
 
-### GFCards with Avatar
+### GFCards with [Flutter Avatar](gf-avatar.md)
 
 **GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an avatar gives more precise information about the block. Hence GFAvatar can be used with **GFCard** to make a **GFCard Avatar.**
 
@@ -105,7 +105,7 @@ import 'package:getwidget/getwidget.dart';
 
 ![GFCards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7_-j3RXaSa2.webp)
 
-Below shows a simple code for **GFCard with OverlayImage**:
+Below shows a simple code for **GFCard with Card OverlayImage**:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -138,9 +138,9 @@ import 'package:getwidget/getwidget.dart';
           ),
 ```
 
-### GFCard Custom Properties:
+### GFCard Custom Properties for Flutter Card:
 
-**GFCard** can be used like **GFCard with Avatar,** **GFCard with ImageOverlay,** and just a **GFCard**. To make the **GFcard** more flexible we have the below properties:
+**GFCard** can be used like **GFCard with Avatar,** **GFCard with ImageOverlay,** and just a **GFCard**. To make the **GFcard** more flexible with your Flutter card. we have the below custom properties:
 
 |  |  |
 | :--- | :--- |

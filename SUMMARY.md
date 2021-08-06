@@ -28,7 +28,7 @@
   * [GF Progress Bar](src/gf-progress-bar.md)
   * [GF Appbar](src/gf-appbar.md)
   * [Flutter Drawer Widget](src/gf-drawer.md)
-  * [GF Card](src/gf-card.md)
+  * [GF Card - Flutter Card Widget](src/gf-card.md)
   * [GF Tab](src/gf-tab.md)
   * [GF Typography](src/gf-typography.md)
   * [GF ListTile](src/gf-tile.md)

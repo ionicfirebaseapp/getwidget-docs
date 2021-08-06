@@ -1,13 +1,14 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Getwidget step by step tutorial guide on how to get started and use it
-  in any flutter app or web app project.
+  GetWidget is a Flutter open-source library that comes with pre-build 1000+ UI
+  components. The library is built to make flutter development faster and more
+  enjoyable.
 ---
 
-# Getwidget Tutorial
+# Getting Started
 
-## How to install getwidget in your app? 
+## Installation Guide
 
 Add the following dependency into your pubspec.yaml file
 

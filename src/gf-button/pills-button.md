@@ -1,11 +1,11 @@
 ---
 sidebarDepth: 2
-description: Flutter Pills Button Widget looks like a solid button with rounded corners.
+description: Flutter Pills Button looks like a solid button with rounded corners.
 ---
 
 # Flutter Pills Button
 
-![Flutter Pills Button Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png)
+![Pills Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png)
 
 **GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and one of the shapes is a **pill-shaped button.**
 
@@ -25,7 +25,7 @@ GFButton(
 
 ## Flutter Pills Solid Button
 
-![Flutter Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-solid-button-2x_EQT2X6jAl_BLgdXpw26c7E.png)
+![Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-solid-button-2x_EQT2X6jAl_BLgdXpw26c7E.png)
 
 By default, button **type** is set to `GFButtonType.solid` so,  that we will be able to get pills shaped buttons that have a solid background color with rounded corners.
 
@@ -43,7 +43,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Pills Disabled Button
 
-![Flutter Pills Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-disabled-2x_lVoPerI-o_-pNn9kds88.png)
+![Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-disabled-2x_lVoPerI-o_-pNn9kds88.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because **onPressed** set to null.
 
@@ -59,7 +59,7 @@ GFButton(
 
 ## Flutter Pills Block Button
 
-![Flutter Pills Block Button Design ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
+![Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
 
 **The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 

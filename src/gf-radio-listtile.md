@@ -9,20 +9,22 @@ description: >-
 
 ## GF Radio ListTile Info
 
-![GF Radio ListTile](../.gitbook/assets/docs-banner-radio-list-tile-2x.png)
+![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
 
-### Usage
+**Flutter RadioBoxListTile** is a list of items wherein the user can check or uncheck only one item in the list. It allows users to select only one option inside the list. GFRadioBoxListTile can also be positioned right or left of the screen according to the need.
 
-The simple code of a basic GFRadioListTile is as shown below.
+### GFRadioListTile and its Usage:
 
-![GF RadioListTile](../.gitbook/assets/radiolist-tile-3x.png)
+The simple code with an **avatar** of GFRadioListTile is as shown below.
 
-```text
+![GW RadioListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
+
+```dart
 int groupValue = 0;
 
 GFRadioListTile(
   titleText: 'Arthur Shelby',
-  subtitleText: 'By order of the peaky blinders',
+  subTitleText: 'By order of the peaky blinders',
   avatar: GFAvatar(
     backgroundImage: AssetImage('Assets image here'),
   ),
@@ -60,9 +62,9 @@ GFRadioListTile(
 ),
 ```
 
-### Custom Properties
+### **GFRadioListTile** Custom Properties
 
-Look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
+he look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
 
 <table>
   <thead>
@@ -75,14 +77,14 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
     <tr>
       <td style="text-align:left"><b>type</b>
       </td>
-      <td style="text-align:left">type of [GFRadioType] which is of four type is basic, sqaure, circular
+      <td style="text-align:left">type of [GFRadioType] which is of four types is basic, suaure, circular,
         and custom</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>size</b>
       </td>
-      <td style="text-align:left">type of [double] which is GFSize ie, small, medium and large and can use
-        any double value</td>
+      <td style="text-align:left">type of [double] which is GFSize ie, small, medium, and large and can
+        use any double value</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>radioColor</b>
@@ -119,6 +121,11 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">Called when the user checks or unchecks the radio button</td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>position</b>
+      </td>
+      <td style="text-align:left">allows the user to set the position of the radiobutton to start or end</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>activeIcon</b>
       </td>
       <td style="text-align:left">type of Widget used to change the radio button&apos;s active icon</td>
@@ -137,8 +144,8 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
     <tr>
       <td style="text-align:left"><b>autofocus</b>
       </td>
-      <td style="text-align:left">on true state this widget will be selected as the initial focus when no
-        other node in its scope is currently focused</td>
+      <td style="text-align:left">on true state, this widget will be selected as the initial focus when
+        no other node in its scope is currently focused</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>focusNode</b>
@@ -165,13 +172,13 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left"><b>titleText</b>
       </td>
       <td style="text-align:left">type of [String] used to pass text, alternative to title property and
-        gets higher priority than title</td>
+        gets higher priority than the title</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subtitleText</b>
+      <td style="text-align:left"><b>subTitleText</b>
       </td>
       <td style="text-align:left">type of [String] used to pass text, alternative to subtitle property and
-        gets higher priority than subtitle</td>
+        gets higher priority than the subtitle</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>color</b>
@@ -181,7 +188,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
     <tr>
       <td style="text-align:left"><b>avatar</b>
       </td>
-      <td style="text-align:left">type of [Widget] or [GFAvatar] used to create rounded user profile</td>
+      <td style="text-align:left">type of [Widget] or [GFAvatar] used to create a rounded user profile</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>title</b>
@@ -189,7 +196,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
       <td style="text-align:left">The title to display inside the [GFListTile].</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>subtitle</b>
+      <td style="text-align:left"><b>subTitle</b>
       </td>
       <td style="text-align:left">The subtitle to display inside the [GFListTile].</td>
     </tr>
@@ -242,8 +249,7 @@ Look and feel of the **GFRadioListTile** can be customized using the GFRadioList
         <p>If this tile is also [enabled] then icons and text are rendered with the
           same color.</p>
         <p>By default the selected color is the theme&apos;s primary color. The selected
-          color</p>
-        <p>can be overridden with a [ListTileTheme].</p>
+          color can be overridden with a [ListTileTheme].</p>
       </td>
     </tr>
     <tr>

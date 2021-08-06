@@ -7,11 +7,11 @@ description: GFToggle is used to toggle the on/off state of a single setting.
 
 ![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-## Toggle Info
+**The Flutter toggle switch** allows the user to toggle the switch between ON or OFF states.
 
-### Usage
+### GFTogle and its Usage:
 
-The simple toggle code is as shown below.
+**GFToggle** switch permits the user to use this toggle to mark check when it is in **ON** state and mark unchecked when it is in **OFF** state. The **toggle switch** basically switches from ON to OFF state and vice-versa. Let us look at a simple example of GFToggle in the below code.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -22,11 +22,13 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Types of Toggle
+### Types of GFToggle
 
-There are four types ie, `android`, `ios`, `square` and `custom`. The default toggle is a android toggle
+**GFToggle switch** can be divided into  four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an android toggle
 
-### IOS Toggle
+### IOS Toggle:
+
+**IOS Toggle** switch has a circular track and a circular thumb as shown in the below image.
 
 ![IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24_m8Gb_wJs_-EKey0.webp)
 
@@ -42,7 +44,9 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Square Toggle
+### Square Toggle:
+
+**The Square Toggle** switch has a square-shaped track and a square-shaped thumb as shown in the below image.
 
 ![Square Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square_kQf7GGmmw_rysXqcWnd.png)
 
@@ -58,11 +62,13 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Custom Toggle
+### Custom Toggle:
+
+The **custom** **toggle** can be used to add the text to the on/off state. The default text is **ON** and **OFF** Below is a simple code for custom toggle
 
 ![Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
 
-The **custom** toggle can be used to add the text to the on/off state . The default text is **ON** and **OFF** Below is a simple code for custom toggle
+The below code shows a simple custom toggle
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -74,7 +80,9 @@ GFToggle(
  ),
 ```
 
-### Custom Properties
+### GFToggle Custom Properties:
+
+The look and feel of **GFToggle** can be customized using the below properties:
 
 |  |  |
 | :--- | :--- |
@@ -83,7 +91,7 @@ GFToggle(
 | **enabledTextStyle** | type of \[TextStyle\] used to define the style properties of enabled text |
 | **disabledTextStyle** | type of \[TextStyle\] used to define the style properties of disabled text |
 | **enabledThumbColor** | color used for the active thumb color |
-| **disabledThumnbColor** | color used for the disabled thumb color |
+| **disabledThumbColor** | color used for the disabled thumb color |
 | **enabledTrackColor** | color used for the active track color |
 | **disabledTrackColor** | color used for the disabled track color |
 | **boxShape** | type of \[BoxShape\] ie , `circle`, `rectangle` used to change the shape of the thumb, default shape is `circle` |

@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [src](src/README.md)
-  * [Introduction](src/introduction.md)
+  * [Flutter GetWidget Docs](src/introduction.md)
   * [Getting Started](src/getting-started.md)
   * [GF Accordion](src/gf-accordion.md)
   * [GF Checkbox](src/gf-checkbox.md)

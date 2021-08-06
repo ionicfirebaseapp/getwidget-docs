@@ -7,13 +7,17 @@ description: >-
 
 # GF Rating
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/docs/tr:dpr-auto,tr:w-auto/Ratings_2x_u92JHlj0d.png)
+![GW Rating Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Ratings_IgiXBsGTL.png)
 
-## Rating Info
+## Flutter rating 
 
-### Usage
+**Flutter rating** allows the user to start rating any of the products using the start icons as rating icons.
 
-The simple code of a basic **GF Rating** is as shown below.
+### GFRating and its Usage:
+
+**GFRating** is a very simple widget that permits the users to rate with the help of star icons. Users can touch the icons to start rating. The simple code of a basic **GF Rating** is as shown below.
+
+![GW Rating](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ratings-2x_Sn4SxO-12_l0-nhQy_z.png)
 
 ```dart
 double _rating = 3;
@@ -28,9 +32,9 @@ GFRating(
 ),
 ```
 
-![img](https://ik.imagekit.io/ionicfirebaseapp/ratings-2x_Sn4SxO-12.png)
+### GFRating with TextField:
 
-If `showTextForm` true, it displays the GF Rating bar with text field, that takes user input to show the rating. The simple code of rating bar with textform is shown below.
+If `showTextForm` true, it displays the GF Rating bar with a text field, that takes user input to show the rating. The simple code of the rating bar with textform is shown below.
 
 ```dart
 final _ratingController = TextEditingController();
@@ -58,9 +62,9 @@ GFRating(
 ),
 ```
 
-Look and feel of the **GF Rating** can be customized using the GF Rating properties.
+### GFRating Custom Properties:
 
-### Custom Properties
+The look and feel of the **GF Rating** can be customized using the GF Rating properties.
 
 | Name | Description |
 | :--- | :--- |
@@ -76,7 +80,7 @@ Look and feel of the **GF Rating** can be customized using the GF Rating propert
 | **value** | defines the rating value |
 | **onChanged** | return current rating whenever rating is updated |
 | **showTextForm** | if true, shows rating \[TextFormField\] with the rating bar, that allows the user input to show rating |
-| **suffixIcon** | defines the design and funtion of rating \[TextFormField\]'s suffix icon |
+| **suffixIcon** | defines the design and function of rating \[TextFormField\]'s suffix icon |
 | **controller** | controls the \[TextField\] Controller of rating \[TextFormField\] |
 | **inputDecorations** | defines the \[InputDecoration\] of rating \[TextFormField\] |
 | **margin** | defines the margin of rating \[TextFormField\] |

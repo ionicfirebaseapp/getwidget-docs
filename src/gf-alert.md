@@ -11,11 +11,11 @@ description: >-
 
 ![GW Alert Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
 
-### GFAlert and its Usage:
+### Usage
 
-**GFAlert** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
+**GFAlert** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
 
-```dart
+```text
 import 'package:getwidget/getwidget.dart';
 
 Widget alertWidget;
@@ -95,7 +95,7 @@ Scaffold(
 
 ![Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
 
-**GFAlert** can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons
+Alert can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -139,7 +139,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Types of Alert
 
-There are three types of **alerts** ie , `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
+There are the types of alerts ie , `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -184,7 +184,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Positioning of Alert
 
-**GFAlerts** can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
+Alerts can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -199,9 +199,7 @@ body:GFFloatingWidget(
 )
 ```
 
-### GFAert Custom Properties:
-
-The look and feel of the **alert** can be customised using the following properties:
+### Custom Properties
 
 |  |  |
 | :--- | :--- |

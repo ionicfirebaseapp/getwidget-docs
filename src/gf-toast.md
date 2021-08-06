@@ -7,15 +7,17 @@ description: >-
 
 # GF Toast - A Flutter Toast Widget
 
-## Toast Info
+## Flutter Toast Info
 
 ![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
 
-### Usage
+### Flutter Toasts are simple messages or any kind of warnings that are displayed for a shorter period of time. 
 
-**GFToast** should be wrapped inside the **GFFloating** Widget.The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
+### GFToast Widget :
 
-```text
+**GFToast** is a **Flutter Toast** that should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
+
+```dart
 import 'package:getwidget/getwidget.dart';
 
 bool showFloatingToast = false;
@@ -64,7 +66,11 @@ Scaffold
 ),  
 ```
 
-### Toast with Button
+### GFToast with Button:
+
+**GFToas**t can be used to dismiss or cancel messages or warnings with the help of a **GFButton** inside the GFToast. Hence GFToast will be usually accompanied by a **Flutter button**.
+
+The below example shows a simple code of how the **Flutter button** is used with the **GFToast**.
 
 ![Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts_3x_Jy51nVck_o.png)
 
@@ -85,7 +91,9 @@ GFToast(
 
 ### Auto Dismissible Toast
 
-The bool value `true` should be passed to **autoDismiss** property to make the toast, auto dismissible,
+**GFToast** can be dismissed using **Flutter buttons** and we have seen the example in the above section. But there is also another way to dismiss it but just passing a boolean value to the **autoDismiss** property wherein the toast will automatically get dismissed after a few given seconds.
+
+The bool value `true` should be passed to **autoDismiss** property to make the toast, auto dismissible. The below code shows a simple example.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -113,11 +121,13 @@ body:GFFloatingWidget(
 )
 ```
 
-### Custom Properties
+### GFToast Custom Properties:
+
+GFToast can be customized for a better look and feel. Here are the properties:
 
 |  |  |
 | :--- | :--- |
-| **child** | **child** of type \[Widget\] which is alternative to **text**. **text** will get priority over **child** |
+| **child** | **child** of type \[Widget\] which is an alternative to **text**. **text** will get priority over **child** |
 | **backgroundColor** | color of type \[GFColor\] or \[Color\] to change the backgroundColor of toast |
 | **textStyle** | textStyle of type \[textStyle\] applicable to **text** only and not for **child** |
 | **width** | to control the width of the toast |

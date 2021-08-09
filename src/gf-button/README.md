@@ -39,9 +39,7 @@ GFButton(
 
 ### FLUTTER ELEVATED/STANDARD BUTTON 
 
-**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in **GF Elevated Button** shown below:
-
-{% embed url="https://docs.getwidget.dev/gf-button/standard-button/" %}
+**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in **GF Elevated Button** 
 
 ### FLUTTER ROUNDED BUTTON 
 
@@ -63,9 +61,7 @@ GFButton(
 
 ### FLUTTER CIRCULAR BUTTON
 
-**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [**Flutter Pills Buttons**](pills-button.md)\*\*\*\*
-
-\*\*\*\*
+**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [**Flutter Pills Buttons**](pills-button.md)**.**
 
 #### How to Set Button Color in flutter? 
 

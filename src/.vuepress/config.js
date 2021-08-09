@@ -124,7 +124,7 @@ module.exports = {
                 initialOpenGroupIndex: -1,
                 collapsable: true,
                 children: [
-                    { title: 'GF Flutter Standard Button', path: '/gf-button/standard-button' },
+                    { title: 'Elevated Button', path: '/gf-button/standard-button' },
                     { title: 'Pills Button', path: '/gf-button/pills-button' },
                     { title: 'Square Button', path: '/gf-button/square-button' },
                     { title: 'Icon Button', path: '/gf-button/icon-button' },
@@ -281,6 +281,14 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/gf-rating',
+                ],
+            },
+             {
+                title: 'GF Dropdown',
+                path: '/gf-dropdown',
+                collapsable: true,
+                children: [
+                    '/gf-dropdown',
                 ],
             },
             {

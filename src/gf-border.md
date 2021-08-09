@@ -18,7 +18,7 @@ The simple code of a basic GFBorder is as shown below.
 
 Solid Border is basic border used for the many components. GF Border property `[dashedLine`\] takes array of doubles like  `[2, 0]` to display solid border.
 
-```dart
+```text
 Container(
   margin: EdgeInsets.symmetric(
       horizontal: 15, vertical: 15),
@@ -41,7 +41,7 @@ Dashed Border is customised border with dashed patterns used in UI designs. GF B
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_3x_DQyNt2Emrew.png)
 
-```dart
+```text
 Container(
   margin: EdgeInsets.symmetric(
       horizontal: 15, vertical: 15),
@@ -64,7 +64,7 @@ Dotted Border is customised border with dotted patterns used in many UI designs.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dotted_border_3x_bVhWMc5Nv.png)
 
-```dart
+```text
 Container(
   margin: EdgeInsets.symmetric(
       horizontal: 15, vertical: 15),
@@ -89,7 +89,7 @@ Container(
 
 GF Border property `type` takes `GFBorderType.rect` to display borders with no rounded corner.
 
-```dart
+```text
 Container(
   margin: EdgeInsets.symmetric(
       horizontal: 15, vertical: 15),
@@ -111,7 +111,7 @@ Container(
 
 GF Border property `type` takes `GFBorderType.rRect` to display borders with rounded corner.
 
-```dart
+```text
 Container(
   margin: EdgeInsets.symmetric(
       horizontal: 15, vertical: 15),
@@ -134,7 +134,7 @@ GF Border property `type` takes `GFBorderType.oval` to display oval shape border
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_border_-_oval-solid_3x_o_S1GuEvf.png)
 
-```dart
+```text
 Container(
   width: 50,
   height: 60,
@@ -154,7 +154,7 @@ Container(
 
 GF Border property `type` takes `GFBorderType.circle` to display circular shape borders.
 
-```dart
+```text
 Container(
   width: 100,
   height: 100,

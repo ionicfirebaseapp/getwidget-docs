@@ -1,14 +1,14 @@
 ---
 sidebarDepth: 2
 description: >-
+  Social Button determines the standard, solid, button with both label and icon.
   Flutter Social Buttons are a set of buttons that are used to get sign-in
-  buttons for any social media account, GF social button comes with lots of
-  properties to customize as need.
+  buttons for any social media account.
 ---
 
 # Flutter Social Button
 
-![Flutter Social Button UI Design ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png)
+![Social Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png)
 
 ## Flutter Social Button Full
 
@@ -18,7 +18,7 @@ The Default button **shape** is set to `GFButtonShape.standard` so that we will 
 
 ## Flutter Solid Social Button
 
-![Flutter Solid Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
+![Solid Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 
 **GFSocial solid button** has a full background color and text on it. By default, the button **type** is set to `GFButtonType.solid` so, we were able to get buttons that have a solid background color with slightly rounded corners.
 
@@ -36,7 +36,7 @@ The callback is called when the button is tapped. By adding a callback to **onPr
 
 ## Flutter Disabled Social Button
 
-![Flutter Disabled Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x-1_WXYljNGX9_Og84OQ7_j.png)
+![Disabled Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x-1_WXYljNGX9_Og84OQ7_j.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default **GFButton** will be disabled as **onPressed** is set to null.
 
@@ -69,7 +69,7 @@ GFButton(
 
 ## Flutter Outline2x  Social Button
 
-![Flutter Outline2x Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-social-button-2x_3hSCzrQDG_YjwynP9h8q.png)
+![Outline2x  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-social-button-2x_3hSCzrQDG_YjwynP9h8q.png)
 
 **The Flutter Outline** **Icon** Button describes the Button with a transparent background and a visible border of 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -86,7 +86,7 @@ GFButton(
 
 ## Flutter Transparent  Social Button
 
-![Flutter Transparent Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-social-button-2x_lRGI7ulxY_Nhn4SFl_l0.png)
+![Transparent  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-social-button-2x_lRGI7ulxY_Nhn4SFl_l0.png)
 
 In GFButton by adding **type,`GFButtonType.transparent`** we can get a transparent button. Default GFButton **type** will be `GFType.solid`.
 
@@ -103,7 +103,7 @@ GFButton(
 
 ## Flutter Pills  Social Button
 
-![Flutter Pills  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-social-buttons-2x_GfJjVk77h_itBRIApxau.png)
+![Pills  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-social-buttons-2x_GfJjVk77h_itBRIApxau.png)
 
 We will be able to get **pills** **shaped** **button** with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 
@@ -120,7 +120,7 @@ We will be able to get **pills** **shaped** **button** with solid background col
 
 ## Flutter Square Social Button
 
-![Flutter Square Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
+![Square Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 
 We will be able to get a square-shaped button with solid background color with no rounded corners by adding property **shape** with `GFButtonShape.square` .
 
@@ -137,7 +137,7 @@ We will be able to get a square-shaped button with solid background color with n
 
 ## Flutter Social  Button Size
 
-![Flutter Facebook Social Button Size](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
+![Social  Button Size](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
 
 **The Flutter Button size** can be varied using the **size** property, which specifies the size of the button. Default button size is set to `GFSize.MEDIUM`.
 
@@ -154,7 +154,7 @@ GFButton(
 
 ## Flutter Block Social Button
 
-![Flutter Social Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63_tp2AOfDiWy.png)
+![Block Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63_tp2AOfDiWy.png)
 
 **The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state, `true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
 
@@ -172,7 +172,7 @@ GFButton(
 
 ## Flutter Full Width Social Button
 
-![Flutter Full Width Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
+![Full Width Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side. Default **fullWidthButton** set to `false`.
 
@@ -190,7 +190,7 @@ GFButton(
 
 ## Flutter Social Icon Button
 
-![Flutter Social Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/social-icon-button-2x_sCVoXFCFZ_sC-Qx0HKP.webp)
+![Social Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/social-icon-button-2x_sCVoXFCFZ_sC-Qx0HKP.webp)
 
 **The Flutter Social Icon Button** are buttons that have features of a **standard**, **solid** button with a full-color background and slightly rounded corners and icons as a child.
 
@@ -205,7 +205,7 @@ GFIconButton(
  ),
 ```
 
-### How to change flutter button size?
+### Flutter Button Size
 
 **The Flutter Button size** can be varied using the **size** property, which specifies the size of the button. Default button size is set to `GFSize.MEDIUM`.
 
@@ -219,7 +219,7 @@ GFIconButton(
  ),
 ```
 
-### GF Flutter Button Type
+### Flutter Button Type
 
 **The Flutter Button type** can be changed using the property **type** by setting it to `GFButtonType.outline`. The Default type of the IconButton will be `GFButtonType.solid`.
 
@@ -233,7 +233,7 @@ GFIconButton(
  ),
 ```
 
-### Flutter Social Icon Button Shape
+### Flutter Icon Button Shape
 
 **The Shape of Icon Button** can be changed by setting property **shape** to `GFIconButtonShape.circle`. Default shape of the **IconButton** set to`GFIconButtonShape.standard`which gives square-shaped IconButton with slightly rounded corners.
 

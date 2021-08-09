@@ -45,19 +45,13 @@ GFButton(
 
 **Flutter Rounded Button** or **Flutter Pills Button** is a **button in flutter** wherein the corners of the buttons are circular in shape. In other words, it is a button with border-radius in it. For more customizable properties head to **Flutter Pills/Rounded Button**
 
-{% embed url="https://docs.getwidget.dev/gf-button/pills-button/" %}
-
 ### FLUTTER ICON BUTTON 
 
 **Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about  **Icon Button** head to **the Flutter Icon Button** section.
 
-{% embed url="https://docs.getwidget.dev/gf-button/icon-button/" %}
-
 ### **FLUTTER TOGGLE BUTTON**
 
 **Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button.**
-
-{% page-ref page="../gf-toggle.md" %}
 
 ### FLUTTER CIRCULAR BUTTON
 

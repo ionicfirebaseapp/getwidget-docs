@@ -9,7 +9,7 @@ description: >-
 
 ![GW Loader Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
-**Flutter Loader** is a circular indicator that will be loading continuously that indicate something is about to load.
+**Flutter Loader** is a circular indicator that will be loading continuously that indicates something is about to loaded.
 
 ### GFLoader and its Usage:
 

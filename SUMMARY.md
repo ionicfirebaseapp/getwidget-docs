@@ -23,7 +23,7 @@
   * [GF Shimmer](src/gf-shimmer.md)
   * [GF Avatar](src/gf-avatar.md)
   * [GF Flutter Image](src/gf-image.md)
-  * [GF Toggle](src/gf-toggle.md)
+  * [GF Flutter Toggle](src/gf-toggle.md)
   * [GF Loader](src/gf-loader.md)
   * [GF Progress Bar](src/gf-progress-bar.md)
   * [GF Appbar](src/gf-appbar.md)

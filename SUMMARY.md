@@ -22,7 +22,7 @@
     * [Flutter Square Button](src/gf-button/square-button.md)
   * [GF Shimmer](src/gf-shimmer.md)
   * [GF Avatar](src/gf-avatar.md)
-  * [GF Image](src/gf-image.md)
+  * [GF Flutter Image](src/gf-image.md)
   * [GF Toggle](src/gf-toggle.md)
   * [GF Loader](src/gf-loader.md)
   * [GF Progress Bar](src/gf-progress-bar.md)

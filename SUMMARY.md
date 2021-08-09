@@ -15,7 +15,7 @@
   * [GF Flutter Badge](src/gf-badge.md)
   * [GF Rating](src/gf-rating.md)
   * [Flutter Button Widget](src/gf-button/README.md)
-    * [Flutter Pills/Rounded Button](src/gf-button/pills-button.md)
+    * [Flutter Pills/Rounded Button.](src/gf-button/pills-button.md)
     * [Flutter Social Button](src/gf-button/social-button.md)
     * [Flutter Icon Button](src/gf-button/icon-button.md)
     * [Flutter Elevated Button](src/gf-button/standard-button.md)

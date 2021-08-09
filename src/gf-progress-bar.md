@@ -42,6 +42,7 @@ import 'package:getwidget/getwidget.dart';
      percentage: 0.9,
      width:100,
      radius: 90,
+     type: GFProgressType.circular,
      backgroundColor : Colors.black26,
      progressBarColor: GFColors.DANGER
 )

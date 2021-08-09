@@ -28,7 +28,7 @@ GFButton(
 
 ## Flutter Rounded Solid Button
 
-![Flutter Pills Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-solid-button-2x_EQT2X6jAl_BLgdXpw26c7E.png)
+![Flutter Pills/Rounded Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-solid-button-2x_EQT2X6jAl_BLgdXpw26c7E.png)
 
 By default, button **type** is set to `GFButtonType.solid` so,  that we will be able to get pills shaped buttons that have a solid background color with rounded corners.
 

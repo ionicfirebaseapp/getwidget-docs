@@ -7,7 +7,7 @@ description: >-
 
 # GF Toast - A Flutter Toast Widget
 
-## Flutter Toast Info
+## Flutter Toast
 
 ![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
 

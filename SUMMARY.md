@@ -42,5 +42,5 @@
   * [GF Sticky Header](src/gf-sticky-header.md)
   * [GF Dropdown](src/gf-dropdown.md)
   * [GF Multiselect](src/gf-multiselect.md)
-  * [Introduction](src/index.md)
+  * [Flutter GetWidget Docs](src/index.md)
 

@@ -24,7 +24,7 @@ GFButton(
 
 ### Flutter Disabled Button
 
-The **Flutter Disable Button** is used to get a disabled button in the application. The disabled button will have a `null` value on the **onPressed** parameter. The simple code of **GFDisabled Button** is as follows:
+The **Flutter Disable Button** is used to get a disabled button in the application. The disabled button will have a `null` value on the **onPressed** parameter. The simple code of the **GFDisabled Button** is as follows:
 
 ```dart
 GFButton(                          

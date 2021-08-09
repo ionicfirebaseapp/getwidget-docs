@@ -1,20 +1,20 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Elevated Button looks like a solid button with slightly rounded
+  Flutter Standard Button looks like a solid button with slightly rounded
   corners. GF Button has all the variants like an outline, Transparent, Disable,
   and Block button.
 ---
 
-# Flutter Elevated Button
+# Flutter Standard Button
 
-![Flutter Elevated Button Widget UI Kit ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
+![GW Buttons Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
 
-The default button **shape** is set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
+Default button **shape** set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
 
-## Flutter Elevated Solid Button
+## Flutter Solid Button
 
-![Flutter Elevated Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-button-2x_1mtTU6eHS_d9pt0_fS_g.png)
+![Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-button-2x_1mtTU6eHS_d9pt0_fS_g.png)
 
 By default, button **type** is set to Flutter Solid Button`GFButtonType.solid` so, we can get buttons that have a solid background color with slightly rounded corners.
 
@@ -29,9 +29,9 @@ The callback is called when the button is tapped. By adding a callback to **onPr
   ),
 ```
 
-## Flutter Elevated Disabled Button
+## Flutter Disabled Button
 
-![Flutter Elevated Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-button-2x_BF_NVpDS8_LvFp8btIa2.png)
+![Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-button-2x_BF_NVpDS8_LvFp8btIa2.png)
 
 If the callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled as **onPressed** is set to null.
 
@@ -44,9 +44,9 @@ GFButton(
  ),
 ```
 
-## Flutter Elevated Transparent Button
+## Flutter Transparent Button
 
-![Flutter Elevated Transparent Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-button-2x_CnsR7pkJx_1foWmNnyos.png)
+![Transparent Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/transparent-button-2x_CnsR7pkJx_1foWmNnyos.png)
 
 In **GFButton** by adding **type,`GFButtonType.transparent`**  we will get the transparent button. Default GFButton **type** will be `GFButtonType.solid`.
 
@@ -60,11 +60,11 @@ GFButton(
  ),
 ```
 
-## Flutter Elevated Block Button
+## Flutter Block Button
 
-![Flutter Elevated Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
+![Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-buttons-2x_gd1aXxKLI_YTwXCQ0t0.png)
 
-The **Flutter Elevated Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
+**The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -76,11 +76,11 @@ GFButton(
  ),
 ```
 
-## Flutter Elevated Full-Width Button
+## Flutter Full-Width Button
 
-![Flutter Elevated Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
+![Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
-The **Flutter Elevated Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side.  Default **fullWidthButton** set to `false`.
+The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side.  Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -92,9 +92,9 @@ GFButton(
  ),
 ```
 
-## Flutter Elevated Button Size
+## Flutter Button Size
 
-**Flutter Elevated Elevated Button size** can be varied using the **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
+**Flutter Button size** can be varied using the **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -106,11 +106,11 @@ GFButton(
  ),
 ```
 
-## Flutter Elevated Outline Button
+## Flutter Outline Button
 
-![Flutter Elevated Outline Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
+![Outline Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
 
-The **Flutter Elevated Outline Button** describes the Button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline`**.
+**The Flutter Outline Button** describes the Button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -122,13 +122,13 @@ GFButton(
  ),
 ```
 
-Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Elevated Outline Button** also.
+Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline Button** also.
 
-## Flutter Elevated Outline2x Button
+## Flutter Outline2x Button
 
-![Flutter Elevated Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
+![Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x-1_LtgeZktSN_Id3QwQtR2I.png)
 
-**The Flutter Elevated Outline2x Button** describes the Button with a transparent background and a visible border with 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
+**The Flutter Outline2x Button** describes the Button with a transparent background and a visible border with 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

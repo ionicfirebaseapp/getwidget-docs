@@ -39,23 +39,23 @@ GFButton(
 
 ### FLUTTER ELEVATED/STANDARD BUTTON 
 
-**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in **GF Elevated Button** 
+**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in **GF Elevated Button** [**https://docs.getwidget.dev/gf-button/standard-button/**](https://docs.getwidget.dev/gf-button/standard-button/)\*\*\*\*
 
 ### FLUTTER ROUNDED BUTTON 
 
-**Flutter Rounded Button** or **Flutter Pills Button** is a **button in flutter** wherein the corners of the buttons are circular in shape. In other words, it is a button with border-radius in it. For more customizable properties head to **Flutter Pills/Rounded Button**
+**Flutter Rounded Button** or **Flutter Pills Button** is a **button in flutter** wherein the corners of the buttons are circular in shape. In other words, it is a button with border-radius in it. For more customizable properties head to **Flutter Pills/Rounded Button** [https://docs.getwidget.dev/gf-button/pills-button/](https://docs.getwidget.dev/gf-button/pills-button/)
 
 ### FLUTTER ICON BUTTON 
 
-**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about  **Icon Button** head to **the Flutter Icon Button** section.
+**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about  **Icon Button** head to **the Flutter Icon Button** section [https://docs.getwidget.dev/gf-button/icon-button/](https://docs.getwidget.dev/gf-button/icon-button/)
 
 ### **FLUTTER TOGGLE BUTTON**
 
-**Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button.**
+**Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button** [**https://docs.getwidget.dev/gf-toggle/**](https://docs.getwidget.dev/gf-toggle/)\*\*\*\*
 
 ### FLUTTER CIRCULAR BUTTON
 
-**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [**Flutter Pills Buttons**](pills-button.md)**.**
+**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [https://docs.getwidget.dev/gf-button/pills-button/](https://docs.getwidget.dev/gf-button/pills-button/)
 
 #### How to Set Button Color in flutter? 
 

@@ -239,7 +239,7 @@ GFIconButton(
  ),
 ```
 
-| Name  | Description |
+|  |  |
 | :--- | :--- |
 | **Description** | The GFIconButton Shape |
 | **Attribute** | shape |

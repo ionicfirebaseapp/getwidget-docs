@@ -22,7 +22,7 @@ GFButton(
 ),
 ```
 
-### Flutter Disabled Button:
+### Flutter Disabled Button
 
 The **Flutter Disable Button** is used to get a disabled button in the application. The disabled button will have a `null` value on the **onPressed** parameter. The simple code of **GFDisabled Button** is as follows:
 
@@ -37,7 +37,21 @@ GFButton(
 
 **GF Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
-### How to Set Button Color in flutter? 
+### FLUTER RAISED/STANDARD BUTTON 
+
+{% embed url="https://docs.getwidget.dev/gf-button/standard-button/" %}
+
+### FLUTTER ROUNDED BUTTON 
+
+{% embed url="https://docs.getwidget.dev/gf-button/pills-button/" %}
+
+### FLUTTER ICON BUTTON 
+
+{% embed url="https://docs.getwidget.dev/gf-button/icon-button/" %}
+
+
+
+#### How to Set Button Color in flutter? 
 
 **GFColors** are used to change the background of the button.
 
@@ -48,7 +62,7 @@ GFButton(
 | **Type** | `GFColors` |
 | **Default** | GFColors.PRIMARY |
 
-### How to Set Button Size in Flutter?
+#### How to Set Button Size in Flutter?
 
 **GFSize** can be used to determine the size of the buttons as follows:
 
@@ -59,7 +73,7 @@ GFButton(
 | **Type** | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
 | **Default** | `GFSize.MEDIUM` |
 
-### How to Change Button Shape in Flutter?
+#### How to Change Button Shape in Flutter?
 
 The **shape of the button** like **standard**, **square**,  or **pills** can be determined by the shape property.
 
@@ -68,9 +82,9 @@ The **shape of the button** like **standard**, **square**,  or **pills** can be 
 | **Description** | The GFButton Shape |
 | **Attribute** | shape |
 | **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
-| **Default** | `GFButtonShape.standard` |
+| **Default** | `GFButtonShape.standard`  |
 
-### GF Flutter Button Type Properties 
+### GF Flutter Button Type Properties
 
 The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 
@@ -81,7 +95,7 @@ The **button type** of the button like **solid**, **outline** can be determined 
 | **Type** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
 | **Default** | `GFButtonType.solid` |
 
-### How to change Button Position in Flutter?
+#### How to change Button Position in Flutter?
 
 The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 

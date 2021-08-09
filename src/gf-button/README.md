@@ -37,21 +37,37 @@ GFButton(
 
 **GF Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
-### FLUTER RAISED/STANDARD BUTTON 
+### FLUTTER ELEVATED/STANDARD BUTTON 
+
+**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in **GF Elevated Button** shown below:
 
 {% embed url="https://docs.getwidget.dev/gf-button/standard-button/" %}
 
 ### FLUTTER ROUNDED BUTTON 
 
+**Flutter Rounded Button** or **Flutter Pills Button** is a **button in flutter** wherein the corners of the buttons are circular in shape. In other words, it is a button with border-radius in it. For more customizable properties head to **Flutter Pills/Rounded Button**
+
 {% embed url="https://docs.getwidget.dev/gf-button/pills-button/" %}
 
 ### FLUTTER ICON BUTTON 
 
+**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about  **Icon Button** head to **the Flutter Icon Button** section.
+
 {% embed url="https://docs.getwidget.dev/gf-button/icon-button/" %}
 
+### **FLUTTER TOGGLE BUTTON**
 
+**Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button.**
+
+{% page-ref page="../gf-toggle.md" %}
+
+
+
+\*\*\*\*
 
 #### How to Set Button Color in flutter? 
+
+**Button** **Colors** can be the background fill colors for solid buttons or the color can be for the border to the outline buttons.
 
 **GFColors** are used to change the background of the button.
 
@@ -63,6 +79,8 @@ GFButton(
 | **Default** | GFColors.PRIMARY |
 
 #### How to Set Button Size in Flutter?
+
+**Flutter** **Button** can be of any size and can be changed according to the need.
 
 **GFSize** can be used to determine the size of the buttons as follows:
 
@@ -107,6 +125,8 @@ The **GFButton** can be placed in the `start` or at the `end` of the **position*
 | **Default** | `GFPosition.start` |
 
 ### GFButton Custom Properties
+
+**Flutter Buttons** can be customised using **GFButton** Custom properties which are listed below:
 
 | Name | Description |
 | :--- | :--- |

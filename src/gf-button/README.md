@@ -63,7 +63,7 @@ GFButton(
 
 The **shape of the button** like **standard**, **square**,  or **pills** can be determined by the shape property.
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButton Shape |
 | **Attribute** | shape |
@@ -85,7 +85,7 @@ The **button type** of the button like **solid**, **outline** can be determined 
 
 The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 
-| Name | Description  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | Position of icon in the button. |
 | **Attribute** | position |

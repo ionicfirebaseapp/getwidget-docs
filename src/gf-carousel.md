@@ -12,7 +12,7 @@ description: >-
 
 ### Flutter Carousel Slider/Flutter Image Slider
 
-**GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide.
+**GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide. 
 
 ![GF Carousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
 

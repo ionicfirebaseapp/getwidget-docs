@@ -51,7 +51,7 @@ GFButton(
 
 ### **FLUTTER TOGGLE BUTTON**
 
-**Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button** [**https://docs.getwidget.dev/gf-toggle/**](https://docs.getwidget.dev/gf-toggle/)\*\*\*\*
+**Flutter Toggle Button** or **Flutter Toggle Switch** is ****a **switch button** that toggles between two states and the two states are often **ON/OFF** state**.** For more information head to **Flutter Toggle Switch Button** [**https://docs.getwidget.dev/gf-toggle/**](https://docs.getwidget.dev/gf-toggle/)**.**
 
 ### FLUTTER CIRCULAR BUTTON
 

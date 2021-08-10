@@ -1,19 +1,17 @@
 ---
 sidebarDepth: 2
-description: >-
-  GFToggle is a Flutter Toggle Switch that  is used to toggle the ON/OFF state
-  of a single setting.
+description: GFToggle is used to toggle the on/off state of a single setting.
 ---
 
 # GF Flutter Toggle
 
 ![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states. 
+**The Flutter toggle switch** allows the user to toggle the switch between ON or OFF states.
 
 ### GFToggle and its Usage:
 
-**GFToggle** **switch** is a **Flutter Switch Toggle** that permits the user to use this toggle to mark check when it is in **ON** state and mark unchecked when it is in **OFF** state. The **toggle switch** basically switches from ON to OFF state and vice-versa. Let us look at a simple example of GFToggle in the below code.
+**GFToggle** switch permits the user to use this toggle to mark check when it is in **ON** state and mark unchecked when it is in **OFF** state. The **toggle switch** basically switches from ON to OFF state and vice-versa. Let us look at a simple example of GFToggle in the below code.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -24,9 +22,9 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Types of GFToggle.
+### Types of GFToggle
 
-**GFToggle switch** can be divided into  four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an **android toggle.**
+**GFToggle switch** can be divided into  four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an android toggle
 
 ### IOS Toggle:
 
@@ -70,7 +68,7 @@ The **custom** **toggle** can be used to add the text to the on/off state. The d
 
 ![Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
 
-The below code shows a simple custom toggle:
+The below code shows a simple custom toggle
 
 ```dart
 import 'package:getwidget/getwidget.dart';

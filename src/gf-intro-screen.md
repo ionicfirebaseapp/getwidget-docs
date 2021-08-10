@@ -17,8 +17,8 @@ The simple code of a basic GFIntroScreen is as shown below.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens_full_width_tT9qnpWrC.gif)
 
-```dart
-late PageController _pageController;
+```text
+PageController _pageController;
 List<Widget> slideList;
 int initialPage;
 
@@ -135,8 +135,8 @@ List<Widget> slides() {
 
 GF IntroScreenBottomNavigationBar is a bottom bar sit at the bottom end of the screen. This component contains pagination and buttons for naviagtion. It has many features for customising the bottom navigation bar.
 
-```dart
-late PageController _pageController;
+```text
+PageController _pageController;
 int initialPage;
 
 @override
@@ -166,8 +166,8 @@ GFIntroScreen(
 
 GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
 
-```dart
-late PageController _pageController;
+```text
+PageController _pageController;
 List<Widget> slideList;
 int initialPage;
 

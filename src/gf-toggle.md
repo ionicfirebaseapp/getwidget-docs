@@ -70,7 +70,7 @@ The **custom** **toggle** can be used to add the text to the on/off state. The d
 
 ![Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
 
-The below code shows a simple custom toggle
+The below code shows a simple custom toggle:
 
 ```dart
 import 'package:getwidget/getwidget.dart';

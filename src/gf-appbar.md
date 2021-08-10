@@ -1,27 +1,21 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Appbar is a top action bar or a top action button that has a dedicated
-  space with visual structure and interactive elements.
+  GFAppbar is a top action bar, which provides a dedicated space with visual
+  structure and interactive elements.
 ---
 
-# Flutter Appbar
+# GF Appbar
 
 ![GW Appbar Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Appbar_qHw5dgqjR5Q5.png)
 
-**Flutter Appbar** is an action button that is placed on the top of the screen and is a static one. It basically consists of a toolbar and other widgets that can also be used inside the **Flutter Appbar**.
+An app bar consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The GFAppBar displays the toolbar widgets, leading, title, and actions, above.
 
-**GFAppBar** is a **Flutter Appbar** that consists of a **leading button** and the **actions button** in the appbar which will be fixed on the top. **Flutter Appba**r provides flexible space for any widgets.
+## Appbar Info
 
-A **SliverAppbar** is a **Flutter Appbar** that provides a certain height for the appbar which will be scrollable and after some extend of scrolling the appbar will be a fixed one at the top like a normal appbar.
+### Usage
 
-## GFAppbar and its Usage:
-
-A **GFAppBar** is a **Flutter AppBar** widget that consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The **GFAppBar** displays the toolbar widgets, **leading**, **title**, and **actions.** 
-
-**GFAppbar** has a **menu icon button** or flutters **appbar icon** on the top left corner that can be changed according to the need. The **leading appbar button** parameter is used to change the default menu icon button.
-
-The below code shows a simple appbar **with a flutter appbar back button** on the **leading paramter** which is used to go back to the previous page.
+The simple code of a basic GFAppbar is as shown below.
 
 ![Basic Appbar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_3x_cbGIPYmQJ.png)
 
@@ -55,7 +49,7 @@ GFAppBar(
 
 ![GFAppbar with SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_search_3x_1A4y5PZuu.png)
 
-**GFAppbar** has a parameter called`searchBar`wherein it is a boolean variable. If the searchBar is given the value`true`then it displays a search bar textfield in the title space of the appbar with **leading**, **trailing** options. The below code shows the example of how to pass the parameter.
+If searchBar is true, it displays search bar textfield in the title space of the appbar with leading, trailing options.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -88,7 +82,7 @@ GFAppBar(
 
 ![GFAppbar with Segmented Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Segmented_3x_yGAKyoSOD.png)
 
-**Segmented** **tabs** can also be used inside the **GFAppbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. The below code shows a simple segmented tab inside Appbar.
+**Segmented** **tabs** can also be used inside the **Appbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. Below code shows a simple segmented tab inside Appbar
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -120,7 +114,8 @@ TabController tabController;
           indicatorPadding: EdgeInsets.all(8.0),
           indicatorWeight: 2.0,
           border: Border.all(color: Colors.white, width: 1.0),
-             length: 3,
+              initialIndex: 0,
+              length: 3,
               tabs: <Widget>[
                 Text(
                   "Tab1",
@@ -148,14 +143,14 @@ TabController tabController;
 );
 ```
 
-### **GFAppbar Search Bar** Custom Properties:
+Look and feel of the **GFAppbar search bar** can be customized using the GFAppbar properties.
 
-The look and feel of the **GFAppbar search bar** can be customized using the GFAppbar properties.
+### Custom Properties
 
 | Name | Description |
 | :--- | :--- |
 | **searchBar** | If true, displays search bar in the title space |
-| **searchHintText** | It takes the text to displays the search bar hint text |
+| **searchHintText** | It takes text to displays the search bar hint text |
 | **searchHintStyle** | It styles the \[searchHintText\] |
 | **searchTextStyle** | It styles the search text |
 | **searchBarColorTheme** | It defines the search bar icons color theme |
@@ -164,9 +159,9 @@ The look and feel of the **GFAppbar search bar** can be customized using the GFA
 | **onSubmitted** | Called when the user indicates that they are done editing the text in the field. |
 | **onTap** | Called for each distinct tap except for every second tap of a double tap. If the text field is created with enabled false, taps will not be recognized. |
 
-### **GFAppbar** Custom Properties:
-
 Look and feel of the **GFAppbar** can be customized using the GFAppbar properties.
+
+### Custom Properties
 
 <table>
   <thead>

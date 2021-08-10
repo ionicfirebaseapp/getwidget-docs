@@ -20,7 +20,7 @@ The Default button **shape** is set`GFButtonShape.standard`so that we will be ab
 
 ## Flutter Solid Social Button With Text
 
-**GFSocial solid button** has a full background color and text on it. By default, the button **type** is set to `GFButtonType.solid` so, we were able to get buttons that have a solid background color with slightly rounded corners.
+**GFSocial solid button** has a full background color and **text** on it. By default, the button **type** is set to `GFButtonType.solid` so, we were able to get buttons that have a solid background color with slightly rounded corners.
 
 ![Flutter Solid Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 

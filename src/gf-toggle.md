@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFToggle is a Flutter Toggle Switch that  is used to toggle the on/off state
+  GFToggle is a Flutter Toggle Switch that  is used to toggle the ON/OFF state
   of a single setting.
 ---
 
@@ -9,7 +9,7 @@ description: >-
 
 ![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the switch between **ON** or **OFF** states. 
+**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states. 
 
 ### GFToggle and its Usage:
 

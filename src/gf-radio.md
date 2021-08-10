@@ -1,16 +1,16 @@
 ---
 description: >-
-  GF Radio allows the user to choose only one of a predefined set of mutually
-  exclusive options.
+  Flutter Radio Button allows the user to choose only one of a predefined set of
+  mutually exclusive options.
 ---
 
 # GF Radio
 
-## GF Radio Info
-
-![GW Radio Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
+## GF Radio Button
 
 **Flutter RadioBox** permits the user to select only one option in any two sets of mutual options. The radio button has to be checked or unchecked only once in a given set of options.
+
+![GW Radio Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
 
 ### GFRadioButton and its Usage:
 

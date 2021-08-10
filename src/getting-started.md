@@ -5,7 +5,7 @@ description: >-
   in any flutter app or web app project.
 ---
 
-# Getwidget Tutorial
+# Flutter Getwidget Tutorial
 
 ## How to install getwidget in your app? 
 

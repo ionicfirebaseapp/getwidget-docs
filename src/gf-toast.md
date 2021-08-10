@@ -11,7 +11,7 @@ description: >-
 
 ![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
 
-**Flutter Toasts** are simple **messages** or any kind of **warnings** that are displayed for a shorter period of time.
+**Flutter Toasts** are simple **messages** or any kind of **warnings** that are displayed for a shorter period of time. 
 
 ### GFToast Widget :
 

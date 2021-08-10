@@ -2,7 +2,7 @@
 sidebarDepth: 2
 description: >-
   Flutter Card Widget is a component that is a flexible piece of the container
-  wherein there can be a piece of information in it.
+  wherein there can be a block of information in it.
 ---
 
 # Flutter Card

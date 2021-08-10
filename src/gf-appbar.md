@@ -9,9 +9,9 @@ description: >-
 
 ![GW Appbar Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Appbar_qHw5dgqjR5Q5.png)
 
-**Flutter Appbar** is an action button that is placed on the top of the screen and is a static one. It basically consists of a toolbar and other widgets that can also be used inside the **Fluter Appbar**.
+**Flutter Appbar** is an action button that is placed on the top of the screen and is a static one. It basically consists of a toolbar and other widgets that can also be used inside the **Flutter Appbar**.
 
-**GFAppBar** is a **Flutter Appbar** that consists of a **leading button** and the **actions button** in the appbar. **Flutter Appba**r provides flexible space for any widgets.
+**GFAppBar** is a **Flutter Appbar** that consists of a **leading button** and the **actions button** in the appbar which will be fixed on the top. **Flutter Appba**r provides flexible space for any widgets.
 
 A **SliverAppbar** is a **Flutter Appbar** that provides a certain height for the appbar which will be scrollable and after some extend of scrolling the appbar will be a fixed one at the top like a normal appbar.
 

@@ -1,22 +1,25 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFTab is a combination of the Tabbar and TabBarView controlled by tab
-  controller. Where as GFTabBar contains tab buttons which navigate to
-  particular tabBarView page in GFTabBarView.
+  Flutter TabBar is a TabBarView that consists of a pageview that displays the
+  currently selected tab.
 ---
 
 # GF Tab
 
 ![GW Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png)
 
+### **GFTab**
+
+**GFTab** is a combination of the **Tabbar** and **TabBarView** controlled by the tab controller. Whereas GFTabBar contains tab buttons that navigate to a particular **tabBarView** page in GFTabBarView
+
 ## GFTabBar
+
+The **GFTabBar** is a component that contains a set of tab buttons. A tab bar must be provided **tabController** to communicate with each **tabBarView** Component.
 
 ![GF TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_labelled_tabs_3x_Tj9Q0jtsE.png)
 
-The GFTabBar is a component that contains a set of tab buttons. A tab bar must be provided tabController to communicate with each tabBarView Component.
-
-TabController should be initialized, to communicate between Tabbar and Tabbarview.
+**TabController** should be initialized, to communicate between Tabbar and Tabbarview.
 
 ```dart
 late TabController tabController;
@@ -34,7 +37,7 @@ void dispose() {
 }
 ```
 
-Below code gives, default GFTabBar with 3 children, children can be any type of widget.
+The below code gives, default GFTabBar with 3 children, children can be any type of widget.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -65,9 +68,9 @@ GFTabBar(
 ),
 ```
 
-Look and feel of the GFTabBar can be customized using the GFTabBar properties.
-
 ### Custom Properties
+
+The look and feel of the **GFTabBar** can be customized using the **GFTabBar** properties.
 
 | Name | Description |
 | :--- | :--- |

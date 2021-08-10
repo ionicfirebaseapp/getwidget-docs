@@ -18,7 +18,7 @@ The simple code of a basic GFBottomsheet is as shown below.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png)
 
-```dart
+```text
 final GFBottomSheetController _controller = GFBottomSheetController();
 
 Scaffold(
@@ -35,7 +35,7 @@ Scaffold(
           backgroundImage: AssetImage('assets image here'),
         ),
         titleText: 'GetWidget',
-        subTitleText: 'Open source UI library',
+        subtitleText: 'Open source UI library',
       ),
     ),
     contentBody: Container(
@@ -91,7 +91,7 @@ Scaffold(
 
 GF Bottomsheet allow user to expand content body to display the more content. The property `enableExpandableContent`  on `true` state makes content body expandable.
 
-```dart
+```text
 final GFBottomSheetController _controller = GFBottomSheetController();
 
 GFBottomSheet(
@@ -108,7 +108,7 @@ GFBottomSheet(
         backgroundImage: AssetImage('asset image here'),
       ),
       titleText: 'Eva Mendez',
-      subTitleText: '11 minutes ago',
+      subtitleText: '11 minutes ago',
     ),
   ),
   contentBody: SingleChildScrollView(

@@ -9,13 +9,11 @@ description: >-
 
 ![GW Loader Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
-**Flutter Loader** is a circular indicator that will be loading continuously that indicates something is about to loaded.
+## Loader Info
 
-### GFLoader and its Usage:
+### Usage
 
-**GFLoader** is a circular spinner that spins over time which signifies that some part of the program is about to get executed.
-
-The basic code of a simple **GFLoader** is as shown below. There are five types in which the default corresponds to the android type of loader.
+The basic code of a simple GFLoader is as shown below. There are five types in which the default corresponds to android type of loader.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -24,7 +22,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Types of Loaders
 
-There are five different types of loaders namely **android**, **ios,** **circle**, **square,** and **custom**
+There are five different types of loaders namely **android** , **ios,** **circle**, **square** and **custom**
 
 ### **IOS Loader**
 
@@ -43,7 +41,7 @@ import 'package:getwidget/getwidget.dart';
 
 ![Circular Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
 
-A simple **circular** **shape loader** in which the type of the loader should be passed to **circle**. The code is as shown below.
+A simple **circular** shape loader in which the type of the loader should be passed to **circle**. The code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -57,7 +55,7 @@ import 'package:getwidget/getwidget.dart';
 
 ![Square Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
 
-A simple **square** **shape loade**r in which the type of the loader should be passed to **square**. The code is as shown below.
+A simple **square** shape loader in which the type of the loader should be passed to **square**. The code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -69,7 +67,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Custom Loader
 
-Apart from the four types described above, there is a **custom loader** in which we can pass text, icons, images, etc as the parameters to show a variety of customized loaders. The below code shows the custom loader with a gif in it.
+Apart from the four types described above, there is a custom loader in which we can pass text, icons, images etc as the parameters to show a variety of customised loaders. The below code shows the custom loader with a gif in it.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -82,7 +80,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Custom Loader with Icon
 
-The below code shows custom loaders with icons in them.
+The below code shows custom loaders with icons in it.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -97,7 +95,7 @@ GFLoader(
 
 ### Custom Loader with text
 
-We can also pass **text** as a parameter to the custom loader. The below code shows a simple usage.
+We can also pass text as a parameter to custom loader. The below code shows a simple usage.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -110,9 +108,7 @@ GFLoader(
 ),
 ```
 
-### GFLoader Custom Properties:
-
-The look and feel of **GFLoader** can be customized using the below properties.
+### Custom Properties
 
 |  |  |
 | :--- | :--- |

@@ -1,21 +1,21 @@
 ---
 description: >-
-  GFRadio ListTile is radio button with listTile to display labels and which
-  allows the user to choose only one of a predefined set of mutually exclusive
-  options.
+  Flutter RadioListTile is radio button with a listTile to display labels and
+  which allows the user to choose only one of a predefined set of mutually
+  exclusive options.
 ---
 
 # GF Radio ListTile
 
-## GF Radio ListTile Info
-
-![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
+## GF Radio ListTile 
 
 **Flutter RadioBoxListTile** is a list of items wherein the user can check or uncheck only one item in the list. It allows users to select only one option inside the list. GFRadioBoxListTile can also be positioned right or left of the screen according to the need.
 
+![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
+
 ### GFRadioListTile and its Usage:
 
-The simple code with an **avatar** of GFRadioListTile is as shown below.
+GFRadioListTile can have a simple list with title or two lines of title and description or with **GFAvatar**. The simple code with an **avatar** of GFRadioListTile is as shown below.
 
 ![GW RadioListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
 
@@ -64,7 +64,7 @@ GFRadioListTile(
 
 ### **GFRadioListTile** Custom Properties
 
-he look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
+The look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
 
 <table>
   <thead>

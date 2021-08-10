@@ -1,8 +1,6 @@
 ---
 sidebarDepth: 2
-description: >-
-  Flutter Icon button is a button that has a icon with solid background fill
-  color in it.
+description: 'Icon Button having features of a standard, solid button with label and icon.'
 ---
 
 # Flutter Icon Button
@@ -10,10 +8,6 @@ description: >-
 ![GF Flutter Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png)
 
 ## Flutter Icon Button
-
-**Flutter Icon Button** or **Icon Button Flutter** is a flutter button where the button has icons on them.  
-
-**GFIcon Button** is an **Icon Flutter Button** that can have an icon, text, and a combination of both icon and text on it. 
 
 **GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and types. One of them is **Flutter Icon Button.**
 
@@ -23,7 +17,7 @@ The Default button **shape** is set to`GFIconButtonShape.standard`so that we wil
 
 ![Flutter Disabled Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x_bIhj5gtao_KuzmzE36rim8.png)
 
-Default **GFIconButton's** **onPressed** will be null, which gives the Disabled button.
+Default GFIconButton's onPressed will be null, which gives the Disabled button.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -34,7 +28,7 @@ GFIconButton(
 ),
 ```
 
-**GF IconButtons** can be styled with several attributes to look in a specific way. All the attributes are described below.
+GF IconButtons can be styled with several attributes to look in a specific way. All the attributes are described below.
 
 ## Flutter Solid Icon Button
 
@@ -107,7 +101,7 @@ GFButton(
 
 ![Flutter Pills Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-icon-button-2x_o-E933fNd_XL_kSsNAyvto.png)
 
-We will be able to get **pills shaped** button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** . 
+We will be able to get **pills shaped** button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** .
 
 ```dart
 import 'package:getwidget/getwidget.dart';

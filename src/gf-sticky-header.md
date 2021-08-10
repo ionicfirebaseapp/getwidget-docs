@@ -1,5 +1,7 @@
 ---
-description: GF Sticky Header will the stick header at top when content is being scrolled.
+description: >-
+  Flutter Sticky Header is a widget that will stick on top which has scrollable
+  content.
 ---
 
 # GF Sticky Header

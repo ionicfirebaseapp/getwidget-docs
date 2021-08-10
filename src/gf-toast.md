@@ -13,7 +13,7 @@ description: >-
 
 **Flutter Toasts** are simple **messages** or any kind of **warnings** that are displayed for a shorter period of time. 
 
-### GFToast Widget :
+### GFToast Widget and its Usage
 
 **GFToast** is a **Flutter Toast** that is used to show **toast messages** or **errors** in a given interval of time and it can have a button to dismiss the messages.
 

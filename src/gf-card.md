@@ -1,17 +1,19 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFCard is a Flutter Card Widget component. It is a flexible piece of the
-  container wherein there can be a piece of information in it.
+  Flutter Card Widget is a component that is a flexible piece of the container
+  wherein there can be a block of information in it.
 ---
 
-# GF Card - Flutter Card Widget
+# Flutter Card
 
 ![GF Card](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png)
 
 ### GFCard Usage:
 
-The **GFCard -** A Flutter Card widget can be used in any section of the application to display certain types of information about the application. It can be simply used with a **title** and **buttons**. The simple code below gives a **basic GFCard**.
+**GFCard** is a **Flutter Card** that is used in any section of the application to display certain types of information about the application. It can be simply used with a **title** and **buttons.** 
+
+A **card** typically has a slight **border radius** and **box shadow** around it that gives a classic look to the card. It typically has two action buttons, some information and it can even contain images in it. The simple code of a card is sho**w**n below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -44,7 +46,7 @@ buttonBar: GFButtonBar(
 
 ### GFCards with [Flutter Avatar](gf-avatar.md)
 
-**GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an avatar gives more precise information about the block. Hence GFAvatar can be used with **GFCard** to make a **GFCard Avatar.**
+**GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an **avatar** gives more precise information about the block. Hence **GFAvatar** can be used with **GFCard** to make a **GFCard Avatar.**
 
 ![GFCards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards_with_avatars_3x_wiStZFa9L.png)
 
@@ -101,7 +103,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### GFCards with OverlayImage:
 
-**GFCards** has **OverlayImage** property wherein a **background image** can be placed and upon the image any widget like Text, buttons can be used as shown in the image below.
+**GFCards** has **OverlayImage** property wherein a **background image** can be placed and upon the image any widget like **Text**, **buttons** can be used as shown in the image below.
 
 ![GFCards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7_-j3RXaSa2.webp)
 

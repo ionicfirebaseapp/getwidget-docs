@@ -158,7 +158,7 @@ GFButton(
 
 ![Flutter Social Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63_tp2AOfDiWy.png)
 
-**The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state, `true` it will change the button to a full-width block with rounded corners. Default **blockButton** is set to `false`.
+**The Flutter Block button** specifies how wide the button should be with some spacing on both the left and right sides. By setting **blockButton** state, `true` it will change the button to a full-width block. Default **blockButton** is set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -176,7 +176,7 @@ GFButton(
 
 ![Flutter Full Width Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
 
-The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side. Default **fullWidthButton** set to `false`.
+The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button. Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

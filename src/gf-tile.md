@@ -1,15 +1,15 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFTile represents a single row that typically contains some text as title,
-  subtitle,  icons as trailing and additional text as description
+  Flutter ListTile represents a single row that typically contains some text as
+  title, subtitle,  icons as trailing, and additional text as the description.
 ---
 
-# GF ListTile
+# Flutter ListTile
 
 ![GW ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png)
 
-**GFListTile** is a widget that is used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**.
+**GFListTile** is a **Flutter LisTile** that is a widget used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**. The **ListTile background color** can be changed using the color property.
 
 ## GFListTile Usage
 

@@ -9,7 +9,7 @@ description: >-
 
 ![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the switch between **ON** or **OFF** states.
+**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the switch between **ON** or **OFF** states. 
 
 ### GFToggle and its Usage:
 

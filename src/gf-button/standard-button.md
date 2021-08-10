@@ -10,7 +10,7 @@ description: >-
 
 ![Flutter Elevated Button Widget UI Kit ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png)
 
-The default button **shape** is set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
+The default **GF button** **shape** is set to `GFButtonShape.standard` so that we will be able to get the standard shaped button with solid background color with slightly rounded corners.
 
 ## Flutter Elevated Solid Button.
 

@@ -12,9 +12,9 @@ description: >-
 
 ### Flutter Carousel Slider/Flutter Image Slider
 
-![GF Carousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
-
 **GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide.
+
+![GF Carousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
 
 Below is a simple example of one image in one slide of **GFCarousel**:
 
@@ -82,9 +82,9 @@ The look and feel of the **GF carousel** widget for the Flutter app can be custo
 
 ### GFCarousel with Multiple Items
 
-![GW ItemsCarousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousal-image-Multiple_items_UzBeEj6VU.png)
-
 **GFCarousel** can have any number of images and it can also have multiple images in just one slide. It supports **multi-image** slides. The **ItemsCarousel** component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide component.
+
+![GW ItemsCarousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousal-image-Multiple_items_UzBeEj6VU.png)
 
 In the below code, the list of Images given to the children in the **GFItemsCarousel**, that allows sliding each slide container that contains multiple items. The below code gives the default multi-image slider component.
 

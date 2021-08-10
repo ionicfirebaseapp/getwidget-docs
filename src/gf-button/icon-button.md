@@ -11,7 +11,7 @@ description: >-
 
 ## Flutter Icon Button
 
-**Flutter Icon Button** or **Icon Button Flutter** is a flutter button where the button has icons on them. 
+**Flutter Icon Button** or **Icon Button Flutter** is a flutter button where the button has icons on them.  
 
 **GFIcon Button** is an **Icon Flutter Button** that can have an icon, text, and a combination of both icon and text on it. 
 

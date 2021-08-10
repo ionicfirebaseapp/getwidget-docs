@@ -11,7 +11,7 @@ description: >-
 
 ### **GFTab**
 
-**GFTab** is a combination of the **Tabbar** and **TabBarView** controlled by the tab controller. Whereas GFTabBar contains tab buttons that navigate to a particular **tabBarView** page in GFTabBarView
+**GFTab** is a combination of the **Tabbar** and **TabBarView** controlled by the tab controller. Whereas GFTabBar contains tab buttons that navigate to a particular **tabBarView** page in GFTabBarView.
 
 ## GFTabBar
 

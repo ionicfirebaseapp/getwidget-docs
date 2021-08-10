@@ -9,7 +9,7 @@ description: >-
 
 ![GW ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png)
 
-**GFListTile** is a Flutter LisTile that is a widget used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**.
+**GFListTile** is a **Flutter LisTile** that is a widget used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**. The **ListTile background color** can be changed using the color property.
 
 ## GFListTile Usage
 

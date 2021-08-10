@@ -19,7 +19,7 @@ The **GFTabBar** is a component that contains a set of tab buttons. A tab bar mu
 
 ![GF TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_labelled_tabs_3x_Tj9Q0jtsE.png)
 
-**TabController** should be initialized, to communicate between Tabbar and Tabbarview.
+**TabController** should be initialized, to communicate between **Tabbar** and **Tabbarview**.
 
 ```dart
 late TabController tabController;

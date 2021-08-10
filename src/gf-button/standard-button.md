@@ -18,7 +18,7 @@ The default **GF button** **shape** is set to `GFButtonShape.standard` so that w
 
 ![Flutter Elevated Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-button-2x_1mtTU6eHS_d9pt0_fS_g.png)
 
-By default, **button** **type** is set to **Flutter Solid Button**`GFButtonType.solid` so, we can get buttons that have a **solid background color** with slightly rounded corners.
+By default, **button** **type** is set to **Flutter Solid Button**`GFButtonType.solid` so, we can get buttons that have a **solid background color** with slightly rounded corners.  
 
 The **callback** is called when the button is tapped. By adding a callback to the **onPressed** parameter it enables the button.
 

@@ -5,7 +5,7 @@
   * [Flutter GetWidget Docs](src/introduction.md)
   * [Flutter Getwidget Tutorial](src/getting-started.md)
   * [GF Flutter Accordion](src/gf-accordion.md)
-  * [GF Checkbox](src/gf-checkbox.md)
+  * [GF Flutter Checkbox](src/gf-checkbox.md)
   * [GF Checkbox ListTile](src/gf-checkbox-listtile.md)
   * [GF Radio](src/gf-radio.md)
   * [GF Radio ListTile](src/gf-radio-listtile.md)

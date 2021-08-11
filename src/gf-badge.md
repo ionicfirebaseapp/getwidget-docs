@@ -52,7 +52,7 @@ GFBadge(
  ),
 ```
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The GFBadge Shape |
 | **Attribute** | shape |
@@ -70,7 +70,7 @@ GFBadge(
 | **bordershape** | defines the shape of the border |
 | **color** | GFColor is used to change the background of the button. |
 
-### Flutter Button with GFBadges
+### How to add badges in flutter button?
 
 **GFBadges** can be used with buttons to display the number of notifications the active widget has. Below is the code for the button with GFBadge.
 
@@ -187,7 +187,7 @@ GFButtonBadge(
 
 **GFColor** is used to change the background of the button.
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The color to use from application's color pallete |
 | **Attribute** | color |
@@ -198,7 +198,7 @@ GFButtonBadge(
 
 **GFSize** property is used to change the size of **GFBadge**
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Size |
 | **Attribute** | size |
@@ -209,7 +209,7 @@ GFButtonBadge(
 
 **GFBadge** shape can be changed using the **shape** parameter as shown below
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Shape |
 | **Attribute** | shape |
@@ -220,7 +220,7 @@ GFButtonBadge(
 
 **GFBadge** type can be changed using the **type** parameter as shown below
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Type |
 | **Attribute** | type |
@@ -231,7 +231,7 @@ GFButtonBadge(
 
 **GFBadge** position can be changed using the **position** parameter as shown below
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **Description** | The GFButtonBadge Position |
 | **Attribute** | position |
@@ -340,7 +340,7 @@ GFIconBadge(
 ),
 ```
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **Description** | The GFIconButton Shape |
 | **Attribute** | shape |

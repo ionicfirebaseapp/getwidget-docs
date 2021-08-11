@@ -1,26 +1,22 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Accordion expands or collapses the view of its children when it is
+  GF Flutter Accordion expands or collapses the view of its children when it is
   tapped. GFAccordion is used to collapse and expand the content to view the
-  messages or the description of the given title
+  messages.
 ---
 
-# GF Accordion
+# GF Flutter Accordion
 
-![GF Accordion Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png)
+![GF Flutter Accordion Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png)
 
 **Flutter Accordion** is an expansion tile wherein the **content** or the **body** of the **title** will be hidden or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any widget and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need.
 
-## GFAccordion and its Usage:
+### GF Flutter Accordion and its Usage:
 
 **GFAccordion** is a **Flutter Accordion** that is an expansion tile wherein the **content** or the **body** of the **title** will be **hidden** or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any **widget** and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need. 
 
-## GFAccordion and its Usage:
-
-**GFAccordion** has a simple **title** and its **content** as arguments and it can also be customized. Now let us take a look at a simple code of **GFAccordion**:
-
-**GFAccordion** has a simple title and its content as arguments and it can also be customized. Now let us take a look at a simple code of GFAccordion:
+**GFAccordion** has a simple **title** and its **content** as arguments and it can also be customized. Now let us take a look at a simple code of **GFAccordion**
 
 ```dart
  import 'package:getwidget/getwidget.dart';
@@ -31,11 +27,9 @@ GFAccordion(
 )
 ```
 
-## Accordion with Icon
+### Flutter Accordion with Icon
 
-## Accordion with Icon
-
-![Accordion with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordion-with-icon-2x_zWtnsZQmZ.png)
+![Flutter Accordion with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordion-with-icon-2x_zWtnsZQmZ.png)
 
 **Icons** are mostly used in **GFAccordion** to show whether the content is **expanded** or **collapsed**. The most commonly used icons are the **up and down arrow icons**. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
@@ -52,9 +46,9 @@ GFAccordion(
 ),
 ```
 
-## Accordion with trailing Text
+### Flutter Accordion with trailing Text
 
-![Accordion with trailing text](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordian-with-text-2x_zitIBS6DI_FMr8uWr38.png)
+![Flutter Accordion with trailing text](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordian-with-text-2x_zitIBS6DI_FMr8uWr38.png)
 
 The **icons** represent whether the **Accordion** is collapsed or expanded. We can customize the icons by using a **Text widget** instead of icons. The text can be usually **open or close**, **hide or show**. In the below example code we have **hide and show** text in place of **up and down** arrows.
 
@@ -71,11 +65,11 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-## GFAccordion Custom Properties
+### GF Accordion Custom Properties
 
 A simple **GFAccordion** can be customized according to the need and hence there are other custom properties that are listed below:
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **showAccordion** | controls if the accordion should be collapsed or not making it possible to be controlled from outside |
 | **titleChild** | child of type \[Widget\]is an alternative to the title key. the title will get priority over titleChild |

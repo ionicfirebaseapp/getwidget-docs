@@ -4,6 +4,7 @@ description: >-
   Tapping a GF Accordion expands or collapses the view of its children.
   GFAccordion is used to collapse and expand the content to view the messages or
   the description of the given title
+image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
 ---
 
 # GF Accordion

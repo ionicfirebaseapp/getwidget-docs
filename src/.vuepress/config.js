@@ -283,7 +283,7 @@ module.exports = {
                     '/gf-rating',
                 ],
             },
-             {
+            {
                 title: 'GF Dropdown',
                 path: '/gf-dropdown',
                 collapsable: true,
@@ -426,6 +426,13 @@ module.exports = {
                 ga: 'UA-165669152-1'
             }
         ],
-        ['autometa', default_options]
+        ['autometa', default_options],
+        [
+            "@mr-hope/sitemap",
+            {
+                hostname: "https://docs.getwidget.dev/",
+                changefreq: "daily"
+            },
+        ],
     ],
 }

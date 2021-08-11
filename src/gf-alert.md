@@ -3,6 +3,7 @@ sidebarDepth: 2
 description: >-
   GFAlert is a simple Flutter alert widget which is used to show some
   information and wait for the user's action.
+image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
 ---
 
 # GF Alert - A Flutter Alert Widget

@@ -3,6 +3,7 @@ description: >-
   GF Animations make UI feel more interesting, it make look and feel of the app
   more polished and improve the user experience. GF Animation makes it easy to
   implement a variety of animation.
+image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
 ---
 
 # GF Animation

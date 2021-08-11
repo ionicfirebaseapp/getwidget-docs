@@ -1,9 +1,8 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFAlert is a simple Flutter alert widget which is used to show some
-  information and wait for the user's action.
-image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
+  The Flutter alert widget is used to show some information and wait for the
+  user's action.
 ---
 
 # GF Alert - A Flutter Alert Widget
@@ -13,6 +12,10 @@ image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/A
 ![GW Alert Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
 
 ### GFAlert and its Usage:
+
+**GFAlert** is a **Flutter Alert Dialog** that shows upon clicking the relevant button that gives some kind of information or messages and it apparently has some action buttons.
+
+**GFAlert** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The **GFAlert** code is as shown below.
 
 **GFAlert** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
 
@@ -96,6 +99,8 @@ Scaffold(
 
 ![Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
 
+**GFAlert** can have two or more buttons for call of action in the **bottombar** of the **alert** widget. The code below shows the multiple buttons
+
 **GFAlert** can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons
 
 ```dart
@@ -139,6 +144,8 @@ import 'package:getwidget/getwidget.dart';
 ```
 
 ### Types of Alert
+
+There are three types of **alerts** ie, `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
 
 There are three types of **alerts** ie , `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
 

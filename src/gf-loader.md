@@ -1,15 +1,15 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFLoader is a progress indicator which spins to indicate that the application
-  is busy. It usually progresses along a circle.
+  Flutter Loader is a progress indicator that spins to indicate that the
+  application is busy. It usually progresses along a circle.
 ---
 
 # GF Loader
 
 ![GW Loader Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
-**Flutter Loader** is a circular indicator that will be loading continuously that indicates something is about to loaded.
+**GFLoader** is a **Flutter Loader** is a circular indicator that will be loading continuously that indicates something is about to load.
 
 ### GFLoader and its Usage:
 

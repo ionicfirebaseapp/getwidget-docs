@@ -1,8 +1,9 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFToast is a Flutter Toast Widget that can be used to display quick warning or
-  error messages.
+  Flutter Toasts are simple messages or any kind of warnings that are displayed
+  for a shorter period of time.GFToast is a Flutter Toast Widget that can be
+  used to display quick warning or error messages
 ---
 
 # GF Toast - A Flutter Toast Widget
@@ -10,8 +11,6 @@ description: >-
 ## Flutter Toast
 
 ![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
-
-**Flutter Toasts** are simple **messages** or any kind of **warnings** that are displayed for a shorter period of time. 
 
 ### GFToast Widget and its Usage
 

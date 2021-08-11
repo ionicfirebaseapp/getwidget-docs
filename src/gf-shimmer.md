@@ -1,9 +1,9 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF Shimmer gives a shimmer effect for the child, that can be used to indicate
-  a loading status. So instead of using ProgressBar or usual loader use GF
-  Shimmer for a better design and user interface.
+  GF Shimmer gives a shimmery effect for the child, that can be used to indicate
+  a loading status. So instead of using ProgressBar or loader use GF Shimmer for
+  a better design and user interface.
 ---
 
 # GF Shimmer
@@ -18,7 +18,7 @@ description: >-
 
 ![Shimmer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_3x_pRKTr4X6_r.png)
 
-The below code gives a simple Flutter Shimmer effect for children with the main color and secondary color.
+The below code gives a simple **Flutter Shimmer effect** for children with the main color and secondary color.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

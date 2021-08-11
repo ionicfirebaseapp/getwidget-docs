@@ -1,19 +1,19 @@
 ---
 description: >-
-  GF Intro Screen is virtual unique interactive Slider that helps users get
-  started with an app. It has many features that helps to build custom-made
+  GF Intro Screen is a virtual unique interactive Slider that helps users get
+  started with an app. It has many features that help to build custom-made
   introduction screen sliders.
 ---
 
 # GF Intro Screen
 
-### GF Intro Screen Info
+### GF Intro Screen
+
+**GFIntro Screen** is a **Flutter IntroScreen** that has sliders and gives information about the application. It can have as many slides as the application needs. It is a user-friendly widget that pops upon opening the application to give a brief introduction to the app.
 
 ![GW Introscreens](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Intro_screens_docs_banner-compressed_IQ9kTYzvLEsR.gif)
 
-#### Usage
-
-The simple code of a basic GFIntroScreen is as shown below.
+The simple code of a basic **GFIntroScreen** is as shown below.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens_full_width_tT9qnpWrC.gif)
 
@@ -133,7 +133,7 @@ List<Widget> slides() {
 
 ### GF IntroScreenBottomNavigationBar
 
-GF IntroScreenBottomNavigationBar is a bottom bar sit at the bottom end of the screen. This component contains pagination and buttons for naviagtion. It has many features for customising the bottom navigation bar.
+**GF IntroScreenBottomNavigationBar** is a bottom bar that sits at the bottom end of the screen. This component contains pagination and buttons for navigation. It has many features for customizing the bottom navigation bar.
 
 ```dart
 late PageController _pageController;
@@ -164,7 +164,7 @@ GFIntroScreen(
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens-half_-Ptb6PZ669.gif)
 
-GFIntroScreen  and GFIntroScreenBottomNavigationBar components features allows user to create customized  intro screen with or without  BottomNavigationBar for the more flexible and interactive UI design.
+**GFIntroScreen**  and **GFIntroScreenBottomNavigationBar** components features allows user to create customized  **intro screen** with or without  BottomNavigationBar for the more flexible and interactive UI design.
 
 ```dart
 late PageController _pageController;
@@ -289,9 +289,9 @@ List<Widget> slides() {
 }
 ```
 
-### Custom Properties
+### **GFIntroScreen** Custom Properties
 
-Look and feel of the **GFIntroScreen** can be customized using the GFIntroScreen properties.
+Look and feel of the **GFIntroScreen** can be customized using the **GFIntroScreen** properties.
 
 |  |  |
 | :--- | :--- |

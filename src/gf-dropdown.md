@@ -1,22 +1,24 @@
 ---
 description: >-
-  GF Dropdown let user to select from the number of items and display selected
-  item in the button. It displays list of items in the overlay dropdown fashion.
+  Flutter Dropdown allows the user to select a value from the number of list
+  items and display the selected item.
 ---
 
 # GF Dropdown
 
-### GF Dropdown Info
+### GF Dropdown
+
+**GFDropdown** is a Flutter Ddropdown that lets users select from the number of items and display the selected item. It displays a list of items in the overlay dropdown fashion. It has an arrow button to show the dropdown list.
 
 ![GW Dropdown](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_Drop_down_2x_R8HnHoR9S.png)
 
-#### Usage
+#### GFDropdown Usage
 
-The simple code of a basic GFDropdown is as shown below. 
+The simple code of a basic **GFDropdown** is as shown below. 
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/DROP_DOWN-BASIC_pl2dlIIoM.gif)
 
-```text
+```dart
 String dropdown;
 
 Container(
@@ -54,13 +56,13 @@ Container(
 
 ### Customized GF Dropdown
 
-GFDropdown features allows user to create customized dropdown for the more flexible and interactive UI design.
+GFDropdown features allow users to create a customized dropdown for the more flexible and interactive UI design.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dropdown-custom_YPxBvxKZJbi.gif)
 
 
 
-```text
+```dart
 String dropdown;
 
 Container(
@@ -96,9 +98,9 @@ Container(
 ),
 ```
 
-### Custom Properties
+### **GFDropdown** Custom Properties
 
-Look and feel of the **GFDropdown** can be customized using the GFDropdown properties.
+The look and feel of the **GFDropdown** can be customized using the GFDropdown properties.
 
 <table>
   <thead>

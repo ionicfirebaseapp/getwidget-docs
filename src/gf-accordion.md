@@ -1,10 +1,9 @@
 ---
 sidebarDepth: 2
 description: >-
-  Tapping a GF Accordion expands or collapses the view of its children.
-  GFAccordion is used to collapse and expand the content to view the messages or
-  the description of the given title
-image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
+  Flutter Accordion expands or collapses the view of its children when it is
+  tapped. GFAccordion is used to collapse and expand the content to view the
+  messages or the description of the given title
 ---
 
 # GF Accordion
@@ -14,6 +13,12 @@ image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/A
 **Flutter Accordion** is an expansion tile wherein the **content** or the **body** of the **title** will be hidden or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any widget and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need.
 
 ## GFAccordion and its Usage:
+
+**GFAccordion** is a **Flutter Accordion** that is an expansion tile wherein the **content** or the **body** of the **title** will be **hidden** or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any **widget** and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need. 
+
+## GFAccordion and its Usage:
+
+**GFAccordion** has a simple **title** and its **content** as arguments and it can also be customized. Now let us take a look at a simple code of **GFAccordion**:
 
 **GFAccordion** has a simple title and its content as arguments and it can also be customized. Now let us take a look at a simple code of GFAccordion:
 
@@ -28,7 +33,11 @@ GFAccordion(
 
 ## Accordion with Icon
 
+## Accordion with Icon
+
 ![Accordion with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordion-with-icon-2x_zWtnsZQmZ.png)
+
+**Icons** are mostly used in **GFAccordion** to show whether the content is **expanded** or **collapsed**. The most commonly used icons are the **up and down arrow icons**. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
 Icons are mostly used in **Accordion** to show whether the content is expanded or collapsed. The most commonly used icons are the **up and down arrow icons**. But we can use different icons to represent the hide and show event by using **collapsedIcon** and **expandedIcon**. The below code shows the usage:
 
@@ -46,6 +55,8 @@ GFAccordion(
 ## Accordion with trailing Text
 
 ![Accordion with trailing text](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordian-with-text-2x_zitIBS6DI_FMr8uWr38.png)
+
+The **icons** represent whether the **Accordion** is collapsed or expanded. We can customize the icons by using a **Text widget** instead of icons. The text can be usually **open or close**, **hide or show**. In the below example code we have **hide and show** text in place of **up and down** arrows.
 
 The **trailing** part or the right part of the **Accordion** takes any widget like text, icon, etc. The below code shows the accordion with the **text**.
 

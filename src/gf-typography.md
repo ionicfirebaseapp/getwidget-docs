@@ -9,11 +9,13 @@ description: >-
 
 ![GF Typography](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Typography_WU9Jso1UwI.png)
 
-## Typography Info
+**Flutter Typography** is the art of arranging letters according to the need in order to make a clean styling of texts and words.
 
-### Usage
+## GFTypography
 
-The simple Typography code is as shown below
+**GFTypography** is a **Flutter Typograpphy** that arranges the texts in a clean pattern with font weight, font size in order to give a stylish and smooth effect to the words.
+
+The simple **GFTypography** code is as shown below
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -23,9 +25,9 @@ GFTypography(
 ),
 ```
 
-### Size
+### GFTypography Size
 
-The different sizes of Typography differs from **Typo1** to **Typo6**
+**GFTypograhy** comes in different sizes that vary from **Typo1** to **Typo6. The below** code shows **Typo1** example.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -36,7 +38,9 @@ GFTypography(
 ),
 ```
 
-### With Icon
+### GFTypography With Icon
+
+GFTypography comes with different typo and it can be used with any kind of **icon**. The usual usage can be a **GFAvatar** to show the image and the name as shown in the below example.
 
 ![GF Typography with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_icon_3x_f-2jWZF_2.png)
 
@@ -50,7 +54,9 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### With BackgroundImage
+### GFTypgraphy With BackgroundImage
+
+**GFTypography** can have a **background image** in it and the **text or icon with the text** on it. The background image gives a more specific feature to GFTypography. The below code shows the **GFTypography** on **BackgroundImage**.
 
 ![GF Typography with Background Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_image_3x_EMzRHJ-fi.png)
 
@@ -65,7 +71,9 @@ GFTypography(
 ),
 ```
 
-### Custom Properties
+### GFTypography Custom Properties
+
+The look and feel can be customized using **GFTypography** properties.
 
 |  |  |
 | :--- | :--- |

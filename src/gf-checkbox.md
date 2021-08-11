@@ -1,7 +1,7 @@
 ---
 description: >-
-  GFCheckbox allows user to select one or more options. Flutter Checkbox allows
-  the user to make a choice between one or more options.
+  Flutter Checkbox allows user to select one or more options. The Flutter
+  Checkbox allows the user to make a choice between one or more options.
 ---
 
 # GF Checkbox
@@ -10,11 +10,11 @@ description: >-
 
 ![GW Checkbox Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png)
 
-**GFCheckbox** is a **flutter widget** that permits the user to select one or more than one option in a given set of lists. It can have any number of possible ticks. The user can check and uncheck on the boxes provided.
-
 ### GFCheckbox and its Usage:
 
-The simple code of a basic GFCheckbox is as shown below.
+**GFCheckbox** is a **Flutter CheckBox widget** that permits the user to select one or more than one option in a given set of lists. It can have any number of possible ticks. The user can check and uncheck on the boxes provided.
+
+The simple code of a basic **GFCheckbox** is as shown below.
 
 ```dart
 bool isChecked = false;
@@ -81,7 +81,7 @@ GFCard(
 ),
 ```
 
-### Square Checkbox:
+### Square GFCheckbox:
 
 **GFCheckbox** has **square** type checkbox. Here the box will not have any border radius and it will be in a square shape as shown in the below image. Hence the name **Square Checkbox**. The below code shows the example of a square checkbox:
 
@@ -186,7 +186,7 @@ GFCard(
 ),
 ```
 
-### Custom Checkbox:
+### Custom GFCheckbox:
 
 **GFCheckbox** has **custom** type checkbox. Here the box will have any custom items like **icons** or **background color** when the box is checked as shown in the below image. Hence the name **Custom Checkbox**. The below code shows the example of a square checkbox:
 

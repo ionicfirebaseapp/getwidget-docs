@@ -4,12 +4,13 @@ sidebarDepth: 2
 description: >-
   Flutter Getwidget step by step tutorial guide on how to get started and use it
   in any flutter app or web app project.
-image: "https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png"
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png
 ---
 
 # Flutter Getwidget Tutorial
 
-## How to install getwidget in your app? 
+## How to install getwidget in your app?
 
 Add the following dependency into your pubspec.yaml file
 

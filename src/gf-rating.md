@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFRating is a row of star icon, one can touch or drag the row of icons to set
+  GFRating is a row of star icons, one can touch or drag the row of icons to set
   the rating.
 ---
 
@@ -68,11 +68,11 @@ The look and feel of the **GF Rating** can be customized using the GF Rating pro
 
 | Name | Description |
 | :--- | :--- |
-| **itemCount** | defines total number of rating items |
+| **itemCount** | defines the total number of rating items |
 | **color** | defines the color of items |
 | **borderColor** | defines the border color of \[halfFilledIcon\] |
 | **size** | defines the size of items. GFSize can be used for size variations like small. medium. large |
-| **allowHalfRating** | if true, allow half rating of items. Default it will be in true state |
+| **allowHalfRating** | if true, allow half rating of items. Default it will be in a  true state |
 | **filledIcon** | defines the items when filled |
 | **halfFilledIcon** | defines the items when half-filled |
 | **defaultIcon** | defines the default items, when having filledIcon and halfFilledIcon |

@@ -9,13 +9,11 @@ description: >-
 
 ![GF SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png)
 
-GF SearchBar contains textfield for user input and the overlay container to show the search list collections.
+## GFSearchBar
 
-## SearchBar Info
+**GFSearchBar** is a **search field** wherein the user enters few letters in order to search the words from the list provided in the search section.
 
-### Usage
-
-The simple code of a basic GFSearchBar is as shown below.
+**GFSearchBar** contains textfield for user input and the overlay container to show the search list collections. The simple code of a basic **GFSearchBar** is as shown below.
 
 ![Basic GW SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_1_3x_n0E_2KJ_v.png)
 
@@ -54,9 +52,9 @@ GFSearchBar(
 ),
 ```
 
-Look and feel of the **GFSearchBar** can be customized using the GFSearchBar properties.
+### **GFSearchBar** Custom Properties
 
-### Custom Properties
+The look and feel of the **GFSearchBar** can be customized using the **GFSearchBar** properties.
 
 | Name | Description |
 | :--- | :--- |

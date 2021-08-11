@@ -1,25 +1,26 @@
 ---
 description: >-
-  GF Multiselect let user to select multiple items from the number of Checkbox
-  ListTile items and display selected items in the TitleTile box. It displays
-  list of items in the overlay dropdown fashion.
+  Flutter Multisecelect is a dropdown that allows users to select one or more
+  items from the list with the help of the checkboxes provided for selection.
 ---
 
 # GF Multiselect
 
-### GF Multiselect Info
+### GFMultiselect
+
+**GF Multiselect** lets users select multiple items from the number of Checkbox ListTile items and display selected items in the TitleTile box. It displays a list of items in the overlay dropdown fashion.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png)
 
 
 
-#### Usage
+### **GFMultiselect** Usage
 
-The simple code of a basic GFMultiselect is as shown below. 
+The simple code of a basic **GFMultiselect** is as shown below. 
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select-basic_Ddr_sgSiYqI.gif)
 
-```text
+```dart
 GFMultiSelect(
   items: dropList,
   onSelect: (value) {
@@ -57,11 +58,11 @@ GFMultiSelect(
 
 ### Customized GF Multiselect
 
-GFMultiselect features allows user to create customized multi select dropdown for the more flexible and interactive UI design.
+**GFMultiselect** features allow users to create a customized multi-select dropdown for the more flexible and interactive UI design. The below code gives the example.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
 
-```text
+```dart
 Container(
   child: GFMultiSelect(
     items: dropList,
@@ -98,9 +99,9 @@ Container(
 ),
 ```
 
-### Custom Properties
+### **GFMultiselect** Custom Properties
 
-Look and feel of the **GFMultiselect** can be customized using the GFMultiselect properties.
+The look and feel of the **GFMultiselect** can be customized using the **GFMultiselect** properties.
 
 <table>
   <thead>

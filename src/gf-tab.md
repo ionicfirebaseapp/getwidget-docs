@@ -1,23 +1,23 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter TabBar is a TabBarView that consists of a pageview that displays the
-  currently selected tab.
+  GF Flutter TabBar is a TabBarView that consists of a pageview that displays
+  the currently selected tab.
 ---
 
-# GF Tab
+# GF Flutter TabBar
 
-![GW Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png)
+![GF Flutter TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png)
 
-### **GFTab**
+## **GF Flutter Tab**
 
-**GFTab** is a combination of the **Tabbar** and **TabBarView** controlled by the tab controller. Whereas GFTabBar contains tab buttons that navigate to a particular **tabBarView** page in GFTabBarView.
+**GF Flutter Tab** is a combination of the **Tabbar** and **TabBarView** controlled by the tab controller. Whereas GFTabBar contains tab buttons that navigate to a particular **tabBarView** page in GFTabBarView.
 
-## GFTabBar
+## GF Flutter TabBar
 
 The **GFTabBar** is a component that contains a set of tab buttons. A tab bar must be provided **tabController** to communicate with each **tabBarView** Component.
 
-![GF TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_labelled_tabs_3x_Tj9Q0jtsE.png)
+![GF Flutter TabBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_labelled_tabs_3x_Tj9Q0jtsE.png)
 
 **TabController** should be initialized, to communicate between **Tabbar** and **Tabbarview**.
 
@@ -37,7 +37,7 @@ void dispose() {
 }
 ```
 
-The below code gives, default GFTabBar with 3 children, children can be any type of widget.
+The below example code gives, default **GFTabBar** with 3 children, children can be any type of widget
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -68,7 +68,7 @@ GFTabBar(
 ),
 ```
 
-### Custom Properties
+### Flutter Tab Bar Custom Properties
 
 The look and feel of the **GFTabBar** can be customized using the **GFTabBar** properties.
 
@@ -92,11 +92,11 @@ The look and feel of the **GFTabBar** can be customized using the **GFTabBar** p
 | **shape** | defines the shape of tabBar |
 | **isScrollable** | If \[isScrollable\] is true, then each tab is as wide as needed for its label and the entire \[TabBar\] is scrollable. Otherwise each tab gets an equal share of the available space. |
 
-## GFTabBarView
+## GF Flutter TabBar View
 
 A page view that displays the widget which corresponds to the currently selected tab. This widget is typically used in conjunction with a GFTabBar and must provide TabBarController.
 
-The tab controller's TabController.length must equal the length of the children list and the length of the TabBar.tabs list.
+The tab controller's __`TabController.length` must equal the length of the children list and the length of the `TabBar.tabs` list.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -113,7 +113,7 @@ GFTabBarView(
 
 Look and feel of the GFTabBarVIew can be customized using the GFTabBarView properties.
 
-### Custom Properties
+### Flutter TabBar Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -121,7 +121,7 @@ Look and feel of the GFTabBarVIew can be customized using the GFTabBarView prope
 | **children** | one widget per tab. Its length must match the length of the \[GFTabBar.tabs\] list, as well as the \[controller\]'s \[TabController.length\]. |
 | **height** | GFTabBarView height can be fixed |
 
-## GFTabs
+### GF Flutter Tab with TabBarView
 
 GFTabs component is the combination of GFTabBar with GFTabBarView with default controller to controls page view that displays the widget which corresponds to the currently selected tab.
 
@@ -162,7 +162,7 @@ GFTabs(
 
 Look and feel of the GFTabs can be customized using the GFTabs properties.
 
-### Custom Properties
+### Flutter GFTab Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -185,9 +185,9 @@ Look and feel of the GFTabs can be customized using the GFTabs properties.
 | **height** | defines the complete GFTabs height includes tabBar and tabBarView. |
 | **shape** | defines the shape of tabBar |
 
-## GFSegmentTabs
+## GF Flutter Segment Tabs
 
-GFSegmentTabs are best used as an alternative for tabs. It looks like pills shaped button tab bar with all features of GFTabBar.
+GFSegmentTabs is best used as an alternative for tabs. It looks like pills shaped button tab bar with all features of **GFTabBar**.
 
 This component is typically used in conjunction with a GFTabBarView and must provide TabBarController to control A page view that displays the widget which corresponds to the currently selected tab.
 
@@ -213,7 +213,7 @@ GFSegmentTabs(
 
 Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs properties.
 
-### Custom Properties
+### Flutter Segment Tabs Custom Properties
 
 | Name | Description |
 | :--- | :--- |
@@ -236,9 +236,11 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 | **borderRadius** | defines outer border, border radius |
 | **width** | defines width of the tab row |
 
-### GFTabBar as Bottom Navigation Bar
+### GF Flutter Bottom Navigation TabBar 
 
-GFTabBar can be used as bottom navigation bar. The basic code is given below.
+GFTabBar can be used as a bottom navigation bar. 
+
+The basic example code for a  **bottom flutter tab bar** is given below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

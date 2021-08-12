@@ -29,7 +29,7 @@
   * [Flutter Appbar](src/gf-appbar.md)
   * [Flutter Drawer Widget](src/gf-drawer.md)
   * [GF Flutter Card](src/gf-card.md)
-  * [GF Tab](src/gf-tab.md)
+  * [GF Flutter TabBar](src/gf-tab.md)
   * [GF Typography](src/gf-typography.md)
   * [GF Flutter ListTile](src/gf-tile.md)
   * [Changelog](src/changelog.md)

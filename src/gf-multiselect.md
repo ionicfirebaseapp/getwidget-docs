@@ -1,24 +1,20 @@
 ---
 description: >-
-  Flutter Multisecelect is a dropdown that allows users to select one or more
+  GF Flutter Multisecelect is a dropdown that allows users to select one or more
   items from the list with the help of the checkboxes provided for selection.
 ---
 
-# GF Multiselect
-
-### GFMultiselect
+# GF Flutter Multiselect
 
 **GF Multiselect** lets users select multiple items from the number of Checkbox ListTile items and display selected items in the TitleTile box. It displays a list of items in the overlay dropdown fashion.
 
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png)
+![GF Flutter Multi Select Checkbox ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png)
 
+### **GF Flutter Multiselect Dropdown** Usage
 
+The simple example demo code of a basic **GFMultiselect** is as shown below. 
 
-### **GFMultiselect** Usage
-
-The simple code of a basic **GFMultiselect** is as shown below. 
-
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select-basic_Ddr_sgSiYqI.gif)
+![GF Flutter Multi Select option ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select-basic_Ddr_sgSiYqI.gif)
 
 ```dart
 GFMultiSelect(
@@ -56,11 +52,11 @@ GFMultiSelect(
 ),
 ```
 
-### Customized GF Multiselect
+### Customized GF Flutter Multiselect
 
 **GFMultiselect** features allow users to create a customized multi-select dropdown for the more flexible and interactive UI design. The below code gives the example.
 
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
+![Custom Flutter Multi Select](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
 
 ```dart
 Container(
@@ -99,15 +95,15 @@ Container(
 ),
 ```
 
-### **GFMultiselect** Custom Properties
+### **GF Flutter Multiselect** Custom Properties
 
 The look and feel of the **GFMultiselect** can be customized using the **GFMultiselect** properties.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>

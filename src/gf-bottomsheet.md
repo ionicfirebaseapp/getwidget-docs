@@ -1,19 +1,15 @@
 ---
 description: >-
-  Flutter Bottomsheet is a component, it slides up from the bottom edge of the
-  screen to display options for users which do not require more actions to be
-  done..
+  GF Flutter Bottomsheet is a component, it slides up from the bottom edge of
+  the screen to display options for users which do not require more actions to
+  be done.
 ---
 
-# GF Bottomsheet
-
-### GF BottomSheet 
+# GF Flutter Bottomsheet
 
 **GFBottomSheet** is a **Flutter BottomSheet** that slides from the bottom of the screen and which prevents the user from using the other functionality of the app. It is just like a modal or popup that requires fewer actions from the user.
 
-![GW Bottomsheet](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheet_Docs_banner_GkAs27_V5g4K.gif)
-
-### Basic GF BottomSheet
+### GF Flutter Basic BottomSheet
 
 The basic **GFBottomSheet** example is given below
 
@@ -88,9 +84,9 @@ Scaffold(
 )
 ```
 
-### GF Bottomsheet with Expandable content
+### GF Flutter Bottomsheet with Expandable content
 
-**GFBottomSheet** allows the user to expand content body to display the more content. The property `enableExpandableContent`  on `true` makes the content body expandable. The blow code shows how to expand the content by passing the boolean value.
+**GFBottomSheet** allows the user to expand content body to display more content. The property `enableExpandableContent`  on `true` makes the content body expandable. The blow code shows how to expand the content by passing the boolean value.
 
 ```dart
 final GFBottomSheetController _controller = GFBottomSheetController();
@@ -177,15 +173,15 @@ GFBottomSheet(
 ),
 ```
 
-### **GFBottomsheet** Custom Properties
+### **GF Flutter Bottomsheet** Custom Properties
 
 The look and feel of the **GFBottomsheet** can be customized using the GFBottomsheet properties.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>

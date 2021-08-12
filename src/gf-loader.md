@@ -8,7 +8,7 @@ description: >-
 
 # GF Flutter Loader
 
-![GW Spinner Loader Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
+![GF Spinner Loader Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
 **GFLoader** is a **Flutter Loader** circular indicator that will be loading continuously that indicates something is about to load.
 

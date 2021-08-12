@@ -1,23 +1,25 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Progress Bar is a simple Widget that shows progress of any task along
-  a line or along a Circle
+  GF Flutter Progress Bar is a simple Widget that shows the progress of any task
+  along a line or along a Circle progress bar.
 ---
 
-# GF Progress Bar
+# GF Flutter Progress Bar
 
-![GW Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Progress_bar_docs_banner_cogNGuz9x.png)
+![GF Flutter Progress Bar Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Progress_bar_docs_banner_cogNGuz9x.png)
 
 **GFProgress Bar** is a **Flutter Progress bar** or a **Flutter Progress Button** that tells the percentage of progress done in any given task or work.
 
 **GFProgress bar** can be of two types, a **simple linear progress bar** or a **Circular Progress bar.**
 
-### **Linear Progress Bar**
+### **Flutter Linear Progress Bar Indicator**
 
 A **Linear Progress Bar** is a progress bar that has a straight line of progress percentage shown on them. The below code shows a simple **Linear** **progress** **bar** with some defined properties of the progress bar.
 
-![Basic Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/linear_2_3x_tbrWidKp_.png)
+![Flutter Basic Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/linear_2_3x_tbrWidKp_.png)
+
+#### Flutter Line Progress Bar indicator example code
 
 ```dart
  import 'package:getwidget/getwidget.dart';
@@ -29,11 +31,13 @@ A **Linear Progress Bar** is a progress bar that has a straight line of progress
 )
 ```
 
-### Circular Progress Bar
+### Flutter Circle Progress Bar Indicator 
 
-**The Circular progress bar** is as same as the **linear progress bar** with some additional properties added to the code structure.  The **Circular Progress Bar** will be basically a circle in shape and the percentage will be shown inside the circle as shown in the below image. The below code shows a simple circular progress bar.
+The **Circular progress bar** is as same as the **linear progress bar** with some additional properties added to the code structure.  The **Circle Progress Bar** will be basically a circle in shape and the percentage will be shown inside the circle as shown in the below image. The below code shows a simple circular progress bar.
 
-![Circular Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_1_3x_NfFXiyxXyz.png)
+![Flutter Circular Progress Bar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_1_3x_NfFXiyxXyz.png)
+
+#### Flutter Circle Progress Bar Indicator example code 
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -48,11 +52,13 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-### Progress bar with Child property
+### Flutter Progress bar with Child property
 
 The **progress bar** can be customized to show the percentage of progress completed. To show the progress percentage we can use child property which is a Widget type and can be a text, icon, image, etc. The below code shows how a **child's property** can be used as text to show the progress percentage.
 
 ![Progress bar with Child property](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_2_3x_tY_3Jy7Fw.png)
+
+#### Flutter Custom Progress Bar Indicator with child example code
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -71,7 +77,7 @@ GFProgressBar(
 )
 ```
 
-### Progress bar with leading and trailing icons
+### Flutter Progress bar with leading and trailing icons
 
 The **progress bar** can be used with **leading** and **trailing** icons to show the level of progress percent from 0 to 1. The below code shows leading and trailing icons in a **Linear Progress bar.**
 
@@ -94,11 +100,11 @@ GFProgressBar(
 )
 ```
 
-### Progress Bar Custom Properties
+### GF FLutter Progress Bar Custom Properties
 
 The Look and feel of **GFProgressBar** can be customised using the following properties:
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **percentage** | type of double which should be from 0 to 1 to indicate the progress percentage |
 | **radius** | type of double used to show the radius of the Circular Progress Bar |

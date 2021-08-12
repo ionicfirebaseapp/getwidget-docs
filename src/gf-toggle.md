@@ -1,17 +1,17 @@
 ---
 sidebarDepth: 2
 description: >-
-  GFToggle is a Flutter Toggle Switch that  is used to toggle the ON/OFF state
-  of a single setting.
+  GF Flutter Toggle is a custom toggle widget like Square, Android, IOS, and
+  Custom widget with many custom properties to customize as required.
 ---
 
 # GF Flutter Toggle
 
-![GW Toggle Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
+![GF Flutter Toggle Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-**The Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states. 
+The **Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states. 
 
-### GFToggle and its Usage:
+### GF Flutter Toggle and its Usage:
 
 **GFToggle** **switch** is a **Flutter Switch Toggle** that permits the user to use this toggle to mark check when it is in **ON** state and mark unchecked when it is in **OFF** state. The **toggle switch** basically switches from ON to OFF state and vice-versa. Let us look at a simple example of GFToggle in the below code.
 
@@ -24,17 +24,17 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Types of GFToggle.
+### GF Flutter Switch Toggle
 
 **GFToggle switch** can be divided into  four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an **android toggle.**
 
-### IOS Toggle:
+### Flutter IOS Toggle
 
-**IOS Toggle** switch has a circular track and a circular thumb as shown in the below image.
+**Flutter IOS Toggle** switch has a circular track and a circular thumb as shown in the below image.
 
-![IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24_m8Gb_wJs_-EKey0.webp)
+![Flutter IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24_m8Gb_wJs_-EKey0.webp)
 
-The below code shows a simple ios toggle
+The below example code shows a simple ios toggle
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -46,13 +46,13 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Square Toggle:
+### Flutter Square Toggle
 
 **The Square Toggle** switch has a square-shaped track and a square-shaped thumb as shown in the below image.
 
-![Square Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square_kQf7GGmmw_rysXqcWnd.png)
+![Flutter Square Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square_kQf7GGmmw_rysXqcWnd.png)
 
-The below code shows a simple square toggle
+The below code shows a simple **square toggle**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -64,13 +64,13 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Custom Toggle:
+### Flutter Custom Toggle
 
 The **custom** **toggle** can be used to add the text to the on/off state. The default text is **ON** and **OFF** Below is a simple code for custom toggle
 
-![Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
+![Flutter Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
 
-The below code shows a simple custom toggle:
+The below example code shows a simple custom toggle switch
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -82,11 +82,11 @@ GFToggle(
  ),
 ```
 
-### GFToggle Custom Properties:
+### GFToggle Custom Properties
 
-The look and feel of **GFToggle** can be customized using the below properties:
+The look and feel of **GFToggle** can be customized using the below properties
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **enabledText** | type of \[String\] used to add custom text i.e, ON, ENABLE |
 | **disabledText** | type of \[String\] used to add custom text i.e, OFF, DISABLE |

@@ -20,7 +20,7 @@
     * [Flutter Icon Button](src/gf-button/icon-button.md)
     * [Flutter Elevated Button](src/gf-button/standard-button.md)
     * [Flutter Square Button](src/gf-button/square-button.md)
-  * [GF Shimmer](src/gf-shimmer.md)
+  * [GF Flutter Shimmer](src/gf-shimmer.md)
   * [GF Flutter Avatar](src/gf-avatar.md)
   * [GF Flutter Image](src/gf-image.md)
   * [GF Flutter Toggle](src/gf-toggle.md)

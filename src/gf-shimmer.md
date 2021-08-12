@@ -1,22 +1,21 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF Shimmer gives a shimmery effect for the child, that can be used to indicate
-  a loading status. So instead of using ProgressBar or loader use GF Shimmer for
-  a better design and user interface.
+  GF Flutter Shimmer gives a shimmery effect for the child, that can be used to
+  indicate a loading status. GF Shimmer for a better design and user interface.
 ---
 
-# GF Shimmer
+# GF Flutter Shimmer
 
-![GW Shimmer Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/shimmer_kb-ZpQnB5.png)
+![GF Flutter Shimmer Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/shimmer_kb-ZpQnB5.png)
 
-## GFShimmer and its Usage:
+## GF Flutter Shimmer and its Usage:
 
 **GFShimmer** is a **Flutter Shimmer Effec**t Widget that can be used by giving Linear Gradient for more visual shimmer effect or just by adding Main Color and Secondary Color for basic shimmer effect.
 
 ### How to Use Flutter Shimmer Effect using GetFlutter
 
-![Shimmer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_3x_pRKTr4X6_r.png)
+![Flutter Shimmer Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_3x_pRKTr4X6_r.png)
 
 The below code gives a simple **Flutter Shimmer effect** for children with the main color and secondary color.
 
@@ -67,9 +66,9 @@ final Widget emptyBlock = Padding(
     );
 ```
 
-### GFShimmer with Gradient
+### GF Flutter Shimmer with Gradient
 
-![GFShimmer with Gradient](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/text_3x_fzYT22T5N.png)
+![GF Flutter Shimmer with Gradient](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/text_3x_fzYT22T5N.png)
 
 The below code gives a Shimmer effect for children with Linear Gradient. It only takes Liner Gradient when `[showGradient`\] is **true.**
 
@@ -95,7 +94,7 @@ GFShimmer(
 ),
 ```
 
-### GFShimmer Custom Properties:
+### GF Flutter Shimmer Custom Properties:
 
 The look and feel of **GFShimmer** can be customized using the below properties:
 

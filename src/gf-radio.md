@@ -1,20 +1,21 @@
 ---
 description: >-
-  Flutter Radio Button allows the user to choose only one of a predefined set of
+  GF Flutter Radio Button is a custom radio button with many predefine
+  properties. it allows the user to choose only one of a predefined set of
   mutually exclusive options.
 ---
 
-# GF Radio
+# GF Flutter Radio Button
 
-## GF Radio Button
+**Flutter RadioBox Button** permits the user to select only one option in any two sets of mutual options. The radio button has to be checked or unchecked only once in a given set of options.
 
-**Flutter RadioBox** permits the user to select only one option in any two sets of mutual options. The radio button has to be checked or unchecked only once in a given set of options.
+![GF Flutter Radio Button Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
 
-![GW Radio Button Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png)
+### GF Flutter Radio Button and its Usage
 
-### GFRadioButton and its Usage:
+**GFRadioButton** has to be checked only one at a time and other options are by default unchecked as radio buttons allow only one option to be checked at a time. 
 
-**GFRadioButton** has to be checked only one at a time and other options are by default unchecked as radio buttons allow only one option to be checked at a time. The code below gives a simple radio button.
+The code below gives a simple  **Flutter radio button**.
 
 ```dart
 int groupValue = 0;
@@ -34,11 +35,11 @@ GFRadio(
 ),
 ```
 
-### Basic Radio Button:
+### Flutter Basic Radio Button
 
-**GFRadioButton** has many types in it and the basic type is a circular radio button. The shape is of a circle and hence the name circular and it is a basic type as shown in the below image. Let us look at the example below :
+**GFRadioButton** has many types in it and the basic type is a circular radio button. The shape is of a circle and hence the name circular and it is a basic type as shown in the below image. Let us look at the example below 
 
-![Basic Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_radio_button_x_CcqpvKba.png)
+![Flutter Basic Circlular Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_radio_button_x_CcqpvKba.png)
 
 ```dart
 int groupValue = 0;
@@ -103,11 +104,11 @@ GFCard(
     )),
 ```
 
-### Square Radio Button:
+### Flutter Square Radio Button
 
 **GFRadioButton** can be a square type. The outer border will not have any border-radius and the shape will be of a square and hence the name square radio button as shown in the below image. Let us look at the example below :
 
-![Square Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_radio_buttons_UOSD9OSpo_.png)
+![Flutter Square Radio Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_radio_buttons_UOSD9OSpo_.png)
 
 ```dart
 int groupValue = 0;
@@ -177,11 +178,13 @@ GFCard(
     )),
 ```
 
-### Custom Radio Button Type 1
+### Flutter Custom Radio Button Type-1
 
-**GFRadioButton** can be a custom type. The outer border will  have little border-radius and comes in different sizes as shown in the below image. Let us look at the example below :
+**GFRadioButton** can be a custom type. The outer border will have little border-radius and comes in different sizes as shown in the below image. 
 
-![Custom Radio Button Type 1](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_1_5pRZCct_LM.png)
+Let us look at the example demo code for the custom radio button  below :
+
+![Flutter Custom Radio Button Type 1](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_1_5pRZCct_LM.png)
 
 ```dart
 int groupValue = 0;
@@ -249,11 +252,13 @@ GFCard(
     )),
 ```
 
-### Custom Radio Button Type 2:
+### Flutter Custom Radio Button Type 2
 
-**GFRadioButton** can be a custom type 2 wherein the checked box can be any type of widget like a icon, background color, etc as shown in the image below. Let us look at the example below :
+**GFRadioButton** can be a custom type 2 wherein the checked box can be any type of widget like an icon, background color, etc as shown in the image below. 
 
-![Custom Radio Button Type 2](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_2_fSkHHSP4Wa.png)
+Let us look at the example code below :
+
+![Flutter Custom Radio Button Type 2](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Custom_radio_2_fSkHHSP4Wa.png)
 
 ```dart
 int groupValue = 0;
@@ -326,11 +331,11 @@ GFCard(
     )),
 ```
 
-### GFRadio Button Custom Properties
+### GF Flutter Radio Button Custom Properties
 
 The look and feel of the **GFRadio button** can be customized using the GFRadio properties.
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **type** | type of \[GFRadioType\] which is of four type is basic, sqaure, circular and custom |
 | **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |

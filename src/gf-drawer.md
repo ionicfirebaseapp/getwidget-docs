@@ -1,20 +1,20 @@
 ---
 sidebarDepth: 2
 description: >-
-  The GFDrawer is a Flutter Drawer Widget that is a navigation drawer that
-  slides in from the side of the current view. GFDrawer can be the perfect
-  option to provide common navigation options.
+  GF Flutter Drawer Widget is a navigation drawer that slides in from the side
+  of the current view. GFDrawer can be the perfect option to provide common
+  navigation options.
 ---
 
-# Flutter Drawer Widget
+# GF Flutter Drawer Widget
 
-![GW Drawer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png)
+![GF Flutter Drawer](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png)
 
-### GFDrawer and its Usage:
+### GF Flutter Navigation Drawer and its Usage:
 
-**GFDrawer** is a  **Flutter Drawer** **widget** that slides from the left side of the screen when clicked on the drawer button which will be seen on the left top side of the application. The drawer has mainly navigation options that navigate to the respective other pages depending upon the routes.
+**GFDrawer** is a **Flutter Drawer** **widget** that slides from the left side of the screen when clicked on the drawer button which will be seen on the left top side of the application. The drawer has mainly navigation options that navigate to the respective other pages depending upon the routes.
 
-The simple code of a basic **GFDrawer** is as shown below to build the **Flutter Drawer Widget**.
+The simple example code of a basic **Flutter Side menu** is as shown below to build the **Flutter Navigation Drawer Widget**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -36,7 +36,7 @@ GFDrawer(
 ),
 ```
 
-### GFDrawer Custom Properties:
+### GF Flutter Navigation Drawer Custom Properties
 
 The look and feel of the **GFDrawer** can be customized using the GFDrawer properties.
 
@@ -49,11 +49,11 @@ The look and feel of the **GFDrawer** can be customized using the GFDrawer prope
 | **colorFilter** | composited layer that applies a color filter to its children |
 | **elevation** | controls the size of the shadow below the drawer. |
 
-## GF Drawer Header and its Usage:
+## GF Flutter Drawer Header and its Usage:
 
 The **GF Drawer Header** component is a header that gives information about the user whole is using the application. This can be placed inside the **GFDrawer** child.
 
-The simple code of a basic **GFDrawerHeader** with **GFDrawer** is as shown below that helps you build an awesome Flutter Drawer Header Widget in your application.
+The simple example code of a basic **GF DrawerHeader** with **GFDrawer** is as shown below that helps you build an awesome **Flutter Drawer Header Widget** in your application.
 
 ```dart
 import 'package:getwidget/getwidget.dart';    
@@ -98,7 +98,7 @@ import 'package:getwidget/getwidget.dart';
       ),
 ```
 
-### GFDrawerHeader Custom Properties:
+### GF Flutter Drawer Header Custom Properties
 
 The look and feel of the **GFDrawerHeader** can be customized using the **GFDrawerHeader** properties.
 

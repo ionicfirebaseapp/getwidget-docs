@@ -1,18 +1,15 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF Floating Widget is a simple widget that acts as the outer wrapper to other
-  kind of components. It has properties like body and child in which the body
-  acts like the default flutter Scaffold's body.
+  GF Flutter Floating Widget is a simple widget that acts as the outer wrapper
+  to other kinds of components.
 ---
 
-# GF Floating Widget
+# GF Flutter Floating Widget
 
-## Floating Widget
+The **GF Flutter Floating Widget** is mostly and effectively used to show some **popups**, **alerts,** or some **error messages** which float over the main body. **GF Floating Widget's** child can take any kind of component or widgets as its parameter.
 
-The **GF Floating Widget** is mostly and effectively used to show some **popups**, **alerts,** or some **error messages** which float over the main body. **GF Floating Widget's** child can take any kind of component or widgets as its parameter.
-
-The simple way to use the **GF Floating widget** with its body and child properties is as shown below:
+The simple way to use the **GF Flutter Floating widget** with its body and child properties is as shown below example code:
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -25,9 +22,11 @@ return Scaffold(
 )
 ```
 
-### GFFloating Widget Position
+### GF Flutter Floating Widget Position
 
-**GFFloating Widget** comes with two types of positions ie, **horizontalPosition** and **VerticalPosition** in which the **child** of **GF** **Floating** widget can be placed anywhere inside the body ie, it basically floats in the body, and hence the name GF Floating Widget. The below code shows how to use the positions:
+**GFFloating Widget** comes with two types of positions ie, **horizontalPosition** and **VerticalPosition** in which the **child** of **GF** **Floating** widget can be placed anywhere inside the body ie, it basically floats in the body, and hence the name GF Floating Widget. 
+
+The below code shows how to use **Floating Widget positions**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -51,11 +50,11 @@ return Scaffold(
 )
 ```
 
-### GFFloating Widget Custom Properties
+### GF Flutter Floating Widget Custom Properties
 
 The look and feel of **GFFloating Widget** can be changed using the below properties:
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **showBlurness** | showBlurness defines whether the body should be blur or not when showing popups, error messages, etc whenever the **child** property is used in  GF Floating widget. The showBlurness defaults to `false`. |
 | **blurnessColor** | defines how much blur  backgroundColor should be whenever the **child** is used and when showBlurness is `true` |

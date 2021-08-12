@@ -33,7 +33,7 @@
   * [GF Typography](src/gf-typography.md)
   * [GF Flutter ListTile](src/gf-tile.md)
   * [Changelog](src/changelog.md)
-  * [GF SearchBar](src/gf-searchbar.md)
+  * [GF Flutter SearchBar](src/gf-searchbar.md)
   * [GF Floating Widget](src/gf-floating-widget.md)
   * [GF Animation](src/gf-animation.md)
   * [GF Border](src/gf-border.md)

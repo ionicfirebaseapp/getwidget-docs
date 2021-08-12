@@ -1,21 +1,23 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF SearchBar represent a text field that can be used to search through a
-  collection.
+  GF Flutter SearchBar represents a text field that can be used to search
+  through a collection.
 ---
 
-# GF SearchBar
+# GF Flutter SearchBar
 
-![GF SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png)
+![GF Flutter SearchBar Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png)
 
-## GFSearchBar
+## GF Flutter SearchBar
 
 **GFSearchBar** is a **search field** wherein the user enters few letters in order to search the words from the list provided in the search section.
 
-**GFSearchBar** contains textfield for user input and the overlay container to show the search list collections. The simple code of a basic **GFSearchBar** is as shown below.
+**GFSearchBar** contains textfield for user input and the overlay container to show the search list collections. 
 
-![Basic GW SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_1_3x_n0E_2KJ_v.png)
+The simple code of a basic **GF Flutter SearchBar** is as shown below.
+
+![Basic GF SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_1_3x_n0E_2KJ_v.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -52,7 +54,7 @@ GFSearchBar(
 ),
 ```
 
-### **GFSearchBar** Custom Properties
+### **GF Flutter SearchBar** Custom Properties
 
 The look and feel of the **GFSearchBar** can be customized using the **GFSearchBar** properties.
 

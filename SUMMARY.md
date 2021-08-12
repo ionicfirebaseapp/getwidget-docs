@@ -31,7 +31,7 @@
   * [Flutter Card](src/gf-card.md)
   * [GF Tab](src/gf-tab.md)
   * [GF Typography](src/gf-typography.md)
-  * [Flutter ListTile](src/gf-tile.md)
+  * [GF Flutter ListTile](src/gf-tile.md)
   * [Changelog](src/changelog.md)
   * [GF SearchBar](src/gf-searchbar.md)
   * [GF Floating Widget](src/gf-floating-widget.md)

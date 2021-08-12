@@ -1,19 +1,19 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter ListTile represents a single row that typically contains some text as
-  title, subtitle,  icons as trailing, and additional text as the description.
+  Gf Flutter ListTile represents a single row that typically contains some text
+  as title, subtitle, icons as trailing, and additional text for description.
 ---
 
-# Flutter ListTile
+# GF Flutter ListTile
 
-![GW ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png)
+![GF Flutter ListTile Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png)
 
-**GFListTile** is a **Flutter LisTile** that is a widget used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**. The **ListTile background color** can be changed using the color property.
+**GFListTile** is a **Flutter ListTile** that is a widget used to populate a ListView in an application. It generally has a **title**, and one to three lines of **description or subtitle**, and a trailing **icon**. The **ListTile background color** can be changed using the color property.
 
-## GFListTile Usage
+## GF Flutter ListTile Example 
 
-The simple GFTile code is as shown below
+The simple **GF ListTile** code is as shown below
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -25,9 +25,11 @@ GFListTile(
 ),
 ```
 
-### GFListTile With Avatar
+### GF Flutter ListTile With Avatar 
 
-**GFListTile** can have an **avatar** in the starting position in it. The avatar is usually a background image or just a profile image. The simple code with avatar is as shown below:
+**GFListTile** can have an **avatar** in the starting position in it. The avatar is usually a background image or just a profile image. 
+
+The simple code of GF Flutter ListTile  with the avatar is as shown below
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -40,11 +42,11 @@ GFListTile(
 ),
 ```
 
-### GFListTile Custom Properties.
+### GF FlutterListTile Custom Properties
 
-GFListTile has some of its custom properties to create a smooth look and feel for the application. The below table shows the custom properties:
+**GF ListTile** has some of its custom properties to create a smooth look and feel for the application. The below table shows the custom properties:
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **color** | The GFListTile's background color. Can be given \[Color\] or \[GFColors\] |
 | **description** | The description to display inside the \[GFListTile\]. see \[Text\] |

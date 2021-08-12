@@ -11,7 +11,7 @@
   * [GF Flutter RadioList Tile](src/gf-radio-listtile.md)
   * [GF Toast - A Flutter Toast Widget](src/gf-toast.md)
   * [GF Flutter Alert Dialog](src/gf-alert.md)
-  * [GF Carousel - Flutter Carousel Widget](src/gf-carousel.md)
+  * [GF Flutter Carousel Widget](src/gf-carousel.md)
   * [GF Flutter Badge](src/gf-badge.md)
   * [GF Rating](src/gf-rating.md)
   * [Flutter Button Widget](src/gf-button/README.md)

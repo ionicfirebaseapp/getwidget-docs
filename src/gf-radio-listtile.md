@@ -1,23 +1,23 @@
 ---
 description: >-
-  Flutter RadioListTile is radio button with a listTile to display labels and
-  which allows the user to choose only one of a predefined set of mutually
+  GF Flutter RadioList Tile is a radio button with a listTile to display labels
+  and which allows the user to choose only one of a predefined set of mutually
   exclusive options.
 ---
 
-# GF Radio ListTile
-
-## GF Radio ListTile 
+# GF Flutter RadioList Tile
 
 **Flutter RadioBoxListTile** is a list of items wherein the user can check or uncheck only one item in the list. It allows users to select only one option inside the list. GFRadioBoxListTile can also be positioned right or left of the screen according to the need.
 
-![GW Radio ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
+![GF Flutter RadioList Tile Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
 
-### GFRadioListTile and its Usage:
+### GF Flutter RadioListTile and its Usage:
 
-GFRadioListTile can have a simple list with title or two lines of title and description or with **GFAvatar**. The simple code with an **avatar** of GFRadioListTile is as shown below.
+**GFRadioListTile** can have a simple list with title or two lines of title and description or with **GFAvatar**. 
 
-![GW RadioListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
+The simple code with an **avatar** of **GFRadioListTile** is as shown below.
+
+![GF RadioListTile with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Radiolist_tile_3x_0KLlfYPXn.png)
 
 ```dart
 int groupValue = 0;
@@ -62,15 +62,15 @@ GFRadioListTile(
 ),
 ```
 
-### **GFRadioListTile** Custom Properties
+### **GF Flutter RadioList Tile** Custom Properties
 
 The look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>

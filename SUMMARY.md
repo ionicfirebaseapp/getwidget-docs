@@ -8,7 +8,7 @@
   * [GF Flutter Checkbox](src/gf-checkbox.md)
   * [GF Flutter CheckboxListTile](src/gf-checkbox-listtile.md)
   * [GF Flutter Radio Button](src/gf-radio.md)
-  * [GF Radio ListTile](src/gf-radio-listtile.md)
+  * [GF Flutter RadioList Tile](src/gf-radio-listtile.md)
   * [GF Toast - A Flutter Toast Widget](src/gf-toast.md)
   * [GF Flutter Alert Dialog](src/gf-alert.md)
   * [GF Carousel - Flutter Carousel Widget](src/gf-carousel.md)

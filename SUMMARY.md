@@ -24,7 +24,7 @@
   * [GF Flutter Avatar](src/gf-avatar.md)
   * [GF Flutter Image](src/gf-image.md)
   * [GF Flutter Toggle](src/gf-toggle.md)
-  * [GF Loader](src/gf-loader.md)
+  * [GF Flutter Loader](src/gf-loader.md)
   * [GF Progress Bar](src/gf-progress-bar.md)
   * [Flutter Appbar](src/gf-appbar.md)
   * [Flutter Drawer Widget](src/gf-drawer.md)

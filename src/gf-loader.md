@@ -1,19 +1,20 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Loader is a progress indicator that spins to indicate that the
-  application is busy. It usually progresses along a circle.
+  GF Flutter Loader is a progress indicator that spins to indicate that the
+  application is busy. It usually progresses along a circle. GF widget comes
+  with 50+ Loader widget designs.
 ---
 
-# GF Loader
+# GF Flutter Loader
 
-![GW Loader Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
+![GW Spinner Loader Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png)
 
-**GFLoader** is a **Flutter Loader** is a circular indicator that will be loading continuously that indicates something is about to load.
+**GFLoader** is a **Flutter Loader** circular indicator that will be loading continuously that indicates something is about to load.
 
-### GFLoader and its Usage:
+### GF Flutter Loader and its Usage:
 
-**GFLoader** is a circular spinner that spins over time which signifies that some part of the program is about to get executed.
+**GFLoader** is a Flutter circular spinner that spins over time which signifies that some part of the program is about to get executed.
 
 The basic code of a simple **GFLoader** is as shown below. There are five types in which the default corresponds to the android type of loader.
 
@@ -22,13 +23,13 @@ import 'package:getwidget/getwidget.dart';
  GFLoader(),
 ```
 
-### Types of Loaders
+### GF Flutter Loaders Custom Type 
 
 There are five different types of loaders namely **android**, **ios,** **circle**, **square,** and **custom**
 
-### **IOS Loader**
+### **Flutter IOS Spinner** 
 
-![IOS Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders_3x__6iEhhCjnN.png)
+![Flutter IOS Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders_3x__6iEhhCjnN.png)
 
 A simple **ios** loader in which the type of the loader should be passed to **ios**. The code is as shown below.
 
@@ -39,9 +40,9 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Circular Loader
+### Flutter Circular Loader
 
-![Circular Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
+![Flutter Circular Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
 
 A simple **circular** **shape loader** in which the type of the loader should be passed to **circle**. The code is as shown below.
 
@@ -53,9 +54,9 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Square Loader
+### Flutter Square Loader/Spinner
 
-![Square Loader](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
+![Flutter Square Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
 
 A simple **square** **shape loade**r in which the type of the loader should be passed to **square**. The code is as shown below.
 
@@ -67,7 +68,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Custom Loader
+### Gf Flutter Custom Loader
 
 Apart from the four types described above, there is a **custom loader** in which we can pass text, icons, images, etc as the parameters to show a variety of customized loaders. The below code shows the custom loader with a gif in it.
 
@@ -80,9 +81,9 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-### Custom Loader with Icon
+### Flutter Custom Loader with Icon
 
-The below code shows custom loaders with icons in them.
+The below example code shows Flutter custom loaders with icons in them.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -95,7 +96,7 @@ GFLoader(
 ),
 ```
 
-### Custom Loader with text
+### Flutter Custom Loader with text
 
 We can also pass **text** as a parameter to the custom loader. The below code shows a simple usage.
 
@@ -114,7 +115,7 @@ GFLoader(
 
 The look and feel of **GFLoader** can be customized using the below properties.
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **child** | child of type \[Widget\] used only for **custom** type and is prominent over loaderIconOne, loaderIconTwo and loaderIconThree in **custom** type |
 | **duration** | defines the animation duration of the loader only in **circle** and **square** type |

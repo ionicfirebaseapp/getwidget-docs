@@ -1,21 +1,21 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Image typically manages assets and displays the images on the run
-  time.
+  Gf Flutter Image image is custom widget to handle image and their design in
+  flutter. It comes with 25+ Custom properties to use according to requirement.
 ---
 
 # GF Flutter Image
 
-![GW Images](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png)
+![GF Flutter Image Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png)
 
 **Flutter Images** are those that manage the asset images and show that upon run time. The images can be static images or dynamic images.
 
 **GFImage** supports and manages the images to be displayed on run time. It has the following types of images which can be used in any application.
 
-### GF Asset Image
+### GF Flutter Asset Image
 
-**Asset image** is used to display the images stored locally in the assets folder. Below is a simple example of an asset image.
+**Asset image** is used to display the images stored locally in the assets folder. Below is a simple example code of an asset image.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -27,7 +27,7 @@ GFImageOverlay(
 )
 ```
 
-### GF Network Image
+### GF Flutter Network Image
 
 **Network image** is used to display an image from the internet. Hence the passing parameter for the image will be as shown in the below code.
 
@@ -41,11 +41,13 @@ GFImageOverlay(
 )
 ```
 
-### GF Image Overlay
+### GF Flutter Image Overlay
 
 I**mage Overlay** is used to set the image in the **background** and text in the **foreground** with the `colorFilter` property that takes two colors, and outputs one color
 
-![Image Overlay](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images_-_basic_3x_uHCFyLq7s.png)
+![Flutter Image Overlay](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images_-_basic_3x_uHCFyLq7s.png)
+
+**Flutter Image overlay example Code**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -62,11 +64,13 @@ GFImageOverlay(
 ),
 ```
 
-### GF Circular Image
+### GF Flutter Circle Image
 
 A **Circular Image** is an image with a circle-shaped border. It is widely used in any profile screen to display the profile picture.
 
-![Circular Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-circular_3x_DOdazHv_R.png)
+![Flutter Circular Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-circular_3x_DOdazHv_R.png)
+
+**Flutter Circle image example Code**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -80,11 +84,11 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### GFImage Custom Properties:
+### GF Flutter Image Custom Properties
 
 The custom properties of **GFImage** are given below to customize the look and feel of the image.
 
-|  |  |
+| Name | Description |
 | :--- | :--- |
 | **height** | defines the height of the image |
 | **width** | defines the width of the image |

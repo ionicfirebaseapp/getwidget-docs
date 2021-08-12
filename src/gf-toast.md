@@ -1,22 +1,22 @@
 ---
 sidebarDepth: 2
 description: >-
-  Flutter Toasts are simple messages or any kind of warnings that are displayed
-  for a shorter period of time.GFToast is a Flutter Toast Widget that can be
-  used to display quick warning or error messages
+  GF Flutter Toast is a Flutter Toast Widget that can be used to display quick
+  warning or error messages for a short time period. You can customize it as
+  required.
 ---
 
-# GF Toast - A Flutter Toast Widget
+# GF Flutter Toast Widget
 
-## Flutter Toast
+![GF Flutter Toast Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
 
-![GW Toast Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
-
-### GFToast Widget and its Usage
+### GF Flutter Toast Widget and its Usage
 
 **GFToast** is a **Flutter Toast** that is used to show **toast messages** or **errors** in a given interval of time and it can have a button to dismiss the messages.
 
-**GFToast** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. The simple code is as shown below.
+**GFToast** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFToast** as its argument and the **body** takes any kind of widgets. 
+
+The simple example code for **Flutter Toast Widget** is shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -67,13 +67,13 @@ Scaffold
 ),  
 ```
 
-### GFToast with Button:
+### GF Flutter Toast with Button:
 
 **GFToas**t can be used to dismiss or cancel messages or warnings with the help of a **GFButton** inside the GFToast. Hence GFToast will be usually accompanied by a **Flutter button**.
 
 The below example shows a simple code of how the **Flutter button** is used with the **GFToast**.
 
-![Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts_3x_Jy51nVck_o.png)
+![Flutter Custom Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts_3x_Jy51nVck_o.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -90,7 +90,7 @@ GFToast(
 ),
 ```
 
-### Auto Dismissible Toast
+### Flutter Auto Dismissible Toast
 
 **GFToast** can be dismissed using **Flutter buttons** and we have seen the example in the above section. But there is also another way to dismiss it by just passing a boolean value to the **autoDismiss** property wherein the toast will automatically get dismissed after a few given seconds.
 
@@ -105,7 +105,7 @@ GFToast(
 )
 ```
 
-### Positioning of the Toast
+### Flutter Toast custom Positioning 
 
 Toasts can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
 
@@ -122,11 +122,11 @@ body:GFFloatingWidget(
 )
 ```
 
-### GFToast Custom Properties:
+### GF Flutter Toast Custom Properties
 
 GFToast can be customized for a better look and feel. Here are the properties:
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **child** | **child** of type \[Widget\] which is an alternative to **text**. **text** will get priority over **child** |
 | **backgroundColor** | color of type \[GFColor\] or \[Color\] to change the backgroundColor of toast |

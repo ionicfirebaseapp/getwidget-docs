@@ -1,22 +1,20 @@
 ---
 description: >-
-  Flutter Checkbox ListTile is a checkbox with ListTile to display labels and
+  GF Flutter CheckboxListTile is a checkbox with ListTile to display labels and
   avatar, which allows users to select one or more options.
 ---
 
-# GF Checkbox ListTile
+# GF Flutter CheckboxListTile
 
-## GF Checkbox ListTile Info
+![GF Flutter CheckboxListTile Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png)
 
-![GW Checkbox ListTile Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png)
+### GF Flutter CheckBoxListTile 
 
-### GFCheckBoxListTile and its Usage:
+**GFCheckBoxListTile** is a **Flutter CheckBoxList Tile** that is a list of items wherein the user can check or uncheck the items in the list. It allows users to select one or more options inside the list. **GFCheckBoxListTile** can also be positioned right or left of the screen according to the need.
 
-**GFCheckBoxListTile** is a **Flutter CheckBoxListTile** that is a list of items wherein the user can check or uncheck the items in the list. It allows users to select one or more options inside the list. **GFCheckBoxListTile** can also be positioned right or left of the screen according to the need.
+The example code with an **avatar** of **Flutter CheckboxListTile** is as shown below.
 
-The simple code with an **avatar** of GFCheckboxListTile is as shown below.
-
-![GW Checkbox ListTile](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Checkbox_list_tile_3x_pjFO-T5_W.png)
+![GF Flutter CheckboxListTile with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Checkbox_list_tile_3x_pjFO-T5_W.png)
 
 ```dart
 bool isChecked = false;
@@ -45,11 +43,11 @@ GFCheckboxListTile(
 ),
 ```
 
-### **GFCheckBoxListTile** Custom Properties
+### **GF Flutter CheckBoxListTile** Custom Properties
 
-The Look and feel of the **GFCheckboxListTile** can be customized using the GFCheckboxListTile properties.
+The Look and feel of the **GFCheckboxListTile** can be customized using the **GFCheckboxListTile** properties.
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than the title |
 | **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than the subtitle |

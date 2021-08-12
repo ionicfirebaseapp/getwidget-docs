@@ -10,7 +10,7 @@
   * [GF Radio](src/gf-radio.md)
   * [GF Radio ListTile](src/gf-radio-listtile.md)
   * [GF Toast - A Flutter Toast Widget](src/gf-toast.md)
-  * [GF Alert - A Flutter Alert Widget](src/gf-alert.md)
+  * [GF Flutter Alert Dialog](src/gf-alert.md)
   * [GF Carousel - Flutter Carousel Widget](src/gf-carousel.md)
   * [GF Flutter Badge](src/gf-badge.md)
   * [GF Rating](src/gf-rating.md)

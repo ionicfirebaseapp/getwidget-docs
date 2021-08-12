@@ -1,23 +1,22 @@
 ---
 sidebarDepth: 2
 description: >-
-  The Flutter alert widget is used to show some information and wait for the
-  user's action.
+  GF Flutter alert Dialog widget is used to show some information and wait for
+  the user's action.GF alter comes with 100+ Custom properties like Basic, Full
+  width, and round custom alert.
 ---
 
-# GF Alert - A Flutter Alert Widget
+# GF Flutter Alert Dialog
 
-## Alert Info
+![GF Flutter AlertDialog Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
 
-![GW Alert Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
-
-### GFAlert and its Usage:
+### GF Flutter AlertDialog and its Usage
 
 **GFAlert** is a **Flutter Alert Dialog** that shows upon clicking the relevant button that gives some kind of information or messages and it apparently has some action buttons.
 
-**GFAlert** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The **GFAlert** code is as shown below.
+**GF Flutter Alert Dialog** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. 
 
-**GFAlert** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. The Alert code is as shown below.
+The **Flutter Alert Dialog** example code is as shown below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -95,13 +94,13 @@ Scaffold(
  ),
 ```
 
-### Alert with multiple buttons
+### Flutter Alert Dialog with multiple buttons
 
-![Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
+![Flutter Dialog Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
 
-**GFAlert** can have two or more buttons for call of action in the **bottombar** of the **alert** widget. The code below shows the multiple buttons
+**GFAlert** can have two or more buttons for call of action in the **bottombar** of the **alert** widget.
 
-**GFAlert** can have two or more buttons for call of action in the **bottombar** of the alert widget. The code below shows the multiple buttons
+ The code below shows the multiple buttons Dialog Alert Button. 
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -143,11 +142,9 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-### Types of Alert
+### Flutter  AlertDialog Type
 
-There are three types of **alerts** ie, `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
-
-There are three types of **alerts** ie , `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth**
+There are three types of **alerts** ie, `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth.**
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -190,7 +187,7 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-### Positioning of Alert
+### Flutter Dialog Alert Positioning
 
 **GFAlerts** can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
 
@@ -207,11 +204,11 @@ body:GFFloatingWidget(
 )
 ```
 
-### GFAert Custom Properties:
+### GF Flutter AlertDialog Custom Properties
 
-The look and feel of the **GFAlert** can be customised using the following properties:
+The look and feel of the **GFAlert** can be customized using the following properties
 
-|  |  |
+| Name  | Description |
 | :--- | :--- |
 | **child** | **child** of type \[Widget\] which is alternative to **title**. **title** will get priority over **child** |
 | **contentChild** | **contentchild** of type \[Widget\] which is alternative to **content**. **content** will get priority over **contentchild** |

@@ -4,21 +4,17 @@ description: >-
   which has a scrollable container.
 ---
 
-# GF Sticky Header
-
-### GF Sticky Header
+# GF Flutter Sticky Header
 
 **GFStickyHeader** is a **Flutter Sticky Header** that will be fixed or sticks on the top of the screen like the header that has a scrollable container. 
 
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers_docs_baner_compressed_-_a1zk2C7.gif)
+![Flutter Sticky Header ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers_docs_baner_compressed_-_a1zk2C7.gif)
 
-#### GFSticky Header Usage:
+#### GF Flutter Sticky Header Example 
 
 Always wrap **GFSticky Header** inside \[LIstView\], \[GridView\], \[CustomScrollView\], \[SingleChildScrollView\] or similar type of widget.
 
-The simple code of a basic **GFSticky Header** is as shown below. 
-
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers-basic_D4r9sejB1sy1.gif)
+The example code of a basic **GF Flutter Sticky Header** is as shown below. 
 
 ```dart
 List imageList = ['asset images here'];
@@ -89,23 +85,21 @@ ListView.builder(
         )),
 ```
 
-### GF Sticky Header Types
+### GF Flutter Sticky Header Types
 
-#### GF Sticky Header - Vertical
+#### GF Flutter Sticky Header - Vertical
 
 GF Sticky Header property_`direction: Axis.vertical`_aligns the __**stickyContent** __and content in vertical position. 
 
-#### GF Sticky Header - Horizontal
+#### GF Flutter Sticky Header - Horizontal
 
 GF Sticky Header property_`direction: Axis.horizontal`_aligns the **stickyContent** and content in horizontal position. 
 
-### GF Sticky Header Builder
-
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Sticky_headers-customized_-3xHGFDJw--.gif)
+### GF Flutter Sticky Header Builder
 
 \[GFStickyHeaderBuilder\] component works the same as **GFStickyHeade**r, instead of stickyHeader widget here we use \[builder\]. This allows the user to customize the stickyHeader. 
 
-The basic example **GFSticky Header Builder** is as shown below. 
+The basic example code **GFSticky Header Builder** is as shown below. 
 
 ```dart
 List imageList = ['asset images here'];
@@ -260,15 +254,15 @@ ListView.builder(
         )),
 ```
 
-### **GFStickyHeader** Custom Properties
+### **GF Flutter StickyHeader** Custom Properties
 
 The look and feel of the **GFStickyHeader** can be customized using the **GFStickyHeader** properties.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>

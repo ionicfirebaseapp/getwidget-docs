@@ -35,7 +35,7 @@
   * [Changelog](src/changelog.md)
   * [GF Flutter SearchBar](src/gf-searchbar.md)
   * [GF Flutter Floating Widget](src/gf-floating-widget.md)
-  * [GF Animation](src/gf-animation.md)
+  * [GF Flutter Animation](src/gf-animation.md)
   * [GF Flutter Border](src/gf-border.md)
   * [GF Bottomsheet](src/gf-bottomsheet.md)
   * [GF Intro Screen](src/gf-intro-screen.md)

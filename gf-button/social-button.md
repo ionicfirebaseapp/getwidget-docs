@@ -32,7 +32,7 @@ El callback disparado cuando se presiona el botón, definido en el atributo **on
 
 ### Botón social deshabilitado
 
-![Bot&#xF3;n social deshabilitado](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
+![Bot&#xF3;n social deshabilitado](../.gitbook/assets/disabled-buttons-2x-1.png)
 
 Si el atributo **onPressed** es null, entonces el botón estará deshabilitado. Por defecto, GFButton estará deshabilitado porque **onPressed** es null.
 
@@ -48,7 +48,7 @@ GFButton(
 
 ### Botón social Outline
 
-![Bot&#xF3;n social Outline](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
+![Bot&#xF3;n social Outline](../.gitbook/assets/outline-social-button-2x-1.png)
 
 Outline Button es un botón con fondo transparente y borde visible. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
@@ -133,7 +133,7 @@ Para obtener un botón cuadrado con un color de fondo sólido sin bordes redonde
 
 ### Tamaño de un botón social
 
-![Tama&#xF1;o de un bot&#xF3;n social](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
+![Tama&#xF1;o de un bot&#xF3;n social](../.gitbook/assets/full-width-social-button-2x-1.png)
 
 El tamaño del botón puede ser modificado utilizando la propiedad **size**. El valor por defecto es `GFSize.MEDIUM`.
 

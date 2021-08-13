@@ -47,7 +47,7 @@ import 'package:getwidget/getwidget.dart';
 
 ### Outline Icon Button
 
-![Outline Icon Button](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
+![Outline Icon Button](../.gitbook/assets/outline-icon-button-2x-1.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
@@ -150,7 +150,7 @@ GFButton(
 
 ### Full Width Icon Button
 
-![Full Width Icon Button](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
+![Full Width Icon Button](../.gitbook/assets/fullwidth-icon-button-2x-1.png)
 
 Full Width button specify how wide the button should be. By setting **fullWidthButton** state `true`, it will change the button to a Full-width button with square corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 

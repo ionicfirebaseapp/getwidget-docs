@@ -30,7 +30,7 @@ The callback that is called when the button is tapped. By adding callback to **o
 
 ### Disabled Social Button
 
-![Disabled Social Button](../.gitbook/assets/disabled-buttons-2x%20%281%29.png)
+![Disabled Social Button](../.gitbook/assets/disabled-buttons-2x-1.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because, **onPressed** set to null. 
 
@@ -46,7 +46,7 @@ GFButton(
 
 ### Outline  Social Button
 
-![Outline Social Button](../.gitbook/assets/outline-social-button-2x%20%281%29.png)
+![Outline Social Button](../.gitbook/assets/outline-social-button-2x-1.png)
 
 Outline Button describes as the Button with a transparent background and a visible border. This button can be easily get in GFButton by adding **type** as **`GFButtonType.outline`**. 
 
@@ -131,7 +131,7 @@ We will able to get square shaped button with solid background color with no rou
 
 ###  Social  Button Size
 
-![Social Button Size](../.gitbook/assets/full-width-social-button-2x%20%281%29.png)
+![Social Button Size](../.gitbook/assets/full-width-social-button-2x-1.png)
 
 Button size can be varied using **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 

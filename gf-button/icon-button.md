@@ -49,7 +49,7 @@ import 'package:getflutter/getflutter.dart';
 
 ### Botón Outline con ícono
 
-![Bot&#xF3;n Outline con &#xED;cono](../.gitbook/assets/outline-icon-button-2x%20%281%29.png)
+![Bot&#xF3;n Outline con &#xED;cono](../.gitbook/assets/outline-icon-button-2x-1.png)
 
 Outline Icon Button es un botón con fondo transparente y borde visible. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
@@ -152,7 +152,7 @@ GFButton(
 
 ### Botón de ancho máximo con ícono
 
-![Bot&#xF3;n de ancho m&#xE1;ximo con &#xED;cono](../.gitbook/assets/fullwidth-icon-button-2x%20%281%29.png)
+![Bot&#xF3;n de ancho m&#xE1;ximo con &#xED;cono](../.gitbook/assets/fullwidth-icon-button-2x-1.png)
 
 Full Width Button especifica cuan ancho debe ser el botón. Definiendo **fullWidthButton** como `true`, el botón será un botón de ancho máximo con bordes redondeados y sin margen a los costados. Por defecto **fullWidthButton** está definido como `false`.
 

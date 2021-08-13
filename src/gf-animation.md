@@ -12,9 +12,11 @@ description: >-
 
 ## GF Flutter Animation Type :
 
-### 1. GF Flutter Animation Rotation
+### 1. GF Flutter Rotation Animation 
 
-**GFAnimation** property `type: GFAnimationType.rotateTransition` ,  creates a rotation transition for the child of type widget. This type of animation will animate the rotation of a widget. The below code shows the **Flutter rotation animation**.
+**GFAnimation** property `type: GFAnimationType.rotateTransition` ,  creates a rotation transition for the child of type widget. This type of animation will animate the rotation of a widget. 
+
+The below example code shows the **Flutter rotation animation**.
 
 ![GF Flutter Rotation Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-Rotation_xN-DtCumD.gif)
 
@@ -104,11 +106,11 @@ GFAnimation(
 ),
 ```
 
-### 4.GF Flutter Animation Slide Transition
+### 4.GF Flutter Page Slide Transition
 
-![GF Flutter Animation Slide Transition](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_slide_pCBzSV31Bgt.gif)
+![GF Flutter Page Slide Transition](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_slide_pCBzSV31Bgt.gif)
 
-**GFAnimation** property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of type widget. Animates the position of a widget relative to its normal position. The below codes shows the example of flutter slide transition animation.
+**GFAnimation** property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of type widget. Animates the position of a widget relative to its normal position. The below codes shows the example of **flutter page slide transition** animation.
 
 ```dart
  late Animation<Offset> offsetAnimation;
@@ -147,7 +149,7 @@ Container(
 
 ![Flutter Size Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-size_Uo3LU0xmy.gif)
 
-**GFAnimation** property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes. The example below demonstrates the **size animation in flutter**.
+**GFAnimation** property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes. The example below demonstrates the **Text** **size animation in flutter**.
 
 ```dart
 bool selected = false;

@@ -1,19 +1,19 @@
 ---
 description: >-
-  GF Flutter Intro Screen is a virtual unique interactive Slider that helps
-  users get started with an app. It has many features that help to build
-  custom-made introduction screen sliders.
+  GF Intro Screen is a virtual unique interactive Slider that helps users get
+  started with an app. It has many features that help to build custom-made
+  introduction screen sliders.
 ---
 
-# GF Introduction Screen
+# GF Intro Screen
 
-### GF Flutter Intro Screen or Welcome Screen
+### GF Intro Screen
 
-**GFIntro Screen** is a **Flutter Introduction Screen** that has sliders and gives information about the application. It can have as many slides as the application needs. It is a user-friendly widget that pops upon opening the application to give a brief introduction to the app.
+**GFIntro Screen** is a **Flutter IntroScreen** that has sliders and gives information about the application. It can have as many slides as the application needs. It is a user-friendly widget that pops upon opening the application to give a brief introduction to the app.
 
-![GF Flutter Introduction Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Intro_screens_docs_banner-compressed_IQ9kTYzvLEsR.gif)
+![GW Introscreens](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Intro_screens_docs_banner-compressed_IQ9kTYzvLEsR.gif)
 
-The simple code of a basic **GF Introduction Screen** is as shown below.
+The simple code of a basic **GFIntroScreen** is as shown below.
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens_full_width_tT9qnpWrC.gif)
 
@@ -131,7 +131,7 @@ List<Widget> slides() {
 }
 ```
 
-### GF Flutter Intro Screen Bottom Navigation Bar
+### GF IntroScreenBottomNavigationBar
 
 **GF IntroScreenBottomNavigationBar** is a bottom bar that sits at the bottom end of the screen. This component contains pagination and buttons for navigation. It has many features for customizing the bottom navigation bar.
 
@@ -160,7 +160,7 @@ GFIntroScreen(
 ),  
 ```
 
-### GF Flutter Introduction Custom Screen
+### GF Intro Screen - Customised
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens-half_-Ptb6PZ669.gif)
 
@@ -289,11 +289,11 @@ List<Widget> slides() {
 }
 ```
 
-### **GF Flutter IntroScreen** Custom Properties
+### **GFIntroScreen** Custom Properties
 
 Look and feel of the **GFIntroScreen** can be customized using the **GFIntroScreen** properties.
 
-| Name | Description |
+|  |  |
 | :--- | :--- |
 | **slides** | defines the list of slides |
 | **pageController** | allows one to control \[GFIntroScreen\] slides |

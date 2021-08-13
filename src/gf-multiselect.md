@@ -6,7 +6,7 @@ description: >-
 
 # GF Flutter Multiselect
 
-**GF Flutter Multiselect** lets users select multiple items from the number of **Checkbox ListTile items** and display selected items in the TitleTile box. It displays a list of items in the overlay dropdown fashion.
+**GF Multiselect** lets users select multiple items from the number of Checkbox ListTile items and display selected items in the TitleTile box. It displays a list of items in the overlay dropdown fashion.
 
 ![GF Flutter Multi Select Checkbox ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png)
 
@@ -52,13 +52,11 @@ GFMultiSelect(
 ),
 ```
 
-### GF Custom Flutter Multiselect option 
+### Customized GF Flutter Multiselect
 
-**GFMultiselect** features allow users to create a customized multi-select dropdown for the more flexible and interactive UI design.
+**GFMultiselect** features allow users to create a customized multi-select dropdown for the more flexible and interactive UI design. The below code gives the example.
 
- The below example code gives the basic **Flutter Multi Select option in flutter app**
-
-![Custom Flutter Multi Select option](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
+![Custom Flutter Multi Select](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
 
 ```dart
 Container(

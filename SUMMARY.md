@@ -3,7 +3,7 @@
 * [Flutter GetWidget Docs](README.md)
 * [src](src/README.md)
   * [Flutter GetWidget Docs](src/introduction.md)
-  * [Flutter Getwidget Tutorial](src/getting-started.md)
+  * [Flutter Tutorial with Getwidget](src/getting-started.md)
   * [GF Flutter Accordion](src/gf-accordion.md)
   * [GF Flutter Checkbox](src/gf-checkbox.md)
   * [GF Flutter CheckboxListTile](src/gf-checkbox-listtile.md)

@@ -37,7 +37,7 @@
   * [GF Flutter Floating Widget](src/gf-floating-widget.md)
   * [GF Flutter Animation](src/gf-animation.md)
   * [GF Flutter Border](src/gf-border.md)
-  * [GF Flutter Bottomsheet](src/gf-bottomsheet.md)
+  * [GF Flutter Bottomsheet Model](src/gf-bottomsheet.md)
   * [GF Intro Screen](src/gf-intro-screen.md)
   * [GF Flutter Sticky Header](src/gf-sticky-header.md)
   * [GF Flutter Dropdown](src/gf-dropdown.md)

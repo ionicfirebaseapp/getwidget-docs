@@ -107,7 +107,7 @@ GFButton(
 
 ## Botón Outline
 
-![Flutter Outline Button](../.gitbook/assets/outline-2x-2x%20%282%29.png)
+![Flutter Outline Button](../.gitbook/assets/outline-2x-2x-2.png)
 
 Outline Button es un botón con fondo transparente y borde visible. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline`**.
 
@@ -125,7 +125,7 @@ Las propiedades antes mencionadas, como `size`, `blockButton`, `fullWidthButton`
 
 ## Botón Outline 2x
 
-![GF Flutter Outline 2X Button](../.gitbook/assets/outline-2x-2x%20%281%29.png)
+![GF Flutter Outline 2X Button](../.gitbook/assets/outline-2x-2x-1.png)
 
 Outline2x Button es un botón con fondo transparente y borde visible con un ancho de 2x. Podemos obtener este botón facilmente definiedo el atributo **type** como **`GFButtonType.outline2x`**.
 

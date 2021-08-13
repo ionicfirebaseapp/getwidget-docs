@@ -1,26 +1,23 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF Flutter Rating Widget is a row of star icons, one can touch or drag the row
-  of icons to set the rating. It has many custom properties to customize like
-  Color, Icon.
+  GFRating is a row of star icons, one can touch or drag the row of icons to set
+  the rating.
 ---
 
-# GF Flutter Rating
+# GF Rating
 
-![GF Flutter Rating Bar Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Ratings_IgiXBsGTL.png)
+![GW Rating Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Ratings_IgiXBsGTL.png)
 
-### GF Flutter Rating Bar
+## Flutter Rating 
 
 **Flutter rating** allows the user to start rating any of the products using the start icons as rating icons.
 
-### GF Flutter Rating Star and its Usage
+### GFRating and its Usage:
 
-**GF Flutter Star Rating** is a very simple widget that permits the users to rate with the help of star icons. Users can touch the icons to start rating. 
+**GFRating** is a very simple widget that permits the users to rate with the help of star icons. Users can touch the icons to start rating. The simple code of a basic **GF Rating** is as shown below.
 
-The simple code of a basic **GF Start Rating** is as shown below.
-
-![GF Flutter Star Rating Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ratings-2x_Sn4SxO-12_l0-nhQy_z.png)
+![GW Rating](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ratings-2x_Sn4SxO-12_l0-nhQy_z.png)
 
 ```dart
 double _rating = 3;
@@ -35,11 +32,9 @@ GFRating(
 ),
 ```
 
-### GF Flutter Rating with TextField
+### GFRating with TextField:
 
-If `showTextForm` true, it displays the GF Rating bar with a text field, that takes user input to show the rating. 
-
-The simple example code of the **rating bar with textform** is shown below.
+If `showTextForm` true, it displays the GF Rating bar with a text field, that takes user input to show the rating. The simple code of the rating bar with textform is shown below.
 
 ```dart
 final _ratingController = TextEditingController();
@@ -67,7 +62,7 @@ GFRating(
 ),
 ```
 
-### GF Flutter Rating Bar Custom Properties:
+### GFRating Custom Properties:
 
 The look and feel of the **GF Rating** can be customized using the GF Rating properties.
 

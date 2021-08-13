@@ -1,16 +1,17 @@
 ---
 description: >-
-  GF Flutter Bottomsheet model is a custom ready-to-use bottomsheet widget with
-  many options and properties to customize and straightway used in your app.
+  GF Flutter Bottomsheet is a component, it slides up from the bottom edge of
+  the screen to display options for users which do not require more actions to
+  be done.
 ---
 
-# GF Flutter Bottomsheet Model
+# GF Flutter Bottomsheet
 
-**GFBottomSheet** is a **Flutter BottomSheet Model** that slides from the bottom of the screen and which prevents the user from using the other functionality of the app. It is just like a modal or popup that requires fewer actions from the user.
+**GFBottomSheet** is a **Flutter BottomSheet** that slides from the bottom of the screen and which prevents the user from using the other functionality of the app. It is just like a modal or popup that requires fewer actions from the user.
 
-### GF Flutter Basic BottomSheet Model 
+### GF Flutter Basic BottomSheet
 
-The basic **GFBottomSheet**  Model code example is given below
+The basic **GFBottomSheet** example is given below
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png)
 
@@ -83,9 +84,9 @@ Scaffold(
 )
 ```
 
-### GF Flutter Bottomsheet Model with Expandable content
+### GF Flutter Bottomsheet with Expandable content
 
-**GFBottomSheet** allows the user to expand the content body to display more content. The property `enableExpandableContent`  on `true` makes the content body expandable. The blow code shows how to expand the content bypassing the boolean value.
+**GFBottomSheet** allows the user to expand content body to display more content. The property `enableExpandableContent`  on `true` makes the content body expandable. The blow code shows how to expand the content by passing the boolean value.
 
 ```dart
 final GFBottomSheetController _controller = GFBottomSheetController();
@@ -172,7 +173,7 @@ GFBottomSheet(
 ),
 ```
 
-### **GF Flutter Bottomsheet Model** Custom Properties
+### **GF Flutter Bottomsheet** Custom Properties
 
 The look and feel of the **GFBottomsheet** can be customized using the GFBottomsheet properties.
 

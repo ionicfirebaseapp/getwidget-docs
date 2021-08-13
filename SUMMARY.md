@@ -13,7 +13,7 @@
   * [GF Flutter Alert Dialog](src/gf-alert.md)
   * [GF Flutter Carousel Widget](src/gf-carousel.md)
   * [GF Flutter Badge](src/gf-badge.md)
-  * [GF Rating](src/gf-rating.md)
+  * [GF Flutter Rating](src/gf-rating.md)
   * [Flutter Button Widget](src/gf-button/README.md)
     * [Flutter Pills/Rounded Button](src/gf-button/pills-button.md)
     * [Flutter Social Button](src/gf-button/social-button.md)

@@ -96,7 +96,7 @@ module.exports = {
             { text: 'Home', link: 'https://www.getwidget.dev/', target: 'blank' },
             { text: 'Blog', link: 'https://www.getwidget.dev/blog/', target: 'blank' },
             { text: 'Github', link: 'https://github.com/ionicfirebaseapp/getwidget', target: 'blank' },
-            { text: 'Marketplace', link: 'https://www.ionicfirebaseapp.com/products', target: 'blank' },
+            { text: 'FLUTTER APP KIT', link: 'https://market.getwidget.dev/products/', target: 'blank' },
         ],
         activeHeaderLinks: true,
         sidebar: [
@@ -341,7 +341,7 @@ module.exports = {
             },
 
             {
-                title: 'GF Checkbox List Title',
+                title: 'GF Checkbox ListTile',
                 path: '/gf-checkbox-listtile',
                 collapsable: true,
                 children: [
@@ -357,7 +357,7 @@ module.exports = {
                 ],
             },
             {
-                title: 'GF Intro Screen',
+                title: 'GF IntroScreen',
                 path: '/gf-intro-screen',
                 collapsable: true,
                 children: [
@@ -365,7 +365,7 @@ module.exports = {
                 ],
             },
             {
-                title: 'GF Radio List Title',
+                title: 'GF Radio ListTile',
                 path: '/gf-radio-listtile',
                 collapsable: true,
                 children: [
@@ -398,8 +398,8 @@ module.exports = {
                 ],
             },
             {
-                title: 'Flutter Market',
-                path: 'https://www.ionicfirebaseapp.com/products',
+                title: 'Flutter UI KIT Market',
+                path: 'https://market.getwidget.dev/products/',
                 target: 'blank',
                 collapsable: false
             },

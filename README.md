@@ -1,8 +1,9 @@
 ---
 image: 'https://ik.imagekit.io/ionicfirebaseapp/link-share_EbZz6yv3T.png'
 description: >-
-  Get Widget is one of the largest Flutter open-source UI Kit libraries for
-  mobile or web apps. It has more than 1000+ pre-built reusable widgets.
+  Flutter Development Docs by GetWidget is one of the largest Flutter
+  open-source UI Kit libraries for mobile or web apps. It has more than 1000+
+  pre-built reusable widgets.
 ---
 
 # Flutter Docs

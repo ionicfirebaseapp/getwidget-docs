@@ -12,11 +12,11 @@ description: >-
 
 ## How GetWidget Started?
 
-We are a huge follower of Flutter and using it from a very early stage even since it was released in the alpha stage in 2017. We used it in various Flutter apps including some enterprise SAAS applications.
+We are a huge follower of Flutter and using it from a very early stage ever since it was released in the alpha stage in 2017. We used it in various Flutter apps including some enterprise SAAS applications.
 
 Flutter almost has all the widgets available that developers can use in projects but again, we used to develop lots of projects with flutter and hence decided why not develop all the possible widgets that can be reused in any project and speed up the app development.
 
-We launched our UI Library in the beginning to develop a flutter app, to test the library component. Kindly give us your feedback to improve and add more widgets to our library. And if you are new then follow our this Flutter development doc with GetWidget. These Flutter Docs will help you out to build Flutter app faster.
+We launched our UI Library in the beginning to develop a flutter app, to test the library component. Kindly give us your feedback to improve and add more widgets to our library. And if you are new then follow our this Flutter development doc with [GetWidget](https://www.getwidget.dev/). These Flutter Docs will help you out to build the Flutter app faster.
 
 ## Get Widget Roadmap
 

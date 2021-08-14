@@ -16,7 +16,7 @@ We are a huge follower of Flutter and using it from a very early stage even sinc
 
 Flutter almost has all the widgets available that developers can use in projects but again, we used to develop lots of projects with flutter and hence decided why not develop all the possible widgets that can be reused in any project and speed up the app development.
 
-We launched or UI Library in the beginning to develop, to test the library component. Kindly give us your feedback to improve and add more widgets to our library.
+We launched our UI Library in the beginning to develop a flutter app, to test the library component. Kindly give us your feedback to improve and add more widgets to our library. And if you are new then follow our this Flutter development doc with GetWidget. These Flutter Docs will help you out to build Flutter app faster.
 
 ## Get Widget Roadmap
 

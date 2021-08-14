@@ -5,7 +5,7 @@ description: >-
   mobile or web apps. It has more than 1000+ pre-built reusable widgets.
 ---
 
-# Flutter GetWidget Docs
+# Flutter Docs
 
 ![Get Widget Banner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/link-share_aT-cHzGY9.png)
 

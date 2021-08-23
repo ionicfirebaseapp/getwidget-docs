@@ -426,13 +426,6 @@ module.exports = {
                 ga: 'UA-165669152-1'
             }
         ],
-        ['autometa', default_options],
-        [
-            "@mr-hope/sitemap",
-            {
-                hostname: "https://docs.getwidget.dev/",
-                changefreq: "daily"
-            },
-        ],
+        ['autometa', default_options]
     ],
 }

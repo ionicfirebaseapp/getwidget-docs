@@ -340,12 +340,40 @@ GFIconBadge(
 ),
 ```
 
-| Name  | Description |
-| :--- | :--- |
-| **Description** | The GFIconButton Shape |
-| **Attribute** | shape |
-| **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
-| **Default** | `GFIconButtonShape.standard` |
+### Flutter Icon Button Badge Position
+
+The Position of **GF** **Icon Badge** can be changed by setting property **position** to `GFBadgePosition.bottomEnd(bottom: 0, end: 3)`. Default position of the GF IconBadge set to `GFIconButtonShape.topEnd()` which gives badge positioned at top of IconButton.
+
+```dart
+import 'package:getwidget/getwidget.dart';
+
+ GFIconBadge(
+  child: GFIconButton(
+  color: GFColors.LIGHT,
+  shape: GFIconButtonShape.circle,
+  onPressed: () {},
+   icon: const Icon(
+     IconData(
+      0xe911,
+      fontFamily: 'GFIconFonts',
+     ),
+     color: GFColors.INFO,
+    ),
+ ),
+ counterChild: const GFBadge(
+   text: '12',
+   shape: GFBadgeShape.circle,
+  ),
+ position: GFBadgePosition.bottomEnd(bottom: 0, end: 3),
+),
+```
+
+|  | Name  | Description |
+| :--- | :--- | :--- |
+|  | **Description** | The GFIconButton Shape |
+|  | **Attribute** | shape |
+|  | **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+|  | **Default** | `GFIconButtonShape.standard` |
 
 ### Flutter Icon Button Custom Properties
 
@@ -360,4 +388,5 @@ GFIconBadge(
 | **iconSize** | defines the size of icon |
 | **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
 | **boxShadow** | defines the boxShadow |
+| **position** | defines the position of the counterChild in GFIconBadge |
 

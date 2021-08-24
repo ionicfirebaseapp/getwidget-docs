@@ -92,7 +92,7 @@ import 'package:getwidget/getwidget.dart';
               )),
 ```
 
-### Flutter Toast custom Positioning 
+### GF Flutter Toast with custom Positioning 
 
 Toasts can be positioned accordingly over viewing screen. The positioning can be done using `GFToastPosition.BOTTOM`. The usage of these is shown below.
 

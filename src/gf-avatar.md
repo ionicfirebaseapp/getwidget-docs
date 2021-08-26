@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Avatar Widgets come with lots of custom properties like Square,
   Circle shape and also can use with Badge or other GF widgets.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Avatars_1QfiwJn9kNW.png
+canonicalUrl: https://docs.getwidget.dev/gf-avatar
+
 ---
 
 # GF Flutter Avatar

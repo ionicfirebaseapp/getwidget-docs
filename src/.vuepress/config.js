@@ -426,6 +426,12 @@ module.exports = {
                 ga: 'UA-165669152-1'
             }
         ],
-        ['autometa', default_options]
+        ['autometa', default_options],
+        [
+            "@mr-hope/copy-code",
+            {
+                showInMobile: true
+            },
+        ],
     ],
 }

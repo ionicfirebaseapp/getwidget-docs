@@ -3,6 +3,10 @@ description: >-
   GF Flutter RadioList Tile is a radio button with a listTile to display labels
   and which allows the user to choose only one of a predefined set of mutually
   exclusive options.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png
+canonicalUrl: https://docs.getwidget.dev/gf-radio-listtile
+
 ---
 
 # GF Flutter RadioList Tile

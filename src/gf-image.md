@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   Gf Flutter Image image is custom widget to handle image and their design in
   flutter. It comes with 25+ Custom properties to use according to requirement.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png
+canonicalUrl: https://docs.getwidget.dev/gf-image
+
 ---
 
 # GF Flutter Image

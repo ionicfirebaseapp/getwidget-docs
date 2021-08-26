@@ -4,7 +4,10 @@ description: >-
   GF Flutter Accordion expands or collapses the view of its children when it is
   tapped. GFAccordion is used to collapse and expand the content to view the
   messages.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png
 canonicalUrl: https://docs.getwidget.dev/gf-accordion
+
 ---
 
 # GF Flutter Accordion

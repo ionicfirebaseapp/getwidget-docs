@@ -3,6 +3,10 @@ sidebarDepth: '0'
 description: >-
   Get Widget is one of the largest Flutter open-source UI Kit libraries for
   mobile or web apps. It has more than 1000+ pre-built reusable widgets.
+image: >-
+  https://image.ionicfirebaseapp.com/tr:dpr-auto,tr:w-auto/gw_banner_QysQrCk2J.png
+canonicalUrl: https://docs.getwidget.dev/
+
 ---
 
 # Flutter GetWidget Docs

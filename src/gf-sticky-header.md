@@ -2,6 +2,8 @@
 description: >-
   Flutter Sticky Header is a widget that sticks the header on top of the screen
   which has a scrollable container.
+canonicalUrl: https://docs.getwidget.dev/gf-sticky-header/
+
 ---
 
 # GF Flutter Sticky Header

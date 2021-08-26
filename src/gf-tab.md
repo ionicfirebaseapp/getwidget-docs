@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter TabBar is a TabBarView that consists of a pageview that displays
   the currently selected tab.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png
+canonicalUrl: https://docs.getwidget.dev/gf-tab
+
 ---
 
 # GF Flutter TabBar

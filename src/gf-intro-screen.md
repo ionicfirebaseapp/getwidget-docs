@@ -3,6 +3,8 @@ description: >-
   GF Flutter Introduction Screen is a virtual unique interactive Slider that
   helps users get started with an app. It has many features that help to build
   custom-made introduction screen sliders.
+canonicalUrl: https://docs.getwidget.dev/gf-intro-screen/
+
 ---
 
 # GF Introduction Screen

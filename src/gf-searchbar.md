@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter SearchBar represents a text field that can be used to search
   through a collection.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png
+canonicalUrl: https://docs.getwidget.dev/gf-searchbar
+
 ---
 
 # GF Flutter SearchBar

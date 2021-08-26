@@ -3,6 +3,8 @@ sidebarDepth: 2
 description: >-
   GF Flutter Floating Widget is a simple widget that acts as the outer wrapper
   to other kinds of components.
+canonicalUrl: https://docs.getwidget.dev/gf-floating-widget
+
 ---
 
 # GF Flutter Floating Widget

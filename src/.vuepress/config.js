@@ -74,9 +74,8 @@ module.exports = {
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap' }],
-
-
+        ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com' }],
+        ['link', { rel: 'preload',  href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap' }],
 
     ],
 

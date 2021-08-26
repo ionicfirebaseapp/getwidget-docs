@@ -3,6 +3,10 @@ description: >-
   GF Flutter Radio Button is a custom radio button with many predefine
   properties. it allows the user to choose only one of a predefined set of
   mutually exclusive options.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_button__2x_L9eu2FM1aw.png
+canonicalUrl: https://docs.getwidget.dev/gf-radio
+
 ---
 
 # GF Flutter Radio Button

@@ -4,6 +4,10 @@ description: >-
   GF Flutter Rating Widget is a row of star icons, one can touch or drag the row
   of icons to set the rating. It has many custom properties to customize like
   Color, Icon.
+ image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Ratings_IgiXBsGTL.png
+canonicalUrl: https://docs.getwidget.dev/gf-rating
+
 ---
 
 # GF Flutter Rating

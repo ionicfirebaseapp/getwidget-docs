@@ -5,8 +5,9 @@ description: >-
   Flutter Tutorial with Getwidget step by step tutorial guide on how to get
   started and use it in any flutter app or web app project.
 image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png
+  https://image.ionicfirebaseapp.com/tr:dpr-auto,tr:w-auto/gw_banner_QysQrCk2J.png
 canonicalUrl: https://docs.getwidget.dev/getting-started
+
 ---
 
 # Flutter Tutorial with Getwidget

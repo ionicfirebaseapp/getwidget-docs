@@ -2,6 +2,8 @@
 description: >-
   GF Flutter Animations make UI feel more interesting, it makes the look and
   feel of the app more polished and improves the user experience.
+canonicalUrl: https://docs.getwidget.dev/gf-animation
+
 ---
 
 # GF Flutter Animation

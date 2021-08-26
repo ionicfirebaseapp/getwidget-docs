@@ -4,6 +4,10 @@ description: >-
   GF Flutter Square Button Widget looks like a solid button without rounded
   corners. It comes with 100 + custom properties to customize button size,
   color, width, and many more.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_button-solid_ASrQepMkb.png
+canonicalUrl: https://docs.getwidget.dev/gf-button/square-button
+
 ---
 
 # Flutter Square Button

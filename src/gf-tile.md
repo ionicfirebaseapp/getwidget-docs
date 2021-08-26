@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   Gf Flutter ListTile represents a single row that typically contains some text
   as title, subtitle, icons as trailing, and additional text for description.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tiles_ceMiNxKGK.png
+canonicalUrl: https://docs.getwidget.dev/gf-tile
+
 ---
 
 # GF Flutter ListTile

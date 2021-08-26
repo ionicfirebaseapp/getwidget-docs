@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Typography defines the different sizes of the texts in the
   application varying from Type 1 to Type 6.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Typography_WU9Jso1UwI.png
+canonicalUrl: https://docs.getwidget.dev/gf-typography
+
 ---
 
 # GF Flutter Typography

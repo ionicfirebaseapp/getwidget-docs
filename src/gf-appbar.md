@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter appbar is a top action bar or a top action button that has a
   dedicated space with visual structure and interactive elements.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Appbar_qHw5dgqjR5Q5.png
+canonicalUrl: https://docs.getwidget.dev/gf-appbar
+
 ---
 
 # GF Flutter Appbar

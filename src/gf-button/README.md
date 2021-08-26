@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Button is Flutter Button Widgets that come with a 100+ pre-built button
   with endless color combinations that you can use straightway in your project.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png
+canonicalUrl: https://docs.getwidget.dev/gf-button
+
 ---
 
 # Flutter Button Widget

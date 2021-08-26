@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   Flutter Icon button is a button that has a icon with solid background fill
   color in it.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png
+canonicalUrl: https://docs.getwidget.dev/gf-button/icon-button/
+
 ---
 
 # Flutter Icon Button

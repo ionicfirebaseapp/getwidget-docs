@@ -2,6 +2,10 @@
 description: >-
   GF Flutter Border is a box-like line that has four sides top, bottom, left,
   and right. It acts like an outer line surrounding a widget
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW-Borders_docs_banner_JIomXoiPKpc.png
+canonicalUrl: https://docs.getwidget.dev/gf-border
+
 ---
 
 # GF Flutter Border

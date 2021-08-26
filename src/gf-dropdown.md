@@ -2,6 +2,10 @@
 description: >-
   GF Flutter Dropdown allows the user to select a value from the number of list
   items and display the selected item.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_Drop_down_2x_R8HnHoR9S.png
+canonicalUrl: https://docs.getwidget.dev/gf-dropdown
+
 ---
 
 # GF Flutter Dropdown

@@ -2,6 +2,10 @@
 description: >-
   GF Flutter Bottomsheet model is a custom ready-to-use bottomsheet widget with
   many options and properties to customize and straightway used in your app.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png
+canonicalUrl: https://docs.getwidget.dev/gf-bottomsheet
+
 ---
 
 # GF Flutter Bottomsheet Model

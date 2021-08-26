@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   Flutter Badge is a notification alarm that gives some additional information
   about the widget.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Badges_v0v7rCbeO.png
+canonicalUrl: https://docs.getwidget.dev/gf-badge
+
 ---
 
 # GF Flutter Badge

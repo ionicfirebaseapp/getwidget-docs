@@ -2,6 +2,10 @@
 description: >-
   GF Flutter Checkbox is a custom checkbox with many properties and shapes like
   Square, Circular, and many custom properties.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png
+canonicalUrl: https://docs.getwidget.dev/gf-checkbox
+
 ---
 
 # GF Flutter Checkbox

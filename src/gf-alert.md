@@ -4,6 +4,8 @@ description: >-
   GF Flutter alert Dialog widget is used to show some information and wait for
   the user's action.GF alter comes with 100+ Custom properties like Basic, Full
   width, and round custom alert.
+canonicalUrl: https://docs.getwidget.dev/gf-alert
+
 ---
 
 # GF Flutter Alert Dialog

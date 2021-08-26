@@ -4,6 +4,10 @@ description: >-
   Flutter Social Buttons are a set of buttons that are used to get sign-in
   buttons for any social media account, GF social button comes with lots of
   properties to customize as need.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png
+canonicalUrl: https://docs.getwidget.dev/gf-button/social-button/
+
 ---
 
 # Flutter Social Button

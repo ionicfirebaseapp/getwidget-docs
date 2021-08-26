@@ -2,6 +2,10 @@
 description: >-
   GF Flutter CheckboxListTile is a checkbox with ListTile to display labels and
   avatar, which allows users to select one or more options.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png
+canonicalUrl: https://docs.getwidget.dev/gf-checkbox-listtile
+
 ---
 
 # GF Flutter CheckboxListTile

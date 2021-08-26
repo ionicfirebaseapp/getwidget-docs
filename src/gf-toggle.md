@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Toggle is a custom toggle widget like Square, Android, IOS, and
   Custom widget with many custom properties to customize as required.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png
+canonicalUrl: https://docs.getwidget.dev/gf-toggle
+
 ---
 
 # GF Flutter Toggle

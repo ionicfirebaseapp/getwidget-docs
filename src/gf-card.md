@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Card Widget that has more than 20+ predesign custom cards ready to
   use in your app.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png
+canonicalUrl: https://docs.getwidget.dev/gf-card
+
 ---
 
 # GF Flutter Card

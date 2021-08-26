@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Carousel widget custom develop Carousel with many custom properties
   full width, Full Size and use with Flutter Image component.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png
+canonicalUrl: https://docs.getwidget.dev/gf-carousel
+
 ---
 
 # GF Flutter Carousel Widget

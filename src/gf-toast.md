@@ -4,6 +4,10 @@ description: >-
   GF Flutter Toast is a Flutter Toast Widget that can be used to display quick
   warning or error messages for a short time period. You can customize it as
   required.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png
+canonicalUrl: https://docs.getwidget.dev/gf-toast
+
 ---
 
 # GF Flutter Toast Widget

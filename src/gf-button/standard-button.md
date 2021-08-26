@@ -4,6 +4,10 @@ description: >-
   Flutter Elevated Button looks like a solid button with slightly rounded
   corners. GF Button has all the variants like an outline, Transparent, Disable,
   and Block button.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Standard_buttons_-_solid_bfYdW7r4D.png
+canonicalUrl: https://docs.getwidget.dev/gf-button/standard-button/
+
 ---
 
 # Flutter Elevated Button

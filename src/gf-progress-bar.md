@@ -3,6 +3,10 @@ sidebarDepth: 2
 description: >-
   GF Flutter Progress Bar is a simple Widget that shows the progress of any task
   along a line or along a Circle progress bar.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Progress_bar_docs_banner_cogNGuz9x.png
+canonicalUrl: https://docs.getwidget.dev/gf-progress-bar
+
 ---
 
 # GF Flutter Progress Bar

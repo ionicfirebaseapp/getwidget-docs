@@ -7,7 +7,6 @@ description: >-
  image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Ratings_IgiXBsGTL.png
 canonicalUrl: https://docs.getwidget.dev/gf-rating
-
 ---
 
 # GF Flutter Rating

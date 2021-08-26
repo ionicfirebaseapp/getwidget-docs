@@ -4,6 +4,10 @@ description: >-
   Flutter Pills/Rounded/Circular Button Widget looks like a solid button with
   rounded corners. It comes with 200 + custom properties to customize button
   size, color.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png
+canonicalUrl: https://docs.getwidget.dev/gf-button/pills-button
+
 ---
 
 # Flutter Pills/Rounded Button

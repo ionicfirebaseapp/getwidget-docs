@@ -4,6 +4,10 @@ description: >-
   GF Flutter Loader is a progress indicator that spins to indicate that the
   application is busy. It usually progresses along a circle. GF widget comes
   with 50+ Loader widget designs.
+image: >-
+  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png
+canonicalUrl: https://docs.getwidget.dev/gf-loader
+
 ---
 
 # GF Flutter Loader

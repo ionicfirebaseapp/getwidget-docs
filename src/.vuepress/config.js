@@ -130,14 +130,6 @@ module.exports = {
           { title: 'Social Button', path: '/gf-button/social-button' }
         ]
       },
-
-      // {
-      //     title: 'GF Badge',
-      //     path: '/gf-badge',
-      //     initialOpenGroupIndex: -1,
-      //     collapsable: true,
-
-      // },
       {
         title: 'GF Badge',
         initialOpenGroupIndex: -1,
@@ -147,9 +139,6 @@ module.exports = {
           '/gf-badge',
         ],
       },
-
-
-
       {
         title: 'GF Avatar',
         path: '/gf-avatar',
@@ -159,9 +148,6 @@ module.exports = {
           '/gf-avatar',
         ],
       },
-
-
-
       {
         title: 'GF Image',
         path: '/gf-image',
@@ -338,7 +324,14 @@ module.exports = {
           '/gf-bottomsheet',
         ],
       },
-
+      {
+        title: 'GF Checkbox',
+        path: '/gf-checkbox',
+        collapsable: true,
+        children: [
+          '/gf-checkbox',
+        ],
+      },
       {
         title: 'GF Checkbox ListTile',
         path: '/gf-checkbox-listtile',
@@ -347,12 +340,12 @@ module.exports = {
           '/gf-checkbox-listtile',
         ],
       },
-      {
-        title: 'GF Checkbox',
-        path: '/gf-checkbox',
+       {
+        title: 'GF MultiSelect',
+        path: '/gf-multiselect',
         collapsable: true,
         children: [
-          '/gf-checkbox',
+          '/gf-multiselect',
         ],
       },
       {
@@ -364,19 +357,19 @@ module.exports = {
         ],
       },
       {
-        title: 'GF Radio ListTile',
-        path: '/gf-radio-listtile',
-        collapsable: true,
-        children: [
-          '/gf-radio-listtile',
-        ],
-      },
-      {
         title: 'GF Radio',
         path: '/gf-radio',
         collapsable: true,
         children: [
           '/gf-radio',
+        ],
+      },
+       {
+        title: 'GF Radio ListTile',
+        path: '/gf-radio-listtile',
+        collapsable: true,
+        children: [
+          '/gf-radio-listtile',
         ],
       },
       {

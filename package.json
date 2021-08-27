@@ -18,7 +18,8 @@
     "google-fonts-webpack-plugin": "^0.4.4",
     "vuepress": "^1.5.3",
     "vuepress-plugin-autometa": "^0.1.13",
-    "vuepress-plugin-clean-urls": "^1.1.2"
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "webpack": "^4.45.0"
   },
   "dependencies": {
     "@mr-hope/vuepress-plugin-copy-code": "^1.20.1",

@@ -5,8 +5,7 @@ description: >-
   Circle shape and also can use with Badge or other GF widgets.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Avatars_1QfiwJn9kNW.png
-canonicalUrl: https://docs.getwidget.dev/gf-avatar
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-avatar'
 ---
 
 # GF Flutter Avatar
@@ -17,7 +16,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-avatar
 
 ## GF Flutter Circle Avatar
 
-The  **Flutter Circle Avatar widget** has a **circle shape** image**. GFAvatar** comes with different shapes, in which one of the default shapes is a **circle**. To place the image inside the **GFAvatar**,  the image should be given in`backgroundImage`property. The below code shows a simple **Circle Avatar.**
+The **Flutter Circle Avatar widget** has a **circle shape** image**. GFAvatar** comes with different shapes, in which one of the default shapes is a **circle**. To place the image inside the **GFAvatar**, the image should be given in`backgroundImage`property. The below code shows a simple **Circle Avatar.**
 
 ![Flutter Circle Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular-avatars-2x_YEAePfrqD_-gE8M4y47.webp)
 
@@ -44,7 +43,7 @@ GFAvatar(
 )
 ```
 
-## GF Flutter Square Avatar 
+## GF Flutter Square Avatar
 
 **GFAvatar** has another type of avatar called **Square Avatar**. It is a Square shape avatar with no rounded corners as shown in the below image. The code below gives a Standard Avatar.
 
@@ -63,7 +62,7 @@ GFAvatar(
 
 The look and feel of **GFAvatar** can be customized using the following properties:
 
-| Name  | Description  |
+| Name | Description |
 | :--- | :--- |
 | **child** | type of \[Widget\], which can have text, icon,  etc |
 | **backgroundColor** | GFColor or Color to fill the background of the avatar |

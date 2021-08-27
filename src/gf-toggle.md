@@ -5,17 +5,16 @@ description: >-
   Custom widget with many custom properties to customize as required.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png
-canonicalUrl: https://docs.getwidget.dev/gf-toggle
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-toggle'
 ---
 
 # GF Flutter Toggle
 
 ![GF Flutter Toggle Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png)
 
-The **Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states. 
+The **Flutter toggle switch** is **ON/OFF switch** or **ON/OFF Button** that allows the user to toggle the **switch** between **ON** or **OFF** states.
 
-### GF Flutter Toggle and its Usage:
+## GF Flutter Toggle and its Usage:
 
 **GFToggle** **switch** is a **Flutter Switch Toggle** that permits the user to use this toggle to mark check when it is in **ON** state and mark unchecked when it is in **OFF** state. The **toggle switch** basically switches from ON to OFF state and vice-versa. Let us look at a simple example of GFToggle in the below code.
 
@@ -28,11 +27,11 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### GF Flutter Switch Toggle
+## GF Flutter Switch Toggle
 
-**GFToggle switch** can be divided into  four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an **android toggle.**
+**GFToggle switch** can be divided into four types ie, `android`, `ios`, `square` and `custom`. The default toggle is an **android toggle.**
 
-### Flutter IOS Toggle
+## Flutter IOS Toggle
 
 **Flutter IOS Toggle** switch has a circular track and a circular thumb as shown in the below image.
 
@@ -50,7 +49,7 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Flutter Square Toggle
+## Flutter Square Toggle
 
 **The Square Toggle** switch has a square-shaped track and a square-shaped thumb as shown in the below image.
 
@@ -68,7 +67,7 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### Flutter Custom Toggle
+## Flutter Custom Toggle
 
 The **custom** **toggle** can be used to add the text to the on/off state. The default text is **ON** and **OFF** Below is a simple code for custom toggle
 
@@ -86,7 +85,7 @@ GFToggle(
  ),
 ```
 
-### GFToggle Custom Properties
+## GFToggle Custom Properties
 
 The look and feel of **GFToggle** can be customized using the below properties
 

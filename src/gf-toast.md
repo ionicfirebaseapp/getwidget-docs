@@ -6,15 +6,14 @@ description: >-
   required.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png
-canonicalUrl: https://docs.getwidget.dev/gf-toast
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-toast'
 ---
 
 # GF Flutter Toast Widget
 
 ![GF Flutter Toast Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png)
 
-### GF Flutter Toast Widget and its Usage
+## GF Flutter Toast Widget and its Usage
 
 **GFToast** is a **Flutter Toast** that is used to show **toast messages** or **errors** in a given interval of time and it can have trailing widgets to display icons or buttons.
 
@@ -51,7 +50,7 @@ import 'package:getwidget/getwidget.dart';
               )),
 ```
 
-### GF Flutter Toast with Trailing widget:
+## GF Flutter Toast with Trailing widget:
 
 **GFToas**t can be used to dismiss or cancel messages or warnings with the help of a **GFButton** inside the GFToast. Hence GFToast will be usually accompanied by a **Flutter button**.
 
@@ -96,7 +95,7 @@ import 'package:getwidget/getwidget.dart';
               )),
 ```
 
-### GF Flutter Toast with custom Positioning 
+## GF Flutter Toast with custom Positioning
 
 Toasts can be positioned accordingly over viewing screen. The positioning can be done using `GFToastPosition.BOTTOM`. The usage of these is shown below.
 
@@ -132,11 +131,11 @@ import 'package:getwidget/getwidget.dart';
               )),
 ```
 
-### GF Flutter Toast Custom Properties
+## GF Flutter Toast Custom Properties
 
 GFToast can be customized for a better look and feel. Here are the properties:
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **text** | text of type \[String\] display on toast |
 | **backgroundColor** | defines the background color of the toast |

@@ -5,8 +5,7 @@ description: >-
   dedicated space with visual structure and interactive elements.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Appbar_qHw5dgqjR5Q5.png
-canonicalUrl: https://docs.getwidget.dev/gf-appbar
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-appbar'
 ---
 
 # GF Flutter Appbar
@@ -21,11 +20,11 @@ canonicalUrl: https://docs.getwidget.dev/gf-appbar
 
 ## GF Flutter Appbar and its Usage:
 
-A **GFAppBar** is a **Flutter AppBar** widget that consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The **GFAppBar** displays the toolbar widgets, **leading**, **title**, and **actions.** 
+A **GFAppBar** is a **Flutter AppBar** widget that consists of a toolbar and potentially other widgets, such as a GFTabBar and FlexibleSpaceBar. The **GFAppBar** displays the toolbar widgets, **leading**, **title**, and **actions.**
 
 **GFAppbar** has a **menu icon button** or **flutter appbar icon** on the top left corner that can be changed according to the need. The **leading appbar button** parameter is used to change the default menu icon button.
 
-The below example code shows a simple appbar ****with a **flutter appbar back button** on the **leading parameter** which is used to go back to the previous page.
+The below example code shows a simple appbar **\*\*with a** flutter appbar back button **on the** leading parameter\*\* which is used to go back to the previous page.
 
 ![Flutter Appbar with back button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_3x_cbGIPYmQJ.png)
 
@@ -59,7 +58,7 @@ GFAppBar(
 
 ![GF Flutter Appbar with SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_search_3x_1A4y5PZuu.png)
 
-**GFAppbar** has a parameter called`searchBar`wherein it is a boolean variable. If the searchBar is given the value`true`then it displays a search bar textfield in the title space of the appbar with **leading**, **trailing** options. 
+**GFAppbar** has a parameter called`searchBar`wherein it is a boolean variable. If the searchBar is given the value`true`then it displays a search bar textfield in the title space of the appbar with **leading**, **trailing** options.
 
 The below example demo code shows the example of how to pass the parameter.
 
@@ -94,7 +93,7 @@ GFAppBar(
 
 ![GF Flutter Appbar with Segmented Tabs](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Segmented_3x_yGAKyoSOD.png)
 
-**Segmented** **tabs** can also be used inside the **GFAppbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done. 
+**Segmented** **tabs** can also be used inside the **GFAppbar**. In the **title** field of the Appbar just define the Segmented tab code and the work will be done.
 
 The example below code shows a simple segmented tab inside Appbar.
 

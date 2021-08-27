@@ -5,8 +5,7 @@ description: >-
   exclusive options.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png
-canonicalUrl: https://docs.getwidget.dev/gf-radio-listtile
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-radio-listtile'
 ---
 
 # GF Flutter RadioList Tile
@@ -15,9 +14,9 @@ canonicalUrl: https://docs.getwidget.dev/gf-radio-listtile
 
 ![GF Flutter RadioList Tile Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Radio_list_tile_2x_FZN65RIJw.png)
 
-### GF Flutter RadioListTile and its Usage:
+## GF Flutter RadioListTile and its Usage:
 
-**GFRadioListTile** can have a simple list with title or two lines of title and description or with **GFAvatar**. 
+**GFRadioListTile** can have a simple list with title or two lines of title and description or with **GFAvatar**.
 
 The simple code with an **avatar** of **GFRadioListTile** is as shown below.
 
@@ -66,7 +65,7 @@ GFRadioListTile(
 ),
 ```
 
-### **GF Flutter RadioList Tile** Custom Properties
+## **GF Flutter RadioList Tile** Custom Properties
 
 The look and feel of the **GFRadioListTile** can be customized using the GFRadioListTile properties.
 
@@ -269,6 +268,4 @@ The look and feel of the **GFRadioListTile** can be customized using the GFRadio
     </tr>
   </tbody>
 </table>
-
-
 

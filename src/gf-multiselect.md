@@ -2,10 +2,6 @@
 description: >-
   GF Flutter Multisecelect is a dropdown that allows users to select one or more
   items from the list with the help of the checkboxes provided for selection.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png
-canonicalUrl: https://docs.getwidget.dev/gf-multiselect/
-
 ---
 
 # GF Flutter Multiselect

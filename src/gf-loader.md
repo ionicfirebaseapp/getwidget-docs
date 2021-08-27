@@ -6,8 +6,7 @@ description: >-
   with 50+ Loader widget designs.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png
-canonicalUrl: https://docs.getwidget.dev/gf-loader
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-loader'
 ---
 
 # GF Flutter Loader
@@ -16,7 +15,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-loader
 
 **GFLoader** is a **Flutter Loader** circular indicator that will be loading continuously that indicates something is about to load.
 
-### GF Flutter Loader and its Usage:
+## GF Flutter Loader and its Usage:
 
 **GFLoader** is a Flutter circular spinner that spins over time which signifies that some part of the program is about to get executed.
 
@@ -27,11 +26,11 @@ import 'package:getwidget/getwidget.dart';
  GFLoader(),
 ```
 
-### GF Flutter Loaders Custom Type 
+## GF Flutter Loaders Custom Type
 
 There are five different types of loaders namely **android**, **ios,** **circle**, **square,** and **custom**
 
-### **Flutter IOS Spinner** 
+## **Flutter IOS Spinner**
 
 ![Flutter IOS Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders_3x__6iEhhCjnN.png)
 
@@ -44,7 +43,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Flutter Circular Loader
+## Flutter Circular Loader
 
 ![Flutter Circular Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
 
@@ -58,7 +57,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Flutter Square Loader/Spinner
+## Flutter Square Loader/Spinner
 
 ![Flutter Square Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
 
@@ -72,7 +71,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### Gf Flutter Custom Loader
+## Gf Flutter Custom Loader
 
 Apart from the four types described above, there is a **custom loader** in which we can pass text, icons, images, etc as the parameters to show a variety of customized loaders. The below code shows the custom loader with a gif in it.
 
@@ -85,7 +84,7 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-### Flutter Custom Loader with Icon
+## Flutter Custom Loader with Icon
 
 The below example code shows Flutter custom loaders with icons in them.
 
@@ -100,7 +99,7 @@ GFLoader(
 ),
 ```
 
-### Flutter Custom Loader with text
+## Flutter Custom Loader with text
 
 We can also pass **text** as a parameter to the custom loader. The below code shows a simple usage.
 
@@ -115,7 +114,7 @@ GFLoader(
 ),
 ```
 
-### GFLoader Custom Properties:
+## GFLoader Custom Properties:
 
 The look and feel of **GFLoader** can be customized using the below properties.
 

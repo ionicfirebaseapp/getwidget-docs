@@ -4,13 +4,12 @@ description: >-
   and right. It acts like an outer line surrounding a widget
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW-Borders_docs_banner_JIomXoiPKpc.png
-canonicalUrl: https://docs.getwidget.dev/gf-border
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-border'
 ---
 
 # GF Flutter Border
 
-**GF Flutter Border** is a Flutter Border that has all four sides and it makes a thin line around any widget. 
+**GF Flutter Border** is a Flutter Border that has all four sides and it makes a thin line around any widget.
 
 ![GF Flutter Border](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW-Borders_docs_banner_JIomXoiPKpc.png)
 
@@ -18,7 +17,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-border
 
 ### GF Flutter Solid Border
 
-**GFSolid Border** is a solid line and a  basic border used for the many components. **GFBorder** property `[dashedLine`\] takes an array of doubles like`[2, 0]` to display a solid border. 
+**GFSolid Border** is a solid line and a basic border used for the many components. **GFBorder** property `[dashedLine`\] takes an array of doubles like`[2, 0]` to display a solid border.
 
 The below example code shows a basic **Flutter solid border**.
 
@@ -43,9 +42,9 @@ Container(
 
 ### GF Flutter Dashed Border
 
-**GFDashed Border** is a customized border with dashed patterns used in UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[4, 6]`to display a dashed border. 
+**GFDashed Border** is a customized border with dashed patterns used in UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[4, 6]`to display a dashed border.
 
-The below example code shows a **dashed border in Flutter** 
+The below example code shows a **dashed border in Flutter**
 
 ![GF Flutter Dash Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_3x_DQyNt2Emrew.png)
 
@@ -68,7 +67,7 @@ Container(
 
 ### GF Flutter Dotted Border
 
-**GFDotted Border** is a customized border with dotted patterns used in many UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[2, 1]`to display dotted border. 
+**GFDotted Border** is a customized border with dotted patterns used in many UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[2, 1]`to display dotted border.
 
 The below example code gives a dotted border around the image as shown below
 
@@ -121,9 +120,9 @@ Container(
 
 ### GFBorderType.rRect
 
-**GFBorder** has a property similar to the rectangle border but here the difference is that we will have rounded corners to the borders. 
+**GFBorder** has a property similar to the rectangle border but here the difference is that we will have rounded corners to the borders.
 
-**GFBorder** property `type` takes `GFBorderType.rRect` to display borders with rounded corners. The below image shows  rounded corners with the **rRect** property and the code is also given below
+**GFBorder** property `type` takes `GFBorderType.rRect` to display borders with rounded corners. The below image shows rounded corners with the **rRect** property and the code is also given below
 
 ![GF Flutter Ractange dot Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_with_radius_4NgBID_ne.png)
 
@@ -205,6 +204,4 @@ The look and feel of the **GFBorder** can be customized using the **GFBorder** p
 | **dashedLine** | dashedLine of type \[List&lt;double&gt;\] which is used for the linear and simple dashed line of border |
 | **type** | type of \[GFBorderType\] which is used to define the different types of borders ie, circle, Rect, RRect and oval |
 | **radius** | radius of type \[Radius\] used to give a curved border only when the border type is RRect, in other cases radius will not work |
-
-
 

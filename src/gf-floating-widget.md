@@ -3,8 +3,7 @@ sidebarDepth: 2
 description: >-
   GF Flutter Floating Widget is a simple widget that acts as the outer wrapper
   to other kinds of components.
-canonicalUrl: https://docs.getwidget.dev/gf-floating-widget
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-floating-widget'
 ---
 
 # GF Flutter Floating Widget
@@ -24,9 +23,9 @@ return Scaffold(
 )
 ```
 
-### GF Flutter Floating Widget Position
+## GF Flutter Floating Widget Position
 
-**GFFloating Widget** comes with two types of positions ie, **horizontalPosition** and **VerticalPosition** in which the **child** of **GF** **Floating** widget can be placed anywhere inside the body ie, it basically floats in the body, and hence the name GF Floating Widget. 
+**GFFloating Widget** comes with two types of positions ie, **horizontalPosition** and **VerticalPosition** in which the **child** of **GF** **Floating** widget can be placed anywhere inside the body ie, it basically floats in the body, and hence the name GF Floating Widget.
 
 The below code shows how to use **Floating Widget positions**
 
@@ -52,11 +51,11 @@ return Scaffold(
 )
 ```
 
-### GF Flutter Floating Widget Custom Properties
+## GF Flutter Floating Widget Custom Properties
 
 The look and feel of **GFFloating Widget** can be changed using the below properties:
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **showBlurness** | showBlurness defines whether the body should be blur or not when showing popups, error messages, etc whenever the **child** property is used in  GF Floating widget. The showBlurness defaults to `false`. |
 | **blurnessColor** | defines how much blur  backgroundColor should be whenever the **child** is used and when showBlurness is `true` |

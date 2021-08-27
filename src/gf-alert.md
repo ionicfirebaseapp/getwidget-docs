@@ -6,19 +6,18 @@ description: >-
   width, and round custom alert.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png
-canonicalUrl: https://docs.getwidget.dev/gf-alert
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-alert'
 ---
 
 # GF Flutter Alert Dialog
 
 ![GF Flutter AlertDialog Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png)
 
-### GF Flutter AlertDialog and its Usage
+## GF Flutter AlertDialog and its Usage
 
 **GFAlert** is a **Flutter Alert Dialog** that shows upon clicking the relevant button that gives some kind of information or messages and it apparently has some action buttons.
 
-**GF Flutter Alert Dialog** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets. 
+**GF Flutter Alert Dialog** should be wrapped inside the **GFFloating** Widget. The **child** of the **GFFloatingWidget** takes **GFAlert** as its argument and the **body** takes any kind of widgets.
 
 The **Flutter Alert Dialog** example code is as shown below.
 
@@ -98,13 +97,13 @@ Scaffold(
  ),
 ```
 
-### Flutter Alert Dialog with multiple buttons
+## Flutter Alert Dialog with multiple buttons
 
 ![Flutter Dialog Alert with multiple buttons](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/alert-with-multiple-buttons-2x_Shkug_oIA_mgJmFTzcS.png)
 
 **GFAlert** can have two or more buttons for call of action in the **bottombar** of the **alert** widget.
 
- The code below shows the multiple buttons Dialog Alert Button. 
+The code below shows the multiple buttons Dialog Alert Button.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -146,7 +145,7 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-### Flutter  AlertDialog Type
+## Flutter  AlertDialog Type
 
 There are three types of **alerts** ie, `basic` , `rounded` and `fullWidth` . The default alert is a basic alert. The below code shows the **rounded** alert. For **fullWidth** alert replace **rounded** with **fullWidth.**
 
@@ -191,7 +190,7 @@ import 'package:getwidget/getwidget.dart';
 )
 ```
 
-### Flutter Dialog Alert Positioning
+## Flutter Dialog Alert Positioning
 
 **GFAlerts** can be positioned accordingly inside the **GFFloating** Widget. The positioning takes two parameters ie, **horizontalPosition** and **verticalPosition**. The usage of these is shown below.
 
@@ -208,11 +207,11 @@ body:GFFloatingWidget(
 )
 ```
 
-### GF Flutter AlertDialog Custom Properties
+## GF Flutter AlertDialog Custom Properties
 
 The look and feel of the **GFAlert** can be customized using the following properties
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **child** | **child** of type \[Widget\] which is alternative to **title**. **title** will get priority over **child** |
 | **contentChild** | **contentchild** of type \[Widget\] which is alternative to **content**. **content** will get priority over **contentchild** |

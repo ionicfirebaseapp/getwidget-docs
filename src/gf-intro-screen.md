@@ -3,13 +3,12 @@ description: >-
   GF Flutter Introduction Screen is a virtual unique interactive Slider that
   helps users get started with an app. It has many features that help to build
   custom-made introduction screen sliders.
-canonicalUrl: https://docs.getwidget.dev/gf-intro-screen/
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-intro-screen/'
 ---
 
 # GF Introduction Screen
 
-### GF Flutter Intro Screen or Welcome Screen
+## GF Flutter Intro Screen or Welcome Screen
 
 **GFIntro Screen** is a **Flutter Introduction Screen** that has sliders and gives information about the application. It can have as many slides as the application needs. It is a user-friendly widget that pops upon opening the application to give a brief introduction to the app.
 
@@ -133,7 +132,7 @@ List<Widget> slides() {
 }
 ```
 
-### GF Flutter Intro Screen Bottom Navigation Bar
+## GF Flutter Intro Screen Bottom Navigation Bar
 
 **GF IntroScreen Bottom NavigationBar** is a bottom bar that sits at the bottom end of the screen. This component contains pagination and buttons for navigation. It has many features for customizing the bottom navigation bar.
 
@@ -159,14 +158,14 @@ GFIntroScreen(
     pageCount: slideList.length,
     currentIndex: initialPage,
   ),
-),  
+),
 ```
 
-### GF Flutter Introduction Custom Screen
+## GF Flutter Introduction Custom Screen
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Introscreens-half_-Ptb6PZ669.gif)
 
-**GFIntroScreen**  and **GFIntroScreenBottomNavigationBar** components features allows user to create customized  **intro screen** with or without  BottomNavigationBar for the more flexible and interactive UI design.
+**GFIntroScreen** and **GFIntroScreenBottomNavigationBar** components features allows user to create customized **intro screen** with or without BottomNavigationBar for the more flexible and interactive UI design.
 
 ```dart
 late PageController _pageController;
@@ -291,7 +290,7 @@ List<Widget> slides() {
 }
 ```
 
-### **GF Flutter IntroScreen** Custom Properties
+## **GF Flutter IntroScreen** Custom Properties
 
 Look and feel of the **GFIntroScreen** can be customized using the **GFIntroScreen** properties.
 
@@ -304,7 +303,7 @@ Look and feel of the **GFIntroScreen** can be customized using the **GFIntroScre
 | **width** | defines \[GFIntroScreen\] slides width |
 | **borderRadius** | defines \[GFIntroScreen\] border radius to defines slides shape |
 | **border** | defines \[GFIntroScreen\] slides border |
-| **introScreenBottomNavigationBar** _****_ | defines \[GFIntroScreen\]'s bottom navigation bar |
+| **introScreenBottomNavigationBar** _\*\*_ | defines \[GFIntroScreen\]'s bottom navigation bar |
 | **showIntroScreenBottomNavigationBar** | on true state, displays \[GFIntroScreenBottomNavigationBar\], defaults to true |
 | **currentIndex** | defines the currentIndex of \[GFIntroScreen\] slides, default value is 0 |
 | **pageCount** | defines the length of \[GFIntroScreen\] slides, default value is 0 |

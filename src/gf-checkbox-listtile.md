@@ -4,15 +4,14 @@ description: >-
   avatar, which allows users to select one or more options.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png
-canonicalUrl: https://docs.getwidget.dev/gf-checkbox-listtile
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-checkbox-listtile'
 ---
 
 # GF Flutter CheckboxListTile
 
 ![GF Flutter CheckboxListTile Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner-Checkbox_list_tile_2x_C8edTv6HW.png)
 
-### GF Flutter CheckBoxListTile 
+## GF Flutter CheckBoxListTile
 
 **GFCheckBoxListTile** is a **Flutter CheckBoxList Tile** that is a list of items wherein the user can check or uncheck the items in the list. It allows users to select one or more options inside the list. **GFCheckBoxListTile** can also be positioned right or left of the screen according to the need.
 
@@ -47,19 +46,19 @@ GFCheckboxListTile(
 ),
 ```
 
-### **GF Flutter CheckBoxListTile** Custom Properties
+## **GF Flutter CheckBoxListTile** Custom Properties
 
 The Look and feel of the **GFCheckboxListTile** can be customized using the **GFCheckboxListTile** properties.
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **titleText** | type of \[String\] used to pass text, alternative to title property and gets higher priority than the title |
 | **subTitleText** | type of \[String\] used to pass text, alternative to subtitle property and gets higher priority than the subtitle |
 | **color** | GFListTile's background color. Can be given \[Color\] or \[GFColors\] |
 | **avatar** | type of \[Widget\] or \[GFAvatar\] used to create a rounded user profile |
-| **title** | title to display inside the \[GFListTile\].  |
-| **subTitle** | subtitle to display inside the \[GFListTile\].  |
-| **description** | description to display inside the \[GFListTile\].  |
+| **title** | title to display inside the \[GFListTile\]. |
+| **subTitle** | subtitle to display inside the \[GFListTile\]. |
+| **description** | description to display inside the \[GFListTile\]. |
 | **position** | allows the user to set the position of the checkbox to start or end |
 | **margin** | defines the margin of GFListTile |
 | **padding** | defines the padding of GFListTile |

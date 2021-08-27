@@ -5,8 +5,7 @@ description: >-
   the currently selected tab.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Tabs-icon_1_F0aJurg9W.png
-canonicalUrl: https://docs.getwidget.dev/gf-tab
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-tab'
 ---
 
 # GF Flutter TabBar
@@ -100,7 +99,7 @@ The look and feel of the **GFTabBar** can be customized using the **GFTabBar** p
 
 A page view that displays the widget which corresponds to the currently selected tab. This widget is typically used in conjunction with a GFTabBar and must provide TabBarController.
 
-The tab controller's __`TabController.length` must equal the length of the children list and the length of the `TabBar.tabs` list.
+The tab controller's \_\_`TabController.length` must equal the length of the children list and the length of the `TabBar.tabs` list.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -240,11 +239,11 @@ Look and feel of the GFSEgmentTabs can be customized using the GFSegmentTabs pro
 | **borderRadius** | defines outer border, border radius |
 | **width** | defines width of the tab row |
 
-### GF Flutter Bottom Navigation TabBar 
+### GF Flutter Bottom Navigation TabBar
 
-GFTabBar can be used as a bottom navigation bar. 
+GFTabBar can be used as a bottom navigation bar.
 
-The basic example code for a  **bottom flutter tab bar** is given below.
+The basic example code for a **bottom flutter tab bar** is given below.
 
 ```dart
 import 'package:getwidget/getwidget.dart';

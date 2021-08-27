@@ -6,8 +6,7 @@ description: >-
   size, color.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png
-canonicalUrl: https://docs.getwidget.dev/gf-button/pills-button
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-button/pills-button'
 ---
 
 # Flutter Pills/Rounded Button
@@ -16,7 +15,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-button/pills-button
 
 **GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and one of the shapes is a **pill-shaped button.**
 
-We will be able to get **flutter** **circular/rounded** shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` 
+We will be able to get **flutter** **circular/rounded** shaped button with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills`
 
 The simple example of **GFButton with pill shape** is as follows:
 
@@ -34,7 +33,7 @@ GFButton(
 
 ![Flutter Pills/Rounded Solid Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-solid-button-2x_EQT2X6jAl_BLgdXpw26c7E.png)
 
-By default, button **type** is set to `GFButtonType.solid` so,  that we will be able to get pills shaped buttons that have a solid background color with rounded corners.
+By default, button **type** is set to `GFButtonType.solid` so, that we will be able to get pills shaped buttons that have a solid background color with rounded corners.
 
 The callback is called when the button is tapped. By adding a callback to **onPressed** enables the button.
 
@@ -98,7 +97,7 @@ GFButton(
  ),
 ```
 
-## Flutter Rounded Button Size 
+## Flutter Rounded Button Size
 
 **Flutter Button size** can be varied using the **size** property, which specifies the size of the button. Default button size set to `GFSize.MEDIUM`.
 
@@ -130,13 +129,13 @@ GFButton(
  ),
 ```
 
-Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline Button** also.
+Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline Button** also.
 
 ## Flutter Pills/Rounded Outline2x Button
 
 ![Flutter Pills Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-outline-2x-2x_Qez5VXh02_zOFwwDB3SRU.png)
 
-**Flutter Pills Outline2x Button** describes as the Button with a transparent background and a visible border with 2x border-width. This button can  easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
+**Flutter Pills Outline2x Button** describes as the Button with a transparent background and a visible border with 2x border-width. This button can easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -149,5 +148,5 @@ GFButton(
  ),
 ```
 
-Above mentioned  properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline2x Button** also.
+Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline2x Button** also.
 

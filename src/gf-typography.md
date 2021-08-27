@@ -5,8 +5,7 @@ description: >-
   application varying from Type 1 to Type 6.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Typography_WU9Jso1UwI.png
-canonicalUrl: https://docs.getwidget.dev/gf-typography
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-typography'
 ---
 
 # GF Flutter Typography
@@ -15,7 +14,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-typography
 
 **Flutter Typography** is the art of arranging letters according to the need in order to make a clean styling of texts and words.
 
-### GF Flutter Typography
+## GF Flutter Typography
 
 **GFTypography** is a **Flutter Typography** that arranges the texts in a clean pattern with font-weight, the font size in order to give a stylish and smooth effect to the words.
 
@@ -29,7 +28,7 @@ GFTypography(
 ),
 ```
 
-### GF Flutter Font Size
+## GF Flutter Font Size
 
 **GFTypograhy** comes in different sizes that vary from **Typo1** to **Typo6. The below** code shows **Typo1** example.
 
@@ -42,7 +41,7 @@ GFTypography(
 ),
 ```
 
-### GF Flutter Fonts With Icon
+## GF Flutter Fonts With Icon
 
 GFTypography comes with different type and it can be used with any kind of **icon**. The usual usage can be a **GFAvatar** to show the image and the name as shown in the below example.
 
@@ -58,7 +57,7 @@ import 'package:getwidget/getwidget.dart';
  ),
 ```
 
-### GF Flutter fonts on Background Image
+## GF Flutter fonts on Background Image
 
 **GFTypography** can have a **background image** in it and the **text or icon with the text** on it. The background image gives a more specific feature to GFTypography. The below code shows the **GFTypography** on **BackgroundImage**.
 
@@ -75,7 +74,7 @@ GFTypography(
 ),
 ```
 
-### GFTypography Custom Properties
+## GFTypography Custom Properties
 
 The look and feel can be customized using **GFTypography** properties.
 

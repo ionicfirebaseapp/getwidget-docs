@@ -5,8 +5,7 @@ description: >-
   flutter. It comes with 25+ Custom properties to use according to requirement.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png
-canonicalUrl: https://docs.getwidget.dev/gf-image
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-image'
 ---
 
 # GF Flutter Image
@@ -17,7 +16,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-image
 
 **GFImage** supports and manages the images to be displayed on run time. It has the following types of images which can be used in any application.
 
-### GF Flutter Asset Image
+## GF Flutter Asset Image
 
 **Asset image** is used to display the images stored locally in the assets folder. Below is a simple example code of an asset image.
 
@@ -31,7 +30,7 @@ GFImageOverlay(
 )
 ```
 
-### GF Flutter Network Image
+## GF Flutter Network Image
 
 **Network image** is used to display an image from the internet. Hence the passing parameter for the image will be as shown in the below code.
 
@@ -45,7 +44,7 @@ GFImageOverlay(
 )
 ```
 
-### GF Flutter Image Overlay
+## GF Flutter Image Overlay
 
 I**mage Overlay** is used to set the image in the **background** and text in the **foreground** with the `colorFilter` property that takes two colors, and outputs one color
 
@@ -68,7 +67,7 @@ GFImageOverlay(
 ),
 ```
 
-### GF Flutter Circle Image
+## GF Flutter Circle Image
 
 A **Circular Image** is an image with a circle-shaped border. It is widely used in any profile screen to display the profile picture.
 
@@ -88,7 +87,7 @@ import 'package:getwidget/getwidget.dart';
  )
 ```
 
-### GF Flutter Image Custom Properties
+## GF Flutter Image Custom Properties
 
 The custom properties of **GFImage** are given below to customize the look and feel of the image.
 

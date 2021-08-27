@@ -5,8 +5,7 @@ description: >-
   indicate a loading status. GF Shimmer for a better design and user interface.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/shimmer_kb-ZpQnB5.png
-canonicalUrl: https://docs.getwidget.dev/gf-shimmer/
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-shimmer/'
 ---
 
 # GF Flutter Shimmer

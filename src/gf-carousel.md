@@ -1,21 +1,21 @@
 ---
 sidebarDepth: 2
 description: >-
-  GF Flutter Carousel widget custom develop Carousel with many custom properties
-  full width, Full Size and use with Flutter Image component.
+  GF Flutter Carousel widget custom develop Carousel widget that has the option
+  to use with image, text, Dot indicator, background image, fullscreen
+  properties to customize.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png
-canonicalUrl: https://docs.getwidget.dev/gf-carousel
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-carousel'
 ---
 
-# GF Flutter Carousel Widget
+# GF Custom Flutter Carousel Widget
 
 ![GF Flutter Carousel Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png)
 
-### Flutter Carousel Slider/Flutter Image Slider
+## Flutter Carousel Slider/Flutter Image Slider
 
-**GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide. 
+**GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide.
 
 ![GF Flutter Carousel with Indicator ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
 
@@ -57,7 +57,7 @@ final List<String> imageList = [
  ),
 ```
 
-### Gf Flutter Carousel Custom Properties
+## Gf Flutter Carousel Custom Properties
 
 The look and feel of the **GF carousel** widget for the Flutter app can be customized using the **GFCarousel** properties. Sliding items can be any type of list of widgets or a list of images.
 
@@ -83,13 +83,13 @@ The look and feel of the **GF carousel** widget for the Flutter app can be custo
 | **scrollDirection** | axis along which the page view scrolls. Defaults to \[Axis.horizontal\] |
 | **onPageChanged** | called whenever the page in the center of the viewport changes |
 
-### GF Flutter Carousel with Multiple Items
+## GF Flutter Carousel with Multiple Items
 
 **GFCarousel** can have any number of images and it can also have multiple images in just one slide. It supports **multi-image** slides. The **ItemsCarousel** component of GetWidget for the Flutter app is a multi-section container with multiple items. Each section can be swiped or dragged between. It contains any number of items in each Slide component.
 
 ![GF ItemsCarousel](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousal-image-Multiple_items_UzBeEj6VU.png)
 
-In the below code, the list of Images given to the children in the **GFItemsCarousel**, that allows sliding each slide container that contains multiple items. 
+In the below code, the list of Images given to the children in the **GFItemsCarousel**, that allows sliding each slide container that contains multiple items.
 
 The below code gives the default **Flutter** **multi-image slider component**
 
@@ -122,7 +122,7 @@ final List<String> imageList = [
 ),
 ```
 
-### GF Flutter Carousel with Multiple Image Custom Properties
+## GF Flutter Carousel with Multiple Image Custom Properties
 
 | Name | Description |
 | :--- | :--- |

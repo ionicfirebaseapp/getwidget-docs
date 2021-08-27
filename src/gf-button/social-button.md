@@ -6,8 +6,7 @@ description: >-
   properties to customize as need.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png
-canonicalUrl: https://docs.getwidget.dev/gf-button/social-button/
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-button/social-button/'
 ---
 
 # Flutter Social Button
@@ -28,7 +27,7 @@ The Default button **shape** is set`GFButtonShape.standard`so that we will be ab
 
 ![Flutter Solid Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/square-social-button-2x_ofI-wQHkM_kJIyYkwhYR.png)
 
-The Below code gives the **icon with the text button** as the above image:  The **icon parameter** can be any widget like **default flutter icons** or **customized asset images** or **icons**. Unless The icon parameter is not passed, we will get a default GFButton without the icon
+The Below code gives the **icon with the text button** as the above image: The **icon parameter** can be any widget like **default flutter icons** or **customized asset images** or **icons**. Unless The icon parameter is not passed, we will get a default GFButton without the icon
 
 ```dart
   import 'package:getwidget/getwidget.dart';
@@ -58,7 +57,7 @@ GFButton(
 
 ## Flutter Outline  Social Button with Text
 
-![Outline  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-social-button-2x-1_s9l5xQdik_18Ar4Rbfp0Z.png)
+![Outline Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-social-button-2x-1_s9l5xQdik_18Ar4Rbfp0Z.png)
 
 **The Flutter Outline Button** describes the Button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -109,7 +108,7 @@ GFButton(
 
 ## Flutter Circular/Rounded  Social Button with Text
 
-![Flutter Pills  Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-social-buttons-2x_GfJjVk77h_itBRIApxau.png)
+![Flutter Pills Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-social-buttons-2x_GfJjVk77h_itBRIApxau.png)
 
 We will be able to get the **circular or rounded** **shaped** **buttons** with solid background color with rounded corners by adding property **shape** with `GFButtonShape.pills` .
 

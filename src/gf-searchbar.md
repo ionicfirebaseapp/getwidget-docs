@@ -5,8 +5,7 @@ description: >-
   through a collection.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png
-canonicalUrl: https://docs.getwidget.dev/gf-searchbar
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-searchbar'
 ---
 
 # GF Flutter SearchBar
@@ -17,7 +16,7 @@ canonicalUrl: https://docs.getwidget.dev/gf-searchbar
 
 **GFSearchBar** is a **search field** wherein the user enters few letters in order to search the words from the list provided in the search section.
 
-**GFSearchBar** contains textfield for user input and the overlay container to show the search list collections. 
+**GFSearchBar** contains textfield for user input and the overlay container to show the search list collections.
 
 The simple code of a basic **GF Flutter SearchBar** is as shown below.
 

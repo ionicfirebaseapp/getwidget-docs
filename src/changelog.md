@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 2
 description: Get flutter Changelog
-canonicalUrl: https://docs.getwidget.dev/changelog
+canonicalUrl: 'https://docs.getwidget.dev/changelog'
 ---
 
 # Changelog

@@ -5,8 +5,7 @@ description: >-
   color in it.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png
-canonicalUrl: https://docs.getwidget.dev/gf-button/icon-button/
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-button/icon-button/'
 ---
 
 # Flutter Icon Button
@@ -15,9 +14,9 @@ canonicalUrl: https://docs.getwidget.dev/gf-button/icon-button/
 
 ## Flutter Icon Button
 
-**Flutter Icon Button** or **Icon Button Flutter** is a flutter button where the button has icons on them.  
+**Flutter Icon Button** or **Icon Button Flutter** is a flutter button where the button has icons on them.
 
-**GFIcon Button** is an **Icon Flutter Button** that can have an icon, text, and a combination of both icon and text on it. 
+**GFIcon Button** is an **Icon Flutter Button** that can have an icon, text, and a combination of both icon and text on it.
 
 **GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and types. One of them is **Flutter Icon Button.**
 
@@ -111,7 +110,7 @@ GFButton(
 
 ![Flutter Pills Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-icon-button-2x_o-E933fNd_XL_kSsNAyvto.png)
 
-We will be able to get **pills shaped** button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** . 
+We will be able to get **pills shaped** button with solid background color with rounded corners by adding property **shape** with **`GFButtonShape.pills`** .
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -163,7 +162,7 @@ GFButton(
 
 ![Flutter Full Width Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
 
-The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side.  Default **fullWidthButton** set to `false`.
+The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side. Default **fullWidthButton** set to `false`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -179,7 +178,7 @@ GFButton(
 
 ## Flutter Icon Button Size
 
-**The Flutter Button size** can be varied using the **size** property, which specifies the size of the button. The  Default button size  is set to `GFSize.MEDIUM`.
+**The Flutter Button size** can be varied using the **size** property, which specifies the size of the button. The Default button size is set to `GFSize.MEDIUM`.
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -221,7 +220,7 @@ GFIconButton(
  ),
 ```
 
-### Flutter GF Icon Button Type 
+### Flutter GF Icon Button Type
 
 **The Flutter Button type** can be changed by using property **type** and setting to`GFButtonType.outline`. The default type of the IconButton will be `GFType.solid`.
 

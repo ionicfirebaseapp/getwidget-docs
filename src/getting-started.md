@@ -6,8 +6,7 @@ description: >-
   started and use it in any flutter app or web app project.
 image: >-
   https://image.ionicfirebaseapp.com/tr:dpr-auto,tr:w-auto/gw_banner_QysQrCk2J.png
-canonicalUrl: https://docs.getwidget.dev/getting-started
-
+canonicalUrl: 'https://docs.getwidget.dev/getting-started'
 ---
 
 # Flutter Tutorial with Getwidget

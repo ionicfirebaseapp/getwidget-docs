@@ -2,8 +2,7 @@
 description: >-
   GF Flutter Animations make UI feel more interesting, it makes the look and
   feel of the app more polished and improves the user experience.
-canonicalUrl: https://docs.getwidget.dev/gf-animation
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-animation'
 ---
 
 # GF Flutter Animation
@@ -14,9 +13,9 @@ canonicalUrl: https://docs.getwidget.dev/gf-animation
 
 ## GF Flutter Animation Type :
 
-### 1. GF Flutter Rotation Animation 
+### 1. GF Flutter Rotation Animation
 
-**GFAnimation** property `type: GFAnimationType.rotateTransition` ,  creates a rotation transition for the child of type widget. This type of animation will animate the rotation of a widget. 
+**GFAnimation** property `type: GFAnimationType.rotateTransition` , creates a rotation transition for the child of type widget. This type of animation will animate the rotation of a widget.
 
 The below example code shows the **Flutter rotation animation**.
 
@@ -55,7 +54,7 @@ GestureDetector(
 
 ### 2. GF Flutter Animation Scaling
 
-**GFAnimation** property `type: GFAnimationType.scaleTransition` ,  creates a scale transition for the child of type widget. It animates the scale of a transformed widget. The below code shows the **flutter scale animation**.
+**GFAnimation** property `type: GFAnimationType.scaleTransition` , creates a scale transition for the child of type widget. It animates the scale of a transformed widget. The below code shows the **flutter scale animation**.
 
 ![GF Flutter Scaling Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_-scaling_xKsfUBwdY.gif)
 
@@ -93,7 +92,7 @@ GestureDetector(
 
 ![GF Flutter Alignment Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_allignment_1NU1fAmgT.gif)
 
-**GFAnimation** property `type: GFAnimationType.align` ,  creates an alignment transition for the child of type widget. Animates the position alignment of a widget over a given duration whenever alignment changes. The below gives alignment type of animation
+**GFAnimation** property `type: GFAnimationType.align` , creates an alignment transition for the child of type widget. Animates the position alignment of a widget over a given duration whenever alignment changes. The below gives alignment type of animation
 
 ```dart
 GFAnimation(
@@ -112,7 +111,7 @@ GFAnimation(
 
 ![GF Flutter Page Slide Transition](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_slide_pCBzSV31Bgt.gif)
 
-**GFAnimation** property `type: GFAnimationType.slideTransition` ,  creates a fractional translation transitions for the child of type widget. Animates the position of a widget relative to its normal position. The below codes shows the example of **flutter page slide transition** animation.
+**GFAnimation** property `type: GFAnimationType.slideTransition` , creates a fractional translation transitions for the child of type widget. Animates the position of a widget relative to its normal position. The below codes shows the example of **flutter page slide transition** animation.
 
 ```dart
  late Animation<Offset> offsetAnimation;
@@ -151,7 +150,7 @@ Container(
 
 ![Flutter Size Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-size_Uo3LU0xmy.gif)
 
-**GFAnimation** property `type: GFAnimationType.size` ,  creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes. The example below demonstrates the **Text** **size animation in flutter**.
+**GFAnimation** property `type: GFAnimationType.size` , creates a widget that animates its size. Animates the widget that automatically transitions its size in a given duration whenever the given child's size changes. The example below demonstrates the **Text** **size animation in flutter**.
 
 ```dart
 bool selected = false;
@@ -192,7 +191,7 @@ GFAnimation(
 
 ![GF Flutter Animation Container](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-container_vGQhL26sk.gif)
 
-**GFAnimation** property `type: GFAnimationType.container` ,  creates a widget gives the zooming effect. Animates the widget that automatically zooms in and out in a given duration whenever the given child's size changes. The below example shows the effect of animation.
+**GFAnimation** property `type: GFAnimationType.container` , creates a widget gives the zooming effect. Animates the widget that automatically zooms in and out in a given duration whenever the given child's size changes. The below example shows the effect of animation.
 
 ```dart
 late AnimationController controller;
@@ -229,7 +228,7 @@ GFAnimation(
 
 The look and feel of the **GFAnimation** can be customized using the GFAnimation properties.
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **duration** | The duration for animation to perform |
 | **reverseDuration** | The duration for reverse animation to perform |

@@ -6,8 +6,7 @@ description: >-
   navigation options.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png
-canonicalUrl: https://docs.getwidget.dev/gf-drawer
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-drawer'
 ---
 
 # GF Flutter Drawer Widget

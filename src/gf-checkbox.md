@@ -4,15 +4,14 @@ description: >-
   Square, Circular, and many custom properties.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png
-canonicalUrl: https://docs.getwidget.dev/gf-checkbox
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-checkbox'
 ---
 
 # GF Flutter Checkbox
 
 ![GF Flutter Checkbox Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png)
 
-### GF Flutter Checkbox and Example 
+## GF Flutter Checkbox and Example
 
 **GFCheckbox** is a **Flutter CheckBox widget** that permits the user to select one or more than one option in a given set of lists. It can have any number of possible ticks. The user can check and uncheck on the boxes provided.
 
@@ -33,7 +32,7 @@ GFCheckbox(
 ),
 ```
 
-### GF Basic Flutter Checkbox
+## GF Basic Flutter Checkbox
 
 **GFCheckbox** has many kinds and one of them is a **basic** or **standard** type of **checkbox**. Here the box will have a slight border-radius around it as shown in the below image. The code below gives a basic or standard checkbox
 
@@ -85,7 +84,7 @@ GFCard(
 ),
 ```
 
-###  GF Square Flutter Checkbox
+## GF Square Flutter Checkbox
 
 **GFCheckbox** has **square** type checkbox. Here the box will not have any border radius and it will be in a square shape as shown in the below image. Hence the name **Square Checkbox**. The below code shows the example of a square checkbox:
 
@@ -140,7 +139,7 @@ GFCard(
 ),
 ```
 
-### Flutter Circle Checkbox:
+## Flutter Circle Checkbox:
 
 **GFCheckbox** has **circle-type** checkbox. Here the box will have a circle shape as shown in the below image. Hence the name **Circular Checkbox**. The below code shows the example of a circular checkbox:
 
@@ -194,7 +193,7 @@ GFCard(
 ),
 ```
 
-### GF  Flutter Custom Checkbox
+## GF  Flutter Custom Checkbox
 
 **GFCheckbox** has **custom** type checkbox. Here the box will have any custom items like **icons** or **background color** when the box is checked as shown in the below image. Hence the name **Custom Checkbox**. The below code shows the example of a square checkbox:
 
@@ -248,11 +247,11 @@ GFCard(
 ),
 ```
 
-### GF Flutter Checkbox Custom Properties
+## GF Flutter Checkbox Custom Properties
 
 The Look and feel of the **GFCheckbox** can be customized using the GFCheckbox properties.
 
-| Name  | Description |
+| Name | Description |
 | :--- | :--- |
 | **type** | type of \[GFCheckboxType\] which is of four type is basic, square, circular and custom |
 | **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |

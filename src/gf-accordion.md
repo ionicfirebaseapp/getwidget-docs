@@ -6,8 +6,7 @@ description: >-
   messages.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png
-canonicalUrl: https://docs.getwidget.dev/gf-accordion
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-accordion'
 ---
 
 # GF Flutter Accordion
@@ -16,9 +15,9 @@ canonicalUrl: https://docs.getwidget.dev/gf-accordion
 
 **Flutter Accordion** is an expansion tile wherein the **content** or the **body** of the **title** will be hidden or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any widget and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need.
 
-### GF Flutter Accordion and its Usage:
+## GF Flutter Accordion and its Usage:
 
-**GFAccordion** is a **Flutter Accordion** that is an expansion tile wherein the **content** or the **body** of the **title** will be **hidden** or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any **widget** and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need. 
+**GFAccordion** is a **Flutter Accordion** that is an expansion tile wherein the **content** or the **body** of the **title** will be **hidden** or **collapsed** and it will be expanded only when clicking the title of the **expansion tile**. The content can be of any **widget** and can have any number of lines. The **dropdown** **arrow** shows whether the tile is expanded or collapsed according to the need.
 
 **GFAccordion** has a simple **title** and its **content** as arguments and it can also be customized. Now let us take a look at a simple code of **GFAccordion**
 
@@ -31,7 +30,7 @@ GFAccordion(
 )
 ```
 
-### Flutter Accordion with Icon
+## Flutter Accordion with Icon
 
 ![Flutter Accordion with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordion-with-icon-2x_zWtnsZQmZ.png)
 
@@ -50,7 +49,7 @@ GFAccordion(
 ),
 ```
 
-### Flutter Accordion with trailing Text
+## Flutter Accordion with trailing Text
 
 ![Flutter Accordion with trailing text](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/accordian-with-text-2x_zitIBS6DI_FMr8uWr38.png)
 
@@ -69,7 +68,7 @@ import 'package:getwidget/getwidget.dart';
 ),
 ```
 
-### GF Accordion Custom Properties
+## GF Accordion Custom Properties
 
 A simple **GFAccordion** can be customized according to the need and hence there are other custom properties that are listed below:
 

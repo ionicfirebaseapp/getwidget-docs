@@ -4,17 +4,16 @@ description: >-
   many options and properties to customize and straightway used in your app.
 image: >-
   https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png
-canonicalUrl: https://docs.getwidget.dev/gf-bottomsheet
-
+canonicalUrl: 'https://docs.getwidget.dev/gf-bottomsheet'
 ---
 
 # GF Flutter Bottomsheet Model
 
 **GFBottomSheet** is a **Flutter BottomSheet Model** that slides from the bottom of the screen and which prevents the user from using the other functionality of the app. It is just like a modal or popup that requires fewer actions from the user.
 
-### GF Flutter Basic BottomSheet Model 
+## GF Flutter Basic BottomSheet Model
 
-The basic **GFBottomSheet**  Model code example is given below
+The basic **GFBottomSheet** Model code example is given below
 
 ![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png)
 
@@ -87,9 +86,9 @@ Scaffold(
 )
 ```
 
-### GF Flutter Bottomsheet Model with Expandable content
+## GF Flutter Bottomsheet Model with Expandable content
 
-**GFBottomSheet** allows the user to expand the content body to display more content. The property `enableExpandableContent`  on `true` makes the content body expandable. The blow code shows how to expand the content bypassing the boolean value.
+**GFBottomSheet** allows the user to expand the content body to display more content. The property `enableExpandableContent` on `true` makes the content body expandable. The blow code shows how to expand the content bypassing the boolean value.
 
 ```dart
 final GFBottomSheetController _controller = GFBottomSheetController();
@@ -176,7 +175,7 @@ GFBottomSheet(
 ),
 ```
 
-### **GF Flutter Bottomsheet Model** Custom Properties
+## **GF Flutter Bottomsheet Model** Custom Properties
 
 The look and feel of the **GFBottomsheet** can be customized using the GFBottomsheet properties.
 

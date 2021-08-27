@@ -1,0 +1,29 @@
+{
+  "name": "getwidgt-documentation-site",
+  "version": "0.0.1",
+  "description": "documentation of getwidget flutter library",
+  "main": "index.js",
+  "authors": {
+    "name": "Aditya Koushik R",
+    "email": "aditya@pietechsolution.com"
+  },
+  "repository": "/getwidgt-documentation-site",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-clean-urls": "^1.1.2"
+  },
+  "dependencies": {
+    "@mr-hope/vuepress-plugin-copy-code": "^1.20.1",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-theme-book": "0.0.6"
+  }
+}

@@ -78,6 +78,7 @@ module.exports = {
     ['link', { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap' }],
 
   ],
+  evergreen: true,
   theme: 'vuepress-theme-book',
   /**
    * Theme configuration, here is the default theme configuration for VuePress.

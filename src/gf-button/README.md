@@ -43,7 +43,7 @@ GFButton(
 
 ## [FLUTTER ELEVATED BUTTON](https://docs.getwidget.dev/gf-button/standard-button/)
 
-**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in GF ****[**Flutter Elevated Button**](https://docs.getwidget.dev/gf-button/standard-button/)**.**
+**Flutter Elevated Button** is a **button in flutter** which is the most commonly used **flutter button** which upon clicking, elevates or triggers to show the button action. The more customized properties can be seen in Gf [Flutter Elevated Button](https://docs.getwidget.dev/gf-button/standard-button/)
 
 ## [FLUTTER ROUNDED BUTTON](https://docs.getwidget.dev/gf-button/pills-button)
 
@@ -55,15 +55,17 @@ GFButton(
 
 ## \*\*\*\*[**FLUTTER TOGGLE BUTTON**](https://docs.getwidget.dev/gf-toggle)\*\*\*\*
 
-**Flutter Toggle Button** or **Flutter Toggle Switch** is a ****switch button **that toggles between two states and the two states are often** ON/OFF **state**. ****
+**Flutter Toggle Button** or **Flutter Toggle Switch** is a switch button **that toggles between two states and the two states are often** ON/OFF state.
 
 **For more information head to** [Flutter Toggle Switch Button.](https://docs.getwidget.dev/gf-toggle)
 
 ## [FLUTTER CIRCULAR BUTTON](https://docs.getwidget.dev/gf-button/pills-button)
 
-**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to ****[**Flutter Circular Button**](https://docs.getwidget.dev/gf-button/pills-button) ****
+**Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [Flutter Circular button](https://docs.getwidget.dev/gf-button/pills-button)
 
-\*\*\*\*[**FLUTTER BUTTON WIDGET MORE EXAMPLE CODE**](https://www.getwidget.dev/blog/flutter-button-widget-component/)**:**  You can follow our Blogs for more example demo code for the flutter button with GFButton.
+\*\*\*\*
+
+[FLUTTER BUTTON WIDGET MORE EXAMPLE CODE](https://www.getwidget.dev/blog/flutter-button-widget-component/)**:**  You can follow our Blogs for more example demo code for the flutter button with GFButton.
 
 ### How to Set Button Color in flutter?
 

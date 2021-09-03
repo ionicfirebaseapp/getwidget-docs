@@ -17,7 +17,7 @@ Add the following dependency into your pubspec.yaml file
 
 ```dart
 dependencies:
-  getwidget: ^2.0.4
+  getwidget: ^2.0.3
 ```
 
 You can install the above dependency by running the following code

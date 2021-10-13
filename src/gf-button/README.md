@@ -47,11 +47,11 @@ GFButton(
 
 ## [FLUTTER ICON BUTTON](https://docs.getwidget.dev/gf-button/icon-button/)
 
-**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about **Icon Button** head to **the **[**Flutter Icon Button**](https://docs.getwidget.dev/gf-button/icon-button/) section 
+**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about **Icon Button** head to the** **[**Flutter Icon Button**](https://docs.getwidget.dev/gf-button/icon-button/) section 
 
 ## ****[**FLUTTER TOGGLE BUTTON**](../gf-toggle.md)****
 
-**Flutter Toggle Button** or **Flutter Toggle Switch** is a switch button** that toggles between two states and the two states are often **ON/OFF state.
+**Flutter Toggle Button** or **Flutter Toggle Switch** is a switch button **that toggles between two states and the two states are often **ON/OFF state.
 
 **For more information head to **[Flutter Toggle Switch Button.](https://docs.getwidget.dev/gf-toggle)
 
@@ -59,7 +59,7 @@ GFButton(
 
 **Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [Flutter Circular button](https://docs.getwidget.dev/gf-button/pills-button)
 
-[FLUTTER BUTTON WIDGET MORE EXAMPLE CODE](https://www.getwidget.dev/blog/flutter-button-widget-component/)**:  **You can follow our Blogs for more example demo code for the flutter button with GFButton.
+[FLUTTER BUTTON WIDGET MORE EXAMPLE CODE](https://www.getwidget.dev/blog/flutter-button-widget-component/) **: **You can follow our Blogs for more example demo code for the flutter button with GFButton.
 
 ### How to Set Button Color in flutter?
 

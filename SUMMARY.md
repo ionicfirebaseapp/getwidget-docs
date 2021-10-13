@@ -15,7 +15,7 @@
   * [GF Flutter Badge](src/gf-badge.md)
   * [GF Flutter Rating](src/gf-rating.md)
   * [Flutter Button Widget](src/gf-button/README.md)
-    * [Flutter Pills/Rounded Button](src/gf-button/pills-button.md)
+    * [Flutter Pills Button](src/gf-button/pills-button.md)
     * [Flutter Social Button](src/gf-button/social-button.md)
     * [Flutter Icon Button](src/gf-button/icon-button.md)
     * [Flutter Elevated Button](src/gf-button/standard-button.md)
@@ -43,4 +43,3 @@
   * [GF Flutter Dropdown](src/gf-dropdown.md)
   * [GF Flutter Multiselect](src/gf-multiselect.md)
   * [Flutter GetWidget Docs](src/index.md)
-

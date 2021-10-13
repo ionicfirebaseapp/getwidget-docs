@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Drawer Widget is a navigation drawer that slides in from the side
   of the current view. GFDrawer can be the perfect option to provide common
   navigation options.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Drawer_RdU7oyGaW.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-drawer'
 ---
 
 # GF Flutter Drawer Widget
@@ -43,14 +39,14 @@ GFDrawer(
 
 The look and feel of the **GFDrawer** can be customized using the GFDrawer properties.
 
-| Name | Description |
-| :--- | :--- |
-| **child** | displays the drawer items |
-| **color** | defines the background color of the drawer |
-| **gradient** | the gradient can be used for transforming gradient shaders without applying the same transform to the entire canvas. |
-| **backgroundImage** | the background image can be added to the drawer |
-| **colorFilter** | composited layer that applies a color filter to its children |
-| **elevation** | controls the size of the shadow below the drawer. |
+| Name                | Description                                                                                                          |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **child**           | displays the drawer items                                                                                            |
+| **color**           | defines the background color of the drawer                                                                           |
+| **gradient**        | the gradient can be used for transforming gradient shaders without applying the same transform to the entire canvas. |
+| **backgroundImage** | the background image can be added to the drawer                                                                      |
+| **colorFilter**     | composited layer that applies a color filter to its children                                                         |
+| **elevation**       | controls the size of the shadow below the drawer.                                                                    |
 
 ## GF Flutter Drawer Header and its Usage:
 
@@ -105,13 +101,12 @@ import 'package:getwidget/getwidget.dart';
 
 The look and feel of the **GFDrawerHeader** can be customized using the **GFDrawerHeader** properties.
 
-| Name | Description |
-| :--- | :--- |
-| **decoration** | defines the background color of the drawer header |
-| **margin** | refers to the margin around the drawer header |
-| **child** | widget to be placed inside the drawer header, inset by the \[padding\] |
+| Name                      | Description                                                                       |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| **decoration**            | defines the background color of the drawer header                                 |
+| **margin**                | refers to the margin around the drawer header                                     |
+| **child**                 | widget to be placed inside the drawer header, inset by the \[padding]             |
 | **currentAccountPicture** | widget placed in the upper-left corner that represents the current user's account |
-| **otherAccountsPictures** | list of widgets that represent the current user's other accounts |
-| **duration** | the duration for animations of the \[decoration\] |
-| **curve** | the curve for animations of the \[decoration\] |
-
+| **otherAccountsPictures** | list of widgets that represent the current user's other accounts                  |
+| **duration**              | the duration for animations of the \[decoration]                                  |
+| **curve**                 | the curve for animations of the \[decoration]                                     |

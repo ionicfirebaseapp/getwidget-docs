@@ -8,9 +8,9 @@ description: >-
 
 **GF Flutter Multiselect** lets users select multiple items from the number of **Checkbox ListTile items** and display selected items in the TitleTile box. It displays a list of items in the overlay dropdown fashion.
 
-![GF Flutter Multi Select Checkbox ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect_2x_z65vAFaPW.png)
+![GF Flutter Multi Select Checkbox ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW_multiselect\_2x_z65vAFaPW.png)
 
-### **GF Flutter Multiselect Dropdown** Usage
+### **GF Flutter Multiselect Dropdown **Usage
 
 The simple example demo code of a basic **GFMultiselect** is as shown below. 
 
@@ -58,7 +58,7 @@ GFMultiSelect(
 
  The below example code gives the basic **Flutter Multi Select option in flutter app**
 
-![Custom Flutter Multi Select option](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select_-custom_18gtv6LENAJ.gif)
+![Custom Flutter Multi Select option](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Multi_select\_-custom\_18gtv6LENAJ.gif)
 
 ```dart
 Container(
@@ -97,198 +97,40 @@ Container(
 ),
 ```
 
-### **GF Flutter Multiselect** Custom Properties
+### **GF Flutter Multiselect **Custom Properties
 
-The look and feel of the **GFMultiselect** can be customized using the **GFMultiselect** properties.
+The look and feel of the **GFMultiselect **can be customized using the **GFMultiselect** properties.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>items</b>
-      </td>
-      <td style="text-align:left">defines the list of items the user can select</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>onSelect</b>
-      </td>
-      <td style="text-align:left">callback when user select item from the dropdown, in callback we get list
-        of selected items index</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileText</b>
-      </td>
-      <td style="text-align:left">type of [String] to define the dropdownTitleTile title</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileTextStyle</b>
-      </td>
-      <td style="text-align:left">type of [TextStyle] to define the textStyle of [dropDownTitleTileText]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileHintText</b>
-      </td>
-      <td style="text-align:left">type of [String] to define the dropdownTitleTile hint text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileHintTextStyle</b>
-      </td>
-      <td style="text-align:left">type of [TextStyle] to define the textStyle of [dropDownTitleTileHintTextStyle]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileBorderRadius</b>
-      </td>
-      <td style="text-align:left">defines the border radius of the dropdownTitleTile</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileBorder</b>
-      </td>
-      <td style="text-align:left">defines the border of the dropdownTitleTile.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileColor</b>
-      </td>
-      <td style="text-align:left">defines the background color of dropdownButton</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>hideDropdownUnderline</b>
-      </td>
-      <td style="text-align:left">on true state, it hides the Dropdown Underline border defaults value is
-        false</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownUnderlineBorder</b>
-      </td>
-      <td style="text-align:left">defines the border of the Dropdown Underline border</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTileMargin</b>
-      </td>
-      <td style="text-align:left">defines the dropdownTitleTile margin</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownTitleTilePadding</b>
-      </td>
-      <td style="text-align:left">defines the dropdownTitleTile padding</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>expandedIcon</b>
-      </td>
-      <td style="text-align:left">defines the dropdownTitleTile&apos;s trailing icon when dropdown is visible</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>collapsedIcon</b>
-      </td>
-      <td style="text-align:left">defines the dropdownTitleTile&apos;s trailing icon when dropdown is not
-        visible</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>submitButton</b>
-      </td>
-      <td style="text-align:left">defines the button in the dropdown</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>color</b>
-      </td>
-      <td style="text-align:left">defines dropdown checkbox ListTile&apos;s background color. Can be given
-        [Color] or [GFColors]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>avatar</b>
-      </td>
-      <td style="text-align:left">type of [Widget] or [GFAvatar] used to defines dropdown checkbox ListTile&apos;s
-        leading</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>margin</b>
-      </td>
-      <td style="text-align:left">defines the margin of dropdown checkbox ListTile</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>padding</b>
-      </td>
-      <td style="text-align:left">defines the padding of dropdown checkbox ListTile</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>type</b>
-      </td>
-      <td style="text-align:left">defines dropdown ListTile&apos;s checkbox type type of [GFCheckboxType]
-        which is of four type is basic, sqaure, circular and custom</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>size</b>
-      </td>
-      <td style="text-align:left">defines dropdown ListTile&apos;s checkbox size type of [double] which
-        is GFSize ie, small, medium and large and can use any double value</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>activeBgColor</b>
-      </td>
-      <td style="text-align:left">defines dropdown ListTile&apos;s checkbox background color when its active
-        type of [Color] used to change the backgroundColor of the active checkbox</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>inactiveBgColor</b>
-      </td>
-      <td style="text-align:left">defines dropdown ListTile&apos;s checkbox background color when its inactive
-        type of [Color] used to change the backgroundColor of the inactive checkbox</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>activeBorderColor</b>
-      </td>
-      <td style="text-align:left">
-        <p>defines dropdown ListTile&apos;s checkbox border color when its active</p>
-        <p>type of [Color] used to change the border color of the active checkbox</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>inactiveBorderColor</b>
-      </td>
-      <td style="text-align:left">
-        <p>defines dropdown ListTile&apos;s checkbox border color when its inactive</p>
-        <p>type of [Color] used to change the border color of the inactive checkbox</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>activeIcon</b>
-      </td>
-      <td style="text-align:left">
-        <p>defines dropdown ListTile&apos;s checkbox&apos;s active icon</p>
-        <p>type of [Widget] used to change the checkbox&apos;s active icon</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>inactiveIcon</b>
-      </td>
-      <td style="text-align:left">
-        <p>defines dropdown ListTile&apos;s checkbox&apos;s inactive icon</p>
-        <p>type of [Widget] used to change the checkbox&apos;s inactive icon</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>customBgColor</b>
-      </td>
-      <td style="text-align:left">type of [Color] used to change the background color of the custom active
-        checkbox only</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>selected</b>
-      </td>
-      <td style="text-align:left">To have the list tile appear selected when the checkbox is checked, pass
-        the same value to both. Normally, this property is left to its default
-        value, false.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>dropdownBgColor</b>
-      </td>
-      <td style="text-align:left">defines the background color of the dropdown. Can be given [Color] or
-        [GFColors]</td>
-    </tr>
-  </tbody>
-</table>
-
+| Name                               | Description                                                                                                                                                   |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **items**                          | defines the list of items the user can select                                                                                                                 |
+| **onSelect**                       | callback when user select item from the dropdown, in callback we get list of selected items index                                                             |
+| **dropdownTitleTileText**          | type of \[String] to define the dropdownTitleTile  title                                                                                                      |
+| **dropdownTitleTileTextStyle**     | type of \[TextStyle] to define the textStyle of \[dropDownTitleTileText]                                                                                      |
+| **dropdownTitleTileHintText**      | type of \[String] to define the dropdownTitleTile hint text                                                                                                   |
+| **dropdownTitleTileHintTextStyle** | type of \[TextStyle] to define the textStyle of \[dropDownTitleTileHintTextStyle]                                                                             |
+| **dropdownTitleTileBorderRadius**  | defines the border radius  of the dropdownTitleTile                                                                                                           |
+| **dropdownTitleTileBorder**        | defines the border of the dropdownTitleTile.                                                                                                                  |
+| **dropdownTitleTileColor**         | defines the background color of dropdownButton                                                                                                                |
+| **hideDropdownUnderline**          | on true state, it hides the Dropdown Underline border defaults value is false                                                                                 |
+| **dropdownUnderlineBorder**        | defines the border of the Dropdown Underline border                                                                                                           |
+| **dropdownTitleTileMargin**        | defines the dropdownTitleTile margin                                                                                                                          |
+| **dropdownTitleTilePadding**       | defines the dropdownTitleTile padding                                                                                                                         |
+| **expandedIcon**                   | defines the dropdownTitleTile's trailing icon when dropdown is visible                                                                                        |
+| **collapsedIcon**                  | defines the dropdownTitleTile's trailing icon when dropdown is not visible                                                                                    |
+| **submitButton**                   | defines the button in the dropdown                                                                                                                            |
+| **color**                          | defines dropdown checkbox ListTile's background color. Can be given \[Color] or \[GFColors]                                                                   |
+| **avatar**                         | type of \[Widget] or \[GFAvatar] used to defines dropdown checkbox ListTile's leading                                                                         |
+| **margin**                         | defines the margin of dropdown checkbox ListTile                                                                                                              |
+| **padding**                        | defines the padding of dropdown checkbox ListTile                                                                                                             |
+| **type**                           | defines dropdown ListTile's checkbox type type of \[GFCheckboxType] which is of four type is basic, sqaure, circular and custom                               |
+| **size**                           | defines dropdown ListTile's checkbox size type of \[double] which is GFSize ie, small, medium and large and can use any double value                          |
+| **activeBgColor**                  | defines dropdown ListTile's checkbox background color when its active type of \[Color] used to change the backgroundColor of the active checkbox              |
+| **inactiveBgColor**                | defines dropdown ListTile's checkbox background color when its inactive type of \[Color] used to change the backgroundColor of the inactive checkbox          |
+| **activeBorderColor**              | <p>defines dropdown ListTile's checkbox border color when its active</p><p> type of [Color] used to change the border color of the active checkbox</p>        |
+| **inactiveBorderColor**            | <p>defines dropdown ListTile's checkbox border color when its inactive</p><p> type of [Color] used to change the border color of the inactive checkbox</p>    |
+| **activeIcon**                     | <p>defines dropdown ListTile's checkbox's active icon</p><p> type of [Widget] used to change the  checkbox's active icon</p>                                  |
+| **inactiveIcon**                   | <p>defines dropdown ListTile's checkbox's inactive icon</p><p> type of [Widget] used to change the  checkbox's inactive icon</p>                              |
+| **customBgColor**                  | type of \[Color] used to change the background color of the custom active  checkbox only                                                                      |
+| **selected**                       | To have the list tile appear selected when the checkbox is checked, pass the same value to both. Normally, this property is left to its default value, false. |
+| **dropdownBgColor**                | defines the background color of the dropdown. Can be given \[Color] or \[GFColors]                                                                            |

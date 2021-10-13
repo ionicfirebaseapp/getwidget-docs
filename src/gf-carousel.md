@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Carousel widget custom develop Carousel widget that has the option
   to use with image, text, Dot indicator, background image, fullscreen
   properties to customize.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousels-Images_AFXtfkE-M6u.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-carousel'
 ---
 
 # GF Custom Flutter Carousel Widget
@@ -17,7 +13,7 @@ canonicalUrl: 'https://docs.getwidget.dev/gf-carousel'
 
 **GFCarousel** is a **Flutter Carousel or Flutter Image Slider** widget that has a set of images that slides one after the other in a linear manner repeatedly in a given interval of time. **GFCarousel** can have any number of items in a slide and it can also have multiple images in one single slide.
 
-![GF Flutter Carousel with Indicator ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size_3x_N5pQWCjljIz.png)
+![GF Flutter Carousel with Indicator ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Carousals-image-full_size\_3x_N5pQWCjljIz.png)
 
 Below is a simple example code for **Flutter Carousel with indicator** of one image in one slide of **GFCarousel**
 
@@ -61,27 +57,27 @@ final List<String> imageList = [
 
 The look and feel of the **GF carousel** widget for the Flutter app can be customized using the **GFCarousel** properties. Sliding items can be any type of list of widgets or a list of images.
 
-| Name | Description |
-| :--- | :--- |
-| **items** | widgets to be shown as a slider |
-| **height** | set slide widget height and overrides any existing \[aspectRatio\] |
-| **aspectRatio** | aspect ratio is used if no height has been declared. Defaults to 16:9 aspect ratio |
-| **viewportFraction** | The fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide |
-| **autoPlay** | enables autoplay, sliding one page at a time. Use \[autoPlayInterval\] to determent the frequency of slides. Defaults to false works only if `viewportFraction` set to 1.0, |
-| **reverse** | reverse the order of items if set to true. Defaults to false |
-| **autoPlayInterval** | sets Duration to determent the frequency of slides when \[autoPlay\] is set to true. Defaults to 4 seconds |
-| **autoPlayAnimationDuration** | animation-duration between two transitioning pages while in auto playback. Defaults to 800 ms |
-| **autoPlayCurve** | determines the animation curve physics. Defaults to \[Curves.fastOutSlowIn\] |
-| **enlargeMainPage** | determines if the current page should be larger than the side images, creating a feeling of depth in the carousel. Defaults to false |
-| **pauseAutoPlayOnTouch** | sets a timer on touch detected that pauses the autoplay with the given \[Duration\]. Touch Detection is only active if \[autoPlay\] is true |
-| **pagination** | displays pagination on state true |
-| **passiveIndicator** | slider pagination's passive color |
-| **activeIndicator** | slider pagination's active color |
-| **pagerSize** | pagination dots size can be defined using \[double\] |
-| **initialPage** | initial page to show when first creating the \[GFCarousel\]. Defaults to 0 |
-| **enableInfiniteScroll** | determines if slides should loop infinitely or be limited to item length. Defaults to true, i.e. infinite loop |
-| **scrollDirection** | axis along which the page view scrolls. Defaults to \[Axis.horizontal\] |
-| **onPageChanged** | called whenever the page in the center of the viewport changes |
+| Name                          | Description                                                                                                                                                                |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **items**                     | widgets to be shown as a slider                                                                                                                                            |
+| **height**                    | set slide widget height and overrides any existing \[aspectRatio]                                                                                                          |
+| **aspectRatio**               | aspect ratio is used if no height has been declared. Defaults to 16:9 aspect ratio                                                                                         |
+| **viewportFraction**          | The fraction of the viewport that each page should occupy. Defaults to 0.8, which means each page fills 80% of the slide                                                   |
+| **autoPlay**                  | enables autoplay, sliding one page at a time. Use \[autoPlayInterval] to determent the frequency of slides. Defaults to false works only if `viewportFraction` set to 1.0, |
+| **reverse**                   | reverse the order of items if set to true. Defaults to false                                                                                                               |
+| **autoPlayInterval**          | sets Duration to determent the frequency of slides when \[autoPlay] is set to true. Defaults to 4 seconds                                                                  |
+| **autoPlayAnimationDuration** | animation-duration between two transitioning pages while in auto playback. Defaults to 800 ms                                                                              |
+| **autoPlayCurve**             | determines the animation curve physics. Defaults to \[Curves.fastOutSlowIn]                                                                                                |
+| **enlargeMainPage**           | determines if the current page should be larger than the side images, creating a feeling of depth in the carousel. Defaults to false                                       |
+| **pauseAutoPlayOnTouch**      | sets a timer on touch detected that pauses the autoplay with the given \[Duration]. Touch Detection is only active if \[autoPlay] is true                                  |
+| **pagination**                | displays pagination on state true                                                                                                                                          |
+| **passiveIndicator**          | slider pagination's passive color                                                                                                                                          |
+| **activeIndicator**           | slider pagination's active color                                                                                                                                           |
+| **pagerSize**                 | pagination dots size can be defined using \[double]                                                                                                                        |
+| **initialPage**               | initial page to show when first creating the \[GFCarousel]. Defaults to 0                                                                                                  |
+| **enableInfiniteScroll**      | determines if slides should loop infinitely or be limited to item length. Defaults to true, i.e. infinite loop                                                             |
+| **scrollDirection**           | axis along which the page view scrolls. Defaults to \[Axis.horizontal]                                                                                                     |
+| **onPageChanged**             | called whenever the page in the center of the viewport changes                                                                                                             |
 
 ## GF Flutter Carousel with Multiple Items
 
@@ -124,9 +120,8 @@ final List<String> imageList = [
 
 ## GF Flutter Carousel with Multiple Image Custom Properties
 
-| Name | Description |
-| :--- | :--- |
-| **rowCount** | count of visible cells in each slide |
-| **children** | widgets to be shown in slides |
-| **itemHeight** | defines the height of an item |
-
+| Name           | Description                          |
+| -------------- | ------------------------------------ |
+| **rowCount**   | count of visible cells in each slide |
+| **children**   | widgets to be shown in slides        |
+| **itemHeight** | defines the height of an item        |

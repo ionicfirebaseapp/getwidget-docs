@@ -1,16 +1,12 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Card Widget is a customized widget that can use with Image , Avatar
   , Icon, Button, and ready-to-use custom widget in your app.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-card'
 ---
 
 # GF Custom Flutter Card
 
-![GF Flutter Card Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards___with_avatar_JFmx-k0gX.png)
+![GF Flutter Card Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards\_\__with_avatar_JFmx-k0gX.png)
 
 ## GF Flutter Card Example
 
@@ -53,7 +49,7 @@ buttonBar: GFButtonBar(
 
 **GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an **avatar** gives more precise information about the block. Hence **GFAvatar** can be used with **GFCard** to make a **GFCard Avatar.**
 
-![GF Flutter Cards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards_with_avatars_3x_wiStZFa9L.png)
+![GF Flutter Cards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards_with_avatars\_3x_wiStZFa9L.png)
 
 Below is a simple example code of **GF Flutter Card with Avatar**:
 
@@ -110,7 +106,7 @@ import 'package:getwidget/getwidget.dart';
 
 **GFCards** has **OverlayImage** property wherein a **background image** can be placed and upon the image any widget like **Text**, **buttons** can be used as shown in the image below.
 
-![GF Flutter Cards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7_-j3RXaSa2.webp)
+![GF Flutter Cards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7\_-j3RXaSa2.webp)
 
 Below shows a simple example code for **GFCard with Card OverlayImage**:
 
@@ -149,20 +145,19 @@ import 'package:getwidget/getwidget.dart';
 
 **GFCard** can be used like **GFCard with Avatar,** **GFCard with ImageOverlay,** and just a **GFCard**. To make the **GFcard** more flexible with your Flutter card. we have the below custom properties:
 
-| Name | Description |
-| :--- | :--- |
-| **titlePosition** | helps to set the title at  top of the card |
-| **color** | sets the background color of the card |
-| **elevation** | controls the size of the shadow below the card |
-| **shape** | the shape of the card |
+| Name                   | Description                                                                      |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| **titlePosition**      | helps to set the title at  top of the card                                       |
+| **color**              | sets the background color of the card                                            |
+| **elevation**          | controls the size of the shadow below the card                                   |
+| **shape**              | the shape of the card                                                            |
 | **borderOnForeground** | whether to paint the shape of the border in front of the child, defaults to true |
-| **clipBehaviour** | defines the clipping of the child |
-| **margin** | defines the card's outer container margin |
-| **padding** | defines the card's outer container padding |
-| **semanticContainer** | represents a single semantic container, if false a collection of semantic nodes |
-| **border** | to draw a border above the card |
-| **borderRadius** | represents the rounded corners of the card |
-| **colorFilter** | applies to the image before painting it |
-| **boxFit** | how the image should be inscribed into the box |
-| **imageOverlay** | display images as background with shaded overlay |
-
+| **clipBehaviour**      | defines the clipping of the child                                                |
+| **margin**             | defines the card's outer container margin                                        |
+| **padding**            | defines the card's outer container padding                                       |
+| **semanticContainer**  | represents a single semantic container, if false a collection of semantic nodes  |
+| **border**             | to draw a border above the card                                                  |
+| **borderRadius**       | represents the rounded corners of the card                                       |
+| **colorFilter**        | applies to the image before painting it                                          |
+| **boxFit**             | how the image should be inscribed into the box                                   |
+| **imageOverlay**       | display images as background with shaded overlay                                 |

@@ -2,9 +2,6 @@
 description: >-
   GF Flutter Border is a box-like line that has four sides top, bottom, left,
   and right. It acts like an outer line surrounding a widget
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/GW-Borders_docs_banner_JIomXoiPKpc.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-border'
 ---
 
 # GF Flutter Border
@@ -17,11 +14,11 @@ canonicalUrl: 'https://docs.getwidget.dev/gf-border'
 
 ### GF Flutter Solid Border
 
-**GFSolid Border** is a solid line and a basic border used for the many components. **GFBorder** property `[dashedLine`\] takes an array of doubles like`[2, 0]` to display a solid border.
+**GFSolid Border** is a solid line and a basic border used for the many components. **GFBorder** property `[dashedLine`] takes an array of doubles like`[2, 0]` to display a solid border.
 
 The below example code shows a basic **Flutter solid border**.
 
-![GF Flutter Solid Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border_3x_yCU-0SBxv.png)
+![GF Flutter Solid Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border\_3x_yCU-0SBxv.png)
 
 ```dart
 Container(
@@ -42,11 +39,11 @@ Container(
 
 ### GF Flutter Dashed Border
 
-**GFDashed Border** is a customized border with dashed patterns used in UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[4, 6]`to display a dashed border.
+**GFDashed Border** is a customized border with dashed patterns used in UI designs. **GFBorder** property `[dashedLine`] takes an array of doubles`[4, 6]`to display a dashed border.
 
 The below example code shows a **dashed border in Flutter**
 
-![GF Flutter Dash Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_3x_DQyNt2Emrew.png)
+![GF Flutter Dash Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border\_3x_DQyNt2Emrew.png)
 
 ```dart
 Container(
@@ -67,11 +64,11 @@ Container(
 
 ### GF Flutter Dotted Border
 
-**GFDotted Border** is a customized border with dotted patterns used in many UI designs. **GFBorder** property `[dashedLine`\] takes an array of doubles`[2, 1]`to display dotted border.
+**GFDotted Border** is a customized border with dotted patterns used in many UI designs. **GFBorder** property `[dashedLine`] takes an array of doubles`[2, 1]`to display dotted border.
 
 The below example code gives a dotted border around the image as shown below
 
-![GF Flutter Dot Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dotted_border_3x_bVhWMc5Nv.png)
+![GF Flutter Dot Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dotted_border\_3x_bVhWMc5Nv.png)
 
 ```dart
 Container(
@@ -100,7 +97,7 @@ Container(
 
 **GFBorder** property `type` takes `GFBorderType.rect` to display borders with **no rounded corners** as shown in the below image.
 
-![GF Flutter Rectange Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border_vw_8B7kiHo.png)
+![GF Flutter Rectange Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid_border_vw\_8B7kiHo.png)
 
 ```dart
 Container(
@@ -124,7 +121,7 @@ Container(
 
 **GFBorder** property `type` takes `GFBorderType.rRect` to display borders with rounded corners. The below image shows rounded corners with the **rRect** property and the code is also given below
 
-![GF Flutter Ractange dot Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_with_radius_4NgBID_ne.png)
+![GF Flutter Ractange dot Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/dashed_border_with_radius\_4NgBID_ne.png)
 
 ```dart
 Container(
@@ -149,7 +146,7 @@ Container(
 
 **GFBorder** property `type` takes `GFBorderType.oval` to display oval shape borders.
 
-![GF Flutter Oval Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_border_-_oval-solid_3x_o_S1GuEvf.png)
+![GF Flutter Oval Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/circular_border\_-\_oval-solid\_3x_o_S1GuEvf.png)
 
 ```dart
 Container(
@@ -171,7 +168,7 @@ Container(
 
 **GFBorder** property `type` takes `GFBorderType.circle` to display circular shape borders.
 
-![GF Flutter Circle Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dashed_border_-_circle_3x_hoEZqNy-tw.png)
+![GF Flutter Circle Border Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Dashed_border\_-\_circle\_3x_hoEZqNy-tw.png)
 
 ```dart
 Container(
@@ -195,13 +192,12 @@ Container(
 
 The look and feel of the **GFBorder** can be customized using the **GFBorder** properties.
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of  type \[Widget\] which can be any component or text, etc |
-| **padding** | padding for \[child\] where in padding is given to the border types |
-| **strokeWidth** | storkeWidth of type \[double\] which is used to define the thickness of the border |
-| **color** | color of type \[Color\] or GFColor which is used to change the color of the border type |
-| **dashedLine** | dashedLine of type \[List&lt;double&gt;\] which is used for the linear and simple dashed line of border |
-| **type** | type of \[GFBorderType\] which is used to define the different types of borders ie, circle, Rect, RRect and oval |
-| **radius** | radius of type \[Radius\] used to give a curved border only when the border type is RRect, in other cases radius will not work |
-
+| Name            | Description                                                                                                                   |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **child**       | child of  type \[Widget] which can be any component or text, etc                                                              |
+| **padding**     | padding for \[child] where in padding is given to the border types                                                            |
+| **strokeWidth** | storkeWidth of type \[double] which is used to define the thickness of the border                                             |
+| **color**       | color of type \[Color] or GFColor which is used to change the color of the border type                                        |
+| **dashedLine**  | dashedLine of type \[List\<double>] which is used for the linear and simple dashed line of border                             |
+| **type**        | type of \[GFBorderType] which is used to define the different types of borders ie, circle, Rect, RRect and oval               |
+| **radius**      | radius of type \[Radius] used to give a curved border only when the border type is RRect, in other cases radius will not work |

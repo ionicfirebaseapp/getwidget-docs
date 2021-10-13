@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   Flutter Badge is a notification alarm that gives some additional information
   about the widget.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Badges_v0v7rCbeO.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-badge'
 ---
 
 # GF Flutter Badge
@@ -55,23 +51,23 @@ GFBadge(
  ),
 ```
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFBadge Shape |
-| **Attribute** | shape |
-| **Type** | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
-| **Default** | `GFButtonShape.standard` |
+| Name            | Description                                                                           |
+| --------------- | ------------------------------------------------------------------------------------- |
+| **Description** | The GFBadge Shape                                                                     |
+| **Attribute**   | shape                                                                                 |
+| **Type**        | `GFBadgeShape.standard, GFBadgeShape.square, GFBadgeShape.pills, GFBadgeShape.circle` |
+| **Default**     | `GFButtonShape.standard`                                                              |
 
 ## GF Flutter Badge Custom Properties
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of type \[widget\] alternative to text |
-| **textcolor** | the color to use for this badge;s text |
-| **textStyle** | defines the styling of the text |
-| **border** | defines the border side |
-| **bordershape** | defines the shape of the border |
-| **color** | GFColor is used to change the background of the button. |
+| Name            | Description                                             |
+| --------------- | ------------------------------------------------------- |
+| **child**       | child of type \[widget] alternative to text             |
+| **textcolor**   | the color to use for this badge;s text                  |
+| **textStyle**   | defines the styling of the text                         |
+| **border**      | defines the border side                                 |
+| **bordershape** | defines the shape of the border                         |
+| **color**       | GFColor is used to change the background of the button. |
 
 ## How to add badges in flutter button?
 
@@ -93,7 +89,7 @@ Default button **shape** set to`GFButtonShape.standard`so that we will get stand
 
 ## Flutter Solid Button Badge
 
-![Flutter Solid Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-badge-buttons-2x_AEtC9rqrH_9WGUj7cmx.png)
+![Flutter Solid Button Badge](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-badge-buttons-2x_AEtC9rqrH\_9WGUj7cmx.png)
 
 By default, button **type** is set to`GFType.solid`so, we will get buttons that have a solid background color with slightly rounded corners.
 
@@ -131,7 +127,7 @@ GFButtonBadge(
 
 ## Flutter Outline Button Badge
 
-![Flutter Outline Button Badge ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-badge-buttons-2x-1_-Tow_mzA3_uCCZDyDrN.png)
+![Flutter Outline Button Badge ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-badge-buttons-2x-1\_-Tow_mzA3\_uCCZDyDrN.png)
 
 **Flutter Outline Button** describes the button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFType.outline`**.
 
@@ -190,81 +186,81 @@ GFButtonBadge(
 
 **GFColor** is used to change the background of the button.
 
-| Name | Description |
-| :--- | :--- |
+| Name            | Description                                       |
+| --------------- | ------------------------------------------------- |
 | **Description** | The color to use from application's color pallete |
-| **Attribute** | color |
-| **Type** | `GFColor` |
-| **Default** | `GFColor.primary` |
+| **Attribute**   | color                                             |
+| **Type**        | `GFColor`                                         |
+| **Default**     | `GFColor.primary`                                 |
 
 ## How to change badge size in flutter?
 
 **GFSize** property is used to change the size of **GFBadge**
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButtonBadge Size |
-| **Attribute** | size |
-| **Type** | `GFSize.large,  GFSize.medium, GfSize.small` |
-| **Default** | `GFSize.medium` |
+| Name            | Description                                  |
+| --------------- | -------------------------------------------- |
+| **Description** | The GFButtonBadge Size                       |
+| **Attribute**   | size                                         |
+| **Type**        | `GFSize.large,  GFSize.medium, GfSize.small` |
+| **Default**     | `GFSize.medium`                              |
 
 ## How to change Flutter badge shape?
 
 **GFBadge** shape can be changed using the **shape** parameter as shown below
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButtonBadge Shape |
-| **Attribute** | shape |
-| **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
-| **Default** | `GFButtonShape.standard` |
+| Name            | Description                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| **Description** | The GFButtonBadge Shape                                             |
+| **Attribute**   | shape                                                               |
+| **Type**        | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
+| **Default**     | `GFButtonShape.standard`                                            |
 
 ## How to change Flutter Badges Type ?
 
 **GFBadge** type can be changed using the **type** parameter as shown below
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButtonBadge Type |
-| **Attribute** | type |
-| **Type** | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
-| **Default** | `GFType.solid` |
+| Name            | Description                                                          |
+| --------------- | -------------------------------------------------------------------- |
+| **Description** | The GFButtonBadge Type                                               |
+| **Attribute**   | type                                                                 |
+| **Type**        | `GFType.solid, GFType.outline, GFType.outline2x, GFType.transparent` |
+| **Default**     | `GFType.solid`                                                       |
 
 ## How to chnage Flutter Badge custom position ?
 
 **GFBadge** position can be changed using the **position** parameter as shown below
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButtonBadge Position |
-| **Attribute** | position |
-| **Type** | `GFPosition.start, GFPosition.end` |
-| **Default** | `GFPosition.start` |
+| Name            | Description                        |
+| --------------- | ---------------------------------- |
+| **Description** | The GFButtonBadge Position         |
+| **Attribute**   | position                           |
+| **Type**        | `GFPosition.start, GFPosition.end` |
+| **Default**     | `GFPosition.start`                 |
 
 ## GF Badge  custom Properties
 
-| Name | Description |
-| :--- | :--- |
-| **onPressed** | callback i.e, called when the button is tapped |
-| **onLongPressed** | callback i.e, called when the button is long-pressed |
-| **text** | text of type \[string\] to describe button's label. text will be priority over child |
-| **icon** | icon of type \[widget\] to describe button's label with icon |
-| **child** | child of type \[widget\] alternative to text |
-| **textcolor** | the color to use for this button's text when the button is enabled |
-| **textStyle** | defines the styling of the text |
-| **disabledColor** | the fillcolor of  the button when the button is disabled |
-| **disabledTextColor** | the color to use for this button's text when the button is disabled |
-| **borderSide** | defines the border side |
-| **bordershape** | defines the shape of the border |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
-| **boxShadow** | defines the boxShadow |
-| **fullWidthButton** | if `true,` defines the full width of the button. |
-| **blockButton** | if `true`, defines the block button. |
-| **padding** | defines internal padding of the button |
-| **focusColor** | fillColor of the button when it has the input focused |
-| **hoverColor** | fillColor of the button when the pointer is hovered over it |
-| **splashColor** | indicates that the button has been touched |
-| **highlightColor** | indicates that the button is actively being pressed |
+| Name                  | Description                                                                         |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| **onPressed**         | callback i.e, called when the button is tapped                                      |
+| **onLongPressed**     | callback i.e, called when the button is long-pressed                                |
+| **text**              | text of type \[string] to describe button's label. text will be priority over child |
+| **icon**              | icon of type \[widget] to describe button's label with icon                         |
+| **child**             | child of type \[widget] alternative to text                                         |
+| **textcolor**         | the color to use for this button's text when the button is enabled                  |
+| **textStyle**         | defines the styling of the text                                                     |
+| **disabledColor**     | the fillcolor of  the button when the button is disabled                            |
+| **disabledTextColor** | the color to use for this button's text when the button is disabled                 |
+| **borderSide**        | defines the border side                                                             |
+| **bordershape**       | defines the shape of the border                                                     |
+| **buttonBoxShadow**   | if `true,` default boxShadow appears around button.                                 |
+| **boxShadow**         | defines the boxShadow                                                               |
+| **fullWidthButton**   | if `true,` defines the full width of the button.                                    |
+| **blockButton**       | if `true`, defines the block button.                                                |
+| **padding**           | defines internal padding of the button                                              |
+| **focusColor**        | fillColor of the button when it has the input focused                               |
+| **hoverColor**        | fillColor of the button when the pointer is hovered over it                         |
+| **splashColor**       | indicates that the button has been touched                                          |
+| **highlightColor**    | indicates that the button is actively being pressed                                 |
 
 ## Flutter Icon Badge Button
 
@@ -343,24 +339,23 @@ GFIconBadge(
 ),
 ```
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFIconButton Shape |
-| **Attribute** | shape |
-| **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
-| **Default** | `GFIconButtonShape.standard` |
+| Name            | Description                                                                                               |
+| --------------- | --------------------------------------------------------------------------------------------------------- |
+| **Description** | The GFIconButton Shape                                                                                    |
+| **Attribute**   | shape                                                                                                     |
+| **Type**        | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+| **Default**     | `GFIconButtonShape.standard`                                                                              |
 
 ## Flutter Icon Button Custom Properties
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of type \[widget\] alternative to text |
-| **textcolor** | the color to use for this badge;s text |
-| **textStyle** | defines the styling of the text |
-| **borderSide** | defines the border side |
-| **bordershape** | defines the shape of the border |
-| **color** | GFColor is used to change the background of the button. |
-| **iconSize** | defines the size of icon |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around button. |
-| **boxShadow** | defines the boxShadow |
-
+| Name                | Description                                             |
+| ------------------- | ------------------------------------------------------- |
+| **child**           | child of type \[widget] alternative to text             |
+| **textcolor**       | the color to use for this badge;s text                  |
+| **textStyle**       | defines the styling of the text                         |
+| **borderSide**      | defines the border side                                 |
+| **bordershape**     | defines the shape of the border                         |
+| **color**           | GFColor is used to change the background of the button. |
+| **iconSize**        | defines the size of icon                                |
+| **buttonBoxShadow** | if `true,` default boxShadow appears around button.     |
+| **boxShadow**       | defines the boxShadow                                   |

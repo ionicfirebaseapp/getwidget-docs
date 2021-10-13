@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter alert Dialog widget is used to show some information and wait for
-  the user's action.GF alter comes with 100+ Custom properties like Basic, Full
+  the user's action.GF alert comes with 100+ Custom properties like Basic, Full
   width, and round custom alert.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Alerts_lGAx_wQkf.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-alert'
 ---
 
 # GF Flutter Alert Dialog
@@ -211,13 +207,12 @@ body:GFFloatingWidget(
 
 The look and feel of the **GFAlert** can be customized using the following properties
 
-| Name | Description |
-| :--- | :--- |
-| **child** | **child** of type \[Widget\] which is alternative to **title**. **title** will get priority over **child** |
-| **contentChild** | **contentchild** of type \[Widget\] which is alternative to **content**. **content** will get priority over **contentchild** |
-| **titleTextStyle** | changes the style of the **title**  not for the **child** |
-| **backgroundColor** | used to change the backgroundColor of the GFAlert |
-| **contentTextStyle** | changes the style of the **content**  not for the **contentChild** |
-| **width** | used to control the width of the **Alert** |
-| **alignment** | used to align the **title or content** to desired position |
-
+| Name                 | Description                                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **child**            | **child** of type \[Widget] which is alternative to **title**. **title** will get priority over **child**                   |
+| **contentChild**     | **contentchild** of type \[Widget] which is alternative to **content**. **content** will get priority over **contentchild** |
+| **titleTextStyle**   | changes the style of the **title**  not for the **child**                                                                   |
+| **backgroundColor**  | used to change the backgroundColor of the GFAlert                                                                           |
+| **contentTextStyle** | changes the style of the **content**  not for the **contentChild**                                                          |
+| **width**            | used to control the width of the **Alert**                                                                                  |
+| **alignment**        | used to align the **title or content** to desired position                                                                  |

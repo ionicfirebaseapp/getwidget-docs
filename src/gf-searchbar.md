@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter SearchBar represents a text field that can be used to search
   through a collection.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_bar_AtEXg64AKq.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-searchbar'
 ---
 
 # GF Flutter SearchBar
@@ -20,7 +16,7 @@ canonicalUrl: 'https://docs.getwidget.dev/gf-searchbar'
 
 The simple code of a basic **GF Flutter SearchBar** is as shown below.
 
-![Basic GF SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search_1_3x_n0E_2KJ_v.png)
+![Basic GF SearchBar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Search\_1\_3x_n0E\_2KJ_v.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -61,14 +57,13 @@ GFSearchBar(
 
 The look and feel of the **GFSearchBar** can be customized using the **GFSearchBar** properties.
 
-| Name | Description |
-| :--- | :--- |
-| **searchList** | List of \[text\] or \[widget\] reference for users |
-| **overlaySearchListItemBuilder** | defines how the \[searchList\] items look like in overlayContainer |
-| **hideSearchBoxWhenItemSelected** | if true, it will hide the \[searchBox\] |
-| **overlaySearchListHeight** | defines the height of \[searchList\] overlay container |
-| **searchQueryBuilder** | can search and filter the \[searchList\] |
-| **noItemsFoundWidget** | displays the \[widget\] when the search item failed |
-| **onItemSelected** | defines what to do with onSelect \[SearchList\] item |
-| **searchBoxInputDecoration** | defines the input decoration of \[searchBox\] |
-
+| Name                              | Description                                                       |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **searchList**                    | List of \[text] or \[widget] reference for users                  |
+| **overlaySearchListItemBuilder**  | defines how the \[searchList] items look like in overlayContainer |
+| **hideSearchBoxWhenItemSelected** | if true, it will hide the \[searchBox]                            |
+| **overlaySearchListHeight**       | defines the height of \[searchList] overlay container             |
+| **searchQueryBuilder**            | can search and filter the \[searchList]                           |
+| **noItemsFoundWidget**            | displays the \[widget] when the search item failed                |
+| **onItemSelected**                | defines what to do with onSelect \[SearchList] item               |
+| **searchBoxInputDecoration**      | defines the input decoration of \[searchBox]                      |

@@ -2,9 +2,6 @@
 description: >-
   GF Flutter Bottomsheet model is a custom ready-to-use bottomsheet widget with
   many options and properties to customize and straightway used in your app.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-bottomsheet'
 ---
 
 # GF Flutter Bottomsheet Model
@@ -15,7 +12,7 @@ canonicalUrl: 'https://docs.getwidget.dev/gf-bottomsheet'
 
 The basic **GFBottomSheet** Model code example is given below
 
-![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay_3x_54GLWUK4I.png)
+![](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Bottom_sheets_WIthout_overlay\_3x\_54GLWUK4I.png)
 
 ```dart
 final GFBottomSheetController _controller = GFBottomSheetController();
@@ -179,95 +176,16 @@ GFBottomSheet(
 
 The look and feel of the **GFBottomsheet** can be customized using the GFBottomsheet properties.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>minContentHeight</b>
-      </td>
-      <td style="text-align:left">
-        <p>[minContentHeight] controls the minimum height of the content body.</p>
-        <p>Content body with [minContentHeight] displays only when [enableExpandableContent]
-          is false.</p>
-        <p>It Must be greater or equal to 0. Default value is 0.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>maxContentHeight</b>
-      </td>
-      <td style="text-align:left">
-        <p>[maxContentHeight] controls the maximum height of the content body.</p>
-        <p>It Must be greater or equal to 0. Default value is 300.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>stickyHeader</b>
-      </td>
-      <td style="text-align:left">
-        <p>[stickyHeader] is the header of GFBottomSheet.</p>
-        <p>User can interact by swiping or tapping the [stickyHeader]</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>contentBody</b>
-      </td>
-      <td style="text-align:left">
-        <p>[contentBody] is the body of GFBottomSheet.</p>
-        <p>User can interact by swiping or tapping the [contentBody]</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>stickyFooter</b>
-      </td>
-      <td style="text-align:left">
-        <p>[stickyFooter] is the footer of GFBottomSheet.</p>
-        <p>User can interact by swiping or tapping the [stickyFooter]</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>stickyFooterHeight</b>
-      </td>
-      <td style="text-align:left">[stickyFooterHeight] defines the height of GFBottomSheet&apos;s [stickyFooter]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>stickyHeaderHeight</b>
-      </td>
-      <td style="text-align:left">[stickyHeaderHeight] defines the height of GFBottomSheet&apos;s [stickyHeader]</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>elevation</b>
-      </td>
-      <td style="text-align:left">
-        <p>[elevation] controls shadow below the GFBottomSheet material.</p>
-        <p>Must be greater or equal to 0. Default value is 0.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>enableExpandableContent</b>
-      </td>
-      <td style="text-align:left">
-        <p>[enableExpandableContent] allows [contentBody] to expand.</p>
-        <p>Default value is false.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>controller</b>
-      </td>
-      <td style="text-align:left">[controller] used to control GFBottomSheet behavior like hide/show</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>animationDuration</b>
-      </td>
-      <td style="text-align:left">
-        <p>Defines the drag animation duration of the GFBottomSheet</p>
-        <p>Default value is 300.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+| Name                        | Description                                                                                                                                                                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **minContentHeight**        | <p>[minContentHeight] controls the minimum height of the content body.</p><p>Content body with [minContentHeight] displays only when [enableExpandableContent] is false.</p><p>It Must be greater or equal to 0. Default value is 0.</p> |
+| **maxContentHeight**        | <p>[maxContentHeight] controls the maximum height of the content body.</p><p>It Must be greater or equal to 0. Default value is 300.</p>                                                                                                 |
+| **stickyHeader**            | <p>[stickyHeader] is the header of GFBottomSheet.</p><p>User can interact by swiping or tapping the [stickyHeader]</p>                                                                                                                   |
+| **contentBody**             | <p>[contentBody] is the body of GFBottomSheet.</p><p>User can interact by swiping or tapping the [contentBody]</p>                                                                                                                       |
+| **stickyFooter**            | <p>[stickyFooter] is the footer of GFBottomSheet.</p><p>User can interact by swiping or tapping the [stickyFooter]</p>                                                                                                                   |
+| **stickyFooterHeight**      | \[stickyFooterHeight] defines the height of GFBottomSheet's \[stickyFooter]                                                                                                                                                              |
+| **stickyHeaderHeight**      | \[stickyHeaderHeight] defines the height of GFBottomSheet's \[stickyHeader]                                                                                                                                                              |
+| **elevation**               | <p>[elevation] controls shadow below the GFBottomSheet material.</p><p>Must be greater or equal to 0. Default value is 0.</p>                                                                                                            |
+| **enableExpandableContent** | <p>[enableExpandableContent] allows [contentBody] to expand.</p><p>Default value is false.</p>                                                                                                                                           |
+| **controller**              | \[controller] used to control GFBottomSheet behavior like hide/show                                                                                                                                                                      |
+| **animationDuration**       | <p>Defines the drag animation duration of the GFBottomSheet</p><p>Default value is 300.</p>                                                                                                                                              |

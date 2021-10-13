@@ -1,7 +1,5 @@
 ---
-sidebarDepth: 2
 description: Get flutter Changelog
-canonicalUrl: 'https://docs.getwidget.dev/changelog'
 ---
 
 # Changelog
@@ -16,11 +14,11 @@ canonicalUrl: 'https://docs.getwidget.dev/changelog'
 
 **Added**
 
-* added new component
+*   added new component
 
-  * GFProgressBar
+    * GFProgressBar
 
-  \*\*\*\*
+    \*\*\*\*
 
 ### **1.0.7 - 2020-02-11**
 
@@ -151,4 +149,3 @@ Added few new components
 #### Added
 
 * initial release with buttons, badge, card, list tile, avatar and many more components.
-

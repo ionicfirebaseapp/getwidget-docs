@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Shimmer gives a shimmery effect for the child, that can be used to
   indicate a loading status. GF Shimmer for a better design and user interface.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/shimmer_kb-ZpQnB5.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-shimmer/'
 ---
 
 # GF Flutter Shimmer
@@ -18,7 +14,7 @@ canonicalUrl: 'https://docs.getwidget.dev/gf-shimmer/'
 
 ### How to Use Flutter Shimmer Effect using GetFlutter
 
-![Flutter Shimmer Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic_3x_pRKTr4X6_r.png)
+![Flutter Shimmer Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Basic\_3x_pRKTr4X6\_r.png)
 
 The below code gives a simple **Flutter Shimmer effect** for children with the main color and secondary color.
 
@@ -71,9 +67,9 @@ final Widget emptyBlock = Padding(
 
 ### GF Flutter Shimmer with Gradient
 
-![GF Flutter Shimmer with Gradient](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/text_3x_fzYT22T5N.png)
+![GF Flutter Shimmer with Gradient](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/text\_3x_fzYT22T5N.png)
 
-The below code gives a Shimmer effect for children with Linear Gradient. It only takes Liner Gradient when `[showGradient`\] is **true.**
+The below code gives a Shimmer effect for children with Linear Gradient. It only takes Liner Gradient when `[showGradient`] is **true.**
 
 ```dart
 GFShimmer(
@@ -101,15 +97,14 @@ GFShimmer(
 
 The look and feel of **GFShimmer** can be customized using the below properties:
 
-| Name | Description |
-| :--- | :--- |
-| **child** | The child of type \[Widget\] to display shimmer effect. |
-| **duration** | Controls the speed of the shimmer effect. The default value is 1500 milliseconds. |
-| **direction** | Controls the direction of the shimmer effect. The default direction is GFShimmerDirection.leftToRight. |
-| **gradient** | Controls the \[child\]'s shades of color using Linear gradient. Child \[Widget\] only takes gradient color, If \[showGradient\] is true. |
-| **showShimmerEffect** | Controls animation effect, defaults true state that makes animation active. |
-| **showGradient** | If true, takes gradient color \[gradient\] for the \[child\]'s shimmer effect. Default set to false. |
-| **shimmerEffectCount** | Controls the animation shimmerEffectCount. The default value is '0', that displays child \[Widget\]'s shimmer effect forever. |
-| **mainColor** | Defines the main color of the \[child\]'s shimmer effect. Child \[Widget\] takes the main color, only if \[showGradient\] is false. Default \[showGradient\] will be false. |
-| **secondaryColor** | Defines the secondary color of the \[child\]'s shimmer effect. Child \[Widget\] takes secondary color, only if \[showGradient\] is false. Default \[showGradient\] will be false. |
-
+| Name                   | Description                                                                                                                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **child**              | The child of type \[Widget] to display shimmer effect.                                                                                                                        |
+| **duration**           | Controls the speed of the shimmer effect. The default value is 1500 milliseconds.                                                                                             |
+| **direction**          | Controls the direction of the shimmer effect. The default direction is GFShimmerDirection.leftToRight.                                                                        |
+| **gradient**           | Controls the \[child]'s shades of color using Linear gradient. Child \[Widget] only takes gradient color, If \[showGradient] is true.                                         |
+| **showShimmerEffect**  | Controls animation effect, defaults true state that makes animation active.                                                                                                   |
+| **showGradient**       | If true, takes gradient color \[gradient] for the \[child]'s shimmer effect. Default set to false.                                                                            |
+| **shimmerEffectCount** | Controls the animation shimmerEffectCount. The default value is '0', that displays child \[Widget]'s shimmer effect forever.                                                  |
+| **mainColor**          | Defines the main color of the \[child]'s shimmer effect. Child \[Widget] takes the main color, only if \[showGradient] is false. Default \[showGradient] will be false.       |
+| **secondaryColor**     | Defines the secondary color of the \[child]'s shimmer effect. Child \[Widget] takes secondary color, only if \[showGradient] is false. Default \[showGradient] will be false. |

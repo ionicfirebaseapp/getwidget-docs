@@ -1,17 +1,13 @@
 ---
-sidebarDepth: 2
 description: >-
   Flutter Pills/Rounded/Circular Button Widget looks like a solid button with
   rounded corners. It comes with 200 + custom properties to customize button
   size, color.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-button/pills-button'
 ---
 
-# Flutter Pills/Rounded Button
+# Flutter Pills Button
 
-![Flutter Pills Button Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx_.png)
+![Flutter Pills Button Widget](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Pills_button-solid_VWUMopUjx\_.png)
 
 **GFButtons** are clickable buttons that are used widely in an application. **GFButtons** come in many shapes and one of the shapes is a **pill-shaped button.**
 
@@ -49,7 +45,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Pills/Rounded Disabled Button
 
-![Flutter Pills Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-disabled-2x_lVoPerI-o_-pNn9kds88.png)
+![Flutter Pills Disabled Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-disabled-2x_lVoPerI-o\_-pNn9kds88.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default GFButton will be disabled because **onPressed** set to null.
 
@@ -82,7 +78,7 @@ GFButton(
 
 ## Flutter Pills/Rounded Full Width Button
 
-![Flutter Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-2x_pKifhtU6P_908jFrHjHx.png)
+![Flutter Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-2x_pKifhtU6P\_908jFrHjHx.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a **fullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right. Default **fullWidthButton** set to `false`.
 
@@ -114,7 +110,7 @@ GFButton(
 
 ## Flutter Pills/Rounded Outline Button
 
-![Flutter Pills Outline Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs//pills-outline-2x_iq1SEFIpR_yeuxE-DmfT.png)
+![Flutter Pills Outline Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/pills-outline-2x_iq1SEFIpR_yeuxE-DmfT.png)
 
 **Flutter Pill Outline Button** describes as the Button with a transparent background and a visible border. This button can easily get in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -133,7 +129,7 @@ Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabli
 
 ## Flutter Pills/Rounded Outline2x Button
 
-![Flutter Pills Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-outline-2x-2x_Qez5VXh02_zOFwwDB3SRU.png)
+![Flutter Pills Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/pills-outline-2x-2x_Qez5VXh02\_zOFwwDB3SRU.png)
 
 **Flutter Pills Outline2x Button** describes as the Button with a transparent background and a visible border with 2x border-width. This button can easily get in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -149,4 +145,3 @@ GFButton(
 ```
 
 Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline2x Button** also.
-

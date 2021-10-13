@@ -2,12 +2,11 @@
 description: >-
   GF Flutter Animations make UI feel more interesting, it makes the look and
   feel of the app more polished and improves the user experience.
-canonicalUrl: 'https://docs.getwidget.dev/gf-animation'
 ---
 
 # GF Flutter Animation
 
-![GF Flutter Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_docs_banner_A_10aeESdCUL.gif)
+![GF Flutter Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_docs_banner_A\_10aeESdCUL.gif)
 
 **GFAnimation** is a **Flutter Animation** wherein it makes the UI smooth for the user and the user interaction with the app will be easier. **GFAnimation** makes it easy to implement a variety of animations.
 
@@ -56,7 +55,7 @@ GestureDetector(
 
 **GFAnimation** property `type: GFAnimationType.scaleTransition` , creates a scale transition for the child of type widget. It animates the scale of a transformed widget. The below code shows the **flutter scale animation**.
 
-![GF Flutter Scaling Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation_-scaling_xKsfUBwdY.gif)
+![GF Flutter Scaling Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation\_-scaling_xKsfUBwdY.gif)
 
 ```dart
   late AnimationController controller;
@@ -90,7 +89,7 @@ GestureDetector(
 
 ### 3. GF Flutter Animation Alignment
 
-![GF Flutter Alignment Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_allignment_1NU1fAmgT.gif)
+![GF Flutter Alignment Animation](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-\_allignment\_1NU1fAmgT.gif)
 
 **GFAnimation** property `type: GFAnimationType.align` , creates an alignment transition for the child of type widget. Animates the position alignment of a widget over a given duration whenever alignment changes. The below gives alignment type of animation
 
@@ -109,7 +108,7 @@ GFAnimation(
 
 ### 4.GF Flutter Page Slide Transition
 
-![GF Flutter Page Slide Transition](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-_slide_pCBzSV31Bgt.gif)
+![GF Flutter Page Slide Transition](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Animation-\_slide_pCBzSV31Bgt.gif)
 
 **GFAnimation** property `type: GFAnimationType.slideTransition` , creates a fractional translation transitions for the child of type widget. Animates the position of a widget relative to its normal position. The below codes shows the example of **flutter page slide transition** animation.
 
@@ -228,34 +227,33 @@ GFAnimation(
 
 The look and feel of the **GFAnimation** can be customized using the GFAnimation properties.
 
-| Name | Description |
-| :--- | :--- |
-| **duration** | The duration for animation to perform |
-| **reverseDuration** | The duration for reverse animation to perform |
-| **alignment** | Defines how the animated widget is aligned during Animation. |
-| **activeAlignment** | Defines how the animated widget is aligned\(after the onTap\) during Animation. |
-| **child** | The child of type \[Widget\] to display animation effect. |
-| **curve** | Determines the animation curve. Defaults to \[Curves.linear\]. |
-| **type** | type of \[GFAnimation\] which takes the type ie, align, size, container, rotateTransition, scaleTransition, slideTransition, and textStyle for the \[GFAnimation\] |
-| **width** | defines \[AnimatedContainer\] initial width |
-| **changedWidth** | defines the width of \[AnimatedContainer\] upto which it can expand during animation |
-| **height** | defines \[AnimatedContainer\] initial height |
-| **changedHeight** | defines the height of \[AnimatedContainer\] upto which it can expand during animation |
-| **activeColor** | defines the color of \[AnimatedContainer\] when onTap triggers |
-| **color** | defines the color of \[AnimatedContainer\] |
-| **padding** | defines \[child\]'s or \[AnimatedContainer\] padding |
-| **margin** | defines \[child\]'s or \[AnimatedContainer\] margin |
-| **onTap** | Called when the user taps the \[child\] |
-| **turnsAnimation** | For GFAnimationType.rotateTransition, customized turns animation can be added to \[RotationTransition\] widget |
-| **scaleAnimation** | For GFAnimationType.scaleTransition, customized scale animation can be added to \[ScaleTransition\] widget |
-| **controller** | Type of \[AnimationController\], its a controller of an animation. |
-| **textDirection** | Defines direction of the \[AnimatedDefaultTextStyle\] TextDirection i.e \[ltr,rtl\] |
-| **slidePosition** | For GFAnimationType.slideTransition, which animates the position of a widget. |
-| **style** | Defines the \[TextStyle\] of \[AnimatedDefaultTextStyle\] |
-| **textAlign** | Defines the \[TextAlign\] of \[AnimatedDefaultTextStyle\] |
-| **textOverflow** | Defines the \[TextOverflow\] of \[AnimatedDefaultTextStyle\] |
-| **maxLines** | Defines the \[maxLines\] of \[AnimatedDefaultTextStyle\] |
-| **textWidthBasis** | Defines the \[TextWidthBasis\] of \[AnimatedDefaultTextStyle\] |
-| **fontSize** | Defines the \[fontSize\] of \[AnimatedDefaultTextStyle\] |
-| **fontWeight** | Defines the \[fontWeight\] of \[AnimatedDefaultTextStyle\] |
-
+| Name                | Description                                                                                                                                                      |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **duration**        | The duration for animation to perform                                                                                                                            |
+| **reverseDuration** | The duration for reverse animation to perform                                                                                                                    |
+| **alignment**       | Defines how the animated widget is aligned during Animation.                                                                                                     |
+| **activeAlignment** | Defines how the animated widget is aligned(after the onTap) during Animation.                                                                                    |
+| **child**           | The child of type \[Widget] to display animation effect.                                                                                                         |
+| **curve**           | Determines the animation curve. Defaults to \[Curves.linear].                                                                                                    |
+| **type**            | type of \[GFAnimation] which takes the type ie, align, size, container, rotateTransition, scaleTransition, slideTransition, and textStyle for the \[GFAnimation] |
+| **width**           | defines \[AnimatedContainer] initial width                                                                                                                       |
+| **changedWidth**    | defines the width of \[AnimatedContainer] upto which it can expand during animation                                                                              |
+| **height**          | defines \[AnimatedContainer] initial height                                                                                                                      |
+| **changedHeight**   | defines the height of \[AnimatedContainer] upto which it can expand during animation                                                                             |
+| **activeColor**     | defines the color of \[AnimatedContainer] when onTap triggers                                                                                                    |
+| **color**           | defines the color of \[AnimatedContainer]                                                                                                                        |
+| **padding**         | defines \[child]'s or \[AnimatedContainer] padding                                                                                                               |
+| **margin**          | defines \[child]'s or \[AnimatedContainer] margin                                                                                                                |
+| **onTap**           | Called when the user taps the \[child]                                                                                                                           |
+| **turnsAnimation**  | For GFAnimationType.rotateTransition, customized turns animation can be added to \[RotationTransition] widget                                                    |
+| **scaleAnimation**  | For GFAnimationType.scaleTransition, customized scale animation can be added to \[ScaleTransition] widget                                                        |
+| **controller**      | Type of \[AnimationController], its a controller of an animation.                                                                                                |
+| **textDirection**   | Defines direction of the \[AnimatedDefaultTextStyle] TextDirection i.e \[ltr,rtl]                                                                                |
+| **slidePosition**   | For GFAnimationType.slideTransition, which animates the position of a widget.                                                                                    |
+| **style**           | Defines the \[TextStyle] of \[AnimatedDefaultTextStyle]                                                                                                          |
+| **textAlign**       | Defines the \[TextAlign] of \[AnimatedDefaultTextStyle]                                                                                                          |
+| **textOverflow**    | Defines the \[TextOverflow] of \[AnimatedDefaultTextStyle]                                                                                                       |
+| **maxLines**        | Defines the \[maxLines] of \[AnimatedDefaultTextStyle]                                                                                                           |
+| **textWidthBasis**  | Defines the \[TextWidthBasis] of \[AnimatedDefaultTextStyle]                                                                                                     |
+| **fontSize**        | Defines the \[fontSize] of \[AnimatedDefaultTextStyle]                                                                                                           |
+| **fontWeight**      | Defines the \[fontWeight] of \[AnimatedDefaultTextStyle]                                                                                                         |

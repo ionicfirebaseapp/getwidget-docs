@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Typography defines the different sizes of the texts in the
   application varying from Type 1 to Type 6.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Typography_WU9Jso1UwI.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-typography'
 ---
 
 # GF Flutter Typography
@@ -45,7 +41,7 @@ GFTypography(
 
 GFTypography comes with different type and it can be used with any kind of **icon**. The usual usage can be a **GFAvatar** to show the image and the name as shown in the below example.
 
-![GF Flutter Typography with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_icon_3x_f-2jWZF_2.png)
+![GF Flutter Typography with Icon](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_icon\_3x_f-2jWZF\_2.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -61,7 +57,7 @@ import 'package:getwidget/getwidget.dart';
 
 **GFTypography** can have a **background image** in it and the **text or icon with the text** on it. The background image gives a more specific feature to GFTypography. The below code shows the **GFTypography** on **BackgroundImage**.
 
-![GF Flutter Font with Background Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_image_3x_EMzRHJ-fi.png)
+![GF Flutter Font with Background Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/with_image\_3x_EMzRHJ-fi.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -78,14 +74,13 @@ GFTypography(
 
 The look and feel can be customized using **GFTypography** properties.
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of type Widget alternative to text Key |
-| **dividerColor** | defines the color of the divider |
-| **textColor** | defines the color of the text |
-| **dividerBorderRadius** | the border radius of the divider |
-| **dividerAlignment** | the alignment of the divider to `start`, `center` or `end` |
-| **showDivider** | bool value to hide or show divider , defaults to true |
-| **dividerWidth** | the width of the divider |
+| Name                           | Description                                                             |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| **child**                      | child of type Widget alternative to text Key                            |
+| **dividerColor**               | defines the color of the divider                                        |
+| **textColor**                  | defines the color of the text                                           |
+| **dividerBorderRadius**        | the border radius of the divider                                        |
+| **dividerAlignment**           | the alignment of the divider to `start`, `center` or `end`              |
+| **showDivider**                | bool value to hide or show divider , defaults to true                   |
+| **dividerWidth**               | the width of the divider                                                |
 | **backgroundImagecolorFilter** | colorFilter of background image only when background image is available |
-

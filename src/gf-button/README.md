@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   How to design a custom flutter button with GF Button with the option to create
   disable button, Square button, Social button, Elevated button, icon button
   with 100+ properties to customize.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Gw_buttons_E5z1JheN4.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-button'
 ---
 
 # Flutter Button Widget
@@ -37,7 +33,7 @@ GFButton(
 ),
 ```
 
-## Flutter GF Button Properties
+## GF Flutter Button Properties
 
 **GF Buttons** or **Flutter Buttons** are a very widely used component in any application. Hence the **GFButtons** are highly customizable and have a wide range of properties that gives a better look and feel for any application. The **GFButton's properties** are described below:
 
@@ -51,21 +47,19 @@ GFButton(
 
 ## [FLUTTER ICON BUTTON](https://docs.getwidget.dev/gf-button/icon-button/)
 
-**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about **Icon Button** head to **the** [**Flutter Icon Button**](https://docs.getwidget.dev/gf-button/icon-button/) section 
+**Flutter Icon Button** or **Icon Button Flutter** is a **flutter button** where the button has icons on them. It can even have a **text** which is a **button with text** or **text with an** **icon** which is a **text icon button.** To know more about **Icon Button** head to **the **[**Flutter Icon Button**](https://docs.getwidget.dev/gf-button/icon-button/) section 
 
-## \*\*\*\*[**FLUTTER TOGGLE BUTTON**](https://docs.getwidget.dev/gf-toggle)\*\*\*\*
+## ****[**FLUTTER TOGGLE BUTTON**](../gf-toggle.md)****
 
-**Flutter Toggle Button** or **Flutter Toggle Switch** is a switch button **that toggles between two states and the two states are often** ON/OFF state.
+**Flutter Toggle Button** or **Flutter Toggle Switch** is a switch button** that toggles between two states and the two states are often **ON/OFF state.
 
-**For more information head to** [Flutter Toggle Switch Button.](https://docs.getwidget.dev/gf-toggle)
+**For more information head to **[Flutter Toggle Switch Button.](https://docs.getwidget.dev/gf-toggle)
 
 ## [FLUTTER CIRCULAR BUTTON](https://docs.getwidget.dev/gf-button/pills-button)
 
 **Flutter circular button** or **Flutter Pills/Rounded Button** is a type of **Flutter Button** that has circular corners in them. For more examples head to [Flutter Circular button](https://docs.getwidget.dev/gf-button/pills-button)
 
-\*\*\*\*
-
-[FLUTTER BUTTON WIDGET MORE EXAMPLE CODE](https://www.getwidget.dev/blog/flutter-button-widget-component/)**:**  You can follow our Blogs for more example demo code for the flutter button with GFButton.
+[FLUTTER BUTTON WIDGET MORE EXAMPLE CODE](https://www.getwidget.dev/blog/flutter-button-widget-component/)**:  **You can follow our Blogs for more example demo code for the flutter button with GFButton.
 
 ### How to Set Button Color in flutter?
 
@@ -73,12 +67,12 @@ GFButton(
 
 **GFColors** are used to change the background of the button.
 
-| Name | Description |
-| :--- | :--- |
+| Name            | Description                                         |
+| --------------- | --------------------------------------------------- |
 | **Description** | The color to use from the application color palette |
-| **Attribute** | color |
-| **Type** | `GFColors` |
-| **Default** | GFColors.PRIMARY |
+| **Attribute**   | color                                               |
+| **Type**        | `GFColors`                                          |
+| **Default**     | GFColors.PRIMARY                                    |
 
 ### How to Set Button Size in Flutter?
 
@@ -86,70 +80,69 @@ GFButton(
 
 **GFSize** can be used to determine the size of the buttons as follows:
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButton Size |
-| **Attribute** | size |
-| **Type** | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
-| **Default** | `GFSize.MEDIUM` |
+| Name            | Description                                  |
+| --------------- | -------------------------------------------- |
+| **Description** | The GFButton Size                            |
+| **Attribute**   | size                                         |
+| **Type**        | `GFSize.LARGE,  GFSize.MEDIUM, GFSize.SMALL` |
+| **Default**     | `GFSize.MEDIUM`                              |
 
 ### How to Change Button Shape in Flutter?
 
 The **shape of the button** like **standard**, **square**, or **pills** can be determined by the shape property.
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButton Shape |
-| **Attribute** | shape |
-| **Type** | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
-| **Default** | `GFButtonShape.standard` |
+| Name            | Description                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| **Description** | The GFButton Shape                                                  |
+| **Attribute**   | shape                                                               |
+| **Type**        | `GFButtonShape.standard, GFButtonShape.square, GFButtonShape.pills` |
+| **Default**     | `GFButtonShape.standard`                                            |
 
 ## GF Flutter Button Type Properties
 
 The **button type** of the button like **solid**, **outline** can be determined by the following properties:
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | The GFButton Type |
-| **Attribute** | type |
-| **Type** | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
-| **Default** | `GFButtonType.solid` |
+| Name            | Description                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------- |
+| **Description** | The GFButton Type                                                                            |
+| **Attribute**   | type                                                                                         |
+| **Type**        | `GFButtonType.solid, GFButtonType.outline, GFButtonType.outline2x, GFButtonType.transparent` |
+| **Default**     | `GFButtonType.solid`                                                                         |
 
 ### How to change Button Position in Flutter?
 
 The **GFButton** can be placed in the `start` or at the `end` of the **position** using the position property:
 
-| Name | Description |
-| :--- | :--- |
-| **Description** | Position of icon in the button. |
-| **Attribute** | position |
-| **Type** | `GFPosition.start, GFPosition.end` |
-| **Default** | `GFPosition.start` |
+| Name            | Description                        |
+| --------------- | ---------------------------------- |
+| **Description** | Position of icon in the button.    |
+| **Attribute**   | position                           |
+| **Type**        | `GFPosition.start, GFPosition.end` |
+| **Default**     | `GFPosition.start`                 |
 
 ## GFButton Custom Properties
 
-**Flutter Buttons** can be customised using **GFButton** Custom properties which are listed below:
+**Flutter Buttons** can be customized using **GFButton** Custom properties which are listed below:
 
-| Name | Description |
-| :--- | :--- |
-| **onPressed** | callback i.e, called when the button is tapped |
-| **onLongPressed** | callback i.e, called when the button is long-pressed |
-| **text** | describe the button's label. text will be a priority over child |
-| **icon** | describe button's label with icon |
-| **child** | child of type Widget alternative to text |
-| **textColor** | the color to use for this button's text when the button is enabled |
-| **textStyle** | defines the styling of the text |
-| **disabledColor** | the fillcolor of  the button when the button is disabled |
+| Name                  | Description                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| **onPressed**         | callback i.e, called when the button is tapped                      |
+| **onLongPressed**     | callback i.e, called when the button is long-pressed                |
+| **text**              | describe the button's label. text will be a priority over child     |
+| **icon**              | describe button's label with icon                                   |
+| **child**             | child of type Widget alternative to text                            |
+| **textColor**         | the color to use for this button's text when the button is enabled  |
+| **textStyle**         | defines the styling of the text                                     |
+| **disabledColor**     | the fillcolor of  the button when the button is disabled            |
 | **disabledTextColor** | the color to use for this button's text when the button is disabled |
-| **borderSide** | defines the border side |
-| **bordershape** | defines the shape of the border |
-| **buttonBoxShadow** | if `true,` default boxShadow appears around the button. |
-| **boxShadow** | defines the boxShadow |
-| **fullWidthButton** | if `true,` defines the full width of the button. |
-| **blockButton** | if `true`, defines the block button. |
-| **padding** | defines internal padding of the button |
-| **focusColor** | fillColor of the button when it has the input focused |
-| **hoverColor** | fillColor of the button when the pointer is hovered over it |
-| **splashColor** | indicates that the button has been touched |
-| **highlightColor** | indicates that the button is actively being pressed |
-
+| **borderSide**        | defines the border side                                             |
+| **bordershape**       | defines the shape of the border                                     |
+| **buttonBoxShadow**   | if `true,` default boxShadow appears around the button.             |
+| **boxShadow**         | defines the boxShadow                                               |
+| **fullWidthButton**   | if `true,` defines the full width of the button.                    |
+| **blockButton**       | if `true`, defines the block button.                                |
+| **padding**           | defines internal padding of the button                              |
+| **focusColor**        | fillColor of the button when it has the input focused               |
+| **hoverColor**        | fillColor of the button when the pointer is hovered over it         |
+| **splashColor**       | indicates that the button has been touched                          |
+| **highlightColor**    | indicates that the button is actively being pressed                 |

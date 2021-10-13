@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Toast is a Flutter Toast Widget that can be used to display quick
   warning or error messages for a short time period. You can customize it as
   required.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toasts_CjkhzUIzm.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-toast'
 ---
 
 # GF Flutter Toast Widget
@@ -56,7 +52,7 @@ import 'package:getwidget/getwidget.dart';
 
 The below example shows a simple code of how the **Flutter button** is used with the **GFToast**.
 
-![Flutter Custom Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts_3x_Jy51nVck_o.png)
+![Flutter Custom Toast with Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/BAsic_toasts\_3x_Jy51nVck_o.png)
 
 ```dart
 import 'package:getwidget/getwidget.dart';
@@ -135,14 +131,13 @@ import 'package:getwidget/getwidget.dart';
 
 GFToast can be customized for a better look and feel. Here are the properties:
 
-| Name | Description |
-| :--- | :--- |
-| **text** | text of type \[String\] display on toast |
-| **backgroundColor** | defines the background color of the toast |
-| **textStyle** | defines the test style of the toast text |
-| **toastBorderRadius** | defines the border radius of the toast |
-| **border** | defines the border of the toast |
-| **toastPosition** | defines the position of toast over the screen |
-| **toastDuration** | defines the duration of time toast display over screen |
-| **trailing** | defines the trailing widget of the toast |
-
+| Name                  | Description                                            |
+| --------------------- | ------------------------------------------------------ |
+| **text**              | text of type \[String] display on toast                |
+| **backgroundColor**   | defines the background color of the toast              |
+| **textStyle**         | defines the test style of the toast text               |
+| **toastBorderRadius** | defines the border radius of the toast                 |
+| **border**            | defines the border of the toast                        |
+| **toastPosition**     | defines the position of toast over the screen          |
+| **toastDuration**     | defines the duration of time toast display over screen |
+| **trailing**          | defines the trailing widget of the toast               |

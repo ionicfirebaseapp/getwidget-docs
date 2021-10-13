@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Accordion expands or collapses the view of its children when it is
   tapped. GFAccordion is used to collapse and expand the content to view the
   messages.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Accordion_UXKLspZ4L.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-accordion'
 ---
 
 # GF Flutter Accordion
@@ -72,25 +68,24 @@ import 'package:getwidget/getwidget.dart';
 
 A simple **GFAccordion** can be customized according to the need and hence there are other custom properties that are listed below:
 
-| Name | Description |
-| :--- | :--- |
-| **showAccordion** | controls if the accordion should be collapsed or not making it possible to be controlled from outside |
-| **titleChild** | child of type \[Widget\]is an alternative to the title key. the title will get priority over titleChild |
-| **content** | content of type\[String\] which shows the messages after the \[GFAccordion\] is expanded |
-| **contentChild** | contentChild of type \[Widget\]is an alternative to the content key. content will get priority over the contentChild |
-| **collapsedTitleBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] title when it is collapsed |
-| **expandedTitleBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] title when it is expanded |
-| **collapsedIcon** | collapsedIcon of type \[Widget\] which is used to show when the \[GFAccordion\] is collapsed |
-| **expandedIcon** | expandedIcon of type\[Widget\] which is used when the \[GFAccordion\] is expanded |
-| **title** | text of type \[String\] is alternative to the child. text will get priority over titleChild |
-| **textStyle** | textStyle of type \[textStyle\] will be applicable to text only and not for the child |
-| **titlePadding** | titlePadding of type \[EdgeInsets\] which is used to set the padding of the \[GFAccordion\] title |
-| **contentPadding** | descriptionPadding of type \[EdgeInsets\] which is used to set the padding of the \[GFAccordion\] description |
-| **contentBackgroundColor** | type of \[Color\] or \[GFColors\] which is used to change the background color of the \[GFAccordion\] description |
-| **margin** | margin of type \[EdgeInsets\] which is used to set the margin of the \[GFAccordion\] |
-| **titleBorder** | titleBorderColor of type  \[Color\] or \[GFColors\] which is used to change the border color of the title |
-| **contentBorder** | contentBorderColor of type  \[Color\] or \[GFColors\] which is used to change the border color of the content |
-| **titleBorderRadius** | titleBorderRadius of type  \[Radius\]  which is used to change the border radius of title |
-| **contentBorderRadius** | contentBorderRadius of type  \[Radius\]  which is used to change the border radius of content |
-| **onToggleCollapsed** | function called when the content body collapsed |
-
+| Name                              | Description                                                                                                                   |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **showAccordion**                 | controls if the accordion should be collapsed or not making it possible to be controlled from outside                         |
+| **titleChild**                    | child of type \[Widget]is an alternative to the title key. the title will get priority over titleChild                        |
+| **content**                       | content of type\[String] which shows the messages after the \[GFAccordion] is expanded                                        |
+| **contentChild**                  | contentChild of type \[Widget]is an alternative to the content key. content will get priority over the contentChild           |
+| **collapsedTitleBackgroundColor** | type of \[Color] or \[GFColors] which is used to change the background color of the \[GFAccordion] title when it is collapsed |
+| **expandedTitleBackgroundColor**  | type of \[Color] or \[GFColors] which is used to change the background color of the \[GFAccordion] title when it is expanded  |
+| **collapsedIcon**                 | collapsedIcon of type \[Widget] which is used to show when the \[GFAccordion] is collapsed                                    |
+| **expandedIcon**                  | expandedIcon of type\[Widget] which is used when the \[GFAccordion] is expanded                                               |
+| **title**                         | text of type \[String] is alternative to the child. text will get priority over titleChild                                    |
+| **textStyle**                     | textStyle of type \[textStyle] will be applicable to text only and not for the child                                          |
+| **titlePadding**                  | titlePadding of type \[EdgeInsets] which is used to set the padding of the \[GFAccordion] title                               |
+| **contentPadding**                | descriptionPadding of type \[EdgeInsets] which is used to set the padding of the \[GFAccordion] description                   |
+| **contentBackgroundColor**        | type of \[Color] or \[GFColors] which is used to change the background color of the \[GFAccordion] description                |
+| **margin**                        | margin of type \[EdgeInsets] which is used to set the margin of the \[GFAccordion]                                            |
+| **titleBorder**                   | titleBorderColor of type  \[Color] or \[GFColors] which is used to change the border color of the title                       |
+| **contentBorder**                 | contentBorderColor of type  \[Color] or \[GFColors] which is used to change the border color of the content                   |
+| **titleBorderRadius**             | titleBorderRadius of type  \[Radius]  which is used to change the border radius of title                                      |
+| **contentBorderRadius**           | contentBorderRadius of type  \[Radius]  which is used to change the border radius of content                                  |
+| **onToggleCollapsed**             | function called when the content body collapsed                                                                               |

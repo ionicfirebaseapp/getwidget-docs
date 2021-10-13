@@ -21,4 +21,3 @@ We are launching our Beta Release in the beginning to develop, to test the libra
 We are committed to continuing this library development to make flutter app design & development less time consuming and with a small learning curve too.
 
 Your support and feedback help us to build the best Flutter Open-Source product.
-

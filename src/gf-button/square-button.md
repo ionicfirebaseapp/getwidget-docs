@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Square Button Widget looks like a solid button without rounded
   corners. It comes with 100 + custom properties to customize button size,
   color, width, and many more.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_button-solid_ASrQepMkb.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-button/square-button'
 ---
 
 # Flutter Square Button
@@ -63,7 +59,7 @@ GFButton(
 
 ## Flutter Square Block Button
 
-![Flutter Square Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-2x_zhfeGvIuT0_wkwKmGk-Z.png)
+![Flutter Square Block Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-2x_zhfeGvIuT0\_wkwKmGk-Z.png)
 
 **The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state,`true` it will change the button to a full-width block with no rounded corners. Default **blockButton** is set to `false`.
 
@@ -80,7 +76,7 @@ GFButton(
 
 ## Flutter Square Full-Width Button
 
-![Flutter Square Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-2x_R1MRr5rgb_8s0AW1X_soKM.png)
+![Flutter Square Full Width Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-2x_R1MRr5rgb\_8s0AW1X_soKM.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side. Default **fullWidthButton** set to `false`.
 
@@ -131,7 +127,7 @@ Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabli
 
 ## Flutter Square Outline2x Button
 
-![Flutter Square Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x_-CHfawHE8_05mmWBq_il.png)
+![Flutter Square Outline2x Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-2x\_-CHfawHE8\_05mmWBq_il.png)
 
 **Flutter Outline2x Button** describes the Button with a transparent background and a visible border with 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -147,4 +143,3 @@ GFButton(
 ```
 
 Above mentioned properties like `size`, `blockButton`, `fullWidthButton`, enabling and disabling of button works well in **Outline2x Button** also.
-

@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Toggle is a custom toggle widget like Square, Android, IOS, and
   Custom widget with many custom properties to customize as required.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Toggles_hndeJnCfxa.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-toggle'
 ---
 
 # GF Flutter Toggle
@@ -35,7 +31,7 @@ import 'package:getwidget/getwidget.dart';
 
 **Flutter IOS Toggle** switch has a circular track and a circular thumb as shown in the below image.
 
-![Flutter IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24_m8Gb_wJs_-EKey0.webp)
+![Flutter IOS Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/ios_bW24\_m8Gb_wJs\_-EKey0.webp)
 
 The below example code shows a simple ios toggle
 
@@ -71,7 +67,7 @@ import 'package:getwidget/getwidget.dart';
 
 The **custom** **toggle** can be used to add the text to the on/off state. The default text is **ON** and **OFF** Below is a simple code for custom toggle
 
-![Flutter Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2_IukUJZTss_ILY-qwiUmD.png)
+![Flutter Custom Toggle](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/custom-2\_IukUJZTss_ILY-qwiUmD.png)
 
 The below example code shows a simple custom toggle switch
 
@@ -89,17 +85,16 @@ GFToggle(
 
 The look and feel of **GFToggle** can be customized using the below properties
 
-| Name | Description |
-| :--- | :--- |
-| **enabledText** | type of \[String\] used to add custom text i.e, ON, ENABLE |
-| **disabledText** | type of \[String\] used to add custom text i.e, OFF, DISABLE |
-| **enabledTextStyle** | type of \[TextStyle\] used to define the style properties of enabled text |
-| **disabledTextStyle** | type of \[TextStyle\] used to define the style properties of disabled text |
-| **enabledThumbColor** | color used for the active thumb color |
-| **disabledThumbColor** | color used for the disabled thumb color |
-| **enabledTrackColor** | color used for the active track color |
-| **disabledTrackColor** | color used for the disabled track color |
-| **boxShape** | type of \[BoxShape\] ie , `circle`, `rectangle` used to change the shape of the thumb, default shape is `circle` |
-| **borderRadius** | borderRadius should be given zero for a **ios** toggle to make it a **square** toggle with **boxshape** as `rectangle` |
-| **duration** | animation duration called when the switch animates during the specific time elapse |
-
+| Name                   | Description                                                                                                            |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **enabledText**        | type of \[String] used to add custom text i.e, ON, ENABLE                                                              |
+| **disabledText**       | type of \[String] used to add custom text i.e, OFF, DISABLE                                                            |
+| **enabledTextStyle**   | type of \[TextStyle] used to define the style properties of enabled text                                               |
+| **disabledTextStyle**  | type of \[TextStyle] used to define the style properties of disabled text                                              |
+| **enabledThumbColor**  | color used for the active thumb color                                                                                  |
+| **disabledThumbColor** | color used for the disabled thumb color                                                                                |
+| **enabledTrackColor**  | color used for the active track color                                                                                  |
+| **disabledTrackColor** | color used for the disabled track color                                                                                |
+| **boxShape**           | type of \[BoxShape] ie , `circle`, `rectangle` used to change the shape of the thumb, default shape is `circle`        |
+| **borderRadius**       | borderRadius should be given zero for a **ios** toggle to make it a **square** toggle with **boxshape** as `rectangle` |
+| **duration**           | animation duration called when the switch animates during the specific time elapse                                     |

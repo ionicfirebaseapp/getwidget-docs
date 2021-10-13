@@ -1,11 +1,7 @@
 ---
-sidebarDepth: 2
 description: >-
   Gf Flutter Image image is custom widget to handle image and their design in
   flutter. It comes with 25+ Custom properties to use according to requirement.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-Square_QR9kAzRqOXD.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-image'
 ---
 
 # GF Flutter Image
@@ -48,7 +44,7 @@ GFImageOverlay(
 
 I**mage Overlay** is used to set the image in the **background** and text in the **foreground** with the `colorFilter` property that takes two colors, and outputs one color
 
-![Flutter Image Overlay](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images_-_basic_3x_uHCFyLq7s.png)
+![Flutter Image Overlay](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images\_-\_basic\_3x_uHCFyLq7s.png)
 
 **Flutter Image overlay example Code**
 
@@ -71,7 +67,7 @@ GFImageOverlay(
 
 A **Circular Image** is an image with a circle-shaped border. It is widely used in any profile screen to display the profile picture.
 
-![Flutter Circular Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-circular_3x_DOdazHv_R.png)
+![Flutter Circular Image](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Images-circular\_3x_DOdazHv_R.png)
 
 **Flutter Circle image example Code**
 
@@ -91,15 +87,14 @@ import 'package:getwidget/getwidget.dart';
 
 The custom properties of **GFImage** are given below to customize the look and feel of the image.
 
-| Name | Description |
-| :--- | :--- |
-| **height** | defines the height of the image |
-| **width** | defines the width of the image |
-| **color** | defines the background color of the image |
-| **margin** | image's outer container margin |
-| **padding** | image's outer container padding |
-| **alignment** | to align the child within the image |
-| **boxFit** | how to image should be inscribed into the box |
-| **borderRadius** | the corners of the image |
-| **border** | the border above the image |
-
+| Name             | Description                                   |
+| ---------------- | --------------------------------------------- |
+| **height**       | defines the height of the image               |
+| **width**        | defines the width of the image                |
+| **color**        | defines the background color of the image     |
+| **margin**       | image's outer container margin                |
+| **padding**      | image's outer container padding               |
+| **alignment**    | to align the child within the image           |
+| **boxFit**       | how to image should be inscribed into the box |
+| **borderRadius** | the corners of the image                      |
+| **border**       | the border above the image                    |

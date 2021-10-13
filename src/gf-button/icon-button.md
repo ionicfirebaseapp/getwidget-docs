@@ -1,16 +1,12 @@
 ---
-sidebarDepth: 2
 description: >-
   Flutter Icon button is a button that has a icon with solid background fill
   color in it.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-button/icon-button/'
 ---
 
 # Flutter Icon Button
 
-![GF Flutter Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej_.png)
+![GF Flutter Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Icon_buttons_inVOVWej\_.png)
 
 ## Flutter Icon Button
 
@@ -41,7 +37,7 @@ GFIconButton(
 
 ## Flutter Solid Icon Button
 
-![Flutter Solid Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-icon-button-2x_x7HdkO4Xa_5i6iwtmoQY.png)
+![Flutter Solid Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/solid-icon-button-2x_x7HdkO4Xa\_5i6iwtmoQY.png)
 
 By default, button **type** is set to `GFButtonType.solid` so, we were able to get buttons that have a solid background color with slightly rounded corners.
 
@@ -59,7 +55,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Outline Icon Button
 
-![Flutter Outline Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-icon-button-2x-1_9DnBbeMtB_kkUSHBKTef.png)
+![Flutter Outline Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-icon-button-2x-1\_9DnBbeMtB_kkUSHBKTef.png)
 
 **The Flutter Outline Button** describes the button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -76,7 +72,7 @@ GFButton(
 
 ## Flutter Outline2x Icon Button
 
-![Flutter Outline2x Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-icon-button-2x_RwMGJ0MJ__5VFGKu0tkD.png)
+![Flutter Outline2x Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-icon-button-2x_RwMGJ0MJ\_\_5VFGKu0tkD.png)
 
 The **Flutter Outline Icon Button** describes the button with a transparent background and a visible border of 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -142,7 +138,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Block Icon Button
 
-![Flutter Block Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-icon-button-2x_jb9rGWSR9_Dm-XpRE3dgwQ.png)
+![Flutter Block Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-icon-button-2x_jb9rGWSR9\_Dm-XpRE3dgwQ.png)
 
 **The Flutter Block button** specifies how wide the button should be. By setting **blockButton** state, `true`it will change the button to a full-width block with rounded corners. Default **blockButton** set to `false`.
 
@@ -160,7 +156,7 @@ GFButton(
 
 ## Flutter Full Width Icon Button
 
-![Flutter Full Width Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1_rsx_EmmVZ_A_wcghxKaW.png)
+![Flutter Full Width Icon Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/fullwidth-icon-button-2x-1\_rsx_EmmVZ_A_wcghxKaW.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button with rounded corners and no border on the left or right side. Default **fullWidthButton** set to `false`.
 
@@ -248,24 +244,23 @@ GFIconButton(
  ),
 ```
 
-|  |  |
-| :--- | :--- |
-| **Description** | The GFIconButton Shape |
-| **Attribute** | shape |
-| **Type** | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
-| **Default** | `GFIconButtonShape.standard` |
+|                 |                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------- |
+| **Description** | The GFIconButton Shape                                                                                    |
+| **Attribute**   | shape                                                                                                     |
+| **Type**        | `GFIconButtonShape.standard, GFIconButtonShape.square, GFIconButtonShape.pills, GFIconButtonShape.circle` |
+| **Default**     | `GFIconButtonShape.standard`                                                                              |
 
 ### Flutter GF Button Custom Properties
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of type \[widget\] alternative to text |
-| **textColor** | the color to use for this badge's text |
-| **textStyle** | defines the styling of the text |
-| **borderSide** | defines the border side |
-| **borderShape** | defines the shape of the border |
-| **color** | GFColor is used to change the background of the button. |
-| **iconSize** | defines the size of an icon |
+| Name                | Description                                             |
+| ------------------- | ------------------------------------------------------- |
+| **child**           | child of type \[widget] alternative to text             |
+| **textColor**       | the color to use for this badge's text                  |
+| **textStyle**       | defines the styling of the text                         |
+| **borderSide**      | defines the border side                                 |
+| **borderShape**     | defines the shape of the border                         |
+| **color**           | GFColor is used to change the background of the button. |
+| **iconSize**        | defines the size of an icon                             |
 | **buttonBoxShadow** | if `true,` default boxShadow appears around the button. |
-| **boxShadow** | defines the boxShadow |
-
+| **boxShadow**       | defines the boxShadow                                   |

@@ -1,17 +1,13 @@
 ---
-sidebarDepth: 2
 description: >-
   Flutter Social Buttons are a set of buttons that are used to get sign-in
   buttons for any social media account, GF social button comes with lots of
   properties to customize as need.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-button/social-button/'
 ---
 
 # Flutter Social Button
 
-![Flutter Social Button UI Design ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons_359dhW_7Eo0.png)
+![Flutter Social Button UI Design ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Social_Buttons\_359dhW\_7Eo0.png)
 
 ## Flutter Social Button
 
@@ -41,7 +37,7 @@ The Below code gives the **icon with the text button** as the above image: The *
 
 ## Flutter Disabled Social Button with Text
 
-![Flutter Disabled Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x-1_WXYljNGX9_Og84OQ7_j.png)
+![Flutter Disabled Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/disabled-buttons-2x-1\_WXYljNGX9\_Og84OQ7\_j.png)
 
 If this callback and **onPressed** are null, then the button will be disabled. Default **GFButton** will be disabled as **onPressed** is set to null.
 
@@ -57,7 +53,7 @@ GFButton(
 
 ## Flutter Outline  Social Button with Text
 
-![Outline Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-social-button-2x-1_s9l5xQdik_18Ar4Rbfp0Z.png)
+![Outline Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-social-button-2x-1\_s9l5xQdik\_18Ar4Rbfp0Z.png)
 
 **The Flutter Outline Button** describes the Button with a transparent background and a visible border. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline`**.
 
@@ -74,7 +70,7 @@ GFButton(
 
 ## Flutter Outline2x  Social Button with Text
 
-![Flutter Outline2x Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-social-button-2x_3hSCzrQDG_YjwynP9h8q.png)
+![Flutter Outline2x Social Button](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/outline-2x-social-button-2x\_3hSCzrQDG_YjwynP9h8q.png)
 
 **The Flutter Outline** **Icon** Button describes the Button with a transparent background and a visible border of 2x border width. This button can be easily found in GFButton by adding **type** as **`GFButtonType.outline2x`**.
 
@@ -142,7 +138,7 @@ We will be able to get a **square-shaped button** with solid background color wi
 
 ## Flutter Social Button Size Properties
 
-![Flutter Facebook Social Button Size](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
+![Flutter Facebook Social Button Size](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/full-width-social-button-2x-1\_45MJ57qDeo_LWX7K-eIj9.png)
 
 The **Flutter Social Button size** can be varied using the **size** property, which specifies the size of the button. Default button size is set to `GFSize.MEDIUM`.
 
@@ -159,7 +155,7 @@ GFButton(
 
 ## Flutter Block Social Button
 
-![Flutter Social Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63_tp2AOfDiWy.png)
+![Flutter Social Button ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/block-social-button-2x_rkTw_Ij63\_tp2AOfDiWy.png)
 
 **The Flutter Block button** specifies how wide the button should be with some spacing on both the left and right sides. By setting **blockButton** state, `true` it will change the button to a full-width block. Default **blockButton** is set to `false`.
 
@@ -177,7 +173,7 @@ GFButton(
 
 ## Flutter Full Width Social Button
 
-![Flutter Full Width Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/full-width-social-button-2x-1_45MJ57qDeo_LWX7K-eIj9.png)
+![Flutter Full Width Social Button](https://ik.imagekit.io/ionicfirebaseapp/docs/full-width-social-button-2x-1\_45MJ57qDeo_LWX7K-eIj9.png)
 
 The **Flutter Full-Width** **button** specifies the button should be in full width of the screen. By setting a f**ullWidthButton** state,`true` it will change the button to a Full-width button. Default **fullWidthButton** set to `false`.
 
@@ -253,4 +249,3 @@ GFIconButton(
     shape: GFIconButtonShape.pills,
  ),
 ```
-

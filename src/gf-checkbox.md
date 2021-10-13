@@ -2,14 +2,11 @@
 description: >-
   GF Flutter Checkbox is a custom checkbox with many properties and shapes like
   Square, Circular, and many custom properties.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-checkbox'
 ---
 
 # GF Flutter Checkbox
 
-![GF Flutter Checkbox Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner_-Checkboxes_2x_WNmE4bx73H.png)
+![GF Flutter Checkbox Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Docs_banner\_-Checkboxes\_2x_WNmE4bx73H.png)
 
 ## GF Flutter Checkbox and Example
 
@@ -251,19 +248,18 @@ GFCard(
 
 The Look and feel of the **GFCheckbox** can be customized using the GFCheckbox properties.
 
-| Name | Description |
-| :--- | :--- |
-| **type** | type of \[GFCheckboxType\] which is of four type is basic, square, circular and custom |
-| **size** | type of \[double\] which is GFSize ie, small, medium and large and can use any double value |
-| **activeBgColor** | type of \[Color\] used to change the backgroundColor of the active checkbox |
-| **inactiveBgColor** | type of \[Color\] used to change the backgroundColor of the inactive checkbox |
-| **activeBorderColor** | type of \[Color\] used to change the border color of the active checkbox |
-| **inactiveBorderColor** | type of \[Color\] used to change the border color of the inactive checkbox |
-| **onChanged** | called when the user checks or unchecks the checkbox. |
-| **value** | used to set the current state of the checkbox |
-| **activeIcon** | type of \[Widget\] used to change the  checkbox's active icon |
-| **inactiveIcon** | type of \[Widget\] used to change the  checkbox's inactive icon |
-| **customBgColor** | type of \[Color\] used to change the background color of the custom active checkbox only |
-| **autofocus** | on true state this widget will be selected as the initial focus when no other node in its scope is currently focused |
-| **focusNode** | an optional focus node to use as the focus node for this widget. |
-
+| Name                    | Description                                                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **type**                | type of \[GFCheckboxType] which is of four type is basic, square, circular and custom                                |
+| **size**                | type of \[double] which is GFSize ie, small, medium and large and can use any double value                           |
+| **activeBgColor**       | type of \[Color] used to change the backgroundColor of the active checkbox                                           |
+| **inactiveBgColor**     | type of \[Color] used to change the backgroundColor of the inactive checkbox                                         |
+| **activeBorderColor**   | type of \[Color] used to change the border color of the active checkbox                                              |
+| **inactiveBorderColor** | type of \[Color] used to change the border color of the inactive checkbox                                            |
+| **onChanged**           | called when the user checks or unchecks the checkbox.                                                                |
+| **value**               | used to set the current state of the checkbox                                                                        |
+| **activeIcon**          | type of \[Widget] used to change the  checkbox's active icon                                                         |
+| **inactiveIcon**        | type of \[Widget] used to change the  checkbox's inactive icon                                                       |
+| **customBgColor**       | type of \[Color] used to change the background color of the custom active checkbox only                              |
+| **autofocus**           | on true state this widget will be selected as the initial focus when no other node in its scope is currently focused |
+| **focusNode**           | an optional focus node to use as the focus node for this widget.                                                     |

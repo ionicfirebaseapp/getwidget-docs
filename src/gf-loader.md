@@ -1,12 +1,8 @@
 ---
-sidebarDepth: 2
 description: >-
   GF Flutter Loader is a progress indicator that spins to indicate that the
   application is busy. It usually progresses along a circle. GF widget comes
   with 50+ Loader widget designs.
-image: >-
-  https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Loaders_Docs_Banner_knsNFM97YO.png
-canonicalUrl: 'https://docs.getwidget.dev/gf-loader'
 ---
 
 # GF Flutter Loader
@@ -32,7 +28,7 @@ There are five different types of loaders namely **android**, **ios,** **circle*
 
 ## **Flutter IOS Spinner**
 
-![Flutter IOS Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders_3x__6iEhhCjnN.png)
+![Flutter IOS Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/iOS_loaders\_3x\_\_6iEhhCjnN.png)
 
 A simple **ios** loader in which the type of the loader should be passed to **ios**. The code is as shown below.
 
@@ -45,7 +41,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Circular Loader
 
-![Flutter Circular Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular_3x_qSfMlOtBk.png)
+![Flutter Circular Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Circular\_3x_qSfMlOtBk.png)
 
 A simple **circular** **shape loader** in which the type of the loader should be passed to **circle**. The code is as shown below.
 
@@ -59,7 +55,7 @@ import 'package:getwidget/getwidget.dart';
 
 ## Flutter Square Loader/Spinner
 
-![Flutter Square Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader_3x_QsRsYryOlL.png)
+![Flutter Square Loader/Spinner](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Square_loader\_3x_QsRsYryOlL.png)
 
 A simple **square** **shape loade**r in which the type of the loader should be passed to **square**. The code is as shown below.
 
@@ -118,14 +114,13 @@ GFLoader(
 
 The look and feel of **GFLoader** can be customized using the below properties.
 
-| Name | Description |
-| :--- | :--- |
-| **child** | child of type \[Widget\] used only for **custom** type and is prominent over loaderIconOne, loaderIconTwo and loaderIconThree in **custom** type |
-| **duration** | defines the animation duration of the loader only in **circle** and **square** type |
-| **loaderColorOne** | defines the color of the first dot in only  **circle** or **square** type of loader |
-| **loaderColorTwo** | defines the color of the second dot in only **circle** or **square** type of loader |
-| **loaderColorThree** | defines the color of the third dot in only **circle** or **square** type of loader |
-| **androidLoaderColor** | defines the color of the android type loader only |
-| **loaderstrokeWidth** | defines the stroke width of the android type loader only |
-| **size** | defines the size of the loader ie, `small`, `medium` and `large` and it is applicable to android ios, circle and square type loaders |
-
+| Name                   | Description                                                                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **child**              | child of type \[Widget] used only for **custom** type and is prominent over loaderIconOne, loaderIconTwo and loaderIconThree in **custom** type |
+| **duration**           | defines the animation duration of the loader only in **circle** and **square** type                                                             |
+| **loaderColorOne**     | defines the color of the first dot in only  **circle** or **square** type of loader                                                             |
+| **loaderColorTwo**     | defines the color of the second dot in only **circle** or **square** type of loader                                                             |
+| **loaderColorThree**   | defines the color of the third dot in only **circle** or **square** type of loader                                                              |
+| **androidLoaderColor** | defines the color of the android type loader only                                                                                               |
+| **loaderstrokeWidth**  | defines the stroke width of the android type loader only                                                                                        |
+| **size**               | defines the size of the loader ie, `small`, `medium` and `large` and it is applicable to android ios, circle and square type loaders            |

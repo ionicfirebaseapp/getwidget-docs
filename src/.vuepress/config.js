@@ -413,12 +413,6 @@ module.exports = {
       },
     ],
     'img-lazy',
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'UA-165669152-1'
-      }
-    ],
     ['autometa', default_options],
     [
       "@mr-hope/copy-code",

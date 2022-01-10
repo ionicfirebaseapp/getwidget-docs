@@ -6,7 +6,7 @@ description: >-
 
 # GF Custom Flutter Card
 
-![GF Flutter Card Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards\_\__with_avatar_JFmx-k0gX.png)
+![GF Flutter Card Widget ](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards\_\_\_with\_avatar\_JFmx-k0gX.png)
 
 ## GF Flutter Card Example
 
@@ -45,11 +45,11 @@ buttonBar: GFButtonBar(
 ),
 ```
 
-## GF Flutter Cards with [Flutter Avatar](gf-avatar.md)
+## GF Flutter Cards with [Flutter Avatar](https://docs.getwidget.dev/gf-avatar/)
 
 **GFCards** can be customized with different other types of **GFComponents**. **GFcards** give us data about the particular block. In addition, an **avatar** gives more precise information about the block. Hence **GFAvatar** can be used with **GFCard** to make a **GFCard Avatar.**
 
-![GF Flutter Cards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards_with_avatars\_3x_wiStZFa9L.png)
+![GF Flutter Cards with Avatar](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/Cards\_with\_avatars\_3x\_wiStZFa9L.png)
 
 Below is a simple example code of **GF Flutter Card with Avatar**:
 
@@ -106,7 +106,7 @@ import 'package:getwidget/getwidget.dart';
 
 **GFCards** has **OverlayImage** property wherein a **background image** can be placed and upon the image any widget like **Text**, **buttons** can be used as shown in the image below.
 
-![GF Flutter Cards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x_XIMzf_Bc7\_-j3RXaSa2.webp)
+![GF Flutter Cards with OverlayImage](https://ik.imagekit.io/ionicfirebaseapp/getwidget/docs/tr:w-800,f-auto/cards-with-image-overlays-2x\_XIMzf\_Bc7\_-j3RXaSa2.webp)
 
 Below shows a simple example code for **GFCard with Card OverlayImage**:
 

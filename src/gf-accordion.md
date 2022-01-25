@@ -1,4 +1,5 @@
 ---
+title: How to Create Flutter Accordion Widget Design with Example Code
 description: >-
   GF Flutter Accordion expands or collapses the view of its children when it is
   tapped. GFAccordion is used to collapse and expand the content to view the

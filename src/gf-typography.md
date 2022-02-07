@@ -84,3 +84,4 @@ The look and feel can be customized using **GFTypography** properties.
 | **showDivider**                | bool value to hide or show divider , defaults to true                   |
 | **dividerWidth**               | the width of the divider                                                |
 | **backgroundImagecolorFilter** | colorFilter of background image only when background image is available |
+| **fontWeight** | the weight of font |
